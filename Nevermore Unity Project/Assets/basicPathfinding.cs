@@ -6,37 +6,32 @@ public class basicPathfinding : MonoBehaviour
 {
 
     //Basic AI
-    public GameObject player;
-    float distFromTarget, range = 10;
-    Vector2 SpawnPos;
+    GameObject player;
+    float distFromTarget, range = 20;
+    Vector2 patrolCheck;
     Vector2 VanishPos;
-    bool sightBreak, lost = false;
+    public bool sightBreak, lost, tracking = false;
     float timer = 0;
-
-
-    float speed = 0, moveSpeed = .5f, Acceleration, maxSpeed = 5, speedUp = .5f;
-
-
-    //Lerping
     Transform playerPos;
-    float smoothSpeed = 0.125f;
-    Vector3 offset;
-    Vector2 speed0Lerp, speedLerp, speed1Lerp;
 
+    //floats relating to speed, acceleration of ai
+    float speed = 0, moveSpeed = .5f, Acceleration, maxSpeed = 5, speedUp = .5f;
+    
+
+    public Vector2 wander;
+
+    
     // Use this for initialization
     void Start()
     {
         player = GameObject.FindWithTag("Player");
-        SpawnPos = new Vector2(transform.position.x, transform.position.y);
         playerPos = player.transform;
-        
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        print(timer);
+        
         Acceleration = speedUp * timer;
         speed = moveSpeed + Acceleration;
         if (speed >= maxSpeed)
@@ -51,9 +46,22 @@ public class basicPathfinding : MonoBehaviour
             distFromTarget = Vector2.Distance(new Vector2(transform.position.x, transform.position.y), new Vector2(player.transform.position.x, player.transform.position.y));
         }
 
+        //wandering/patroling
+        if (tracking == false)
+        {
+            Idlewander();
+        }
+        if (transform.position.x >= wander.x - 1 && transform.position.x <= wander.x + 1 && transform.position.y >= wander.y - 1 && transform.position.y <= wander.y + 1 && tracking == false)
+        {
+            wander = new Vector2(Random.Range(-30, 30), Random.Range(-30, 30));
+            Invoke("Idlewander", 1);
+        }
+
+
         //if the player is within range, begin tracking
         if (distFromTarget < range)
         {
+            tracking = true;
             sightBreak = false;
             lost = false;
             TrackPlayer();
@@ -61,16 +69,26 @@ public class basicPathfinding : MonoBehaviour
 
         if (sightBreak == true)
         {
+            tracking = false;
             Search();
         }
 
         if (lost == true)
         {
-            Invoke("Home", 0.5f);
+            Invoke("Idlewander", 3);
         }
+
+
+
+
         
+        print(sightBreak);
+
 
     }
+
+
+
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -92,6 +110,7 @@ public class basicPathfinding : MonoBehaviour
                 timer = 10;
             }
         }
+
     }
 
     void OnTriggerExit2D(Collider2D collision)
@@ -100,7 +119,21 @@ public class basicPathfinding : MonoBehaviour
         {
             VanishPos = new Vector2(player.transform.position.x, player.transform.position.y);
             sightBreak = true;
-            
+            print(collision);
+        }
+    }
+
+
+
+
+    //Movement States
+    void Idlewander()
+    {
+        if (distFromTarget > range)
+        {
+            Vector2 wandering = new Vector2((transform.position.x - wander.x) * speed, (transform.position.y - wander.y) * speed);
+            GetComponent<Rigidbody2D>().velocity = -wandering;
+            timer = 0;
         }
     }
 
@@ -120,15 +153,11 @@ public class basicPathfinding : MonoBehaviour
         {
             sightBreak = false;
             lost = true;
+            tracking = false;
         }
         
     }
 
-    void Home()
-    {
-        Vector2 returning = new Vector2((transform.position.x - SpawnPos.x) * speed, (transform.position.y - SpawnPos.y) * speed);
-        GetComponent<Rigidbody2D>().velocity = -returning;
-        timer = 0;
-    }
+
 }
 
