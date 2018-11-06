@@ -4,11 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - patrol
   - Enemy
-  - patrol2
-  - patrol3
-  - patrol4
+  - Menu
+  - ConfQuit
+  - script
   layers:
   - Default
   - TransparentFX

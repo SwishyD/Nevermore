@@ -20,25 +20,33 @@ public class basicPathfinding : MonoBehaviour
 
     public Vector2 wander;
 
+    public GameObject ScriptContainer;
     
     // Use this for initialization
     void Start()
     {
         player = GameObject.FindWithTag("Player");
         playerPos = player.transform;
+        ScriptContainer = GameObject.FindWithTag("script");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        Acceleration = speedUp * timer;
-        speed = moveSpeed + Acceleration;
-        if (speed >= maxSpeed)
+        if (ScriptContainer.GetComponent<PauseMenus>().pauseWorldState == true)
         {
-            speed = maxSpeed;
+            Time.timeScale = 0;
         }
-        
+        else
+        {
+            Time.timeScale = 1;
+            Acceleration = speedUp * timer;
+            speed = moveSpeed + Acceleration;
+            if (speed >= maxSpeed)
+            {
+                speed = maxSpeed;
+            }
+        }
 
         //Setting up player and checking distance between player and AI
         if (player != null)
@@ -77,13 +85,6 @@ public class basicPathfinding : MonoBehaviour
         {
             Invoke("Idlewander", 3);
         }
-
-
-
-
-        
-        print(sightBreak);
-
 
     }
 
