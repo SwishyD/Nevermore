@@ -7,7 +7,7 @@ public class basicPathfinding : MonoBehaviour
 
     //Basic AI
     GameObject player;
-    float distFromTarget, range = 20;
+    float distFromTarget, range = 20, hoverRange = 0.5f;
     Vector2 patrolCheck;
     Vector2 VanishPos;
     public bool sightBreak, lost, tracking = false;
@@ -67,7 +67,11 @@ public class basicPathfinding : MonoBehaviour
 
 
         //if the player is within range, begin tracking
-        if (distFromTarget < range)
+        if (distFromTarget < hoverRange)
+        {
+            //perform attack
+        }
+        else if (distFromTarget < range)
         {
             tracking = true;
             sightBreak = false;

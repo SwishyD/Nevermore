@@ -8,6 +8,7 @@ TagManager:
   - Menu
   - ConfQuit
   - script
+  - ConfMenu
   layers:
   - Default
   - TransparentFX
