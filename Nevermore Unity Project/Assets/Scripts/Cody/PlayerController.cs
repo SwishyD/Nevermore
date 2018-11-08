@@ -1,18 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    //Movement
+    private Vector3 lastMoveDir;
 
-    
-
-
-    //these are for the dash
+    //Dash
     public float dashSpeed;
     private float dashTime;
     public float startDashTime;
     private int direction;
+    public float dashDistance;
     
 
 
@@ -21,10 +22,16 @@ public class PlayerController : MonoBehaviour
         
     }
 
-
     void Update()
     {
-    //these are for base movement
+        HandleDash();
+        HandleMovement();
+    }
+
+
+    void HandleMovement()
+    {
+        //these are for base movement
         float speed = 5f;
         float moveX = 0f;
         float moveY = 0f;
@@ -47,11 +54,16 @@ public class PlayerController : MonoBehaviour
         }
 
         Vector3 moveDir = new Vector3(moveX, moveY).normalized;
-
+        lastMoveDir = moveDir;
         transform.position += moveDir * speed * Time.deltaTime;
+    }
 
-        //Dash code
-
+    void HandleDash()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            transform.position += lastMoveDir * dashDistance;
+        }
     }
 
 }

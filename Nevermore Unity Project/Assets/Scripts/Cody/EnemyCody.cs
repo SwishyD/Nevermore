@@ -6,6 +6,9 @@ public class EnemyCody : MonoBehaviour {
     public int health;
     public float speed;
 
+    public SpriteRenderer[] bodyParts;
+    public Color hurtColor;
+
 
 
 	// Use this for initialization
@@ -19,11 +22,26 @@ public class EnemyCody : MonoBehaviour {
         {
             Destroy(gameObject);
         }
+
 	}
 
     public void TakeDamage(int damage)
     {
+        StartCoroutine(Flash());
         health -= damage;
         Debug.Log("damage TAKEN !");
+    }
+
+    IEnumerator Flash()
+    {
+        for (int i = 0; i < bodyParts.Length; i++)
+        {
+            bodyParts[i].color = hurtColor;
+        }
+        yield return new WaitForSeconds(0.1f);
+        for (int i = 0; i < bodyParts.Length; i++)
+        {
+            bodyParts[i].color = Color.yellow;
+        }
     }
 }
