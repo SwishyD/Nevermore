@@ -17,7 +17,8 @@ public class PathfinderRedux : MonoBehaviour {
 
 
     //patrol between specific locations added by dev
-    public Transform[] moveSpots;
+    public GameObject[] moveSpots;
+    Transform[] movePos;
 
     //patrol zone based on min/max x,y locations
         //public Transform moveZone;
@@ -29,6 +30,7 @@ public class PathfinderRedux : MonoBehaviour {
         waitTime = startWaitTime;
         randomSpot = Random.Range(0, moveSpots.Length);
         player = GameObject.FindWithTag("Player");
+        moveSpots = GameObject.FindGameObjectsWithTag("PointMarker");
         //patrol zone based on min/max x,y locations
         //moveZone.Position = new Vector2(Random.range(minX, maxX), Random.Range(minY, maxY));
     }
@@ -45,7 +47,7 @@ public class PathfinderRedux : MonoBehaviour {
         playerDist = Vector2.Distance(transform.position, player.transform.position);
 
         //if enemy is within .5 units of distance from the randomly selected location, wait 1 second, then move to the next randomly selected location
-        if (Vector2.Distance(transform.position, moveSpots[randomSpot].position) < 0.5f)
+        if (Vector2.Distance(transform.position, movePos[randomSpot].position) < 0.5f)
         {
             waitTimer();
         }
@@ -70,6 +72,7 @@ public class PathfinderRedux : MonoBehaviour {
                 {
                     sightBreak = false;
                     lost = true;
+                    waitTime = startWaitTime;
                 }
             }
         }
@@ -77,7 +80,7 @@ public class PathfinderRedux : MonoBehaviour {
         //Return to patrol if player is not in range of the enemy
         else if (playerDist > trackRange && lost == true)
         {
-            moveToSite = moveSpots[randomSpot].position;
+            moveToSite = movePos[randomSpot].position;
         }
         
 	}
