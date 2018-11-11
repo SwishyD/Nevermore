@@ -9,16 +9,30 @@ public class GameManager : MonoBehaviour {
     public GameObject player;
     public Color hurtColor;
 
-    
+    private static bool created = false;
+    public static GameManager instance = null;
 
+    void Awake()
+    {
+        if (!created)
+        {
+            DontDestroyOnLoad(gameObject);
+            created = true;
+            Debug.Log("Awake: " + gameObject);
+        }
+        Time.timeScale = 1;
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+        }
+    }
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    // Update is called once per frame
+    void Update () {
 		
 	}
 
@@ -42,8 +56,7 @@ public class GameManager : MonoBehaviour {
     {
         player.GetComponent<SpriteRenderer>().color = hurtColor;
         yield return new WaitForSeconds(0.1f);
-        player.GetComponent<SpriteRenderer>().color = Color.white;
-        
+        player.GetComponent<SpriteRenderer>().color = Color.white;        
     }
 
 }
