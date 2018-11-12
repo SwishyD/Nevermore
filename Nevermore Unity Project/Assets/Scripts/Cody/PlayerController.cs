@@ -22,6 +22,9 @@ public class PlayerController : MonoBehaviour
     public Text sRatioText;
     public Color hurtColor;
 
+    //Animation
+    public Animator anim;
+
     void Start()
     {
         
@@ -41,23 +44,36 @@ public class PlayerController : MonoBehaviour
         float speed = 5f;
         float moveX = 0f;
         float moveY = 0f;
-        
+
+        //for animation
+        anim.SetFloat("xInput", 0f);
+        anim.SetFloat("yInput", 0f);
+        anim.SetBool("isMoving", false);
+
         //Movement code
         if (Input.GetKey(KeyCode.W))
         {
+            anim.SetBool("isMoving", true);
+            anim.SetFloat("yInput", 1f);
             moveY = 1f;
                      
         }
         if (Input.GetKey(KeyCode.S))
         {
+            anim.SetBool("isMoving", true);
+            anim.SetFloat("yInput", -1f);
             moveY = -1f;
         }
         if (Input.GetKey(KeyCode.A))
         {
+            anim.SetBool("isMoving", true);
+            anim.SetFloat("xInput", -1f);
             moveX = -1f;
         }
         if (Input.GetKey(KeyCode.D))
         {
+            anim.SetBool("isMoving", true);
+            anim.SetFloat("xInput", 1f);
             moveX = 1f;
         }
 
@@ -75,11 +91,13 @@ public class PlayerController : MonoBehaviour
 
     void HandleDash()
     {
+        anim.SetBool("isDodging", false);
+
         if (Input.GetKeyDown(KeyCode.Space))
-        {
-           
+        {           
                 if (stamina >= 25f)
                 {
+                    anim.SetBool("isDodging", true);
                     transform.position += lastMoveDir * dashDistance;
                     stamina -= 25f;
                 }
