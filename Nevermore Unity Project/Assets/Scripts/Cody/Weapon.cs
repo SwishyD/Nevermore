@@ -47,9 +47,7 @@ public class Weapon : MonoBehaviour {
         {
 
             if (Input.GetMouseButtonDown(0))
-            {
-               
-                
+            {                              
                 anim.SetBool("isAttacking", true);
                 Instantiate(projectile, shotPoint.position, transform.rotation);
                 timeBtwShots = startTimeBtwShots;
