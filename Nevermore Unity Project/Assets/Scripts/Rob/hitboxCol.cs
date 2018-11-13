@@ -20,7 +20,7 @@ public class hitboxCol : MonoBehaviour{
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-
+        print(collision);
         if (collision.gameObject.tag == "Player" && timeToDamage > 4.9f)
         {
             collision.gameObject.GetComponent<PlayerController>().TakeDamage(damage);
