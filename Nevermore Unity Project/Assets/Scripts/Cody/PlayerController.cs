@@ -144,6 +144,7 @@ public class PlayerController : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        Debug.Log("PLAYER TAKES DAMAGE!!");
         health -= damage;
         StartCoroutine(hurtFlash());
     }
@@ -162,4 +163,6 @@ public class PlayerController : MonoBehaviour
         gameObject.GetComponent<SpriteRenderer>().color = Color.white;
     }
 
+
+    
 }
