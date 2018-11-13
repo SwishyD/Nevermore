@@ -15,12 +15,17 @@ public class PlayerController : MonoBehaviour
     private int direction;
     public float dashDistance;
 
+    //Health
+    public float health = 100;
+    private float maxHealth = 100;
+    public Color hurtColor;
+
     //Stamina
     private float stamina = 100f;
     private float maxStamina = 100f;
     public Image staminaBar;
     public Text sRatioText;
-    public Color hurtColor;
+    public Color stamColor;
 
     //Animation
     public Animator anim;
@@ -35,6 +40,7 @@ public class PlayerController : MonoBehaviour
         HandleStamina();
         HandleDash();
         HandleMovement();
+        HandleHealth();
     }
 
 
@@ -103,7 +109,7 @@ public class PlayerController : MonoBehaviour
                 }
                 else
                 {
-                    StartCoroutine(Flash());
+                    StartCoroutine(stamFlash());
                     //flash stamina bar red here
                 }
         }
@@ -128,11 +134,32 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    IEnumerator Flash()
+    void HandleHealth()
     {
-        staminaBar.GetComponent<Image>().color = hurtColor;
+        if(health > maxHealth)
+        {
+            health = maxHealth;
+        }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+        StartCoroutine(hurtFlash());
+    }
+
+    IEnumerator stamFlash()
+    {
+        staminaBar.GetComponent<Image>().color = stamColor;
         yield return new WaitForSeconds(0.1f);
         staminaBar.GetComponent<Image>().color = Color.green;
+    }
+
+    IEnumerator hurtFlash()
+    {
+        gameObject.GetComponent<SpriteRenderer>().color = hurtColor;
+        yield return new WaitForSeconds(0.1f);
+        gameObject.GetComponent<SpriteRenderer>().color = Color.white;
     }
 
 }
