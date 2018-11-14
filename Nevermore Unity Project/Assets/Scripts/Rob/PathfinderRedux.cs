@@ -4,25 +4,25 @@ using UnityEngine;
 
 public class PathfinderRedux : MonoBehaviour {
 
-    protected Animator thisAnim;
+    Animator thisAnim;
 
 
-    protected float waitTime, startWaitTime = 1;
-    protected int randomSpot;
-    protected float playerDist, trackRange = 10, attackRange = 1;
-    protected float speed = 5;
+    float waitTime, startWaitTime = 1;
+    int randomSpot;
+    public float playerDist, trackRange = 10, attackRange = 1;
+    float speed = 2;
 
 
-    protected Vector2 moveToSite, vanishPos;
-    protected GameObject player;
-    public GameObject hitBox;
+    Vector2 moveToSite, vanishPos;
+    GameObject player;
 
-    protected bool sightBreak, lost = true;
+    bool sightBreak, lost = true;
     
 
     //patrol between specific locations added by dev
     public Transform[] moveSpots;
-    public float damage;
+    public int damage;
+    public bool isAttacking = false;
 
     //patrol zone based on min/max x,y locations
     //public Transform moveZone;
@@ -30,7 +30,7 @@ public class PathfinderRedux : MonoBehaviour {
 
 
 
-    protected virtual void Start () {
+    void Start () {
         waitTime = startWaitTime;
         randomSpot = Random.Range(0, moveSpots.Length);
         player = GameObject.FindWithTag("Player");
@@ -42,8 +42,10 @@ public class PathfinderRedux : MonoBehaviour {
     }
 
 
-    protected virtual void Update () {
+    void Update () {
+        
 
+        isAttacking = false;
 
         if (player == null)
         {
@@ -52,41 +54,45 @@ public class PathfinderRedux : MonoBehaviour {
         
         transform.position = Vector2.MoveTowards(transform.position, moveToSite, speed * Time.deltaTime);
         thisAnim.SetBool("isMoving", true);
+        
+        //thisAnim.SetBool("isAttacking", false);
 
         //setting collider false
-        GetComponentInChildren<BoxCollider2D>().enabled = false;
+        //GetComponentInChildren<BoxCollider2D>().enabled = false;
 
         if (transform.position.x > moveToSite.x)
         {
             //thisAnim.Play("Blender");
-           
+
+            thisAnim.SetBool("isAttacking", false);
             thisAnim.SetFloat("blendTree", 3);
             GetComponent<SpriteRenderer>().flipX = false;
 
         }
         else if (transform.position.x < moveToSite.x)
         {
+            thisAnim.SetBool("isAttacking", false);
             thisAnim.SetFloat("blendTree", 3);
             GetComponent<SpriteRenderer>().flipX = true;
         }
         else if (transform.position.y > moveToSite.y)
         {
+            thisAnim.SetBool("isAttacking", false);
             thisAnim.SetFloat("blendTree", 1);
         }
         else if (transform.position.y < moveToSite.y)
         {
+            thisAnim.SetBool("isAttacking", false);
             thisAnim.SetFloat("blendTree", 2);
         }
 
         if (playerDist <= attackRange)
         {
-            thisAnim.SetBool("isAttacking", true);
-            thisAnim.SetBool("isAttacking", false);
-            Invoke("Attacking", 1);
+            thisAnim.SetBool("isMoving", false);
+            Invoke("Attacking", 01f);
         }
+        
 
-        Debug.Log(thisAnim.GetFloat("blendTree"));
-        print(Vector2.Distance(transform.position, moveToSite));
 
 
         playerDist = Vector2.Distance(transform.position, player.transform.position);
@@ -104,6 +110,7 @@ public class PathfinderRedux : MonoBehaviour {
             sightBreak = false;
             lost = false;
             moveToSite = player.transform.position;
+            
         }
 
         //On exit of trigger zone, enemy moves to the last known location of the player
@@ -131,15 +138,13 @@ public class PathfinderRedux : MonoBehaviour {
         {
 
         }
-        Debug.Log(moveToSite + "ParentClass");
 
 	}
 
 
     //if the player exits the range of the enemy, set the VanishPos to 
-    protected virtual void OnTriggerExit2D(Collider2D col)
+    void OnTriggerExit2D(Collider2D col)
     {
-        print(col.tag);
         if (col.tag == "Player")
         {
             vanishPos = player.transform.position;
@@ -148,7 +153,7 @@ public class PathfinderRedux : MonoBehaviour {
     }
 
 
-    protected virtual void waitTimer()
+    void waitTimer()
     {
         if (waitTime <= 0)
         {
@@ -168,16 +173,10 @@ public class PathfinderRedux : MonoBehaviour {
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void Attacking()
     {
-        if (collision.gameObject.tag == "Player")
-        {
-            //collision.gameObject.GetComponent<PlayerController>().TakeDamage(damage);
-        }
-    }
-
-    void Attacking()
-    {
-        GetComponentInChildren<BoxCollider2D>().enabled = true;
+        thisAnim.SetBool("isAttacking", true);
+        isAttacking = true;
+        Debug.Log("attacking");
     }
 }

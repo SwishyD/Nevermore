@@ -41,6 +41,7 @@ public class PlayerController : MonoBehaviour
         HandleDash();
         HandleMovement();
         HandleHealth();
+        print(health);
     }
 
 
@@ -140,10 +141,15 @@ public class PlayerController : MonoBehaviour
         {
             health = maxHealth;
         }
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void TakeDamage(int damage)
     {
+        Debug.Log("PLAYER TAKES DAMAGE!!");
         health -= damage;
         StartCoroutine(hurtFlash());
     }
@@ -162,4 +168,6 @@ public class PlayerController : MonoBehaviour
         gameObject.GetComponent<SpriteRenderer>().color = Color.white;
     }
 
+
+    
 }
