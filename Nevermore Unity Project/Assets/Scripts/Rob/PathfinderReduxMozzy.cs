@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PathfinderRedux : MonoBehaviour {
+public class PathfinderReduxMozzy : MonoBehaviour {
 
-    Animator thisAnim;
+    Animator MozzyAnim;
 
 
     float waitTime, startWaitTime = 1;
@@ -16,7 +16,7 @@ public class PathfinderRedux : MonoBehaviour {
     Vector2 moveToSite, vanishPos;
     GameObject player;
 
-    bool sightBreak, lost = true;
+    public bool sightBreak, lost = true;
     
 
     //patrol between specific locations added by dev
@@ -35,7 +35,7 @@ public class PathfinderRedux : MonoBehaviour {
         randomSpot = Random.Range(0, moveSpots.Length);
         player = GameObject.FindWithTag("Player");
 
-        thisAnim = gameObject.GetComponent<Animator>();
+        MozzyAnim = gameObject.GetComponent<Animator>();
 
         //patrol zone based on min/max x,y locations
         //moveZone.Position = new Vector2(Random.range(minX, maxX), Random.Range(minY, maxY));
@@ -53,7 +53,7 @@ public class PathfinderRedux : MonoBehaviour {
         }
         
         transform.position = Vector2.MoveTowards(transform.position, moveToSite, speed * Time.deltaTime);
-        thisAnim.SetBool("isMoving", true);
+        MozzyAnim.SetBool("isMoving", true);
         
         //thisAnim.SetBool("isAttacking", false);
 
@@ -64,31 +64,31 @@ public class PathfinderRedux : MonoBehaviour {
         {
             //thisAnim.Play("Blender");
 
-            thisAnim.SetBool("isAttacking", false);
-            thisAnim.SetFloat("blendTree", 3);
+            MozzyAnim.SetBool("isAttacking", false);
+            MozzyAnim.SetFloat("blendTree", 3);
             GetComponent<SpriteRenderer>().flipX = false;
 
         }
         else if (transform.position.x < moveToSite.x)
         {
-            thisAnim.SetBool("isAttacking", false);
-            thisAnim.SetFloat("blendTree", 3);
+            MozzyAnim.SetBool("isAttacking", false);
+            MozzyAnim.SetFloat("blendTree", 3);
             GetComponent<SpriteRenderer>().flipX = true;
         }
         else if (transform.position.y > moveToSite.y)
         {
-            thisAnim.SetBool("isAttacking", false);
-            thisAnim.SetFloat("blendTree", 1);
+            MozzyAnim.SetBool("isAttacking", false);
+            MozzyAnim.SetFloat("blendTree", 1);
         }
         else if (transform.position.y < moveToSite.y)
         {
-            thisAnim.SetBool("isAttacking", false);
-            thisAnim.SetFloat("blendTree", 2);
+            MozzyAnim.SetBool("isAttacking", false);
+            MozzyAnim.SetFloat("blendTree", 2);
         }
 
         if (playerDist <= attackRange)
         {
-            thisAnim.SetBool("isMoving", false);
+            MozzyAnim.SetBool("isMoving", false);
             Invoke("Attacking", 01f);
         }
         
@@ -168,14 +168,14 @@ public class PathfinderRedux : MonoBehaviour {
         else
         {
 
-            thisAnim.SetBool("isMoving", false);
+            MozzyAnim.SetBool("isMoving", false);
             waitTime -= Time.deltaTime;
         }
     }
 
     public void Attacking()
     {
-        thisAnim.SetBool("isAttacking", true);
+        MozzyAnim.SetBool("isAttacking", true);
         isAttacking = true;
         Debug.Log("attacking");
     }
