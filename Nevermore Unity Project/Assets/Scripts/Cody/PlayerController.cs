@@ -41,6 +41,7 @@ public class PlayerController : MonoBehaviour
         HandleDash();
         HandleMovement();
         HandleHealth();
+        print(health);
     }
 
 
@@ -139,6 +140,10 @@ public class PlayerController : MonoBehaviour
         if(health > maxHealth)
         {
             health = maxHealth;
+        }
+        if (health <= 0)
+        {
+            Destroy(gameObject);
         }
     }
 

@@ -43,6 +43,7 @@ public class PathfinderRedux : MonoBehaviour {
 
 
     void Update () {
+        
 
         isAttacking = false;
 
@@ -53,7 +54,8 @@ public class PathfinderRedux : MonoBehaviour {
         
         transform.position = Vector2.MoveTowards(transform.position, moveToSite, speed * Time.deltaTime);
         thisAnim.SetBool("isMoving", true);
-        thisAnim.SetBool("isAttacking", false);
+        
+        //thisAnim.SetBool("isAttacking", false);
 
         //setting collider false
         //GetComponentInChildren<BoxCollider2D>().enabled = false;
@@ -61,30 +63,33 @@ public class PathfinderRedux : MonoBehaviour {
         if (transform.position.x > moveToSite.x)
         {
             //thisAnim.Play("Blender");
-           
+
+            thisAnim.SetBool("isAttacking", false);
             thisAnim.SetFloat("blendTree", 3);
             GetComponent<SpriteRenderer>().flipX = false;
 
         }
         else if (transform.position.x < moveToSite.x)
         {
+            thisAnim.SetBool("isAttacking", false);
             thisAnim.SetFloat("blendTree", 3);
             GetComponent<SpriteRenderer>().flipX = true;
         }
         else if (transform.position.y > moveToSite.y)
         {
+            thisAnim.SetBool("isAttacking", false);
             thisAnim.SetFloat("blendTree", 1);
         }
         else if (transform.position.y < moveToSite.y)
         {
+            thisAnim.SetBool("isAttacking", false);
             thisAnim.SetFloat("blendTree", 2);
         }
 
         if (playerDist <= attackRange)
         {
             thisAnim.SetBool("isMoving", false);
-            thisAnim.SetBool("isAttacking", true);
-            Invoke("Attacking", 0.1f);
+            Invoke("Attacking", 01f);
         }
         
 
@@ -105,6 +110,7 @@ public class PathfinderRedux : MonoBehaviour {
             sightBreak = false;
             lost = false;
             moveToSite = player.transform.position;
+            
         }
 
         //On exit of trigger zone, enemy moves to the last known location of the player
@@ -169,8 +175,8 @@ public class PathfinderRedux : MonoBehaviour {
 
     public void Attacking()
     {
+        thisAnim.SetBool("isAttacking", true);
         isAttacking = true;
-        thisAnim.SetBool("isAttacking", false);
         Debug.Log("attacking");
     }
 }

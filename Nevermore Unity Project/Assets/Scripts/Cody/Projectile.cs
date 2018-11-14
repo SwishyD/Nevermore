@@ -8,7 +8,7 @@ public class Projectile : MonoBehaviour {
     public float lifeTime;
     public float distance;
     public LayerMask whatIsSolid;
-    public int damage;
+    public int damage = 5;
 
 
 	// Use this for initialization
@@ -36,7 +36,7 @@ public class Projectile : MonoBehaviour {
         if (col.transform.tag == "Enemy")
         {
             Debug.Log("ENEMY MUST TAKE DAMAGE !");
-            col.gameObject.GetComponent<EnemyCody>().TakeDamage(damage);
+            col.gameObject.GetComponentInParent<EnemyHealthSystem>().TakeDamage(damage);
         }
     }
 

@@ -8,10 +8,12 @@ public class hitboxCol : MonoBehaviour{
     public int damage = 10;
     public float damageTime = 5;
     public float timeToDamage;
+    public float attackSpeed = 4.9f;
+
+    public Animator enemy;
 
     private void Update()
     {
-        timeToDamage += Time.deltaTime;
         if(timeToDamage > damageTime)
         {
             timeToDamage = damageTime;
@@ -20,12 +22,22 @@ public class hitboxCol : MonoBehaviour{
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        print(collision);
-        if (collision.gameObject.tag == "Player" && timeToDamage > 4.9f)
+        timeToDamage += Time.deltaTime;
+        enemy.SetBool("isAttacking", true);
+        if (collision.gameObject.tag == "Player" && timeToDamage > 1.6f)
         {
+
+
             collision.gameObject.GetComponent<PlayerController>().TakeDamage(damage);
             timeToDamage = 0;
+
         }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        enemy.SetBool("isAttacking", false);
     }
 
 }
