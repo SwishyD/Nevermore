@@ -1361,6 +1361,11 @@ Prefab:
       propertyPath: sRatioText
       value: 
       objectReference: {fileID: 304181828}
+    - target: {fileID: 50586286894152408, guid: a89df630b0af82c46888ab99e7226634,
+        type: 2}
+      propertyPath: m_SleepingMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a89df630b0af82c46888ab99e7226634, type: 2}
   m_IsPrefabParent: 0

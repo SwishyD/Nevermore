@@ -19,6 +19,9 @@ public class PlayerController : MonoBehaviour
     public float health = 100;
     private float maxHealth = 100;
     public Color hurtColor;
+    public Image healthBar;
+    public Text hRatioText;
+    public Color healthColor;
 
     //Stamina
     private float stamina = 100f;
@@ -37,11 +40,11 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        health -= Time.deltaTime;
         HandleStamina();
         HandleDash();
         HandleMovement();
-        HandleHealth();
-        print(health);
+        HandleHealth();        
     }
 
 
@@ -137,7 +140,15 @@ public class PlayerController : MonoBehaviour
 
     void HandleHealth()
     {
-        if(health > maxHealth)
+        //this is for the health bar
+        float ratio = health / maxHealth;
+        healthBar.rectTransform.localScale = new Vector3(ratio, 1, 1);
+        hRatioText.text = (ratio * 100).ToString("0");
+        if (health <= 25f)
+        {
+            StartCoroutine(lowHealthFlash());
+        }
+        if (health > maxHealth)
         {
             health = maxHealth;
         }
@@ -145,6 +156,7 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        
     }
 
     public void TakeDamage(int damage)
@@ -153,6 +165,8 @@ public class PlayerController : MonoBehaviour
         health -= damage;
         StartCoroutine(hurtFlash());
     }
+
+    //these control the flashing of sprites
 
     IEnumerator stamFlash()
     {
@@ -168,6 +182,18 @@ public class PlayerController : MonoBehaviour
         gameObject.GetComponent<SpriteRenderer>().color = Color.white;
     }
 
+    IEnumerator lowHealthFlash()
+    {
+        while (true)
+        {
+            Debug.Log(healthBar.GetComponent<Image>().color);
+            yield return new WaitForSeconds(0.3f);
+            healthBar.GetComponent<Image>().color = healthColor;
+            yield return new WaitForSeconds(0.3f);
+            healthBar.GetComponent<Image>().color = Color.red;
+        }
+        
+    }
 
-    
+
 }
