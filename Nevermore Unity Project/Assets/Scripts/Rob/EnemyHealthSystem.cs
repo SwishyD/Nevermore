@@ -22,8 +22,7 @@ public class EnemyHealthSystem : MonoBehaviour {
 		if (health <= 0)
         {
             Destroy(Enemy);
-        }
-        print(health);
+        }        
 	}
 
 

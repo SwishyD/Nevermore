@@ -168,6 +168,6 @@ public class PathfinderReduxMozzy : MonoBehaviour {
     {
         MozzyAnim.SetBool("isAttacking", true);
         isAttacking = true;
-        Debug.Log("attacking");
+        //Debug.Log("attacking");
     }
 }

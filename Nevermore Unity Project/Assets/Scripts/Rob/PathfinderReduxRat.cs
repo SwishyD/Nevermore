@@ -168,6 +168,6 @@ public class PathfinderReduxRat : MonoBehaviour {
     {
         ratAnim.SetBool("isAttacking", true);
         isAttacking = true;
-        Debug.Log("attacking");
+        //Debug.Log("attacking");
     }
 }
