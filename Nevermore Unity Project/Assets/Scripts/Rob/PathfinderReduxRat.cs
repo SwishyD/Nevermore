@@ -9,8 +9,8 @@ public class PathfinderReduxRat : MonoBehaviour {
 
     float waitTime, startWaitTime = 1;
     int randomSpot;
-    public float playerDist, trackRange = 10, attackRange = 1;
-    float speed = 2.8f;
+    public float playerDist, trackRange = 10, attackRange = 1.5f;
+    float speed = 2.5f;
 
 
     Vector2 moveToSite, vanishPos;
@@ -49,10 +49,13 @@ public class PathfinderReduxRat : MonoBehaviour {
 
         if (player == null)
         {
+            ratAnim.SetBool("isAttacking", false);
             player = GameObject.FindWithTag("Player");
         }
-        
-        transform.position = Vector2.MoveTowards(transform.position, moveToSite, speed * Time.deltaTime);
+        if (playerDist > attackRange)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, moveToSite, speed * Time.deltaTime);
+        }
         ratAnim.SetBool("isMoving", true);
         
         //thisAnim.SetBool("isAttacking", false);
