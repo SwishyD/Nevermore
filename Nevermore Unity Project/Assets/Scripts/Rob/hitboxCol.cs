@@ -24,7 +24,7 @@ public class hitboxCol : MonoBehaviour{
     {
         timeToDamage += Time.deltaTime;
         enemy.SetBool("isAttacking", true);
-        if (collision.gameObject.tag == "Player" && timeToDamage > 1.6f)
+        if (collision.gameObject.tag == "Player" && timeToDamage > 2f)
         {
 
 
