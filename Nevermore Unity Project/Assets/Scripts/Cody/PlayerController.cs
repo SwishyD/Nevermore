@@ -40,7 +40,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        health -= Time.deltaTime;
         HandleStamina();
         HandleDash();
         HandleMovement();
@@ -186,7 +185,6 @@ public class PlayerController : MonoBehaviour
     {
         while (true)
         {
-            Debug.Log(healthBar.GetComponent<Image>().color);
             yield return new WaitForSeconds(0.3f);
             healthBar.GetComponent<Image>().color = healthColor;
             yield return new WaitForSeconds(0.3f);
