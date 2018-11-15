@@ -218,7 +218,10 @@ MonoBehaviour:
   startDashTime: 0.1
   dashDistance: 1.5
   health: 100
-  hurtColor: {r: 0, g: 0, b: 0, a: 0}
+  hurtColor: {r: 1, g: 0, b: 0, a: 1}
+  healthBar: {fileID: 0}
+  hRatioText: {fileID: 0}
+  healthColor: {r: 0, g: 0, b: 0, a: 0}
   staminaBar: {fileID: 0}
   sRatioText: {fileID: 0}
   stamColor: {r: 0, g: 0, b: 0, a: 0}
