@@ -235,7 +235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  Enemy: {fileID: 0}
+  Enemy: {fileID: 1577096911078544}
   hurtColor: {r: 1, g: 1, b: 1, a: 0}
   bodyParts:
   - {fileID: 212048125194031928}
