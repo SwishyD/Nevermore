@@ -179,7 +179,7 @@ Animator:
   m_GameObject: {fileID: 1577096911078544}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0e7b53293c1fab64dbdae4f87c6d2b87, type: 2}
+  m_Controller: {fileID: 9100000, guid: 614c94d4ac734c6408a638857c0981b0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  Enemy: {fileID: 0}
+  Enemy: {fileID: 1577096911078544}
   hurtColor: {r: 1, g: 1, b: 1, a: 0}
   bodyParts:
   - {fileID: 212048125194031928}
