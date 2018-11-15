@@ -10,7 +10,7 @@ public class PathfinderReduxRat : MonoBehaviour {
     float waitTime, startWaitTime = 1;
     int randomSpot;
     public float playerDist, trackRange = 10, attackRange = 1;
-    float speed = 2;
+    float speed = 2.8f;
 
 
     Vector2 moveToSite, vanishPos;
@@ -37,7 +37,6 @@ public class PathfinderReduxRat : MonoBehaviour {
 
         ratAnim = gameObject.GetComponent<Animator>();
         ratAnim.SetBool("isAttacking", false);
-
         //patrol zone based on min/max x,y locations
         //moveZone.Position = new Vector2(Random.range(minX, maxX), Random.Range(minY, maxY));
     }
@@ -66,26 +65,17 @@ public class PathfinderReduxRat : MonoBehaviour {
             //thisAnim.Play("Blender");
 
             ratAnim.SetBool("isAttacking", false);
-            ratAnim.SetFloat("blendTree", 3);
+            ratAnim.SetBool("isMoving", true);
             GetComponent<SpriteRenderer>().flipX = false;
 
         }
         else if (transform.position.x < moveToSite.x)
         {
             ratAnim.SetBool("isAttacking", false);
-            ratAnim.SetFloat("blendTree", 3);
+            ratAnim.SetBool("isMoving", true);
             GetComponent<SpriteRenderer>().flipX = true;
         }
-        else if (transform.position.y > moveToSite.y)
-        {
-            ratAnim.SetBool("isAttacking", false);
-            ratAnim.SetFloat("blendTree", 1);
-        }
-        else if (transform.position.y < moveToSite.y)
-        {
-            ratAnim.SetBool("isAttacking", false);
-            ratAnim.SetFloat("blendTree", 2);
-        }
+
 
         if (playerDist <= attackRange)
         {

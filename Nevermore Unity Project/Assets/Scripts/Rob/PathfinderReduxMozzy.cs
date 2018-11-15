@@ -10,7 +10,7 @@ public class PathfinderReduxMozzy : MonoBehaviour {
     float waitTime, startWaitTime = 1;
     int randomSpot;
     public float playerDist, trackRange = 10, attackRange = 1;
-    float speed = 2;
+    float speed = 2.3f;
 
 
     Vector2 moveToSite, vanishPos;
@@ -75,16 +75,7 @@ public class PathfinderReduxMozzy : MonoBehaviour {
             MozzyAnim.SetFloat("blendTree", 3);
             GetComponent<SpriteRenderer>().flipX = true;
         }
-        else if (transform.position.y > moveToSite.y)
-        {
-            MozzyAnim.SetBool("isAttacking", false);
-            MozzyAnim.SetFloat("blendTree", 1);
-        }
-        else if (transform.position.y < moveToSite.y)
-        {
-            MozzyAnim.SetBool("isAttacking", false);
-            MozzyAnim.SetFloat("blendTree", 2);
-        }
+
 
         if (playerDist <= attackRange)
         {
