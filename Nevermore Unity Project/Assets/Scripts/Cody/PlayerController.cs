@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     public float startDashTime;
     private int direction;
     public float dashDistance;
+    [SerializeField] private Transform portal;
 
     //Health
     public float health = 100;
@@ -106,14 +107,16 @@ public class PlayerController : MonoBehaviour
         {           
                 if (stamina >= 25f)
                 {
+                    Vector3 beforeDashPos = transform.position;
                     anim.SetBool("isDodging", true);
+                    Instantiate(portal, beforeDashPos, Quaternion.identity);
                     transform.position += lastMoveDir * dashDistance;
+                    //Instantiate(portal, transform.position , Quaternion.identity);
                     stamina -= 25f;
                 }
                 else
                 {
                     StartCoroutine(stamFlash());
-                    //flash stamina bar red here
                 }
         }
     }

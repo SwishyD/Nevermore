@@ -7,8 +7,11 @@ using UnityEngine.SceneManagement;
 public class Weapon : MonoBehaviour {
 
     public float offset = 90f;
+    //Attack types
+    public GameObject melee;
+    public GameObject fireBoltGreen;
 
-    public GameObject projectile;
+
     public Transform shotPoint;
 
     private float timeBtwShots;
@@ -32,7 +35,7 @@ public class Weapon : MonoBehaviour {
         Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         float rotZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rotZ + offset);
-        //Debug.Log(rotZ);
+        
 
         if (rotZ <= 89f && rotZ >= -89f)
         {
@@ -49,10 +52,16 @@ public class Weapon : MonoBehaviour {
             if (Input.GetMouseButtonDown(0))
             {                              
                 anim.SetBool("isAttacking", true);
-                Instantiate(projectile, shotPoint.position, transform.rotation);
+                Instantiate(melee, shotPoint.position, transform.rotation);
                 timeBtwShots = startTimeBtwShots;
             }
-            
+            if (Input.GetMouseButtonDown(1))
+            {
+                anim.SetBool("isAttacking", true);
+                Instantiate(fireBoltGreen, shotPoint.position, transform.rotation);
+                timeBtwShots = startTimeBtwShots;
+            }
+
         }
         else
         {
