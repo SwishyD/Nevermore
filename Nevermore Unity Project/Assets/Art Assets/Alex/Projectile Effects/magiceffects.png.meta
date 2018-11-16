@@ -122,10 +122,10 @@ TextureImporter:
       name: magiceffects_dash_whirl_in_1
       rect:
         serializedVersion: 2
-        x: 207
-        y: 225
-        width: 69
-        height: 31
+        x: 93
+        y: 187
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,7 +133,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71101c76d07851b4bb829953e56b7f46
+      spriteID: 415e7c25ce42d8446910d10a931c3f34
       vertices: []
       indices: 
       edges: []
@@ -142,10 +142,10 @@ TextureImporter:
       name: magiceffects_dash_whirl_in_2
       rect:
         serializedVersion: 2
-        x: 276
-        y: 225
-        width: 69
-        height: 31
+        x: 124
+        y: 187
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,7 +153,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f189fb7eb78174845a4b02814f8ac54f
+      spriteID: 1b62e238a9ea72f4a955e2b2aa103940
       vertices: []
       indices: 
       edges: []
@@ -162,10 +162,10 @@ TextureImporter:
       name: magiceffects_dash_whirl_in_3
       rect:
         serializedVersion: 2
-        x: 345
-        y: 225
-        width: 69
-        height: 31
+        x: 155
+        y: 187
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,7 +173,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 39503e4e322276a43baa02fbda084442
+      spriteID: 8dfaa8465ded1e0439cec303783e55af
       vertices: []
       indices: 
       edges: []
@@ -182,10 +182,10 @@ TextureImporter:
       name: magiceffects_dash_whirl_in_4
       rect:
         serializedVersion: 2
-        x: 414
-        y: 225
-        width: 69
-        height: 31
+        x: 186
+        y: 187
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,7 +193,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b26eb9f099bd244c95484f6dc20bc3a
+      spriteID: d94a18826b4934643a376fe9eb75c19f
       vertices: []
       indices: 
       edges: []
@@ -202,10 +202,10 @@ TextureImporter:
       name: magiceffects_dash_whirl_in_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 194
-        width: 69
-        height: 31
+        x: 217
+        y: 187
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,7 +213,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1bcc438eb0be14459e5ae2f6a8f6955
+      spriteID: e8a6c15863f4a724289b3a1c83dc4f76
       vertices: []
       indices: 
       edges: []
@@ -222,10 +222,10 @@ TextureImporter:
       name: magiceffects_dash_whirl_out_1
       rect:
         serializedVersion: 2
-        x: 138
-        y: 194
-        width: 69
-        height: 31
+        x: 279
+        y: 187
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,7 +233,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6f5150bcb015304fa75c55298f8014d
+      spriteID: 7cdc9989c02b4a44a85ff98fe512b543
       vertices: []
       indices: 
       edges: []
@@ -242,10 +242,10 @@ TextureImporter:
       name: magiceffects_dash_whirl_out_2
       rect:
         serializedVersion: 2
-        x: 207
-        y: 194
-        width: 69
-        height: 31
+        x: 310
+        y: 187
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,7 +253,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d5be5e62f9de47428a668b85c5ca492
+      spriteID: 875115b22b347084684ec75d13b57fa3
       vertices: []
       indices: 
       edges: []
@@ -262,10 +262,10 @@ TextureImporter:
       name: magiceffects_dash_whirl_out_3
       rect:
         serializedVersion: 2
-        x: 276
-        y: 194
-        width: 69
-        height: 31
+        x: 341
+        y: 187
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,7 +273,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2bc1c816c6df7204ca34fb7b5276e0f9
+      spriteID: f3ad0d3e9b008f545a1f7584deeab880
       vertices: []
       indices: 
       edges: []
@@ -282,10 +282,10 @@ TextureImporter:
       name: magiceffects_dash_whirl_out_4
       rect:
         serializedVersion: 2
-        x: 345
-        y: 194
-        width: 69
-        height: 31
+        x: 372
+        y: 187
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,7 +293,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9717633d4cc07f940a98005748d4ffb9
+      spriteID: 9d074d586f8281742b6180ca83c11d82
       vertices: []
       indices: 
       edges: []
@@ -302,10 +302,10 @@ TextureImporter:
       name: magiceffects_dash_whirl_out_5
       rect:
         serializedVersion: 2
-        x: 414
-        y: 194
-        width: 69
-        height: 31
+        x: 403
+        y: 187
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,7 +313,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dfd103ce56ec5694dab05db3424b7c3b
+      spriteID: 874ee8c414a079e44b843eb4f7c7b3e0
       vertices: []
       indices: 
       edges: []
@@ -322,10 +322,10 @@ TextureImporter:
       name: magiceffects_firebolt_green_1
       rect:
         serializedVersion: 2
-        x: 69
-        y: 163
-        width: 69
-        height: 31
+        x: 465
+        y: 187
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,7 +333,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab2eb67aca3d9fd4f84870f8b00c3dc2
+      spriteID: b2001799f587e00408d22467b0b8658f
       vertices: []
       indices: 
       edges: []
@@ -342,10 +342,10 @@ TextureImporter:
       name: magiceffects_firebolt_green_2
       rect:
         serializedVersion: 2
-        x: 138
-        y: 163
-        width: 69
-        height: 31
+        x: 0
+        y: 118
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,7 +353,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1721573809cd2404180e4096e7a7a0c7
+      spriteID: 4f8af632189d7a14ab19a55b1276e3bf
       vertices: []
       indices: 
       edges: []
@@ -362,10 +362,10 @@ TextureImporter:
       name: magiceffects_firebolt_green_3
       rect:
         serializedVersion: 2
-        x: 207
-        y: 163
-        width: 69
-        height: 31
+        x: 31
+        y: 118
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,7 +373,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de3c3979a7c0e9c47a4e7028250de42f
+      spriteID: 7cee2914b57a0c543860386c2b54eb56
       vertices: []
       indices: 
       edges: []
@@ -382,10 +382,10 @@ TextureImporter:
       name: magiceffects_firebolt_green_4
       rect:
         serializedVersion: 2
-        x: 276
-        y: 163
-        width: 69
-        height: 31
+        x: 62
+        y: 118
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,7 +393,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9e23c1057e393e40902d15552b53ffb
+      spriteID: 7a7ade34eea3fad418e3a5fbcfc35cae
       vertices: []
       indices: 
       edges: []
@@ -402,10 +402,10 @@ TextureImporter:
       name: magiceffects_firebolt_green_5
       rect:
         serializedVersion: 2
-        x: 345
-        y: 163
-        width: 69
-        height: 31
+        x: 93
+        y: 118
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,7 +413,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 989b9c611a3c90f4fba8d4c60d7a256c
+      spriteID: 3c7ba49db206d184aa5849bf9d33c3d4
       vertices: []
       indices: 
       edges: []
@@ -422,10 +422,10 @@ TextureImporter:
       name: magiceffects_firebolt_green_6
       rect:
         serializedVersion: 2
-        x: 414
-        y: 163
-        width: 69
-        height: 31
+        x: 124
+        y: 118
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,7 +433,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a31b0716db61ecc4f8d3b9eb7b0b230e
+      spriteID: cad57d8109e7dbf41b99a35442c72b78
       vertices: []
       indices: 
       edges: []
@@ -442,10 +442,10 @@ TextureImporter:
       name: magiceffects_firebolt_green_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 132
-        width: 69
-        height: 31
+        x: 155
+        y: 118
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -453,7 +453,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9df9e26eca1b0f0479e9037b01119b0f
+      spriteID: 25e89e23f211c9f43ba13d091d374516
       vertices: []
       indices: 
       edges: []
@@ -462,10 +462,10 @@ TextureImporter:
       name: magiceffects_firebolt_red_1
       rect:
         serializedVersion: 2
-        x: 138
-        y: 132
-        width: 69
-        height: 31
+        x: 217
+        y: 118
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -473,7 +473,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d38e2c80ada7b2e4abd5f16f70a5c43b
+      spriteID: ed896f530d4d11046b496644571a1644
       vertices: []
       indices: 
       edges: []
@@ -482,10 +482,10 @@ TextureImporter:
       name: magiceffects_firebolt_red_2
       rect:
         serializedVersion: 2
-        x: 207
-        y: 132
-        width: 69
-        height: 31
+        x: 248
+        y: 118
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -493,7 +493,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fbadbe5549e83a340b88aaec0a225359
+      spriteID: 669b6f9e89281fa499e94691824c5d4f
       vertices: []
       indices: 
       edges: []
@@ -502,10 +502,10 @@ TextureImporter:
       name: magiceffects_firebolt_red_3
       rect:
         serializedVersion: 2
-        x: 276
-        y: 132
-        width: 69
-        height: 31
+        x: 279
+        y: 118
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -513,7 +513,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e070bd394317afd459576d3eb793828c
+      spriteID: 4078d5714a1991c408000f4141ac561a
       vertices: []
       indices: 
       edges: []
@@ -522,10 +522,10 @@ TextureImporter:
       name: magiceffects_firebolt_red_4
       rect:
         serializedVersion: 2
-        x: 345
-        y: 132
-        width: 69
-        height: 31
+        x: 310
+        y: 118
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -533,7 +533,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49e6d0004c809fa46951b399714fef1d
+      spriteID: c7d8c28974f61cd4383b59ac7707fe92
       vertices: []
       indices: 
       edges: []
@@ -542,10 +542,10 @@ TextureImporter:
       name: magiceffects_firebolt_red_5
       rect:
         serializedVersion: 2
-        x: 414
-        y: 132
-        width: 69
-        height: 31
+        x: 341
+        y: 118
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -553,7 +553,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 90ea4686aed7f1941b27d95f0d8cead5
+      spriteID: 755a01a51de196d4a81922e4dfa105ec
       vertices: []
       indices: 
       edges: []
@@ -562,10 +562,10 @@ TextureImporter:
       name: magiceffects_firebolt_red_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 101
-        width: 69
-        height: 31
+        x: 372
+        y: 118
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -573,7 +573,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cca3292866e70c24aad9cf7fa2eb6386
+      spriteID: 5dcfc38fbbc08d34e8f24cfb2ed3c2d8
       vertices: []
       indices: 
       edges: []
@@ -582,10 +582,10 @@ TextureImporter:
       name: magiceffects_firebolt_red_7
       rect:
         serializedVersion: 2
-        x: 69
-        y: 101
-        width: 69
-        height: 31
+        x: 403
+        y: 118
+        width: 31
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,7 +593,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 803ef7d5db591db41b74f094501550b6
+      spriteID: 8a13224a53e5f0448b4fc1e63bef8a39
       vertices: []
       indices: 
       edges: []
