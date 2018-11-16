@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 95604251518268164}
   - component: {fileID: 114538097724342462}
   m_Layer: 0
-  m_Name: portalDashPref
+  m_Name: portalDashSPref
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51,7 +51,7 @@ Animator:
   m_GameObject: {fileID: 1951235764210540}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 655b76287de1e1a4aba032670118af2c, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4e2907fdf5eddb9498970dbeda2dec1c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -114,5 +114,5 @@ SpriteRenderer:
   m_Size: {x: 3.45, y: 1.55}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0

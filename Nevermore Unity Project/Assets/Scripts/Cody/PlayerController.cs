@@ -14,7 +14,8 @@ public class PlayerController : MonoBehaviour
     public float startDashTime;
     private int direction;
     public float dashDistance;
-    [SerializeField] private Transform portal;
+    [SerializeField] private Transform portalIn;
+    [SerializeField] private Transform portalOut;
 
     //Health
     public float health = 100;
@@ -109,9 +110,9 @@ public class PlayerController : MonoBehaviour
                 {
                     Vector3 beforeDashPos = transform.position;
                     anim.SetBool("isDodging", true);
-                    Instantiate(portal, beforeDashPos, Quaternion.identity);
+                    Instantiate(portalIn, beforeDashPos, Quaternion.identity);
                     transform.position += lastMoveDir * dashDistance;
-                    //Instantiate(portal, transform.position , Quaternion.identity);
+                    Instantiate(portalOut, transform.position , Quaternion.identity);
                     stamina -= 25f;
                 }
                 else

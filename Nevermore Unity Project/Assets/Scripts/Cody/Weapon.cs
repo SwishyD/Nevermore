@@ -29,7 +29,7 @@ public class Weapon : MonoBehaviour {
 	void Update ()
     {
         anim.SetBool("isAttacking", false);
-       
+        anim.SetBool("isFbG", false);
 
         // Handles the Weapon Rotation
         Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
@@ -57,7 +57,7 @@ public class Weapon : MonoBehaviour {
             }
             if (Input.GetMouseButtonDown(1))
             {
-                anim.SetBool("isAttacking", true);
+                anim.SetBool("isFbG", true);
                 Instantiate(fireBoltGreen, shotPoint.position, transform.rotation);
                 timeBtwShots = startTimeBtwShots;
             }

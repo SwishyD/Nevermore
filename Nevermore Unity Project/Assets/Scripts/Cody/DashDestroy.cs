@@ -8,7 +8,7 @@ public class DashDestroy : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        Invoke("Destroy", 0.5f);
+        Invoke("Destroy", 0.4f);
 	}
 	
 	// Update is called once per frame
