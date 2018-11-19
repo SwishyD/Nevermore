@@ -7,16 +7,16 @@ public class PathfinderReduxRat : MonoBehaviour {
     Animator ratAnim;
 
 
-    float waitTime, startWaitTime = 1;
-    int randomSpot;
-    public float playerDist, trackRange = 10, attackRange = 1.5f;
+    public float waitTime, startWaitTime = 1;
+    public int randomSpot;
+    float playerDist, trackRange = 7.5f, attackRange = 1.5f;
     float speed = 2.5f;
 
 
-    Vector2 moveToSite, vanishPos;
+    public Vector2 moveToSite, vanishPos, returnPos;
     GameObject player;
 
-    bool sightBreak, lost = true;
+    public bool sightBreak, lost = true, colliding = false, canFollow = true;
     
 
     //patrol between specific locations added by dev
@@ -46,27 +46,32 @@ public class PathfinderReduxRat : MonoBehaviour {
         
 
         isAttacking = false;
+        
 
         if (player == null)
         {
             ratAnim.SetBool("isAttacking", false);
             player = GameObject.FindWithTag("Player");
         }
-        if (playerDist > attackRange)
+
+        print(waitTime);
+        if (canFollow == false)
+        {
+            returnPos = moveSpots[randomSpot].position;
+        }
+        if (playerDist > attackRange && colliding == false && canFollow == true)
         {
             transform.position = Vector2.MoveTowards(transform.position, moveToSite, speed * Time.deltaTime);
         }
+        else if (colliding == true)
+        {
+            canFollow = false;
+            transform.position = Vector2.MoveTowards(transform.position, returnPos, speed * Time.deltaTime);
+        }
         ratAnim.SetBool("isMoving", true);
         
-        //thisAnim.SetBool("isAttacking", false);
-
-        //setting collider false
-        //GetComponentInChildren<BoxCollider2D>().enabled = false;
-
         if (transform.position.x > moveToSite.x)
         {
-            //thisAnim.Play("Blender");
-
             ratAnim.SetBool("isAttacking", false);
             ratAnim.SetBool("isMoving", true);
             GetComponent<SpriteRenderer>().flipX = false;
@@ -78,15 +83,15 @@ public class PathfinderReduxRat : MonoBehaviour {
             ratAnim.SetBool("isMoving", true);
             GetComponent<SpriteRenderer>().flipX = true;
         }
-
+        
 
         if (playerDist <= attackRange)
         {
             ratAnim.SetBool("isMoving", false);
             Invoke("Attacking", 01f);
         }
-        
 
+        
 
 
         playerDist = Vector2.Distance(transform.position, player.transform.position);
@@ -127,13 +132,12 @@ public class PathfinderReduxRat : MonoBehaviour {
         else if (playerDist > trackRange && lost == true)
         {
             moveToSite = moveSpots[randomSpot].position;
+            colliding = false;
+            canFollow = true;
         }
-        else if (playerDist <= attackRange)
-        {
+        
 
-        }
-
-	}
+    }
 
 
     //if the player exits the range of the enemy, set the VanishPos to 
@@ -147,8 +151,9 @@ public class PathfinderReduxRat : MonoBehaviour {
     }
 
 
-    void waitTimer()
+    public void waitTimer()
     {
+        print("hitting");
         if (waitTime <= 0)
         {
             //patrol zone based on min/max x,y locations
@@ -156,12 +161,12 @@ public class PathfinderReduxRat : MonoBehaviour {
 
             //patrol between specific locations added by dev
             randomSpot = Random.Range(0, moveSpots.Length);
-
             waitTime = startWaitTime;
+            canFollow = true;
+            colliding = false;
         }
         else
         {
-
             ratAnim.SetBool("isMoving", false);
             waitTime -= Time.deltaTime;
         }

@@ -9,7 +9,7 @@ public class PathfinderReduxMozzy : MonoBehaviour {
 
     float waitTime, startWaitTime = 1;
     int randomSpot;
-    public float playerDist, trackRange = 10, attackRange = 1.5f;
+    float playerDist, trackRange = 10, attackRange = 1.5f;
     float speed = 2.7f;
 
 
