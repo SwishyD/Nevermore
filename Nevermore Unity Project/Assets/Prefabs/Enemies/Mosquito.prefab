@@ -53,6 +53,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4051733985657176}
   - component: {fileID: 212048125194031928}
+  - component: {fileID: 114086575743358586}
   - component: {fileID: 114844660600217144}
   - component: {fileID: 58668246646780376}
   - component: {fileID: 114268861649335834}
@@ -188,7 +189,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114268861649335834
+--- !u!114 &114086575743358586
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -196,12 +197,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 1577096911078544}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc24c0bb351e3534d8fd7e3b49b5bbba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+--- !u!114 &114268861649335834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1577096911078544}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 150bb4c0c955e3e40bd8ff7bcdfc4bf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerDist: 0
-  trackRange: 10
-  attackRange: 1
   sightBreak: 0
   lost: 1
   moveSpots: []
