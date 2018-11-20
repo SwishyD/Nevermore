@@ -240,6 +240,35 @@ TextureImporter:
     21300470: player_animation_firebolt_green_left_3
     21300472: player_animation_firebolt_green_left_4
     21300474: player_animation_firebolt_green_left_5
+    21300476: player_animation 108
+    21300478: player_animation 109
+    21300480: player_animation 110
+    21300482: player_animation 111
+    21300484: player_animation 112
+    21300486: player_animation 113
+    21300488: player_animation 114
+    21300490: player_animation 115
+    21300492: player_animation 116
+    21300494: player_animation 117
+    21300496: player_animation 118
+    21300498: player_animation 119
+    21300500: player_animation 120
+    21300502: player_animation 121
+    21300504: player_animation 122
+    21300506: player_animation 123
+    21300508: player_animation_attack_variant_right_0
+    21300510: player_animation_attack_variant_left_0
+    21300512: player_animation_attack_heavy_right_0
+    21300514: player_animation_attack_heavy_left_0
+    21300516: player_animation_attack_heavy_left_1
+    21300518: player_animation_attack_heavy_left_2
+    21300520: player_animation_attack_heavy_left_3
+    21300522: player_animation_attack_heavy_left_4
+    21300524: player_animation_attack_heavy_left_5
+    21300526: player_animation_firebolt_red_right_0
+    21300528: player_animation_firebolt_red_left_0
+    21300530: player_animation_firebolt_green_right_0
+    21300532: player_animation_firebolt_green_left_0
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -309,12 +338,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_animation_run_right_1
+      name: player_animation_run_right_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 467
-        width: 73
+        y: 979
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -323,7 +352,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3cf03b8ebab721e4fb8bfb29d8d2b987
+      spriteID: 77c06b6a4e40ea9449976646432a7b1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_run_right_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 979
+        width: 101
+        height: 45
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1beb77c5a33a1e0459b84d8468e2e56f
       vertices: []
       indices: 
       edges: []
@@ -332,9 +381,9 @@ TextureImporter:
       name: player_animation_run_right_2
       rect:
         serializedVersion: 2
-        x: 73
-        y: 467
-        width: 73
+        x: 202
+        y: 979
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -343,7 +392,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1f2fae2fb26163479e4c39e1ca8bcbf
+      spriteID: f5530ba3b16dcdd489475f69f6d86be3
       vertices: []
       indices: 
       edges: []
@@ -352,9 +401,9 @@ TextureImporter:
       name: player_animation_run_right_3
       rect:
         serializedVersion: 2
-        x: 146
-        y: 467
-        width: 73
+        x: 303
+        y: 979
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -363,7 +412,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4c06e7f9edbe674d9d47398ff6d5a8c
+      spriteID: ac68c552f55efe1438b998b960a16c7e
       vertices: []
       indices: 
       edges: []
@@ -372,9 +421,9 @@ TextureImporter:
       name: player_animation_run_right_4
       rect:
         serializedVersion: 2
-        x: 219
-        y: 467
-        width: 73
+        x: 404
+        y: 979
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -383,7 +432,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 312005b0bb80e924caac28a5d012f23b
+      spriteID: 1d312060bb6454b45af08ecde3a8e31b
       vertices: []
       indices: 
       edges: []
@@ -392,9 +441,9 @@ TextureImporter:
       name: player_animation_run_right_5
       rect:
         serializedVersion: 2
-        x: 292
-        y: 467
-        width: 73
+        x: 505
+        y: 979
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -403,7 +452,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4127ab4b525c389409c7717cf184f0d3
+      spriteID: 467e7d20f0e1f0143b03c33e48cd799a
       vertices: []
       indices: 
       edges: []
@@ -412,9 +461,9 @@ TextureImporter:
       name: player_animation_run_right_6
       rect:
         serializedVersion: 2
-        x: 365
-        y: 467
-        width: 73
+        x: 606
+        y: 979
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -423,7 +472,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9e011a46103163b408556c1fe87b095a
+      spriteID: cdd4b328bd8f9b446ba0a83291532ee0
       vertices: []
       indices: 
       edges: []
@@ -432,9 +481,9 @@ TextureImporter:
       name: player_animation_run_right_7
       rect:
         serializedVersion: 2
-        x: 438
-        y: 467
-        width: 73
+        x: 707
+        y: 979
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -443,18 +492,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89f68c7763b66a74f803e0435c2aebc2
+      spriteID: 3adb347c11f6d1b45b5e2414e25dfa02
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_run_right_8
+      name: player_animation_run_left_0
       rect:
         serializedVersion: 2
-        x: 511
-        y: 467
-        width: 73
+        x: 909
+        y: 979
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -463,7 +512,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25ddf2f75f9acc84bb69d4def5f8afd8
+      spriteID: 0051e706699041d47872768af794d137
       vertices: []
       indices: 
       edges: []
@@ -472,9 +521,9 @@ TextureImporter:
       name: player_animation_run_left_1
       rect:
         serializedVersion: 2
-        x: 657
-        y: 467
-        width: 73
+        x: 0
+        y: 934
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -483,7 +532,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b8c6fd76c99143489267394d8d1cb96
+      spriteID: f25adddea118c284396f348041f81bd5
       vertices: []
       indices: 
       edges: []
@@ -492,9 +541,9 @@ TextureImporter:
       name: player_animation_run_left_2
       rect:
         serializedVersion: 2
-        x: 730
-        y: 467
-        width: 73
+        x: 101
+        y: 934
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -503,7 +552,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a14b97f2ff19124a92f6ab520213ae2
+      spriteID: 6dbf5b13b674c8349a43cff78b46c95e
       vertices: []
       indices: 
       edges: []
@@ -512,9 +561,9 @@ TextureImporter:
       name: player_animation_run_left_3
       rect:
         serializedVersion: 2
-        x: 803
-        y: 467
-        width: 73
+        x: 202
+        y: 934
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -523,7 +572,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5504fef4a55a1eb489ee065b02b14ca6
+      spriteID: 04630ebf9b457ad46b0229643e805e9b
       vertices: []
       indices: 
       edges: []
@@ -532,9 +581,9 @@ TextureImporter:
       name: player_animation_run_left_4
       rect:
         serializedVersion: 2
-        x: 876
-        y: 467
-        width: 73
+        x: 303
+        y: 934
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -543,7 +592,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce605beaa0815b14e9a247702bd899cb
+      spriteID: 9db3a2768e9cb4847ac71ad2821c9c28
       vertices: []
       indices: 
       edges: []
@@ -552,9 +601,9 @@ TextureImporter:
       name: player_animation_run_left_5
       rect:
         serializedVersion: 2
-        x: 949
-        y: 467
-        width: 73
+        x: 404
+        y: 934
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -563,7 +612,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c93edba8c93873f4faf552d608e35731
+      spriteID: 22d00d95fb4108a4c88faa039b3889fe
       vertices: []
       indices: 
       edges: []
@@ -572,9 +621,9 @@ TextureImporter:
       name: player_animation_run_left_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 422
-        width: 73
+        x: 505
+        y: 934
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -583,7 +632,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 825b3d2704ff2794fb97210e035b5d72
+      spriteID: 21f701dc7b7c6ae43ae9230907d2b96b
       vertices: []
       indices: 
       edges: []
@@ -592,9 +641,9 @@ TextureImporter:
       name: player_animation_run_left_7
       rect:
         serializedVersion: 2
-        x: 73
-        y: 422
-        width: 73
+        x: 606
+        y: 934
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -603,18 +652,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1175117135282c94c8766f8b85308985
+      spriteID: bcff49dab0697b74abb4fb3ce67f4f42
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_run_left_8
+      name: player_animation_idle_right_0
       rect:
         serializedVersion: 2
-        x: 146
-        y: 422
-        width: 73
+        x: 808
+        y: 934
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -623,7 +672,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d5dbc3f7261af94d8163eb7faa8838a
+      spriteID: 482373977fc9acd479424a85790d607c
       vertices: []
       indices: 
       edges: []
@@ -632,9 +681,9 @@ TextureImporter:
       name: player_animation_idle_right_1
       rect:
         serializedVersion: 2
-        x: 292
-        y: 422
-        width: 73
+        x: 909
+        y: 934
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -643,7 +692,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82234e26b3e1b734daec93b153e1540f
+      spriteID: a7bc38bf36a30d14aaa702892a2fb4e9
       vertices: []
       indices: 
       edges: []
@@ -652,9 +701,9 @@ TextureImporter:
       name: player_animation_idle_right_2
       rect:
         serializedVersion: 2
-        x: 365
-        y: 422
-        width: 73
+        x: 0
+        y: 889
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -663,7 +712,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed384248993dff446bd230fa5a3d644c
+      spriteID: a66293cf3eee79c4f87d2878b05bef21
       vertices: []
       indices: 
       edges: []
@@ -672,9 +721,9 @@ TextureImporter:
       name: player_animation_idle_right_3
       rect:
         serializedVersion: 2
-        x: 438
-        y: 422
-        width: 73
+        x: 101
+        y: 889
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -683,7 +732,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7b98e5e163acf64f83b7b5647bfca7a
+      spriteID: bc7cff74f5889c94794b7c105c101c5a
       vertices: []
       indices: 
       edges: []
@@ -692,9 +741,9 @@ TextureImporter:
       name: player_animation_idle_right_4
       rect:
         serializedVersion: 2
-        x: 511
-        y: 422
-        width: 73
+        x: 202
+        y: 889
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -703,7 +752,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff97627b9988b8949863c9456ce5c779
+      spriteID: 7a446644338753b4c9c5651d9a5eaaef
       vertices: []
       indices: 
       edges: []
@@ -712,9 +761,9 @@ TextureImporter:
       name: player_animation_idle_right_5
       rect:
         serializedVersion: 2
-        x: 584
-        y: 422
-        width: 73
+        x: 303
+        y: 889
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -723,7 +772,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0fe99a2ae82a9d84e97995907e7b1db3
+      spriteID: 029cb2e43b54fb44fa3d065fc09abc6e
       vertices: []
       indices: 
       edges: []
@@ -732,9 +781,9 @@ TextureImporter:
       name: player_animation_idle_right_6
       rect:
         serializedVersion: 2
-        x: 657
-        y: 422
-        width: 73
+        x: 404
+        y: 889
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -743,7 +792,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bcd5603033c64894c8ade5eb698e3cf7
+      spriteID: 83b494a824894de4bb964f5b85fcb8ae
       vertices: []
       indices: 
       edges: []
@@ -752,9 +801,9 @@ TextureImporter:
       name: player_animation_idle_right_7
       rect:
         serializedVersion: 2
-        x: 730
-        y: 422
-        width: 73
+        x: 505
+        y: 889
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -763,7 +812,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cabae06049bc0714dae074cf93813962
+      spriteID: 51238c7af645a1741be1271f989a4fe8
       vertices: []
       indices: 
       edges: []
@@ -772,9 +821,9 @@ TextureImporter:
       name: player_animation_idle_right_8
       rect:
         serializedVersion: 2
-        x: 803
-        y: 422
-        width: 73
+        x: 606
+        y: 889
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -783,7 +832,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7eb7089bdc19da14891d2dd4bdb50db6
+      spriteID: d5337188898a941469de535ee71d45b9
       vertices: []
       indices: 
       edges: []
@@ -792,9 +841,9 @@ TextureImporter:
       name: player_animation_idle_right_9
       rect:
         serializedVersion: 2
-        x: 876
-        y: 422
-        width: 73
+        x: 707
+        y: 889
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -803,18 +852,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32d85b4fb08bf8643b262f2dc8d4d126
+      spriteID: 2802539d68572c6479ef9972b9c33dda
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_idle_right_10
+      name: player_animation_idle_left_0
       rect:
         serializedVersion: 2
-        x: 949
-        y: 422
-        width: 73
+        x: 909
+        y: 889
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -823,7 +872,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b6b4cc32f2c138489512761f56e52fd
+      spriteID: 3ef717a86019122479bd05f7f50db3e6
       vertices: []
       indices: 
       edges: []
@@ -832,9 +881,9 @@ TextureImporter:
       name: player_animation_idle_left_1
       rect:
         serializedVersion: 2
-        x: 73
-        y: 377
-        width: 73
+        x: 0
+        y: 844
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -843,7 +892,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0090316f139f88f489928189af1dc971
+      spriteID: e144b213767c758448059b95a28e9b3a
       vertices: []
       indices: 
       edges: []
@@ -852,9 +901,9 @@ TextureImporter:
       name: player_animation_idle_left_2
       rect:
         serializedVersion: 2
-        x: 146
-        y: 377
-        width: 73
+        x: 101
+        y: 844
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -863,7 +912,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f67d768700720a49a94a1a46e681dcb
+      spriteID: a45cb4591fb8d6149832250333a37ce1
       vertices: []
       indices: 
       edges: []
@@ -872,9 +921,9 @@ TextureImporter:
       name: player_animation_idle_left_3
       rect:
         serializedVersion: 2
-        x: 219
-        y: 377
-        width: 73
+        x: 202
+        y: 844
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -883,7 +932,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63211afa307af7f499ca0abbcd9e3153
+      spriteID: 582248772cb334a4488d151a781e4169
       vertices: []
       indices: 
       edges: []
@@ -892,9 +941,9 @@ TextureImporter:
       name: player_animation_idle_left_4
       rect:
         serializedVersion: 2
-        x: 292
-        y: 377
-        width: 73
+        x: 303
+        y: 844
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -903,7 +952,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d41df642d58f32b4e8031787056bbf99
+      spriteID: 6d8bb306fad1774489930f14db774319
       vertices: []
       indices: 
       edges: []
@@ -912,9 +961,9 @@ TextureImporter:
       name: player_animation_idle_left_5
       rect:
         serializedVersion: 2
-        x: 365
-        y: 377
-        width: 73
+        x: 404
+        y: 844
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -923,7 +972,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7a47e20e6915664e9eb64341afa7486
+      spriteID: 8a68a98319fbc2940aa350d426020a58
       vertices: []
       indices: 
       edges: []
@@ -932,9 +981,9 @@ TextureImporter:
       name: player_animation_idle_left_6
       rect:
         serializedVersion: 2
-        x: 438
-        y: 377
-        width: 73
+        x: 505
+        y: 844
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -943,7 +992,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cbafea8fd665cc64ca84b2c7c66c655e
+      spriteID: c834966c65bbd4548b914d1af4242644
       vertices: []
       indices: 
       edges: []
@@ -952,9 +1001,9 @@ TextureImporter:
       name: player_animation_idle_left_7
       rect:
         serializedVersion: 2
-        x: 511
-        y: 377
-        width: 73
+        x: 606
+        y: 844
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -963,7 +1012,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a528d79b1e490a469dcbafe1adc68d5
+      spriteID: b2840256ba5510d44b4ed9b7ef9caebd
       vertices: []
       indices: 
       edges: []
@@ -972,9 +1021,9 @@ TextureImporter:
       name: player_animation_idle_left_8
       rect:
         serializedVersion: 2
-        x: 584
-        y: 377
-        width: 73
+        x: 707
+        y: 844
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -983,7 +1032,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 382ac6c67740600459c3daec7f0ad9f7
+      spriteID: 45ee4e8d123ec364ea683c0238278a79
       vertices: []
       indices: 
       edges: []
@@ -992,9 +1041,9 @@ TextureImporter:
       name: player_animation_idle_left_9
       rect:
         serializedVersion: 2
-        x: 657
-        y: 377
-        width: 73
+        x: 808
+        y: 844
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1003,18 +1052,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bcd613538399cce449268d341ad98d1b
+      spriteID: 39d16d13f9662724a85fa0121b20c1e6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_idle_left_10
+      name: player_animation_attack_light_right_0
       rect:
         serializedVersion: 2
-        x: 730
-        y: 377
-        width: 73
+        x: 0
+        y: 799
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1023,7 +1072,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8701ed15eaa5ec04ea4ffb22444b7ea1
+      spriteID: 2d872c85f6c72514185f98234ed49cee
       vertices: []
       indices: 
       edges: []
@@ -1032,9 +1081,9 @@ TextureImporter:
       name: player_animation_attack_light_right_1
       rect:
         serializedVersion: 2
-        x: 876
-        y: 377
-        width: 73
+        x: 101
+        y: 799
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1043,7 +1092,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d21ed3ad0a378534d9b4152a114132fe
+      spriteID: a6ca46609f2e2814f9088fc9fbb99321
       vertices: []
       indices: 
       edges: []
@@ -1052,9 +1101,9 @@ TextureImporter:
       name: player_animation_attack_light_right_2
       rect:
         serializedVersion: 2
-        x: 949
-        y: 377
-        width: 73
+        x: 202
+        y: 799
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1063,7 +1112,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c0dc34e897d2baa4489f498763d64aad
+      spriteID: 9bc2876c0b41b8d408ef5764b640a770
       vertices: []
       indices: 
       edges: []
@@ -1072,9 +1121,9 @@ TextureImporter:
       name: player_animation_attack_light_right_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 332
-        width: 73
+        x: 303
+        y: 799
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1083,7 +1132,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e7482e6f653fb94eae8ae7b84cb9241
+      spriteID: 875543068581b4e4683277335b08591d
       vertices: []
       indices: 
       edges: []
@@ -1092,9 +1141,9 @@ TextureImporter:
       name: player_animation_attack_light_right_4
       rect:
         serializedVersion: 2
-        x: 73
-        y: 332
-        width: 73
+        x: 404
+        y: 799
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1103,18 +1152,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 60934edbfb5ff854e98ebd7f546c790b
+      spriteID: 68ef169cb2849844ab87f1c52dc655dd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_attack_light_right_5
+      name: player_animation_attack_light_left_0
       rect:
         serializedVersion: 2
-        x: 146
-        y: 332
-        width: 73
+        x: 606
+        y: 799
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1123,7 +1172,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b78d09994a5e3c49b7647f254a4a008
+      spriteID: e369ed0c187c19f46be24e2a3528de5a
       vertices: []
       indices: 
       edges: []
@@ -1132,9 +1181,9 @@ TextureImporter:
       name: player_animation_attack_light_left_1
       rect:
         serializedVersion: 2
-        x: 292
-        y: 332
-        width: 73
+        x: 707
+        y: 799
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1143,7 +1192,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20fd8d33b36543a489a83840067e2599
+      spriteID: a3452054a0def124f9a642cbce83c164
       vertices: []
       indices: 
       edges: []
@@ -1152,9 +1201,9 @@ TextureImporter:
       name: player_animation_attack_light_left_2
       rect:
         serializedVersion: 2
-        x: 365
-        y: 332
-        width: 73
+        x: 808
+        y: 799
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1163,7 +1212,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a79f0a54f2ea6da4098f75b183aaa1c9
+      spriteID: 2e1ddc413af353349b70cc49454da16c
       vertices: []
       indices: 
       edges: []
@@ -1172,9 +1221,9 @@ TextureImporter:
       name: player_animation_attack_light_left_3
       rect:
         serializedVersion: 2
-        x: 438
-        y: 332
-        width: 73
+        x: 909
+        y: 799
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1183,7 +1232,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4ad0baa394e94844db4979b97a5f2e35
+      spriteID: 1ecb88471f518b54e8f882e98e95a2b1
       vertices: []
       indices: 
       edges: []
@@ -1192,9 +1241,9 @@ TextureImporter:
       name: player_animation_attack_light_left_4
       rect:
         serializedVersion: 2
-        x: 511
-        y: 332
-        width: 73
+        x: 0
+        y: 754
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1203,18 +1252,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e68b4cd7f46b3ef47b2efb4bb0306579
+      spriteID: c600460d8dd70ae4a8e24bcee0239452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_attack_light_left_5
+      name: player_animation_attack_variant_right_0
       rect:
         serializedVersion: 2
-        x: 584
-        y: 332
-        width: 73
+        x: 202
+        y: 754
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1223,7 +1272,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c87e0c211fc02f8498944a9a3eef2a6a
+      spriteID: 16c54e2578511dd479e68d6912104914
       vertices: []
       indices: 
       edges: []
@@ -1232,9 +1281,9 @@ TextureImporter:
       name: player_animation_attack_variant_right_1
       rect:
         serializedVersion: 2
-        x: 730
-        y: 332
-        width: 73
+        x: 303
+        y: 754
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1243,7 +1292,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bc5983a2232f36429e03aedd033032f
+      spriteID: 4aaba9bd7dd09b14294fde1d7ba2666d
       vertices: []
       indices: 
       edges: []
@@ -1252,9 +1301,9 @@ TextureImporter:
       name: player_animation_attack_variant_right_2
       rect:
         serializedVersion: 2
-        x: 803
-        y: 332
-        width: 73
+        x: 404
+        y: 754
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1263,7 +1312,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e4c583b6c2ceff4f9a1092ac0e31704
+      spriteID: 39f68d1d6e8689d428df9b819bca88af
       vertices: []
       indices: 
       edges: []
@@ -1272,9 +1321,9 @@ TextureImporter:
       name: player_animation_attack_variant_right_3
       rect:
         serializedVersion: 2
-        x: 876
-        y: 332
-        width: 73
+        x: 505
+        y: 754
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1283,7 +1332,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 102b73a6f5c270c4dac5612e3e4bb463
+      spriteID: 760c257e9b7dfa744905471dfc62e806
       vertices: []
       indices: 
       edges: []
@@ -1292,9 +1341,9 @@ TextureImporter:
       name: player_animation_attack_variant_right_4
       rect:
         serializedVersion: 2
-        x: 949
-        y: 332
-        width: 73
+        x: 606
+        y: 754
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1303,7 +1352,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7193dd4843d21e341812917eec5b4b42
+      spriteID: fb4659ee78161aa46a7740ddc0e1e45c
       vertices: []
       indices: 
       edges: []
@@ -1312,9 +1361,9 @@ TextureImporter:
       name: player_animation_attack_variant_right_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 287
-        width: 73
+        x: 707
+        y: 754
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1323,7 +1372,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2926a92cc9af52e48804768bba1dcc87
+      spriteID: 6d775f21a8263d8469db7af643394464
       vertices: []
       indices: 
       edges: []
@@ -1332,9 +1381,9 @@ TextureImporter:
       name: player_animation_attack_variant_right_6
       rect:
         serializedVersion: 2
-        x: 73
-        y: 287
-        width: 73
+        x: 808
+        y: 754
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1343,7 +1392,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5648904ec7cd47d4997cd5e4b2772036
+      spriteID: 9344758d8f01037488bab04b692f8c35
       vertices: []
       indices: 
       edges: []
@@ -1352,9 +1401,9 @@ TextureImporter:
       name: player_animation_attack_variant_right_7
       rect:
         serializedVersion: 2
-        x: 146
-        y: 287
-        width: 73
+        x: 909
+        y: 754
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1363,7 +1412,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 208a64730fa7d7048b7550cdf0e0b4c8
+      spriteID: 1b741460f547ca84e8cc49d750ea113f
       vertices: []
       indices: 
       edges: []
@@ -1372,9 +1421,9 @@ TextureImporter:
       name: player_animation_attack_variant_right_8
       rect:
         serializedVersion: 2
-        x: 219
-        y: 287
-        width: 73
+        x: 0
+        y: 709
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1383,18 +1432,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf07ea5162b6df94682fba21f6baa278
+      spriteID: 25ad56f5e7d2892469c928b48afd3cf4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_attack_variant_right_9
+      name: player_animation_attack_variant_left_0
       rect:
         serializedVersion: 2
-        x: 292
-        y: 287
-        width: 73
+        x: 202
+        y: 709
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1403,7 +1452,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8122ac73844eca4d8123259ff260c85
+      spriteID: 5b49366f398312a45877ff4ff9a69e07
       vertices: []
       indices: 
       edges: []
@@ -1412,9 +1461,9 @@ TextureImporter:
       name: player_animation_attack_variant_left_1
       rect:
         serializedVersion: 2
-        x: 438
-        y: 287
-        width: 73
+        x: 303
+        y: 709
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1423,7 +1472,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7cd84a7a2d5a8fa43ac59aa1315422a9
+      spriteID: 9a87d0971f0045c47b9e9d29d711af5a
       vertices: []
       indices: 
       edges: []
@@ -1432,9 +1481,9 @@ TextureImporter:
       name: player_animation_attack_variant_left_2
       rect:
         serializedVersion: 2
-        x: 511
-        y: 287
-        width: 73
+        x: 404
+        y: 709
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1443,7 +1492,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 572d2acd766e37a45a9dcc4ae67dc26b
+      spriteID: 113fcd2f3ba29be48bc0c0965ff734aa
       vertices: []
       indices: 
       edges: []
@@ -1452,9 +1501,9 @@ TextureImporter:
       name: player_animation_attack_variant_left_3
       rect:
         serializedVersion: 2
-        x: 584
-        y: 287
-        width: 73
+        x: 505
+        y: 709
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1463,7 +1512,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c0306389f4c7104ebc3b96a67581d99
+      spriteID: 979dc9eb2489170488e7beda6111ba31
       vertices: []
       indices: 
       edges: []
@@ -1472,9 +1521,9 @@ TextureImporter:
       name: player_animation_attack_variant_left_4
       rect:
         serializedVersion: 2
-        x: 657
-        y: 287
-        width: 73
+        x: 606
+        y: 709
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1483,7 +1532,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8cae13e559b349d4fbfb2e262304bc39
+      spriteID: 63e06be7a522a7c4eaf1991764d6f9a2
       vertices: []
       indices: 
       edges: []
@@ -1492,9 +1541,9 @@ TextureImporter:
       name: player_animation_attack_variant_left_5
       rect:
         serializedVersion: 2
-        x: 730
-        y: 287
-        width: 73
+        x: 707
+        y: 709
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1503,7 +1552,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0f910e0e025fe44b9192a5ab4ea5985
+      spriteID: 811bdaf0caadc6c408d3c78ffa1c0dd3
       vertices: []
       indices: 
       edges: []
@@ -1512,9 +1561,9 @@ TextureImporter:
       name: player_animation_attack_variant_left_6
       rect:
         serializedVersion: 2
-        x: 803
-        y: 287
-        width: 73
+        x: 808
+        y: 709
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1523,7 +1572,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d63dbcd1e495d334593edbbee31ffc1b
+      spriteID: 33adcc3156ff7e442a3023e6624d3f25
       vertices: []
       indices: 
       edges: []
@@ -1532,9 +1581,9 @@ TextureImporter:
       name: player_animation_attack_variant_left_7
       rect:
         serializedVersion: 2
-        x: 876
-        y: 287
-        width: 73
+        x: 909
+        y: 709
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1543,7 +1592,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ca42e00ff2670b41acf11871ebfa4f5
+      spriteID: 4d9aab0843d145f4ea65590616d27811
       vertices: []
       indices: 
       edges: []
@@ -1552,9 +1601,9 @@ TextureImporter:
       name: player_animation_attack_variant_left_8
       rect:
         serializedVersion: 2
-        x: 949
-        y: 287
-        width: 73
+        x: 0
+        y: 664
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1563,18 +1612,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca225116a4f1b0d419bebbab328df660
+      spriteID: a406cadb0dd54fb4380a590c471f653b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_attack_variant_left_9
+      name: player_animation_attack_heavy_right_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 242
-        width: 73
+        x: 202
+        y: 664
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1583,7 +1632,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c77cea5d136aea1459ac2730561c4c02
+      spriteID: 4d1f14b8386a4e44bb5bd0a08e073b7f
       vertices: []
       indices: 
       edges: []
@@ -1592,9 +1641,9 @@ TextureImporter:
       name: player_animation_attack_heavy_right_1
       rect:
         serializedVersion: 2
-        x: 146
-        y: 242
-        width: 73
+        x: 303
+        y: 664
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1603,7 +1652,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9104d508f9a0cde409baa85bcc3edad9
+      spriteID: 7dc11a7baf8a207408e0df46c91e55d8
       vertices: []
       indices: 
       edges: []
@@ -1612,9 +1661,9 @@ TextureImporter:
       name: player_animation_attack_heavy_right_2
       rect:
         serializedVersion: 2
-        x: 219
-        y: 242
-        width: 73
+        x: 404
+        y: 664
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1623,7 +1672,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5faa039f30d877e46a2900f4cca829e6
+      spriteID: adabcf3797c64e84080f2ec3b48b7a3e
       vertices: []
       indices: 
       edges: []
@@ -1632,9 +1681,9 @@ TextureImporter:
       name: player_animation_attack_heavy_right_3
       rect:
         serializedVersion: 2
-        x: 292
-        y: 242
-        width: 73
+        x: 505
+        y: 664
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1643,7 +1692,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 988bd4dbc403d124a929c3c5c7e3bba6
+      spriteID: 4e44b91c23fbd6841881fc507706d824
       vertices: []
       indices: 
       edges: []
@@ -1652,9 +1701,9 @@ TextureImporter:
       name: player_animation_attack_heavy_right_4
       rect:
         serializedVersion: 2
-        x: 365
-        y: 242
-        width: 73
+        x: 606
+        y: 664
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1663,7 +1712,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22dc2e963572cf54d99e808882408d4e
+      spriteID: eb60903ceb52e51448586c1f04fdd702
       vertices: []
       indices: 
       edges: []
@@ -1672,9 +1721,9 @@ TextureImporter:
       name: player_animation_attack_heavy_right_5
       rect:
         serializedVersion: 2
-        x: 438
-        y: 242
-        width: 73
+        x: 707
+        y: 664
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1683,18 +1732,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 936ca72d61f1f34409019ba242b3b255
+      spriteID: 33d2805f4069515469f817889bdb97bf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_attack_heavy_right_6
+      name: player_animation_attack_heavy_left_0
       rect:
         serializedVersion: 2
-        x: 511
-        y: 242
-        width: 73
+        x: 909
+        y: 664
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1703,118 +1752,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c579ce22a7e8e77488d044dce08dc2bb
+      spriteID: 218e416fc20bafa48887de5fd2806d8d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_attack_heavy_right_1
-      rect:
-        serializedVersion: 2
-        x: 657
-        y: 242
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7b7f80bc295503049bdc3a5d3aafa05c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_attack_heavy_right_2
-      rect:
-        serializedVersion: 2
-        x: 730
-        y: 242
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ab81e479bfb9b94ba51d0382e6488eb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_attack_heavy_right_3
-      rect:
-        serializedVersion: 2
-        x: 803
-        y: 242
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 70b4826bc0577e2459e1446c1ad86b56
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_attack_heavy_right_4
-      rect:
-        serializedVersion: 2
-        x: 876
-        y: 242
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d54fcedb07acee438a2e1d2910c820f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_attack_heavy_right_5
-      rect:
-        serializedVersion: 2
-        x: 949
-        y: 242
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 66f563a011c5f3640a7d6363c97548ed
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_attack_heavy_right_6
+      name: player_animation_attack_heavy_left_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 197
-        width: 73
+        y: 619
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1823,7 +1772,107 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c91e6bc13a1e29d46ae235ba8d24ae33
+      spriteID: 8473798a07f1a8d4891fcb819dfa5e7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_attack_heavy_left_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 619
+        width: 101
+        height: 45
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2020a3b1b2deb4baada625c2e965c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_attack_heavy_left_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 619
+        width: 101
+        height: 45
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416078a0eec62e14b80ba8adc6c8d007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_attack_heavy_left_4
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 619
+        width: 101
+        height: 45
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9471028b9bece43b49fde643df5adf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_attack_heavy_left_5
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 619
+        width: 101
+        height: 45
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06627ab39483a8240ac7b8413eddd5ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_dodge_right_0
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 619
+        width: 101
+        height: 45
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b727ceb573087419be678c79e45e36
       vertices: []
       indices: 
       edges: []
@@ -1832,9 +1881,9 @@ TextureImporter:
       name: player_animation_dodge_right_1
       rect:
         serializedVersion: 2
-        x: 146
-        y: 197
-        width: 73
+        x: 707
+        y: 619
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1843,7 +1892,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c772930b529d9c4093f5adfe2ed4c11
+      spriteID: d799b9b716d30d14b84f781b7939d906
       vertices: []
       indices: 
       edges: []
@@ -1852,9 +1901,9 @@ TextureImporter:
       name: player_animation_dodge_right_2
       rect:
         serializedVersion: 2
-        x: 219
-        y: 197
-        width: 73
+        x: 808
+        y: 619
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1863,7 +1912,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a629baa5694b3c41a0f57dd20023828
+      spriteID: e312724b8b73aa743a1ff76a41f2cadc
       vertices: []
       indices: 
       edges: []
@@ -1872,9 +1921,9 @@ TextureImporter:
       name: player_animation_dodge_right_3
       rect:
         serializedVersion: 2
-        x: 292
-        y: 197
-        width: 73
+        x: 909
+        y: 619
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1883,7 +1932,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61bcc20a8a09bf64d844482ffa757305
+      spriteID: c021df68eb518aa4da95f1ecaef01018
       vertices: []
       indices: 
       edges: []
@@ -1892,9 +1941,9 @@ TextureImporter:
       name: player_animation_dodge_right_4
       rect:
         serializedVersion: 2
-        x: 365
-        y: 197
-        width: 73
+        x: 0
+        y: 574
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1903,7 +1952,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6cb72eec398b8164b926007ab31a38d9
+      spriteID: b1cf97c12b51e834d993cbda9b773cf8
       vertices: []
       indices: 
       edges: []
@@ -1912,9 +1961,9 @@ TextureImporter:
       name: player_animation_dodge_right_5
       rect:
         serializedVersion: 2
-        x: 438
-        y: 197
-        width: 73
+        x: 101
+        y: 574
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1923,18 +1972,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b7c8d6bd08218446a273711534aae44
+      spriteID: 87774009c3be2cd4da2a689e16dd2ad6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_dodge_right_6
+      name: player_animation_dodge_left_0
       rect:
         serializedVersion: 2
-        x: 511
-        y: 197
-        width: 73
+        x: 303
+        y: 574
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1943,7 +1992,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb5694e9bff402a41bbfdc0d2c25b219
+      spriteID: ed3bf13d7860b774d8ee04418907da13
       vertices: []
       indices: 
       edges: []
@@ -1952,9 +2001,9 @@ TextureImporter:
       name: player_animation_dodge_left_1
       rect:
         serializedVersion: 2
-        x: 657
-        y: 197
-        width: 73
+        x: 404
+        y: 574
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1963,7 +2012,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ec23d4eed926d247b64f92bcb45dadb
+      spriteID: 5129b13cdf24e8e41b555c111accb97e
       vertices: []
       indices: 
       edges: []
@@ -1972,9 +2021,9 @@ TextureImporter:
       name: player_animation_dodge_left_2
       rect:
         serializedVersion: 2
-        x: 730
-        y: 197
-        width: 73
+        x: 505
+        y: 574
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -1983,7 +2032,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0e87ede7c3052e4b9fac5f89dfd9c59
+      spriteID: 83020e3b113efc1488447ed31232d5ea
       vertices: []
       indices: 
       edges: []
@@ -1992,9 +2041,9 @@ TextureImporter:
       name: player_animation_dodge_left_3
       rect:
         serializedVersion: 2
-        x: 803
-        y: 197
-        width: 73
+        x: 606
+        y: 574
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2003,7 +2052,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c4cd78ece9a447943a43579887266a70
+      spriteID: 942a557addb91264cb4abcc82fcbd51e
       vertices: []
       indices: 
       edges: []
@@ -2012,9 +2061,9 @@ TextureImporter:
       name: player_animation_dodge_left_4
       rect:
         serializedVersion: 2
-        x: 876
-        y: 197
-        width: 73
+        x: 707
+        y: 574
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2023,7 +2072,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71fb1ad3e3c184c45b856b6798256d28
+      spriteID: 571c524d4d7c458428c6180fc2ad7d80
       vertices: []
       indices: 
       edges: []
@@ -2032,9 +2081,9 @@ TextureImporter:
       name: player_animation_dodge_left_5
       rect:
         serializedVersion: 2
-        x: 949
-        y: 197
-        width: 73
+        x: 808
+        y: 574
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2043,18 +2092,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 011bac9b6ce5e134a93e9db4d3217b30
+      spriteID: 227ea781c484b37409fee4bd6d7a4b0f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_dodge_left_6
+      name: player_animation_firebolt_red_right_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 152
-        width: 73
+        y: 529
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2063,7 +2112,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00c1cbf089029fb43930dee1d831b52b
+      spriteID: d4907998d41d31a4cbfeaab2dd442743
       vertices: []
       indices: 
       edges: []
@@ -2072,9 +2121,9 @@ TextureImporter:
       name: player_animation_firebolt_red_right_1
       rect:
         serializedVersion: 2
-        x: 146
-        y: 152
-        width: 73
+        x: 101
+        y: 529
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2083,7 +2132,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 570318b860132a34bb8d216b23411e14
+      spriteID: 0bebe6e381f42b941b0a1feab9782b74
       vertices: []
       indices: 
       edges: []
@@ -2092,9 +2141,9 @@ TextureImporter:
       name: player_animation_firebolt_red_right_2
       rect:
         serializedVersion: 2
-        x: 219
-        y: 152
-        width: 73
+        x: 202
+        y: 529
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2103,7 +2152,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a89da20b339acaa49b4612d09a525a17
+      spriteID: e28ca8ab4993ac34183615089ce962c4
       vertices: []
       indices: 
       edges: []
@@ -2112,9 +2161,9 @@ TextureImporter:
       name: player_animation_firebolt_red_right_3
       rect:
         serializedVersion: 2
-        x: 292
-        y: 152
-        width: 73
+        x: 303
+        y: 529
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2123,7 +2172,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76ba9345d1bb5204984889edb6ec9b7f
+      spriteID: e16a1d80e6c0636458ea0e6045f3f0d0
       vertices: []
       indices: 
       edges: []
@@ -2132,9 +2181,9 @@ TextureImporter:
       name: player_animation_firebolt_red_right_4
       rect:
         serializedVersion: 2
-        x: 365
-        y: 152
-        width: 73
+        x: 404
+        y: 529
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2143,18 +2192,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a751f35718a58eb488dcf92c35153368
+      spriteID: bf60e8ff01cbdda4eaf4c4156b3a712a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_red_right_5
+      name: player_animation_firebolt_red_left_0
       rect:
         serializedVersion: 2
-        x: 438
-        y: 152
-        width: 73
+        x: 606
+        y: 529
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2163,7 +2212,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a7cc1416c1823947abcf561bd26ac97
+      spriteID: feb0a7cbb04a5a242a37467e798a7009
       vertices: []
       indices: 
       edges: []
@@ -2172,9 +2221,9 @@ TextureImporter:
       name: player_animation_firebolt_red_left_1
       rect:
         serializedVersion: 2
-        x: 584
-        y: 152
-        width: 73
+        x: 707
+        y: 529
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2183,7 +2232,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc2894fa9cabb734eb7ec6670453547e
+      spriteID: 06d222f0c7a66564192ce0ffd90b794f
       vertices: []
       indices: 
       edges: []
@@ -2192,9 +2241,9 @@ TextureImporter:
       name: player_animation_firebolt_red_left_2
       rect:
         serializedVersion: 2
-        x: 657
-        y: 152
-        width: 73
+        x: 808
+        y: 529
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2203,7 +2252,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3946a580d6823cf43ae1bb22b5ae0b15
+      spriteID: 2ff5bd7d2ecea5840b99b177fab516c0
       vertices: []
       indices: 
       edges: []
@@ -2212,9 +2261,9 @@ TextureImporter:
       name: player_animation_firebolt_red_left_3
       rect:
         serializedVersion: 2
-        x: 730
-        y: 152
-        width: 73
+        x: 909
+        y: 529
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2223,7 +2272,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b28ebd45c4b27f45adb6c771657878e
+      spriteID: 4c9ff7b17941ac5449e608455a15f657
       vertices: []
       indices: 
       edges: []
@@ -2232,9 +2281,9 @@ TextureImporter:
       name: player_animation_firebolt_red_left_4
       rect:
         serializedVersion: 2
-        x: 803
-        y: 152
-        width: 73
+        x: 0
+        y: 484
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2243,18 +2292,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f50c4fb0e8d1e74ca12b96a44030759
+      spriteID: 8140c9259aeb4a746a2d06b515d2bef2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_red_left_5
+      name: player_animation_firebolt_green_right_0
       rect:
         serializedVersion: 2
-        x: 876
-        y: 152
-        width: 73
+        x: 202
+        y: 484
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2263,7 +2312,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 529d17a3681c77c4ebc1738375c56546
+      spriteID: 26f6458f7cf27fb47995c1b71e56f821
       vertices: []
       indices: 
       edges: []
@@ -2272,9 +2321,9 @@ TextureImporter:
       name: player_animation_firebolt_green_right_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 107
-        width: 73
+        x: 303
+        y: 484
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2283,7 +2332,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b4423325477ec941bafc3d092820aef
+      spriteID: 78bdc289bd8399147a05381e69ddc23c
       vertices: []
       indices: 
       edges: []
@@ -2292,9 +2341,9 @@ TextureImporter:
       name: player_animation_firebolt_green_right_2
       rect:
         serializedVersion: 2
-        x: 73
-        y: 107
-        width: 73
+        x: 404
+        y: 484
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2303,7 +2352,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7983e48520e02a428d35085fbaf6038
+      spriteID: 8a02eeba67509974c958720a4ccbccc9
       vertices: []
       indices: 
       edges: []
@@ -2312,9 +2361,9 @@ TextureImporter:
       name: player_animation_firebolt_green_right_3
       rect:
         serializedVersion: 2
-        x: 146
-        y: 107
-        width: 73
+        x: 505
+        y: 484
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2323,7 +2372,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5e8c15e8a045d1488d968919606be2c
+      spriteID: 7e38b3b3f4e28be4b995868936af0bd3
       vertices: []
       indices: 
       edges: []
@@ -2332,9 +2381,9 @@ TextureImporter:
       name: player_animation_firebolt_green_right_4
       rect:
         serializedVersion: 2
-        x: 219
-        y: 107
-        width: 73
+        x: 606
+        y: 484
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2343,18 +2392,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f50f7d1f2eb4cc64583423dabdea458f
+      spriteID: 02d21c007aeb1d24e88f86d67d08a667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_green_right_5
+      name: player_animation_firebolt_green_left_0
       rect:
         serializedVersion: 2
-        x: 292
-        y: 107
-        width: 73
+        x: 808
+        y: 484
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2363,7 +2412,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b529f53d2c85b2d4b9486e7803c4b753
+      spriteID: fd4a7fe6a07709f43990f650e9002ef7
       vertices: []
       indices: 
       edges: []
@@ -2372,9 +2421,9 @@ TextureImporter:
       name: player_animation_firebolt_green_left_1
       rect:
         serializedVersion: 2
-        x: 438
-        y: 107
-        width: 73
+        x: 909
+        y: 484
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2383,7 +2432,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cda3d0d0afdf96940b7f82f1ec83bdbc
+      spriteID: 82a69912241f8a243a422649e851d203
       vertices: []
       indices: 
       edges: []
@@ -2392,9 +2441,9 @@ TextureImporter:
       name: player_animation_firebolt_green_left_2
       rect:
         serializedVersion: 2
-        x: 511
-        y: 107
-        width: 73
+        x: 0
+        y: 439
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2403,7 +2452,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20d3b74d3c60ed64082840c8db3fc99c
+      spriteID: e33558a4ea83947418723770b5fd08b4
       vertices: []
       indices: 
       edges: []
@@ -2412,9 +2461,9 @@ TextureImporter:
       name: player_animation_firebolt_green_left_3
       rect:
         serializedVersion: 2
-        x: 584
-        y: 107
-        width: 73
+        x: 101
+        y: 439
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2423,7 +2472,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 72ad45b5f2e144f4f917c885faa2108d
+      spriteID: 2de232e4f9e9dad42b6d8aaf4f99ac7d
       vertices: []
       indices: 
       edges: []
@@ -2432,9 +2481,9 @@ TextureImporter:
       name: player_animation_firebolt_green_left_4
       rect:
         serializedVersion: 2
-        x: 657
-        y: 107
-        width: 73
+        x: 202
+        y: 439
+        width: 101
         height: 45
       alignment: 7
       pivot: {x: 0, y: 0}
@@ -2443,27 +2492,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a35eec75f6ada474280191e0f395cc86
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_firebolt_green_left_5
-      rect:
-        serializedVersion: 2
-        x: 730
-        y: 107
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f2ec0f8eb737893498d8a9ff2ec02fa2
+      spriteID: 09e6ac55055b06746a4d34a13afd772a
       vertices: []
       indices: 
       edges: []

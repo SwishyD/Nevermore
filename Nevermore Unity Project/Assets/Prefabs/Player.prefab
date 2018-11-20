@@ -170,8 +170,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
-    oldSize: {x: 3.65, y: 2.2}
-    newSize: {x: 3.65, y: 2.2}
+    oldSize: {x: 5.05, y: 2.25}
+    newSize: {x: 5.05, y: 2.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -209,7 +209,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: -90
-  projectile: {fileID: 1060464206156466, guid: 31874539ac1f29b47b1638127689176b, type: 2}
+  melee: {fileID: 0}
+  fireBoltGreen: {fileID: 0}
   shotPoint: {fileID: 4411580501606102}
   startTimeBtwShots: 1
   anim: {fileID: 95920113984569516}
@@ -227,8 +228,13 @@ MonoBehaviour:
   dashSpeed: 50
   startDashTime: 0.1
   dashDistance: 1.5
+  portalIn: {fileID: 0}
+  portalOut: {fileID: 0}
   health: 100
   hurtColor: {r: 0.6509434, g: 0, b: 0, a: 0}
+  healthBar: {fileID: 0}
+  hRatioText: {fileID: 0}
+  healthColor: {r: 0, g: 0, b: 0, a: 0}
   staminaBar: {fileID: 0}
   sRatioText: {fileID: 0}
   stamColor: {r: 0.028235922, g: 0.6509434, b: 0, a: 0}
@@ -273,7 +279,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.65, y: 2.2}
+  m_Size: {x: 5.05, y: 2.25}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
