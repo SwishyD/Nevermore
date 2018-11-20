@@ -33,7 +33,7 @@ public class Weapon : MonoBehaviour {
 
         // Handles the Weapon Rotation
         Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
-        float rotZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
+        float rotZ = Mathf.Atan2(difference.y, difference.z) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rotZ + offset);
         
 
@@ -58,7 +58,7 @@ public class Weapon : MonoBehaviour {
             if (Input.GetMouseButtonDown(1))
             {
                 anim.SetBool("isFbG", true);
-                Instantiate(fireBoltGreen, shotPoint.position, transform.rotation);
+                Invoke("FBGreen", 0.3f);
                 timeBtwShots = startTimeBtwShots;
             }
 
@@ -69,5 +69,10 @@ public class Weapon : MonoBehaviour {
         }
 
        
+    }
+
+    public void FBGreen()
+    {
+        Instantiate(fireBoltGreen, shotPoint.position, transform.rotation);
     }
 }

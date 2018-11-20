@@ -88,7 +88,7 @@ public class PlayerController : MonoBehaviour
             moveX = 1f;
         }
 
-        Vector3 moveDir = new Vector3(moveX, moveY).normalized;
+        Vector3 moveDir = new Vector3(moveX, 0, moveY).normalized;
         
         transform.position += moveDir * speed * Time.deltaTime;
 
