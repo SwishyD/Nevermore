@@ -67,6 +67,9 @@ public class PathfinderReduxRat : MonoBehaviour {
         {
             canFollow = false;
             transform.position = Vector2.MoveTowards(transform.position, returnPos, speed * Time.deltaTime);
+            moveToSite = moveSpots[randomSpot].position;
+            sightBreak = false;
+            lost = true;
         }
         ratAnim.SetBool("isMoving", true);
         
