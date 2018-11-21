@@ -54,7 +54,6 @@ public class PathfinderReduxRat : MonoBehaviour {
             player = GameObject.FindWithTag("Player");
         }
 
-        print(waitTime);
         if (canFollow == false)
         {
             returnPos = moveSpots[randomSpot].position;
@@ -156,7 +155,7 @@ public class PathfinderReduxRat : MonoBehaviour {
 
     public void waitTimer()
     {
-        print("hitting");
+
         if (waitTime <= 0)
         {
             //patrol zone based on min/max x,y locations

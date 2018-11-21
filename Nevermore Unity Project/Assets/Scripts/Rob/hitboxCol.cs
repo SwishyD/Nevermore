@@ -20,7 +20,7 @@ public class hitboxCol : MonoBehaviour{
         }
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerStay(Collider collision)
     {
         timeToDamage += Time.deltaTime;
         enemy.SetBool("isAttacking", true);
@@ -28,13 +28,13 @@ public class hitboxCol : MonoBehaviour{
         {
 
 
-            collision.gameObject.GetComponent<PlayerController>().TakeDamage(damage);
+            GameManager.instance.TakeDamage(damage);
             timeToDamage = 0;
 
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit(Collider collision)
     {
         if (collision.tag == "Player")
         enemy.SetBool("isAttacking", false);

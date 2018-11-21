@@ -17,14 +17,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform portalIn;
     [SerializeField] private Transform portalOut;
 
-    //Health
-    public float health = 100;
-    private float maxHealth = 100;
-    public Color hurtColor;
-    public Image healthBar;
-    public Text hRatioText;
-    public Color healthColor;
-
+   
     //Stamina
     private float stamina = 100f;
     private float maxStamina = 100f;
@@ -44,8 +37,7 @@ public class PlayerController : MonoBehaviour
     {
         HandleStamina();
         HandleDash();
-        HandleMovement();
-        HandleHealth();        
+        HandleMovement();              
     }
 
 
@@ -141,34 +133,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void HandleHealth()
-    {
-        //this is for the health bar
-        float ratio = health / maxHealth;
-        healthBar.rectTransform.localScale = new Vector3(ratio, 1, 1);
-        hRatioText.text = (ratio * 100).ToString("0");
-        if (health <= 25f)
-        {
-            StartCoroutine(lowHealthFlash());
-        }
-        if (health > maxHealth)
-        {
-            health = maxHealth;
-        }
-        if (health <= 0)
-        {
-            Destroy(gameObject);
-        }
-        
-    }
-
-    public void TakeDamage(int damage)
-    {
-        Debug.Log("PLAYER TAKES DAMAGE!!");
-        health -= damage;
-        StartCoroutine(hurtFlash());
-    }
-
+   
     //these control the flashing of sprites
 
     IEnumerator stamFlash()
@@ -178,24 +143,5 @@ public class PlayerController : MonoBehaviour
         staminaBar.GetComponent<Image>().color = Color.green;
     }
 
-    IEnumerator hurtFlash()
-    {
-        gameObject.GetComponent<SpriteRenderer>().color = hurtColor;
-        yield return new WaitForSeconds(0.1f);
-        gameObject.GetComponent<SpriteRenderer>().color = Color.white;
-    }
-
-    IEnumerator lowHealthFlash()
-    {
-        while (true)
-        {
-            yield return new WaitForSeconds(0.3f);
-            healthBar.GetComponent<Image>().color = healthColor;
-            yield return new WaitForSeconds(0.3f);
-            healthBar.GetComponent<Image>().color = Color.red;
-        }
-        
-    }
-
-
+   
 }
