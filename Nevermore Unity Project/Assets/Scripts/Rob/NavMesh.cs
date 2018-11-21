@@ -6,13 +6,12 @@ using UnityEngine.AI;
 public class NavMesh : MonoBehaviour {
 
     [SerializeField]
-    Transform destination;
 
     NavMeshAgent aiChar;
 
 
     public float minX, maxX, minZ, maxZ;
-    float playerDist, maxRange = 0.5f;
+    float playerDist, maxRange = 6f;
     GameObject player;
 
     float waitTime, startWaitTime = 1;
@@ -41,10 +40,15 @@ public class NavMesh : MonoBehaviour {
         if (playerDist >= maxRange)
         {
             Patrol();
+
+            if (Vector3.Distance(gameObject.transform.position, patrolArea) <= 1f)
+            {
+                StartWaitTimer();
+            }
         }
         else
         {
-            //SetDestination();
+            SetDestination();
         }
 
 
@@ -55,12 +59,7 @@ public class NavMesh : MonoBehaviour {
     {
 
         aiChar.SetDestination(patrolArea);
-
-
-        if (Vector3.Distance(transform.position, patrolArea) <= 0.4f)
-        {
-            StartWaitTimer();
-        }
+        
     }
 
     //tracks the player
@@ -89,6 +88,7 @@ public class NavMesh : MonoBehaviour {
 
     void RandomSite()
     {
+        print("hit");
         patrolArea = new Vector3(Random.Range(minX, maxX), transform.position.y, Random.Range(minZ, maxZ));
     }
 
