@@ -35,6 +35,11 @@ public class mozzyNav : NavMesh {
         {
             mozzy.SetBool("isAttacking", false);
         }
+
+        if (waitTime <= 0)
+        {
+            StartIdling();
+        }
     }
 
 
@@ -48,16 +53,11 @@ public class mozzyNav : NavMesh {
         //flip sprite anim based on position from location
         if (transform.position.x <= patrolArea.x )
         {
-            print(transform.position.x <= patrolArea.x);
-            print("right");
-
             mozzy.SetBool("isMoving", true);
             thisMozzy.GetComponent<SpriteRenderer>().flipX = true;
         }
         else if (transform.position.x >= patrolArea.x)
         {
-            print(transform.position.x >= patrolArea.x);
-            print("left");
             mozzy.SetBool("isMoving", true);
             thisMozzy.GetComponent<SpriteRenderer>().flipX = false;
         }
@@ -81,7 +81,11 @@ public class mozzyNav : NavMesh {
         }
     }
 
-
+    protected override void StartIdling()
+    {
+        mozzy.SetBool("isMoving", false);
+        mozzy.SetBool("isAttacking", false);
+    }
 
     void DealDamage()
     {
