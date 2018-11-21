@@ -33,8 +33,8 @@ public class Weapon : MonoBehaviour {
 
         // Handles the Weapon Rotation
         Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
-        float rotZ = Mathf.Atan2(difference.y, difference.z) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0f, 0f, rotZ + offset);
+        float rotZ = Mathf.Atan2(difference.z, difference.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(90f, 0f, rotZ + offset);
         
 
         if (rotZ <= 89f && rotZ >= -89f)
