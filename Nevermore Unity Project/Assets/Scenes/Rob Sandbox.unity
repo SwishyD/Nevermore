@@ -1579,7 +1579,7 @@ Prefab:
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300524, guid: 46061e65879f4d54783c9cb33f2f86e2,
+      objectReference: {fileID: 21300516, guid: 46061e65879f4d54783c9cb33f2f86e2,
         type: 3}
     - target: {fileID: 212008643832332294, guid: 29f8f7d838ab1284483c85461f83c41a,
         type: 2}
@@ -2862,6 +2862,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aiChar: {fileID: 0}
+  thisMozzy: {fileID: 1566731920}
+  speed: 3
+  damage: 0
 --- !u!195 &1443948974
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3164,6 +3167,11 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1518641504}
+--- !u!1 &1566731920 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1577096911078544, guid: 8905af51a87fc614d8e1195d3b3c55cb,
+    type: 2}
+  m_PrefabInternal: {fileID: 153008450}
 --- !u!1 &1589612586
 GameObject:
   m_ObjectHideFlags: 0
