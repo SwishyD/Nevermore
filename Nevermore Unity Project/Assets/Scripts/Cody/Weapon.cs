@@ -11,6 +11,12 @@ public class Weapon : MonoBehaviour {
     public GameObject melee;
     public GameObject fireBoltGreen;
 
+    //Mana
+    public float mana = 100;
+    private float maxMana = 100;
+    public Image manaBar;
+    public Text mRatioText;
+    public Color manaColor;
 
     public Transform shotPoint;
 
@@ -19,15 +25,13 @@ public class Weapon : MonoBehaviour {
 
    
     public Animator anim;
-
-    // Use this for initialization
-    void Start () {
-        ;
-	}
-	
+       	
 	// Update is called once per frame
 	void Update ()
     {
+        mana += Time.deltaTime;
+        HandleMana();
+
         anim.SetBool("isAttacking", false);
         anim.SetBool("isFbG", false);
 
@@ -55,19 +59,49 @@ public class Weapon : MonoBehaviour {
                 Instantiate(melee, shotPoint.position, transform.rotation);
                 timeBtwShots = startTimeBtwShots;
             }
-            if (Input.GetMouseButtonDown(1))
+            if (Input.GetMouseButtonDown(1) && mana >= 20)
             {
+                mana -= 20;
                 anim.SetBool("isFbG", true);
                 Instantiate(fireBoltGreen, shotPoint.position, transform.rotation);
                 timeBtwShots = startTimeBtwShots;
             }
-
-        }
+            
+        }       
         else
         {
             timeBtwShots -= Time.deltaTime;
         }
 
-       
+        if (Input.GetMouseButtonDown(1) && mana < 20)
+        {
+            StartCoroutine(manaFlash());
+        }
+    }
+
+    void HandleMana()
+    {
+        //this is for the stamina bar
+        float ratio = mana / maxMana;
+        manaBar.rectTransform.localScale = new Vector3(ratio, 1, 1);
+        mRatioText.text = (ratio * 100).ToString("0");
+
+        //stamina management
+        mana += 10f * Time.deltaTime;
+        if (mana > maxMana)
+        {
+            mana = maxMana;
+        }
+        if (mana < 0f)
+        {
+            mana = 0f;
+        }
+    }
+
+    IEnumerator manaFlash()
+    {
+        manaBar.GetComponent<Image>().color = manaColor;
+        yield return new WaitForSeconds(0.1f);
+        manaBar.GetComponent<Image>().color = Color.blue;
     }
 }

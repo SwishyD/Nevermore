@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour {
 
     public int playerGold;
     public GameObject player;
-    
+       
     //Health
     public float health = 100;
     private float maxHealth = 100;
@@ -42,6 +42,9 @@ public class GameManager : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
+        health += Time.deltaTime * 0.2f;
+        HandleHealth();
+       
 		if(Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(0);
@@ -79,6 +82,7 @@ public class GameManager : MonoBehaviour {
 
     }
 
+    
     public void TakeDamage(int damage)
     {
         Debug.Log("PLAYER TAKES DAMAGE!!");
@@ -111,5 +115,7 @@ public class GameManager : MonoBehaviour {
         }
 
     }
+
+   
 
 }

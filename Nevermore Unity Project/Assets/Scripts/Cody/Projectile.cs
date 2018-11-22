@@ -8,7 +8,7 @@ public class Projectile : MonoBehaviour {
     public float lifeTime;
     public float distance;
     public int damage = 5;
-
+   
 
 	// Use this for initialization
 	void Start ()
@@ -27,6 +27,11 @@ public class Projectile : MonoBehaviour {
         if (col.transform.tag == "Enemy")
         {           
             col.gameObject.GetComponentInParent<EnemyHealthSystem>().TakeDamage(damage);
+            Destroy(gameObject);
+        }
+        if (col.transform.tag == "Obstacle")
+        {         
+            Destroy(gameObject);
         }
     }
 
