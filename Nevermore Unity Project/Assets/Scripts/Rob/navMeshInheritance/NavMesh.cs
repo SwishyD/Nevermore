@@ -10,7 +10,7 @@ public class NavMesh : MonoBehaviour {
     NavMeshAgent aiChar;
 
 
-    protected float minX, maxX, minZ, maxZ;
+    protected float minNavX, maxNavX, minNavZ, maxNavZ;
     protected float playerDist, maxRange = 6f;
     protected GameObject player;
 
@@ -89,7 +89,7 @@ public class NavMesh : MonoBehaviour {
 
     protected virtual void RandomSite()
     {
-        patrolArea = new Vector3(Random.Range(minX, maxX), 11.5f, Random.Range(minZ, maxZ));
+        patrolArea = new Vector3(Random.Range(minNavX, maxNavX), 11.5f, Random.Range(minNavZ, maxNavZ));
     }
     
     protected virtual void StartIdling()
