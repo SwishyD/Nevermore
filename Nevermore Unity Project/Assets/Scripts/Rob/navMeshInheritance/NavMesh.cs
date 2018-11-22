@@ -79,6 +79,7 @@ public class NavMesh : MonoBehaviour {
         {
             RandomSite();
 
+
             waitTime = startWaitTime;
         }
         else
@@ -92,5 +93,8 @@ public class NavMesh : MonoBehaviour {
         patrolArea = new Vector3(Random.Range(minX, maxX), transform.position.y, Random.Range(minZ, maxZ));
     }
     
+    protected virtual void StartIdling()
+    {
 
+    }
 }
