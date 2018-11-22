@@ -9,11 +9,16 @@ public class mozzyNav : NavMesh {
     public GameObject thisMozzy;
     public float speed = 3;
     public int damage;
-
+    public new float minX, maxX, minZ, maxZ;
     protected override void Start()
     {
         base.Start();
         mozzy = thisMozzy.GetComponent<Animator>();
+        minX = -6.35f;
+        maxX = 25.1f;
+        minZ = -20.4f;
+        maxZ = -13.3f;
+        RandomSite();
     }
 
 
@@ -36,10 +41,11 @@ public class mozzyNav : NavMesh {
             mozzy.SetBool("isAttacking", false);
         }
 
-        if (waitTime <= 0)
+        if (waitTime > 0 && Vector3.Distance(transform.position, patrolArea) < 1f)
         {
             StartIdling();
         }
+        
     }
 
 
@@ -61,6 +67,8 @@ public class mozzyNav : NavMesh {
             mozzy.SetBool("isMoving", true);
             thisMozzy.GetComponent<SpriteRenderer>().flipX = false;
         }
+
+
     }
 
 
@@ -87,9 +95,5 @@ public class mozzyNav : NavMesh {
         mozzy.SetBool("isAttacking", false);
     }
 
-    void DealDamage()
-    {
-        GameManager.instance.TakeDamage(damage);
-    }
 
 }

@@ -28,6 +28,7 @@ public class EnemyHealthSystem : MonoBehaviour {
 
     public void TakeDamage(int damage)
     {
+        print("hit");
         StartCoroutine(Flash());
         health -= damage;
         Debug.Log("damage TAKEN !");

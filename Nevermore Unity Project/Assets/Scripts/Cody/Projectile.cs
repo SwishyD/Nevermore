@@ -24,6 +24,7 @@ public class Projectile : MonoBehaviour {
 
     private void OnTriggerEnter(Collider col)
     {
+        print("check");
         if (col.transform.tag == "Enemy")
         {           
             col.gameObject.GetComponentInParent<EnemyHealthSystem>().TakeDamage(damage);

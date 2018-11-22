@@ -10,7 +10,7 @@ public class NavMesh : MonoBehaviour {
     NavMeshAgent aiChar;
 
 
-    protected float minX = 9, maxX = 16, minZ = -68, maxZ = -72;
+    protected float minX, maxX, minZ, maxZ;
     protected float playerDist, maxRange = 6f;
     protected GameObject player;
 
@@ -24,7 +24,6 @@ public class NavMesh : MonoBehaviour {
         aiChar = this.GetComponent<NavMeshAgent>();
         player = GameObject.FindWithTag("Player");
         waitTime = startWaitTime;
-        RandomSite();
     }
 
     protected virtual void Update()
@@ -42,10 +41,6 @@ public class NavMesh : MonoBehaviour {
         {
             Patrol();
 
-            if (Vector3.Distance(gameObject.transform.position, patrolArea) <= 1f)
-            {
-                StartWaitTimer();
-            }
         }
         else
         {
@@ -60,13 +55,17 @@ public class NavMesh : MonoBehaviour {
     {
 
         aiChar.SetDestination(patrolArea);
-        
+
+        if (Vector3.Distance(gameObject.transform.position, patrolArea) <= 1f)
+        {
+            StartWaitTimer();
+        }
     }
 
     //tracks the player
     protected virtual void SetDestination()
     {
-        targetVector = new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z);
+        targetVector = new Vector3(player.transform.position.x, 11.5f, player.transform.position.z);
         aiChar.SetDestination(targetVector);
 
 
@@ -90,7 +89,7 @@ public class NavMesh : MonoBehaviour {
 
     protected virtual void RandomSite()
     {
-        patrolArea = new Vector3(Random.Range(minX, maxX), transform.position.y, Random.Range(minZ, maxZ));
+        patrolArea = new Vector3(Random.Range(minX, maxX), 11.5f, Random.Range(minZ, maxZ));
     }
     
     protected virtual void StartIdling()
