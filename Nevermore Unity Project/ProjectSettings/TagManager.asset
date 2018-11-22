@@ -10,7 +10,7 @@ TagManager:
   - Menu
   - script
   - HitBox
-  - Wall
+  - Obstacle
   layers:
   - Default
   - TransparentFX
