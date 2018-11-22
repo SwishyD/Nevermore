@@ -18,6 +18,30 @@ TextureImporter:
     21300026: player_updown_run_up_5
     21300028: player_updown_run_up_6
     21300030: player_updown_run_up_7
+    21300032: player_updown_idle_down_0
+    21300034: player_updown_idle_down_1
+    21300036: player_updown_idle_down_2
+    21300038: player_updown_idle_down_3
+    21300040: player_updown_idle_down_4
+    21300042: player_updown_idle_down_5
+    21300044: player_updown_idle_down_6
+    21300046: player_updown_idle_down_7
+    21300048: player_updown_idle_up_0
+    21300050: player_updown_idle_up_1
+    21300052: player_updown_idle_up_2
+    21300054: player_updown_idle_up_3
+    21300056: player_updown_idle_up_4
+    21300058: player_updown_idle_up_5
+    21300060: player_updown_idle_up_6
+    21300062: player_updown_idle_up_7
+    21300064: player_updown_attack_light_dowm_0
+    21300066: player_updown_attack_light_dowm_1
+    21300068: player_updown_attack_light_dowm_2
+    21300070: player_updown_attack_light_dowm_3
+    21300072: player_updown_attack_light_up_0
+    21300074: player_updown_attack_light_up_1
+    21300076: player_updown_attack_light_up_2
+    21300078: player_updown_attack_light_up_3
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -74,7 +98,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -87,21 +111,341 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_updown_run_down_0
+      name: player_updown_idle_down_0
       rect:
         serializedVersion: 2
-        x: 146
-        y: 211
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 415
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 670d204aec836c04f91502534ad7abad
+      spriteID: 72be5ecb39fb6c041869839f42b3bf12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_idle_down_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 415
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c966dad003f6464989c36464b55a941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_idle_down_2
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 415
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba1f7265731c914793eec80c7d1a36a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_idle_down_3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 415
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170e60bf40d0a884fa796d7308a610b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_idle_down_4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 415
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70faf37147de7e84b9993005aa01e1d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_idle_down_5
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 415
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03e63824dda29e46bb620308814bc15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_idle_down_6
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 415
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3a244e1b920794ea3e71a2e6d2638a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_idle_down_7
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 415
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe823e0037d17f84d86e8e460ba0eb4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_idle_up_0
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 415
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828c5a956a3204d4b9f7de87ef3db2b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_idle_up_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 318
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe43508700c8c574389cfb4b3b22f1d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_idle_up_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 318
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e722316138e7b4eb7a3a9a5cfb7dd6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_idle_up_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 318
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8feb1ef69b9814eb8a7ff86b159724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_idle_up_4
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 318
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a36f16b34e1ffa468e86d0941cb793b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_idle_up_5
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 318
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdb5e7059044bb4ea160846a65a1f86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_idle_up_6
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 318
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248c45da7293787488a68e17c5b0aa80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_idle_up_7
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 318
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569924b3556c47e4991c8ae9d3949488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_run_down_0
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 318
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecee2b2740a3f743b5c5bdc3ead2ba1
       vertices: []
       indices: 
       edges: []
@@ -110,18 +454,18 @@ TextureImporter:
       name: player_updown_run_down_1
       rect:
         serializedVersion: 2
-        x: 219
-        y: 211
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 909
+        y: 318
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d1add84c883191469282e45619c6f32
+      spriteID: b1a4788169fa6d347a48eb48dc146873
       vertices: []
       indices: 
       edges: []
@@ -130,18 +474,18 @@ TextureImporter:
       name: player_updown_run_down_2
       rect:
         serializedVersion: 2
-        x: 292
-        y: 211
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 221
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02d659c53f2fcd24ca8fd03798a5561d
+      spriteID: f15729dbf081ae04f9dba775cd36fb92
       vertices: []
       indices: 
       edges: []
@@ -150,18 +494,18 @@ TextureImporter:
       name: player_updown_run_down_3
       rect:
         serializedVersion: 2
-        x: 365
-        y: 211
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 101
+        y: 221
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb6856e2363d42b46a160b1cb9409898
+      spriteID: 195375078b0a8c841aca2edaa3ccf1f4
       vertices: []
       indices: 
       edges: []
@@ -170,18 +514,18 @@ TextureImporter:
       name: player_updown_run_down_4
       rect:
         serializedVersion: 2
-        x: 438
-        y: 211
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 202
+        y: 221
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d545a1170640bf9408f36718fb40994f
+      spriteID: 5d8e49b622b052a4b8d9daba3732e72b
       vertices: []
       indices: 
       edges: []
@@ -190,18 +534,18 @@ TextureImporter:
       name: player_updown_run_down_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 166
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 303
+        y: 221
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f05ec25f47c3a8747acce44ebfa8283f
+      spriteID: 165688cd229b2fb4897e05c184c73f62
       vertices: []
       indices: 
       edges: []
@@ -210,18 +554,18 @@ TextureImporter:
       name: player_updown_run_down_6
       rect:
         serializedVersion: 2
-        x: 73
-        y: 166
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 404
+        y: 221
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 642e2049a38f5dc4e826214919a2d5c0
+      spriteID: 209afa84f3ab9e248b51ed9c7df8930a
       vertices: []
       indices: 
       edges: []
@@ -230,18 +574,18 @@ TextureImporter:
       name: player_updown_run_down_7
       rect:
         serializedVersion: 2
-        x: 146
-        y: 166
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 505
+        y: 221
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c607685c3401f6c4588005269344dbf1
+      spriteID: 3fd15bec163c12949b7c5570219af201
       vertices: []
       indices: 
       edges: []
@@ -250,18 +594,18 @@ TextureImporter:
       name: player_updown_run_up_0
       rect:
         serializedVersion: 2
-        x: 292
-        y: 166
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 707
+        y: 221
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fdaba3ff601452b4798b355025b8e295
+      spriteID: ea404f19072e882498dd861bf8b018fb
       vertices: []
       indices: 
       edges: []
@@ -270,18 +614,18 @@ TextureImporter:
       name: player_updown_run_up_1
       rect:
         serializedVersion: 2
-        x: 365
-        y: 166
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 808
+        y: 221
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c76c18e8945817a4d8778a5ce6286f66
+      spriteID: 6859615369fd0db4b958cfbc3e6f9f56
       vertices: []
       indices: 
       edges: []
@@ -290,18 +634,18 @@ TextureImporter:
       name: player_updown_run_up_2
       rect:
         serializedVersion: 2
-        x: 438
-        y: 166
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 909
+        y: 221
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ead29f4499d3517459bf0ae8751cabcf
+      spriteID: af0b0f25bfba0014cbc2c422d57d1a43
       vertices: []
       indices: 
       edges: []
@@ -311,17 +655,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 121
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        y: 124
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b2184a1ab3a0d943bbd47c3d50cf214
+      spriteID: 7cc13ba0096697f46bb65a77468e0625
       vertices: []
       indices: 
       edges: []
@@ -330,18 +674,18 @@ TextureImporter:
       name: player_updown_run_up_4
       rect:
         serializedVersion: 2
-        x: 73
-        y: 121
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 101
+        y: 124
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77cdd627195e0754bb4232a470dae184
+      spriteID: 790e34cc2d8359240baa46eed8e2973f
       vertices: []
       indices: 
       edges: []
@@ -350,18 +694,18 @@ TextureImporter:
       name: player_updown_run_up_5
       rect:
         serializedVersion: 2
-        x: 146
-        y: 121
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 202
+        y: 124
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 733b60b7ef75dfc479bba15b7925f52f
+      spriteID: e6a9ac5ed107f4745836384851cafe76
       vertices: []
       indices: 
       edges: []
@@ -370,18 +714,18 @@ TextureImporter:
       name: player_updown_run_up_6
       rect:
         serializedVersion: 2
-        x: 219
-        y: 121
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 303
+        y: 124
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40b7549603734064abf3562db16f7689
+      spriteID: de976252b23299346875f84eb253721c
       vertices: []
       indices: 
       edges: []
@@ -390,18 +734,178 @@ TextureImporter:
       name: player_updown_run_up_7
       rect:
         serializedVersion: 2
-        x: 292
-        y: 121
-        width: 73
-        height: 45
-      alignment: 7
-      pivot: {x: 0, y: 0}
+        x: 404
+        y: 124
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e82e22c1fdf30744c9cbe12943028c85
+      spriteID: 2f40e65a43938f1469bf17b814861228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_attack_light_dowm_0
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 125
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07287739176ea944480cbd2edb532fe8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_attack_light_dowm_1
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 124
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f970493dc7a1a5340b7c5fd6ebf749e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_attack_light_dowm_2
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 124
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b384b3a7adcd8d64fb5c843191907c6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_attack_light_dowm_3
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 124
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee12ad0fe5450cf4cb2ce005bf362ee0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_attack_light_up_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 27
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87632cd8c12eef4cbf7593a2b76de4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_attack_light_up_1
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 27
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a5260ee433be44ea2fe0108bd757b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_attack_light_up_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 27
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a9ab389acb5b8428276af50718281f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_attack_light_up_3
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 27
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d515cdb3b245704b898b1afdfd3d147
       vertices: []
       indices: 
       edges: []
