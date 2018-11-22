@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class mozzyNav : NavMesh {
+public class ratNav : NavMesh
+{
 
-    Animator mozzy;
-    public GameObject thisMozzy;
+    Animator rat;
+    public GameObject thisRat;
     public float speed = 3;
     public int damage;
     public float minX, maxX, minZ, maxZ;
     protected override void Start()
     {
         base.Start();
-        mozzy = thisMozzy.GetComponent<Animator>();
+        rat = thisRat.GetComponent<Animator>();
         minNavX = minX;
         maxNavX = maxX;
         minNavZ = minZ;
@@ -27,7 +28,7 @@ public class mozzyNav : NavMesh {
     protected override void Update()
     {
         base.Update();
-        if (thisMozzy != null)
+        if (thisRat != null)
         {
             //TEMP MOVE TO START WHEN SORTED
             GetComponent<NavMeshAgent>().speed = speed;
@@ -35,19 +36,20 @@ public class mozzyNav : NavMesh {
 
             if (playerDist < 1)
             {
-                mozzy.SetBool("isAttacking", true);
+                rat.SetBool("isAttacking", true);
             }
             else
             {
-                mozzy.SetBool("isAttacking", false);
+                rat.SetBool("isAttacking", false);
             }
 
             if (waitTime > 0 && Vector3.Distance(transform.position, patrolArea) < 1f)
             {
                 StartIdling();
             }
+
         }
-        
+
     }
 
 
@@ -57,18 +59,18 @@ public class mozzyNav : NavMesh {
     protected override void Patrol()
     {
         base.Patrol();
-        if (thisMozzy != null)
+        if (thisRat != null)
         {
             //flip sprite anim based on position from location
             if (transform.position.x <= patrolArea.x)
             {
-                mozzy.SetBool("isMoving", true);
-                thisMozzy.GetComponent<SpriteRenderer>().flipX = true;
+                rat.SetBool("isMoving", true);
+                thisRat.GetComponent<SpriteRenderer>().flipX = true;
             }
             else if (transform.position.x >= patrolArea.x)
             {
-                mozzy.SetBool("isMoving", true);
-                thisMozzy.GetComponent<SpriteRenderer>().flipX = false;
+                rat.SetBool("isMoving", true);
+                thisRat.GetComponent<SpriteRenderer>().flipX = false;
             }
         }
 
@@ -78,28 +80,28 @@ public class mozzyNav : NavMesh {
     protected override void SetDestination()
     {
         base.SetDestination();
-        if (thisMozzy != null)
+        if (thisRat != null)
         {
             //flip sprite anim based on position from player
             if (transform.position.x <= targetVector.x)
             {
-                mozzy.SetBool("isMoving", true);
-                thisMozzy.GetComponent<SpriteRenderer>().flipX = true;
+                rat.SetBool("isMoving", true);
+                thisRat.GetComponent<SpriteRenderer>().flipX = true;
             }
             else if (transform.position.x >= targetVector.x)
             {
-                mozzy.SetBool("isMoving", true);
-                thisMozzy.GetComponent<SpriteRenderer>().flipX = false;
+                rat.SetBool("isMoving", true);
+                thisRat.GetComponent<SpriteRenderer>().flipX = false;
             }
         }
     }
 
     protected override void StartIdling()
     {
-        if (thisMozzy != null)
+        if (thisRat != null)
         {
-            mozzy.SetBool("isMoving", false);
-            mozzy.SetBool("isAttacking", false);
+            rat.SetBool("isMoving", false);
+            rat.SetBool("isAttacking", false);
         }
     }
 
