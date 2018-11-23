@@ -30,8 +30,12 @@ public class Projectile : MonoBehaviour {
             col.gameObject.GetComponentInParent<EnemyHealthSystem>().TakeDamage(damage);
             Destroy(gameObject);
         }
-        if (col.transform.tag == "Obstacle")
-        {         
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Obstacle")
+        {
             Destroy(gameObject);
         }
     }
