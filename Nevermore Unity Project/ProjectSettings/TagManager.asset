@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - ConfQuit
+  - ConfMenu
+  - Menu
+  - script
+  - HitBox
+  - Obstacle
   layers:
   - Default
   - TransparentFX

@@ -7,36 +7,36 @@ public class Projectile : MonoBehaviour {
     public float speed;
     public float lifeTime;
     public float distance;
-    public LayerMask whatIsSolid;
-    public int damage;
-
+    public int damage = 5;
+   
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
         Invoke("DestroyProjectile", lifeTime);
 	}
 	
 	// Update is called once per frame
-	void Update () {
-       /* RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.up, distance, whatIsSolid);
-        if(hitInfo.collider != null)
-        {
-            if (hitInfo.collider.CompareTag("Enemy"))
-            {
-                Debug.Log("ENEMY MUST TAKE DAMAGE !");
-                hitInfo.collider.GetComponent<EnemyCody>().TakeDamage(damage);
-            }
-            DestroyProjectile();
-        }*/
-        transform.Translate(Vector2.up * speed * Time.deltaTime);
+	void Update ()
+    {
+      transform.Translate(Vector2.up * speed * Time.deltaTime);
 	}
 
-    private void OnTriggerEnter2D(Collider2D col)
+    private void OnTriggerEnter(Collider col)
     {
+        print("check");
         if (col.transform.tag == "Enemy")
+        {           
+            col.gameObject.GetComponentInParent<EnemyHealthSystem>().TakeDamage(damage);
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Obstacle")
         {
-            Debug.Log("ENEMY MUST TAKE DAMAGE !");
-            col.gameObject.GetComponent<EnemyCody>().TakeDamage(damage);
+            Destroy(gameObject);
         }
     }
 

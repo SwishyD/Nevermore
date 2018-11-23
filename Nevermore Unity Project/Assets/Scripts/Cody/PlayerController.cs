@@ -14,13 +14,16 @@ public class PlayerController : MonoBehaviour
     public float startDashTime;
     private int direction;
     public float dashDistance;
+    [SerializeField] private Transform portalIn;
+    [SerializeField] private Transform portalOut;
 
+   
     //Stamina
     private float stamina = 100f;
     private float maxStamina = 100f;
     public Image staminaBar;
     public Text sRatioText;
-    public Color hurtColor;
+    public Color stamColor;
 
     //Animation
     public Animator anim;
@@ -34,7 +37,7 @@ public class PlayerController : MonoBehaviour
     {
         HandleStamina();
         HandleDash();
-        HandleMovement();
+        HandleMovement();              
     }
 
 
@@ -77,7 +80,7 @@ public class PlayerController : MonoBehaviour
             moveX = 1f;
         }
 
-        Vector3 moveDir = new Vector3(moveX, moveY).normalized;
+        Vector3 moveDir = new Vector3(moveX, 0, moveY).normalized;
         
         transform.position += moveDir * speed * Time.deltaTime;
 
@@ -97,14 +100,16 @@ public class PlayerController : MonoBehaviour
         {           
                 if (stamina >= 25f)
                 {
+                    Vector3 beforeDashPos = transform.position;
                     anim.SetBool("isDodging", true);
+                    Instantiate(portalIn, beforeDashPos, Quaternion.identity);
                     transform.position += lastMoveDir * dashDistance;
+                    Instantiate(portalOut, transform.position , Quaternion.identity);
                     stamina -= 25f;
                 }
                 else
                 {
-                    StartCoroutine(Flash());
-                    //flash stamina bar red here
+                    StartCoroutine(stamFlash());
                 }
         }
     }
@@ -128,11 +133,15 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    IEnumerator Flash()
+   
+    //these control the flashing of sprites
+
+    IEnumerator stamFlash()
     {
-        staminaBar.GetComponent<Image>().color = hurtColor;
+        staminaBar.GetComponent<Image>().color = stamColor;
         yield return new WaitForSeconds(0.1f);
         staminaBar.GetComponent<Image>().color = Color.green;
     }
 
+   
 }
