@@ -23,7 +23,7 @@ public class MenuScreen : MonoBehaviour {
 
     public void StartGame()
     {
-        SceneManager.LoadScene("lvl1Cody");
+        SceneManager.LoadScene(1);
     }
 
     
