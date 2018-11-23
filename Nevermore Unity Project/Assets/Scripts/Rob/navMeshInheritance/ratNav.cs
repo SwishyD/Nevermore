@@ -8,13 +8,14 @@ public class ratNav : NavMesh
 
     Animator rat;
     public GameObject thisRat;
-    public float speed = 3;
+    public float speed = 4;
     public int damage;
     public float minX, maxX, minZ, maxZ;
     protected override void Start()
     {
         base.Start();
         rat = thisRat.GetComponent<Animator>();
+        GetComponent<NavMeshAgent>().speed = speed;
         minNavX = minX;
         maxNavX = maxX;
         minNavZ = minZ;
@@ -30,9 +31,6 @@ public class ratNav : NavMesh
         base.Update();
         if (thisRat != null)
         {
-            //TEMP MOVE TO START WHEN SORTED
-            GetComponent<NavMeshAgent>().speed = speed;
-
 
             if (playerDist < 1)
             {

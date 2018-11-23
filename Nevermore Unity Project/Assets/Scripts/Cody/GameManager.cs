@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour {
     {
         if (!created)
         {
-            DontDestroyOnLoad(gameObject);
+            //DontDestroyOnLoad(gameObject);
             created = true;
             Debug.Log("Awake: " + gameObject);
         }
@@ -42,7 +42,6 @@ public class GameManager : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-        health += Time.deltaTime * 0.2f;
         HandleHealth();
        
 		if(Input.GetKeyDown(KeyCode.R))
@@ -77,7 +76,7 @@ public class GameManager : MonoBehaviour {
         }
         if (health <= 0)
         {
-            Invoke("GameOver", 3);
+            Invoke("GameOver", 0);
         }
 
     }

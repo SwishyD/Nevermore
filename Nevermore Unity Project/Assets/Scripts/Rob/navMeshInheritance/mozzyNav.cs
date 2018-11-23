@@ -7,7 +7,7 @@ public class mozzyNav : NavMesh {
 
     Animator mozzy;
     public GameObject thisMozzy;
-    public float speed = 3;
+    public float speed = 5;
     public int damage;
     public float minX, maxX, minZ, maxZ;
     protected override void Start()
@@ -19,6 +19,7 @@ public class mozzyNav : NavMesh {
         minNavZ = minZ;
         maxNavZ = maxZ;
         RandomSite();
+        GetComponent<NavMeshAgent>().speed = speed;
     }
 
 
@@ -29,8 +30,6 @@ public class mozzyNav : NavMesh {
         base.Update();
         if (thisMozzy != null)
         {
-            //TEMP MOVE TO START WHEN SORTED
-            GetComponent<NavMeshAgent>().speed = speed;
 
 
             if (playerDist < 1)
