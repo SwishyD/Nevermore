@@ -39,15 +39,28 @@ public class Weapon : MonoBehaviour {
         Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         float rotZ = Mathf.Atan2(difference.z, difference.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(90f, 0f, rotZ + offset);
-        
+        Debug.Log(rotZ);
 
-        if (rotZ <= 89f && rotZ >= -89f)
+        if (rotZ <= 150f &&  rotZ >= 20f)
+        {
+            anim.SetFloat("yMouse", 1);
+            anim.SetFloat("xMouse", 0);
+        }
+        if (rotZ <= -50f && rotZ >= -120f)
+        {
+            anim.SetFloat("yMouse", -1);
+            anim.SetFloat("xMouse", 0);
+        }
+        if (rotZ <= 19f && rotZ >= -50f)
         {
             anim.SetFloat("xMouse", 1);
+            anim.SetFloat("yMouse", 0);
         }
-        else if (rotZ >= 90f || rotZ <= -90f  )
+        if ((rotZ <= 151f && rotZ >= 180f) || (rotZ <= -151f && rotZ >= -180f))
         {
             anim.SetFloat("xMouse", -1);
+            anim.SetFloat("yMouse", 0);
+           
         }
 
         if (timeBtwShots <= 0)
