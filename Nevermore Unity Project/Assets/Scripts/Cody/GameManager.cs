@@ -24,7 +24,6 @@ public class GameManager : MonoBehaviour {
     {
         if (!created)
         {
-            DontDestroyOnLoad(gameObject);
             created = true;
             Debug.Log("Awake: " + gameObject);
         }
