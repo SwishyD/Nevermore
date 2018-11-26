@@ -47,7 +47,6 @@ public class ratNav : NavMesh
             }
 
         }
-
     }
 
 
