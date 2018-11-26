@@ -60,6 +60,19 @@ TextureImporter:
     21300110: magiceffects_ghost_blue_0
     21300112: magiceffects_ghost_blue_1
     21300114: magiceffects_ghost_blue_2
+    21300116: magiceffects_green_hit_v1_0
+    21300118: magiceffects_green_hit_v1_1
+    21300120: magiceffects_green_hit_v1_2
+    21300122: magiceffects_green_hit_v2_0
+    21300124: magiceffects_green_hit_v2_1
+    21300126: magiceffects_green_hit_v2_2
+    21300128: magiceffects_green_hit_v2_3
+    21300130: magiceffects_green_hit_v2_4
+    21300132: magiceffects_green_dissapate_0
+    21300134: magiceffects_green_dissapate_1
+    21300136: magiceffects_green_dissapate_2
+    21300138: magiceffects_green_dissapate_3
+    21300140: magiceffects_green_dissapate_4
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -132,7 +145,7 @@ TextureImporter:
       name: magiceffects_dash_whirl_in_0
       rect:
         serializedVersion: 2
-        x: 150
+        x: 0
         y: 443
         width: 50
         height: 69
@@ -143,7 +156,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24fe74563053acb42a125f34d6e6eec1
+      spriteID: 4168a26255fd5044e8809bc1c3ba4d61
       vertices: []
       indices: 
       edges: []
@@ -152,7 +165,7 @@ TextureImporter:
       name: magiceffects_dash_whirl_in_1
       rect:
         serializedVersion: 2
-        x: 200
+        x: 50
         y: 443
         width: 50
         height: 69
@@ -163,7 +176,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 502723f61a4b13740b11c165950600d3
+      spriteID: 9f96863613fa7204783cf9efb56771a8
       vertices: []
       indices: 
       edges: []
@@ -172,7 +185,7 @@ TextureImporter:
       name: magiceffects_dash_whirl_in_2
       rect:
         serializedVersion: 2
-        x: 250
+        x: 100
         y: 443
         width: 50
         height: 69
@@ -183,13 +196,53 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82afabda2ce47dc4b94241248ce951e2
+      spriteID: a5e4d23b83b2f284f9e69640e3e4565c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: magiceffects_dash_whirl_in_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 443
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b1bcbcc2568c6418aaa279eb09fd1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magiceffects_dash_whirl_in_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 443
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414ab8fcc32c7d547bbc87b6570d0208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magiceffects_dash_whirl_out_0
       rect:
         serializedVersion: 2
         x: 300
@@ -203,13 +256,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d24dc82dfd8482418dcebbbfddaabbc
+      spriteID: 4028acdf8ab166d47942fbd8a29ba4d5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_dash_whirl_in_4
+      name: magiceffects_dash_whirl_out_1
       rect:
         serializedVersion: 2
         x: 350
@@ -223,13 +276,33 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fd018c7ca3bd9154da25adf2a5e85ed3
+      spriteID: 3f7b1650968ebe043927d1270297c875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_dash_whirl_out_0
+      name: magiceffects_dash_whirl_out_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 443
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e625072b3a76dde47a8680eaeeb98106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magiceffects_dash_whirl_out_3
       rect:
         serializedVersion: 2
         x: 450
@@ -243,13 +316,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96731e8b6ddede647ac9d85b52449315
+      spriteID: fb89fcaac55e4d64786d46c002dca691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_dash_whirl_out_1
+      name: magiceffects_dash_whirl_out_4
       rect:
         serializedVersion: 2
         x: 0
@@ -263,33 +336,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3586e5448379fbe478014e83fc94e6ed
+      spriteID: 8a390ccaf4705f045b8f830ee45b34de
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_dash_whirl_out_2
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 374
-        width: 50
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5342bb0e32e6ae74685c03969229b236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: magiceffects_dash_whirl_out_3
+      name: magiceffects_firebolt_green_0
       rect:
         serializedVersion: 2
         x: 100
@@ -303,13 +356,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0fba955290bdced4e84d5018e982d89e
+      spriteID: 78f56e7e620224c4386a1215cdc13e1b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_dash_whirl_out_4
+      name: magiceffects_firebolt_green_1
       rect:
         serializedVersion: 2
         x: 150
@@ -323,13 +376,33 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d07367e201083dc4a9303041da26f611
+      spriteID: 6bc7ad1145dc3c44eaef482c945a7ba0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_firebolt_green_0
+      name: magiceffects_firebolt_green_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 374
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1911a3ada4a63c6429397934607fdf18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magiceffects_firebolt_green_3
       rect:
         serializedVersion: 2
         x: 250
@@ -343,13 +416,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7589cb48a9779546bc8aac9be07c457
+      spriteID: 323046a7ae330164f8f7daf7567bbdb0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_firebolt_green_1
+      name: magiceffects_firebolt_green_4
       rect:
         serializedVersion: 2
         x: 300
@@ -363,13 +436,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 375f9280621ed8841b78f33cab8b4a2f
+      spriteID: fb7cf049c91875043be0787d4d8c0466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_firebolt_green_2
+      name: magiceffects_firebolt_green_5
       rect:
         serializedVersion: 2
         x: 350
@@ -383,13 +456,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b039c6b4655d324195c6504d3920e53
+      spriteID: a357a8942094f06409edbebedea35571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_firebolt_green_3
+      name: magiceffects_firebolt_green_6
       rect:
         serializedVersion: 2
         x: 400
@@ -403,33 +476,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 929cded54d2604d4e99355e44a9d7a04
+      spriteID: b01d78422a6c90044b1f867cb4353a77
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_firebolt_green_4
-      rect:
-        serializedVersion: 2
-        x: 450
-        y: 374
-        width: 50
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 64363a4578109d7488f8b473a80725f1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: magiceffects_firebolt_green_5
+      name: magiceffects_firebolt_red_0
       rect:
         serializedVersion: 2
         x: 0
@@ -443,13 +496,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2eccb21a3e2539240962e8751b904268
+      spriteID: ec72ecd8cbe850942a00493ff6133518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_firebolt_green_6
+      name: magiceffects_firebolt_red_1
       rect:
         serializedVersion: 2
         x: 50
@@ -463,13 +516,33 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f583d3d99fe25c40b114ad19b32b147
+      spriteID: f8a55562e27395140bb7faaae2b33dc7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_firebolt_red_0
+      name: magiceffects_firebolt_red_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 305
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3763b670d7828cb4183c0489d5ec95ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magiceffects_firebolt_red_3
       rect:
         serializedVersion: 2
         x: 150
@@ -483,13 +556,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f12645df7434b2548840a57408e8065e
+      spriteID: f133e65452b815545b69de9fb51d0e97
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_firebolt_red_1
+      name: magiceffects_firebolt_red_4
       rect:
         serializedVersion: 2
         x: 200
@@ -503,13 +576,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a913115ed87281a40a5e7204a366aac1
+      spriteID: 54580fb4711c041498dcc937506f646c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_firebolt_red_2
+      name: magiceffects_firebolt_red_5
       rect:
         serializedVersion: 2
         x: 250
@@ -523,13 +596,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 153625919693bb949b179f7dff9e15ad
+      spriteID: eacaa83685cb11649822610227e39a59
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_firebolt_red_3
+      name: magiceffects_firebolt_red_6
       rect:
         serializedVersion: 2
         x: 300
@@ -543,33 +616,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e4bc6f51c696a442bad6873be8347cc
+      spriteID: 9e3a954ed096c4544913eae4ce82358f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_firebolt_red_4
-      rect:
-        serializedVersion: 2
-        x: 350
-        y: 305
-        width: 50
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12885aeba2fa1854cb103a1aa5f55a6c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: magiceffects_firebolt_red_5
+      name: magiceffects_green_hit_v1_0
       rect:
         serializedVersion: 2
         x: 400
@@ -583,13 +636,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51a67d58b96fe434eaf0b6f6a6c9dacb
+      spriteID: 0f2ed6fce7d07b14caad9f6d271e7df8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_firebolt_red_6
+      name: magiceffects_green_hit_v1_1
       rect:
         serializedVersion: 2
         x: 450
@@ -603,16 +656,16 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcbd7e84af6c5a34685bac918894295f
+      spriteID: 0ce73369f640b2a499b76a0dd98cbede
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_ghost_purple_0
+      name: magiceffects_green_hit_v1_2
       rect:
         serializedVersion: 2
-        x: 50
+        x: 0
         y: 236
         width: 50
         height: 69
@@ -623,13 +676,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2502cb91f0a65424dbef834e87faddbc
+      spriteID: 691d9573bc1d4ac409c4fa1e1950c431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_ghost_purple_1
+      name: magiceffects_green_hit_v2_0
       rect:
         serializedVersion: 2
         x: 100
@@ -643,13 +696,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77e3977df85c3454eb4b06589d10b9d3
+      spriteID: 75290c6d50641a34f9a08d2035233641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_ghost_purple_2
+      name: magiceffects_green_hit_v2_1
       rect:
         serializedVersion: 2
         x: 150
@@ -663,13 +716,33 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a6e167f45d035645baae28335f195dd
+      spriteID: d39365c2c507bec4497421f448d3eaa2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_ghost_blue_0
+      name: magiceffects_green_hit_v2_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 236
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66c2988250d52c42b8bab7d9a045a16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magiceffects_green_hit_v2_3
       rect:
         serializedVersion: 2
         x: 250
@@ -683,13 +756,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3efff3a9a8cb58a48b76cd1a05aefe37
+      spriteID: 2745fd4e016b2634a80029ec75a92a63
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_ghost_blue_1
+      name: magiceffects_green_hit_v2_4
       rect:
         serializedVersion: 2
         x: 300
@@ -703,16 +776,16 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9c7dd500f80690f45a020302d7fee35b
+      spriteID: 291b3b6e2c378d54c849014f53b99595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magiceffects_ghost_blue_2
+      name: magiceffects_green_dissapate_0
       rect:
         serializedVersion: 2
-        x: 350
+        x: 400
         y: 236
         width: 50
         height: 69
@@ -723,7 +796,87 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fdff368c87174e54388d671382287d42
+      spriteID: 6753a7c486b334d4a9c592d0019d56b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magiceffects_green_dissapate_1
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 236
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147581ff7f7860847a9596d842bcd979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magiceffects_green_dissapate_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 167
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588b7f4229763af4fb69f092e8c55aa2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magiceffects_green_dissapate_3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 167
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb89161fdf2e56443a7e946f1fa7155e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magiceffects_green_dissapate_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 167
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384c2d5a4bff44f4cb6727f2f8938b02
       vertices: []
       indices: 
       edges: []
