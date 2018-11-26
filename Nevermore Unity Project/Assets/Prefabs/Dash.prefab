@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 95604251518268164}
   - component: {fileID: 114538097724342462}
   m_Layer: 0
-  m_Name: portalDashSPref
+  m_Name: Dash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1951235764210540}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -3, y: -3.91, z: 0}
+  m_LocalPosition: {x: -0.2360549, y: 28.224497, z: -25.606567}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_Children: []
   m_Father: {fileID: 0}
@@ -51,7 +51,7 @@ Animator:
   m_GameObject: {fileID: 1951235764210540}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4e2907fdf5eddb9498970dbeda2dec1c, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2c41e2d82f5613645aa399e185f6246b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

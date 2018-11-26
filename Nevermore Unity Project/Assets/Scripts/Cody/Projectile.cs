@@ -8,6 +8,7 @@ public class Projectile : MonoBehaviour {
     public float lifeTime;
     public float distance;
     public int damage = 5;
+    public bool isMelee;
    
 
 	// Use this for initialization
@@ -24,11 +25,13 @@ public class Projectile : MonoBehaviour {
 
     private void OnTriggerEnter(Collider col)
     {
-        print("check");
         if (col.transform.tag == "Enemy")
         {           
             col.gameObject.GetComponentInParent<EnemyHealthSystem>().TakeDamage(damage);
-            Destroy(gameObject);
+            if (!isMelee)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 
