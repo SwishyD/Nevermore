@@ -11,6 +11,7 @@ TagManager:
   - script
   - HitBox
   - Obstacle
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
