@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour {
 
     public int playerGold;
     public GameObject player;
-    public Vector3 respawnPoint;
+    public Transform respawnPoint;
 
     //Health
     public int lives = 3;
@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour {
     void Update () {
         HandleLives();
         HandleHealth();
-        respawnPoint = player.GetComponent<PlayerController>().currentCP;
+        
 		if(Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(0);
@@ -101,7 +101,7 @@ public class GameManager : MonoBehaviour {
         }
         health = maxHealth;
         lives --;
-        player.transform.position = respawnPoint;
+        player.transform.position = respawnPoint.position;
     }
     void HandleLives()
     {
