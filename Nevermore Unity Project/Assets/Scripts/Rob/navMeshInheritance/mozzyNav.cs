@@ -7,7 +7,7 @@ public class mozzyNav : NavMesh {
 
     Animator mozzy;
     public GameObject thisMozzy;
-    public float speed = 5;
+    public float speed = 4;
     public int damage;
     public float minX, maxX, minZ, maxZ;
     protected override void Start()

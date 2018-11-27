@@ -8,9 +8,15 @@ public class checkpointDetector : MonoBehaviour {
 	void Start () {
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.tag == "Player")
+        {
+            if (Input.GetKeyDown(KeyCode.E) && GetComponent<Checkpoints>().activated == false)
+            {
+                //GetComponent<Checkpoints>().ActivateCheckpoint(i);
+            }
+        }
+    }
 }

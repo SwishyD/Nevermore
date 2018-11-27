@@ -65,7 +65,7 @@ public class NavMesh : MonoBehaviour {
     //tracks the player
     protected virtual void SetDestination()
     {
-        targetVector = new Vector3(player.transform.position.x, 11.5f, player.transform.position.z);
+        targetVector = new Vector3(player.transform.position.x, 0, player.transform.position.z);
         aiChar.SetDestination(targetVector);
 
 
