@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     private int direction;
     public float dashDistance;
     [SerializeField] private Transform dashEffect;
+    public float animNum;
    
     //Stamina
     private float stamina = 100f;
@@ -54,6 +55,7 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("isMoving", true);
             anim.SetFloat("yInput", 1f);
+            animNum = 1;
             moveY = 1f;
                      
         }
@@ -61,18 +63,21 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("isMoving", true);
             anim.SetFloat("yInput", -1f);
+            animNum = 2;
             moveY = -1f;
         }
         if (Input.GetKey(KeyCode.A))
         {
             anim.SetBool("isMoving", true);
             anim.SetFloat("xInput", -1f);
+            animNum = 3;
             moveX = -1f;
         }
         if (Input.GetKey(KeyCode.D))
         {
             anim.SetBool("isMoving", true);
             anim.SetFloat("xInput", 1f);
+            animNum = 4;
             moveX = 1f;
         }
 
@@ -97,9 +102,11 @@ public class PlayerController : MonoBehaviour
                 {
                     Vector3 beforeDashPos = transform.position;
                     Transform dashEffectTransform = Instantiate(dashEffect, beforeDashPos, Quaternion.identity);
-                    dashEffectTransform.eulerAngles = new Vector3(0, UtilsClass.GetAngleFromVectorFloat(lastMoveDir), 0);
+                    dashEffect.GetComponent<DashDestroy>().HandleAnim(animNum);
+                    dashEffectTransform.eulerAngles = new Vector3(90, 0, UtilsClass.GetAngleFromVectorFloat(lastMoveDir));
                     transform.position += lastMoveDir * dashDistance;
                     stamina -= 25f;
+
                 }
                 else
                 {
