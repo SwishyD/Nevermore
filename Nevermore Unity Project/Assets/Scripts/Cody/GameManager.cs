@@ -8,14 +8,20 @@ public class GameManager : MonoBehaviour {
 
     public int playerGold;
     public GameObject player;
-       
+    public Vector3 respawnPoint;
+
     //Health
+    public int lives = 3;
     public float health = 100;
     private float maxHealth = 100;
     public Color hurtColor;
     public Image healthBar;
-    public Text hRatioText;
     public Color healthColor;
+    public GameObject livesCount;
+    public Sprite three;
+    public Sprite two;
+    public Sprite one;
+    public Sprite zero;
 
     private static bool created = false;
     public static GameManager instance = null;
@@ -40,9 +46,9 @@ public class GameManager : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-
+        HandleLives();
         HandleHealth();
-       
+        respawnPoint = player.GetComponent<PlayerController>().currentCP;
 		if(Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(0);
@@ -64,7 +70,6 @@ public class GameManager : MonoBehaviour {
         //this is for the health bar
         float ratio = health / maxHealth;
         healthBar.rectTransform.localScale = new Vector3(ratio, 1, 1);
-        hRatioText.text = (ratio * 100).ToString("0");
         if (health <= 25f)
         {
             StartCoroutine(lowHealthFlash());
@@ -75,17 +80,49 @@ public class GameManager : MonoBehaviour {
         }
         if (health <= 0)
         {
-            Invoke("GameOver", 0);
+            LoseLife();
         }
+        
 
     }
 
     
     public void TakeDamage(int damage)
     {
-        Debug.Log("PLAYER TAKES DAMAGE!!");
         health -= damage;
         StartCoroutine(hurtFlash());
+    }
+
+    private void LoseLife()
+    {
+        if(lives < 0)
+        {
+            Invoke("GameOver", 3);
+        }
+        health = maxHealth;
+        lives --;
+        player.transform.position = respawnPoint;
+    }
+    void HandleLives()
+    {
+
+        var  counter = livesCount.GetComponent<Image>();
+        if (lives == 3)
+        {
+            counter.sprite = three;
+        }
+        if (lives == 2)
+        {
+            counter.sprite = two;
+        }
+        if (lives == 1)
+        {
+           counter.sprite = one;
+        }
+        if (lives == 0)
+        {
+            counter.sprite = zero;
+        }
     }
 
     private void GameOver()

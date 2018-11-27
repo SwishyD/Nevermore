@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using CodeMonkey.Utils;
 
 public class PlayerController : MonoBehaviour
 {
+    public Vector3 currentCP;
+
     //Movement
     private Vector3 lastMoveDir;
 
@@ -14,27 +17,21 @@ public class PlayerController : MonoBehaviour
     public float startDashTime;
     private int direction;
     public float dashDistance;
-    [SerializeField] private Transform portalIn;
-    [SerializeField] private Transform portalOut;
-
+    [SerializeField] private Transform dashEffect;
+    public float animNum;
    
     //Stamina
     private float stamina = 100f;
     private float maxStamina = 100f;
     public Image staminaBar;
-    public Text sRatioText;
     public Color stamColor;
 
     //Animation
     public Animator anim;
 
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
+
         HandleStamina();
         HandleDash();
         HandleMovement();              
@@ -58,6 +55,7 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("isMoving", true);
             anim.SetFloat("yInput", 1f);
+            animNum = 1;
             moveY = 1f;
                      
         }
@@ -65,18 +63,21 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("isMoving", true);
             anim.SetFloat("yInput", -1f);
+            animNum = 2;
             moveY = -1f;
         }
         if (Input.GetKey(KeyCode.A))
         {
             anim.SetBool("isMoving", true);
             anim.SetFloat("xInput", -1f);
+            animNum = 3;
             moveX = -1f;
         }
         if (Input.GetKey(KeyCode.D))
         {
             anim.SetBool("isMoving", true);
             anim.SetFloat("xInput", 1f);
+            animNum = 4;
             moveX = 1f;
         }
 
@@ -94,18 +95,18 @@ public class PlayerController : MonoBehaviour
 
     void HandleDash()
     {
-        anim.SetBool("isDodging", false);
 
         if (Input.GetKeyDown(KeyCode.Space))
         {           
                 if (stamina >= 25f)
                 {
                     Vector3 beforeDashPos = transform.position;
-                    anim.SetBool("isDodging", true);
-                    Instantiate(portalIn, beforeDashPos, Quaternion.identity);
+                    Transform dashEffectTransform = Instantiate(dashEffect, beforeDashPos, Quaternion.identity);
+                    dashEffect.GetComponent<DashDestroy>().HandleAnim(animNum);
+                    dashEffectTransform.eulerAngles = new Vector3(90, 0, UtilsClass.GetAngleFromVectorFloat(lastMoveDir));
                     transform.position += lastMoveDir * dashDistance;
-                    Instantiate(portalOut, transform.position , Quaternion.identity);
                     stamina -= 25f;
+
                 }
                 else
                 {
@@ -118,8 +119,8 @@ public class PlayerController : MonoBehaviour
     {
         //this is for the stamina bar
         float ratio = stamina / maxStamina;
-        staminaBar.rectTransform.localScale = new Vector3(ratio, 1, 1);
-        sRatioText.text = (ratio * 100).ToString("0");
+        staminaBar.fillAmount = ratio;
+        
 
         //stamina management
         stamina += 10f * Time.deltaTime;
@@ -140,8 +141,9 @@ public class PlayerController : MonoBehaviour
     {
         staminaBar.GetComponent<Image>().color = stamColor;
         yield return new WaitForSeconds(0.1f);
-        staminaBar.GetComponent<Image>().color = Color.green;
+        staminaBar.GetComponent<Image>().color = Color.white;
     }
 
-   
+  
+
 }

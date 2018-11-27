@@ -85,6 +85,7 @@ MonoBehaviour:
   lifeTime: 0.1
   distance: 1
   damage: 5
+  isMelee: 1
 --- !u!212 &212397601233534752
 SpriteRenderer:
   m_ObjectHideFlags: 1
