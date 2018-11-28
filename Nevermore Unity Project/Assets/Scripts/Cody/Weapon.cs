@@ -15,7 +15,6 @@ public class Weapon : MonoBehaviour {
     public float mana = 100;
     private float maxMana = 100;
     public Image manaBar;
-    public Text mRatioText;
     public Color manaColor;
 
     public Transform shotPoint;
@@ -23,7 +22,10 @@ public class Weapon : MonoBehaviour {
     private float timeBtwShots;
     public float startTimeBtwShots;
 
-   
+    private float timeBtwHits;
+    public float startTimeBtwHits;
+
+
     public Animator anim;
        	
 	// Update is called once per frame
@@ -63,15 +65,24 @@ public class Weapon : MonoBehaviour {
            
         }
 
-        if (timeBtwShots <= 0)
+        if (timeBtwHits <= 0.5f)
         {
 
             if (Input.GetMouseButtonDown(0))
             {                              
                 anim.SetBool("isAttacking", true);
                 Instantiate(melee, shotPoint.position, transform.rotation);
-                timeBtwShots = startTimeBtwShots;
+                timeBtwHits = startTimeBtwHits;
             }
+                    
+        }       
+        else
+        {
+            timeBtwHits -= Time.deltaTime;
+        }
+
+        if (timeBtwShots <= 0f)
+        {
             if (Input.GetMouseButtonDown(1) && mana >= 20)
             {
                 mana -= 20;
@@ -79,27 +90,25 @@ public class Weapon : MonoBehaviour {
                 Instantiate(fireBoltGreen, shotPoint.position, transform.rotation);
                 timeBtwShots = startTimeBtwShots;
             }
-            
-        }       
+
+            else if (Input.GetMouseButtonDown(1) && mana < 20)
+            {
+                StartCoroutine(manaFlash());
+            }
+        }
         else
         {
             timeBtwShots -= Time.deltaTime;
-        }
-
-        if (Input.GetMouseButtonDown(1) && mana < 20)
-        {
-            StartCoroutine(manaFlash());
         }
     }
 
     void HandleMana()
     {
-        //this is for the stamina bar
+        //this is for the mana bar
         float ratio = mana / maxMana;
-        manaBar.rectTransform.localScale = new Vector3(ratio, 1, 1);
-        mRatioText.text = (ratio * 100).ToString("0");
-
-        //stamina management
+        manaBar.fillAmount = ratio;
+       
+        //mana management
         mana += 10f * Time.deltaTime;
         if (mana > maxMana)
         {
@@ -115,6 +124,6 @@ public class Weapon : MonoBehaviour {
     {
         manaBar.GetComponent<Image>().color = manaColor;
         yield return new WaitForSeconds(0.1f);
-        manaBar.GetComponent<Image>().color = Color.blue;
+        manaBar.GetComponent<Image>().color = Color.white;
     }
 }

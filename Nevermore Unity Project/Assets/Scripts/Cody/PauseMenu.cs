@@ -8,6 +8,13 @@ public class PauseMenu : MonoBehaviour {
 
     public GameObject player;
 
+    //for cursor
+    public Texture2D pointer;
+    public Texture2D crosshair;
+    public CursorMode cursorMode = CursorMode.Auto;
+    public Vector2 hotSpot = Vector2.zero;
+
+
     public static bool gameIsPaused = false;
     public GameObject pauseMenuUI;
     public GameObject controlScreenUI;
@@ -20,7 +27,7 @@ public class PauseMenu : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-       
+        Cursor.SetCursor(crosshair, hotSpot, cursorMode);
     }
 	
 	// Update is called once per frame
@@ -70,6 +77,7 @@ public class PauseMenu : MonoBehaviour {
         Time.timeScale = 1f;
         gameIsPaused = false;
         player.GetComponent<Animator>().enabled = true;
+        Cursor.SetCursor(crosshair, hotSpot, cursorMode);
     }
 
     public  void Pause()
@@ -78,6 +86,7 @@ public class PauseMenu : MonoBehaviour {
         Time.timeScale = 0f;
         gameIsPaused = true;
         player.GetComponent<Animator>().enabled = false;
+        Cursor.SetCursor(pointer, hotSpot, cursorMode);
     }
 
     public void QuitGameConfrim()
