@@ -113,7 +113,7 @@ BlendTree:
     m_DirectBlendParameter: xInput
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: cc02dd34c7c5a894db5bce9bd645ce36, type: 2}
+    m_Motion: {fileID: 7400000, guid: ad93f3a9cdf811b45a1caa9d2070f57f, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: -1}
     m_TimeScale: 1
@@ -211,7 +211,7 @@ BlendTree:
     m_DirectBlendParameter: xInput
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 3be749bba8772f046acd76dae44d1850, type: 2}
+    m_Motion: {fileID: 7400000, guid: b89bbe15cf36fe14dae6271de13ff64f, type: 2}
     m_Threshold: 0.6666667
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
@@ -219,7 +219,7 @@ BlendTree:
     m_DirectBlendParameter: xInput
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: eaf307598bdc683438bb01fc44a4ff01, type: 2}
+    m_Motion: {fileID: 7400000, guid: 1043844763c00ef4482aeda76b9f3ffb, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: -1}
     m_TimeScale: 1
@@ -528,7 +528,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Melee Attack
-  m_Speed: 1
+  m_Speed: 1.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101263987617203350}

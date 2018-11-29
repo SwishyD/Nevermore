@@ -56,7 +56,6 @@ GameObject:
   - component: {fileID: 95920113984569516}
   - component: {fileID: 65750571664667540}
   - component: {fileID: 54842980046956260}
-  - component: {fileID: 65834096413924452}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -96,22 +95,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1806070695986096
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4203629581585684}
-  - component: {fileID: 65989017518326056}
-  m_Layer: 0
-  m_Name: WallChecker
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &4071099459612084
 Transform:
   m_ObjectHideFlags: 1
@@ -125,19 +108,6 @@ Transform:
   m_Father: {fileID: 4593163512324564}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4203629581585684
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1806070695986096}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4710881523328112}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4407008023985010
 Transform:
   m_ObjectHideFlags: 1
@@ -149,7 +119,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4710881523328112}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4411580501606102
 Transform:
@@ -190,7 +160,6 @@ Transform:
   m_LocalScale: {x: 0.65693307, y: 0.6569338, z: 0.6569338}
   m_Children:
   - {fileID: 4593163512324564}
-  - {fileID: 4203629581585684}
   - {fileID: 4407008023985010}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -202,7 +171,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1247432958294298}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 1000000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
@@ -234,30 +203,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.07, y: 1.76, z: 9.15}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &65834096413924452
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1247432958294298}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.27, y: 1.81, z: 5.57}
-  m_Center: {x: -0.18, y: 1.01, z: 1.5987212e-14}
---- !u!65 &65989017518326056
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1806070695986096}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.59, y: 0.28, z: 1}
-  m_Center: {x: -0.18, y: 0, z: 0}
 --- !u!95 &95920113984569516
 Animator:
   serializedVersion: 3
@@ -296,7 +241,7 @@ MonoBehaviour:
   manaColor: {r: 1, g: 1, b: 1, a: 1}
   shotPoint: {fileID: 4411580501606102}
   startTimeBtwShots: 1
-  startTimeBtwHits: 0
+  startTimeBtwHits: 1
   anim: {fileID: 95920113984569516}
 --- !u!114 &114912523401336306
 MonoBehaviour:
@@ -310,9 +255,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentCP: {x: 0, y: 0, z: 0}
+  isDashing: 0
   dashSpeed: 50
   startDashTime: 0.1
-  dashDistance: 1.5
+  dashDistance: 2
   dashEffect: {fileID: 4326003587301506, guid: cf1ebc806fecd404a94e2a0f03e97019, type: 2}
   animNum: 0
   staminaBar: {fileID: 0}
@@ -353,15 +299,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300034, guid: 46061e65879f4d54783c9cb33f2f86e2, type: 3}
+  m_Sprite: {fileID: 21300032, guid: ef18026974afe334dbbe8b8b9a6eecfc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.05, y: 2.25}
+  m_Size: {x: 5.05, y: 4.85}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 --- !u!212 &212885341750192052
 SpriteRenderer:

@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour {
 
     public int playerGold;
+    public Text goldCount;
     public GameObject player;
     public Transform respawnPoint;
 
@@ -17,6 +18,7 @@ public class GameManager : MonoBehaviour {
     public Color hurtColor;
     public Image healthBar;
     public Color healthColor;
+    public Text healthText;
     public GameObject livesCount;
     public Sprite three;
     public Sprite two;
@@ -48,7 +50,7 @@ public class GameManager : MonoBehaviour {
     void Update () {
         HandleLives();
         HandleHealth();
-        
+        goldCount.text = playerGold.ToString();
 		if(Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(0);
@@ -69,6 +71,7 @@ public class GameManager : MonoBehaviour {
     {
         //this is for the health bar
         float ratio = health / maxHealth;
+        healthText.text = ratio*100 + "/" + maxHealth;
         healthBar.rectTransform.localScale = new Vector3(ratio, 1, 1);
         if (health <= 25f)
         {
@@ -89,8 +92,11 @@ public class GameManager : MonoBehaviour {
     
     public void TakeDamage(int damage)
     {
-        health -= damage;
-        StartCoroutine(hurtFlash());
+        if (player.GetComponent<PlayerController>().isDashing == false)
+        {
+            health -= damage;
+            StartCoroutine(hurtFlash());
+        }
     }
 
     private void LoseLife()

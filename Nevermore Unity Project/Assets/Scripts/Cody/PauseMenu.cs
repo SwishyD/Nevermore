@@ -77,11 +77,15 @@ public class PauseMenu : MonoBehaviour {
         Time.timeScale = 1f;
         gameIsPaused = false;
         player.GetComponent<Animator>().enabled = true;
+        player.GetComponent<PlayerController>().enabled = true;
+        player.GetComponentInChildren<Weapon>().enabled = true;
         Cursor.SetCursor(crosshair, hotSpot, cursorMode);
     }
 
     public  void Pause()
-    {        
+    {
+        player.GetComponent<PlayerController>().enabled = false;
+        player.GetComponentInChildren<Weapon>().enabled = false;
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         gameIsPaused = true;
