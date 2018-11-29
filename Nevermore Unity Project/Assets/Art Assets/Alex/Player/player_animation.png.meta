@@ -129,6 +129,26 @@ TextureImporter:
     21300248: player_animation_death_left_11
     21300250: player_animation_death_left_12
     21300252: player_animation_death_left_13
+    21300254: player_animation_attack_light_right_green_0
+    21300256: player_animation_attack_light_right_green_1
+    21300258: player_animation_attack_light_right_green_2
+    21300260: player_animation_attack_light_right_green_3
+    21300262: player_animation_attack_light_left_green_0
+    21300264: player_animation_attack_light_left_green_1
+    21300266: player_animation_attack_light_left_green_2
+    21300268: player_animation_attack_light_left_green_3
+    21300270: player_animation_attack_light_right_red_0
+    21300272: player_animation_attack_light_right_red_1
+    21300274: player_animation_attack_light_right_red_2
+    21300276: player_animation_attack_light_right_red_3
+    21300278: player_animation_attack_light_left_red_0
+    21300280: player_animation_attack_light_left_red_1
+    21300282: player_animation_attack_light_left_red_2
+    21300284: player_animation_attack_light_left_red_3
+    21300286: player_animation_stagger_right_0
+    21300288: player_animation_stagger_right_1
+    21300290: player_animation_stagger_left_0
+    21300292: player_animation_stagger_left_1
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -212,7 +232,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00f9ae8c3ef586247bb83fe95df1bc60
+      spriteID: 7e8f003e81c43674a997d034ab41f306
       vertices: []
       indices: 
       edges: []
@@ -232,7 +252,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd40dfda9d76826489721893872c5c54
+      spriteID: 8bce72449c50f1641b107409775e1440
       vertices: []
       indices: 
       edges: []
@@ -252,7 +272,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 288d24094cd23c243bdbe1b2baefaff1
+      spriteID: 0103215f8f7a38a4b8d08cb8d7b97e43
       vertices: []
       indices: 
       edges: []
@@ -272,7 +292,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50f74eee8df42394380e546bc3046145
+      spriteID: 6132df72c266adc41beaa6c7a909ff8d
       vertices: []
       indices: 
       edges: []
@@ -292,7 +312,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6e273cfa07d2fa46b5570160d772e40
+      spriteID: aa0d2c195f7e4804ca8ee1e84231b130
       vertices: []
       indices: 
       edges: []
@@ -312,7 +332,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9e9ec8a2ed1733c4e9f26420a6cc8b72
+      spriteID: 88573b75e1c9e7442b5ef0ae215e0422
       vertices: []
       indices: 
       edges: []
@@ -332,7 +352,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6181974d6f19c14ea8ed160958ffcc8
+      spriteID: 95daf2cdcbc70bf42b030a125cf337ae
       vertices: []
       indices: 
       edges: []
@@ -352,7 +372,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e5d374f0fe609f42a6b82f991a410cc
+      spriteID: b73b17ebaa9c3334294728242d774d58
       vertices: []
       indices: 
       edges: []
@@ -372,7 +392,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e4b939c93e34bd45ba04aeb6b8f0973
+      spriteID: 0096b57dce9760b48bd368f53a065ff2
       vertices: []
       indices: 
       edges: []
@@ -392,7 +412,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b799346535a69274691fa8bb92c788bd
+      spriteID: d16705c47daddcc4b8f9e6988236044b
       vertices: []
       indices: 
       edges: []
@@ -412,7 +432,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42f039d29c041614d8055749c9937f20
+      spriteID: 9bd27f6e79f2f194699c95679b273afc
       vertices: []
       indices: 
       edges: []
@@ -432,7 +452,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 627e2d252991c2d448ead8d89022b2b2
+      spriteID: c090ff5be20c35844819b87ed58c5ece
       vertices: []
       indices: 
       edges: []
@@ -452,7 +472,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40ebc89b3d547a147a0db0c72702d1cf
+      spriteID: 85f702975f9d73c48add1dbd6a6b72fc
       vertices: []
       indices: 
       edges: []
@@ -472,7 +492,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a7539875ad79f24c807f2dd38551d62
+      spriteID: 6c72047816ceb3945977846e9553c65c
       vertices: []
       indices: 
       edges: []
@@ -492,7 +512,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 418796b5b1ab5d140894132edfb357e1
+      spriteID: c8bf82c5714c6ec4e9b9492efb4161ea
       vertices: []
       indices: 
       edges: []
@@ -512,7 +532,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9cd35274ed67e8e4e89acffac2b0e7a4
+      spriteID: 791a85f640dcac84992eb2308346ace0
       vertices: []
       indices: 
       edges: []
@@ -532,7 +552,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 009d15b4462af864488d13384b4094e2
+      spriteID: e4216f141a073074490806c9de03bb31
       vertices: []
       indices: 
       edges: []
@@ -552,7 +572,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1ad5ffe3762ba749a85032ddf1b8eb3
+      spriteID: a9f57009fc199694e88ceac3cdcd0046
       vertices: []
       indices: 
       edges: []
@@ -572,7 +592,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4278abb053fb41f45b07b91ca20af5b1
+      spriteID: 1dba65bde8168874bb7cfce81f721db9
       vertices: []
       indices: 
       edges: []
@@ -592,7 +612,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85156a01ffc2d504daa500da1fea1d9b
+      spriteID: 1bef7a47edc74ce448fff3ca7781f22b
       vertices: []
       indices: 
       edges: []
@@ -612,7 +632,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 94b03bb181df043448924a17dbdeec30
+      spriteID: b9212a7fced67334aa9d497a2d084bc5
       vertices: []
       indices: 
       edges: []
@@ -632,7 +652,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c0b035417aed8549bf9c9b2ae9b82b2
+      spriteID: fa2ecdd09c5a5634db96c07154e637ff
       vertices: []
       indices: 
       edges: []
@@ -652,7 +672,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 967c40c6bb8e2db438c8306c8ae08b98
+      spriteID: ba9faa0105180344c92164004669e5c4
       vertices: []
       indices: 
       edges: []
@@ -672,7 +692,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24a5a9f4ea6229e4b991580c3d9e3de6
+      spriteID: dc63feb3efca6e04b942cac19a0a47bb
       vertices: []
       indices: 
       edges: []
@@ -692,7 +712,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1020989f2b27cdc47832f7b1a28efe59
+      spriteID: da8c28157c65afa42ba9814ef590d12f
       vertices: []
       indices: 
       edges: []
@@ -712,7 +732,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53d7cf8ec85ee2e4f8c359cfd743658f
+      spriteID: e44df470182a0ec49b7e0b42a2137fa0
       vertices: []
       indices: 
       edges: []
@@ -732,7 +752,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6521d586ff2abac4a8f683bd8fcf295d
+      spriteID: 1cc7f57328cb1fe4ba181dd2bf5063bc
       vertices: []
       indices: 
       edges: []
@@ -752,7 +772,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b353678954c5164f9d68ae16a6f23a7
+      spriteID: b2e95485781f9d1479728542ce263af5
       vertices: []
       indices: 
       edges: []
@@ -772,7 +792,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63da68e2626962d408185f5d03f77886
+      spriteID: c4f628c3684aa224182aa68a6f60549c
       vertices: []
       indices: 
       edges: []
@@ -792,7 +812,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f545685816e5624e9a8ed2aae595673
+      spriteID: fd589f601644f0e4c97639b3d7bb0bc8
       vertices: []
       indices: 
       edges: []
@@ -812,7 +832,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5990d7830737e814ea3192d62a1d353f
+      spriteID: 2df563afb4f66ff4bac1aa7c274eafcb
       vertices: []
       indices: 
       edges: []
@@ -832,7 +852,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21f06716ded0d394599acaef0e87ceaf
+      spriteID: 5d3ad69a5603edd4482367b393b2f1fc
       vertices: []
       indices: 
       edges: []
@@ -852,7 +872,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59a27760a0871f2498d55cfe1dae915c
+      spriteID: 0eae2b9a4165f7048b13caf47427371b
       vertices: []
       indices: 
       edges: []
@@ -872,7 +892,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 583d07297762a944f9f423a0f0d0365b
+      spriteID: 414dca5db96f95943ae90d206413b3a9
       vertices: []
       indices: 
       edges: []
@@ -892,7 +912,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 534aeacc1eb9b74418da9598d803ec29
+      spriteID: d9deb482e9e93fa44a97e59c501162f5
       vertices: []
       indices: 
       edges: []
@@ -912,13 +932,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b25b9eb705e075447baa3ea3f343d7d4
+      spriteID: 61321b9514bc30047bbf807d5147fe42
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_attack_light_right_0
+      name: player_animation_attack_light_right_green_0
       rect:
         serializedVersion: 2
         x: 101
@@ -932,13 +952,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86af1874cbd38804fb2cb48530e25095
+      spriteID: 603028c1b2eed954583127fb2882f277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_attack_light_right_1
+      name: player_animation_attack_light_right_green_1
       rect:
         serializedVersion: 2
         x: 202
@@ -952,13 +972,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1a28d5ee6a2bd242be890fb72d22baf
+      spriteID: ccf3305ceb602f84b9ac348f20cf4e69
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_attack_light_right_2
+      name: player_animation_attack_light_right_green_2
       rect:
         serializedVersion: 2
         x: 303
@@ -972,13 +992,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f557aa49664c53242a80d77abcf8f908
+      spriteID: db64d6444d5012a46a219ffee48bd824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_attack_light_right_3
+      name: player_animation_attack_light_right_green_3
       rect:
         serializedVersion: 2
         x: 404
@@ -992,13 +1012,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75e4fff6e6e672e43bdf55c93a789915
+      spriteID: 403dcec5a7f91c24186b4f0a347248a3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_attack_light_left_0
+      name: player_animation_attack_light_left_green_0
       rect:
         serializedVersion: 2
         x: 707
@@ -1012,13 +1032,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4e07e6584db0154cbb5e121fb1e9064
+      spriteID: f4c056796627a194b8b9c2b71ed703c8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_attack_light_left_1
+      name: player_animation_attack_light_left_green_1
       rect:
         serializedVersion: 2
         x: 808
@@ -1032,13 +1052,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef45b77bfa06fd941acbc3eff76518b3
+      spriteID: 223057bf602d0694392f8f556031e7b4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_attack_light_left_2
+      name: player_animation_attack_light_left_green_2
       rect:
         serializedVersion: 2
         x: 909
@@ -1052,13 +1072,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f765a9ad32aa40a4380251d8607a2b66
+      spriteID: b0d761be7df4c9f47b4418af0c229f27
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_attack_light_left_3
+      name: player_animation_attack_light_left_green_3
       rect:
         serializedVersion: 2
         x: 1010
@@ -1072,7 +1092,167 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 135e24a61d8fdf5498dc71fab7243c46
+      spriteID: 64ee913baf6718a4dae6f5159d6c0406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_attack_light_right_red_0
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 733
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b376df5daac7a43ab76e4e29bb1bd7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_attack_light_right_red_1
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 733
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1db53eafe19ba4c899cab2715a7b26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_attack_light_right_red_2
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 733
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5c1bd727fddf04da66e099e0b57367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_attack_light_right_red_3
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 733
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9c60752396efb4ea2b46fe7351690a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_attack_light_left_red_0
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 733
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535443f6be178c540a1e39f1f7eda943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_attack_light_left_red_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 636
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade8e1f736429d74ca0cbdfbcbcb57e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_attack_light_left_red_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 636
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7235130c248f756419f249011d96bac0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_attack_light_left_red_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 636
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ca8cdc1d155b24191e05b56a740b0c
       vertices: []
       indices: 
       edges: []
@@ -1081,8 +1261,8 @@ TextureImporter:
       name: player_animation_attack_variant_right_0
       rect:
         serializedVersion: 2
-        x: 1313
-        y: 733
+        x: 606
+        y: 636
         width: 101
         height: 97
       alignment: 0
@@ -1092,7 +1272,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b60e737922cb9b468bdeb97263a750e
+      spriteID: b6f8cbf59b88d124fa3964ec38c91712
       vertices: []
       indices: 
       edges: []
@@ -1101,8 +1281,8 @@ TextureImporter:
       name: player_animation_attack_variant_right_1
       rect:
         serializedVersion: 2
-        x: 1414
-        y: 733
+        x: 707
+        y: 636
         width: 101
         height: 97
       alignment: 0
@@ -1112,7 +1292,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f57cab1829de4f47aea4ef44af75dba
+      spriteID: 78bf870b68995bf48832e707ffbf21cc
       vertices: []
       indices: 
       edges: []
@@ -1121,8 +1301,8 @@ TextureImporter:
       name: player_animation_attack_variant_right_2
       rect:
         serializedVersion: 2
-        x: 1515
-        y: 733
+        x: 808
+        y: 636
         width: 101
         height: 97
       alignment: 0
@@ -1132,7 +1312,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c79f6d278655344db8ad1c9fa4d1aa4
+      spriteID: fe4ec754401a7dc4684c0a7cf4436897
       vertices: []
       indices: 
       edges: []
@@ -1141,8 +1321,8 @@ TextureImporter:
       name: player_animation_attack_variant_right_3
       rect:
         serializedVersion: 2
-        x: 1616
-        y: 733
+        x: 909
+        y: 636
         width: 101
         height: 97
       alignment: 0
@@ -1152,7 +1332,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: afff1b7d4161c68499161925f41a1720
+      spriteID: 73876906372b096438f04a8db658da25
       vertices: []
       indices: 
       edges: []
@@ -1161,8 +1341,8 @@ TextureImporter:
       name: player_animation_attack_variant_right_4
       rect:
         serializedVersion: 2
-        x: 1717
-        y: 733
+        x: 1010
+        y: 636
         width: 101
         height: 97
       alignment: 0
@@ -1172,7 +1352,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc0933f5c3361b34dad1e99fa5fc5d7c
+      spriteID: 1b8d7138b07efa44595c942c454281ab
       vertices: []
       indices: 
       edges: []
@@ -1181,8 +1361,8 @@ TextureImporter:
       name: player_animation_attack_variant_right_5
       rect:
         serializedVersion: 2
-        x: 1818
-        y: 733
+        x: 1111
+        y: 636
         width: 101
         height: 97
       alignment: 0
@@ -1192,7 +1372,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0429f44d2eb0894981b08b747c8a317
+      spriteID: 208c3c896dc675b47a5c830fb71d0976
       vertices: []
       indices: 
       edges: []
@@ -1201,8 +1381,8 @@ TextureImporter:
       name: player_animation_attack_variant_right_6
       rect:
         serializedVersion: 2
-        x: 1919
-        y: 733
+        x: 1212
+        y: 636
         width: 101
         height: 97
       alignment: 0
@@ -1212,7 +1392,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3fd4735d66a56a74ebb05212da6ec0b6
+      spriteID: 48d9b3cbf8e89444092e43318d8cbd04
       vertices: []
       indices: 
       edges: []
@@ -1221,7 +1401,7 @@ TextureImporter:
       name: player_animation_attack_variant_right_7
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1313
         y: 636
         width: 101
         height: 97
@@ -1232,7 +1412,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe26f1aadbad54b46a5ca658d42c5394
+      spriteID: dea9d92d52b2d17429c9c2748f1ade0d
       vertices: []
       indices: 
       edges: []
@@ -1241,7 +1421,7 @@ TextureImporter:
       name: player_animation_attack_variant_left_0
       rect:
         serializedVersion: 2
-        x: 303
+        x: 1616
         y: 636
         width: 101
         height: 97
@@ -1252,7 +1432,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a8ca37ea48e41854789407f943a3054f
+      spriteID: 36f9e8a679b99fc40b3df7886b2bc2e1
       vertices: []
       indices: 
       edges: []
@@ -1261,7 +1441,7 @@ TextureImporter:
       name: player_animation_attack_variant_left_1
       rect:
         serializedVersion: 2
-        x: 404
+        x: 1717
         y: 636
         width: 101
         height: 97
@@ -1272,7 +1452,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df7c85d683f83bc43b095240fb7965bd
+      spriteID: 8811125ae93fdff4bbcbaed6ed426c5c
       vertices: []
       indices: 
       edges: []
@@ -1281,7 +1461,7 @@ TextureImporter:
       name: player_animation_attack_variant_left_2
       rect:
         serializedVersion: 2
-        x: 505
+        x: 1818
         y: 636
         width: 101
         height: 97
@@ -1292,7 +1472,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92d90b4c380075740985b2ad7bed0c6c
+      spriteID: b26c6c7fc466cdd45b360f345c69e291
       vertices: []
       indices: 
       edges: []
@@ -1301,7 +1481,7 @@ TextureImporter:
       name: player_animation_attack_variant_left_3
       rect:
         serializedVersion: 2
-        x: 606
+        x: 1919
         y: 636
         width: 101
         height: 97
@@ -1312,7 +1492,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fea35905d5fa55b4db55537d1d6052eb
+      spriteID: b18cc3395438394449b98fe35ecc561a
       vertices: []
       indices: 
       edges: []
@@ -1321,8 +1501,8 @@ TextureImporter:
       name: player_animation_attack_variant_left_4
       rect:
         serializedVersion: 2
-        x: 707
-        y: 636
+        x: 0
+        y: 539
         width: 101
         height: 97
       alignment: 0
@@ -1332,7 +1512,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e85246fde77df6c4abec890ae8a6f3b7
+      spriteID: f2ba4f58fc311be4bbb0072357bf48f3
       vertices: []
       indices: 
       edges: []
@@ -1341,8 +1521,8 @@ TextureImporter:
       name: player_animation_attack_variant_left_5
       rect:
         serializedVersion: 2
-        x: 808
-        y: 636
+        x: 101
+        y: 539
         width: 101
         height: 97
       alignment: 0
@@ -1352,7 +1532,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 736f04f019d9184448b04657b6535aac
+      spriteID: 542c3ac70c673e649a6ecb29a3759648
       vertices: []
       indices: 
       edges: []
@@ -1361,8 +1541,8 @@ TextureImporter:
       name: player_animation_attack_variant_left_6
       rect:
         serializedVersion: 2
-        x: 909
-        y: 636
+        x: 202
+        y: 539
         width: 101
         height: 97
       alignment: 0
@@ -1372,7 +1552,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7346ac52ccb8234295fab7f8ce13193
+      spriteID: 9ec6c930d2ed7794aaedcd8c6f9f5ea4
       vertices: []
       indices: 
       edges: []
@@ -1381,8 +1561,8 @@ TextureImporter:
       name: player_animation_attack_variant_left_7
       rect:
         serializedVersion: 2
-        x: 1010
-        y: 636
+        x: 303
+        y: 539
         width: 101
         height: 97
       alignment: 0
@@ -1392,7 +1572,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1843ea3ca1001947ab45c2b98ef5f8d
+      spriteID: 2b1efc360c6da0a4899a531d30d93160
       vertices: []
       indices: 
       edges: []
@@ -1401,8 +1581,8 @@ TextureImporter:
       name: player_animation_attack_heavy_right_0
       rect:
         serializedVersion: 2
-        x: 1313
-        y: 636
+        x: 606
+        y: 539
         width: 101
         height: 97
       alignment: 0
@@ -1412,7 +1592,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcdaa7791552f2e4e89e70fe7b0b0ec5
+      spriteID: a3c001aa8895a434ab6782c1d1531c39
       vertices: []
       indices: 
       edges: []
@@ -1421,8 +1601,8 @@ TextureImporter:
       name: player_animation_attack_heavy_right_1
       rect:
         serializedVersion: 2
-        x: 1414
-        y: 636
+        x: 707
+        y: 539
         width: 101
         height: 97
       alignment: 0
@@ -1432,7 +1612,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7509163aa680614d9fd5d2832fbdd1e
+      spriteID: 862e848c74a64404b8ddb9f894213ad5
       vertices: []
       indices: 
       edges: []
@@ -1441,8 +1621,8 @@ TextureImporter:
       name: player_animation_attack_heavy_right_2
       rect:
         serializedVersion: 2
-        x: 1515
-        y: 636
+        x: 808
+        y: 539
         width: 101
         height: 97
       alignment: 0
@@ -1452,7 +1632,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c47531fe893aad49a05c7466ae1b98d
+      spriteID: c6ca34eccd50ef949a62184cc0014df1
       vertices: []
       indices: 
       edges: []
@@ -1461,8 +1641,8 @@ TextureImporter:
       name: player_animation_attack_heavy_right_3
       rect:
         serializedVersion: 2
-        x: 1616
-        y: 636
+        x: 909
+        y: 539
         width: 101
         height: 97
       alignment: 0
@@ -1472,7 +1652,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcf9a7c70be4a6d48952d275b2eb3068
+      spriteID: 79b48318c4a6c5f459e1f9e16cd3fb7a
       vertices: []
       indices: 
       edges: []
@@ -1481,8 +1661,8 @@ TextureImporter:
       name: player_animation_attack_heavy_right_4
       rect:
         serializedVersion: 2
-        x: 1717
-        y: 636
+        x: 1010
+        y: 539
         width: 101
         height: 97
       alignment: 0
@@ -1492,7 +1672,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2cd3a2d04c86e942972a2cbcfd14800
+      spriteID: 833cfc35aac20874c9250749c8f4e215
       vertices: []
       indices: 
       edges: []
@@ -1501,7 +1681,7 @@ TextureImporter:
       name: player_animation_attack_heavy_left_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1313
         y: 539
         width: 101
         height: 97
@@ -1512,7 +1692,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cff277403b8ee0a4f9c5e3e377609cc4
+      spriteID: 16409bf39fda4c647b570f073d92ec9a
       vertices: []
       indices: 
       edges: []
@@ -1521,226 +1701,6 @@ TextureImporter:
       name: player_animation_attack_heavy_left_1
       rect:
         serializedVersion: 2
-        x: 101
-        y: 539
-        width: 101
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c371ef02748bcd64b9639b5e791fd08d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_attack_heavy_left_2
-      rect:
-        serializedVersion: 2
-        x: 202
-        y: 539
-        width: 101
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5078b23108e922545887e4cd5222527b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_attack_heavy_left_3
-      rect:
-        serializedVersion: 2
-        x: 303
-        y: 539
-        width: 101
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 56815aa7d1bb12e4faebd8926f4cfea1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_attack_heavy_left_4
-      rect:
-        serializedVersion: 2
-        x: 404
-        y: 539
-        width: 101
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86db6fa740b999d408496012f2dd06cd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_dodge_right_0
-      rect:
-        serializedVersion: 2
-        x: 606
-        y: 539
-        width: 101
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 99282e84dd2f92c4cb9470e2c06a05f0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_dodge_right_1
-      rect:
-        serializedVersion: 2
-        x: 707
-        y: 539
-        width: 101
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bc32ef23ba1a3f94dbbaf9c163aa08db
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_dodge_right_2
-      rect:
-        serializedVersion: 2
-        x: 808
-        y: 539
-        width: 101
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 669fea1b04c28564bbc792c55d450259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_dodge_right_3
-      rect:
-        serializedVersion: 2
-        x: 909
-        y: 539
-        width: 101
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e38f75b988a1d554eb948ceb72184db7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_dodge_right_4
-      rect:
-        serializedVersion: 2
-        x: 1010
-        y: 539
-        width: 101
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 671c0defc88ab4d428d4ff896769386f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_dodge_right_5
-      rect:
-        serializedVersion: 2
-        x: 1111
-        y: 539
-        width: 101
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 67b5bf4feeaf8e04e8ebe9052012a45e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_dodge_left_0
-      rect:
-        serializedVersion: 2
-        x: 1313
-        y: 539
-        width: 101
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba7f99ae5cf8d634d9ba240ea7b383fd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_dodge_left_1
-      rect:
-        serializedVersion: 2
         x: 1414
         y: 539
         width: 101
@@ -1752,13 +1712,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5ebc92f9bec4efe4a8064d264a182984
+      spriteID: f3b0a27b6fcca294c9a316d2ed36b3fe
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_dodge_left_2
+      name: player_animation_attack_heavy_left_2
       rect:
         serializedVersion: 2
         x: 1515
@@ -1772,13 +1732,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23c124c22dded7449918b0b9ff3d753a
+      spriteID: fea3fd99e0863f4478e870a64bdc5474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_dodge_left_3
+      name: player_animation_attack_heavy_left_3
       rect:
         serializedVersion: 2
         x: 1616
@@ -1792,13 +1752,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c4f0b8ca77593dc44b6f53312048aa18
+      spriteID: e0280836377a246469071d527d60f2d5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_dodge_left_4
+      name: player_animation_attack_heavy_left_4
       rect:
         serializedVersion: 2
         x: 1717
@@ -1812,16 +1772,16 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65bd6907cbdce7e42bed38aa56ab0abf
+      spriteID: 4c4786d89ffd1ee48ad268069fbfdcd5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_dodge_left_5
+      name: player_animation_dodge_right_0
       rect:
         serializedVersion: 2
-        x: 1818
+        x: 1919
         y: 539
         width: 101
         height: 97
@@ -1832,13 +1792,33 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f79f09a4ab077524ea2cea00c8b21f9c
+      spriteID: db1bd6ff8f5b14046ba347c3284bb683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_red_right_0
+      name: player_animation_dodge_right_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 442
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9fed92cfda574409cb96555211eb14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_dodge_right_2
       rect:
         serializedVersion: 2
         x: 101
@@ -1852,13 +1832,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0fab520228003db489dcb83ea517642a
+      spriteID: 939f114221dc2254cb62357cc0307d0c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_red_right_1
+      name: player_animation_dodge_right_3
       rect:
         serializedVersion: 2
         x: 202
@@ -1872,13 +1852,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4659b32fcd9c96a4dacc0d3687043730
+      spriteID: 538ce0de7f358c74883f1835fcc35ee1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_red_right_2
+      name: player_animation_dodge_right_4
       rect:
         serializedVersion: 2
         x: 303
@@ -1892,13 +1872,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78dd6b2455f38ed49a8ae6d9d5585a6c
+      spriteID: 7bc25e4d03a309f419a4ebf6db3191f8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_red_right_3
+      name: player_animation_dodge_right_5
       rect:
         serializedVersion: 2
         x: 404
@@ -1912,13 +1892,33 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 621d71845f3b9254caded2344a9454da
+      spriteID: b5ca441790fe2ad4ea630ee594ff0d95
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_red_left_0
+      name: player_animation_dodge_left_0
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 442
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef364f48e2dede44d827a4c17de515d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_dodge_left_1
       rect:
         serializedVersion: 2
         x: 707
@@ -1932,13 +1932,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6dea956c350e224dac74e14e7efbf4b
+      spriteID: a2c307fd93ff1354ea35dfcfb59baad5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_red_left_1
+      name: player_animation_dodge_left_2
       rect:
         serializedVersion: 2
         x: 808
@@ -1952,13 +1952,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f37fa8ea7724385499a67a999d76d9ef
+      spriteID: fc33f37a263306e419e26d1971953fe6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_red_left_2
+      name: player_animation_dodge_left_3
       rect:
         serializedVersion: 2
         x: 909
@@ -1972,13 +1972,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f93c582ebb4b9e4bb21579449dd6046
+      spriteID: 21c0bd7f715f8954aaa94c73acbf0680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_red_left_3
+      name: player_animation_dodge_left_4
       rect:
         serializedVersion: 2
         x: 1010
@@ -1992,16 +1992,16 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2284e121c58e108459092f4f5abf18de
+      spriteID: bf551ddbac3c4e848b8d1e2ef97ce390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_green_right_0
+      name: player_animation_dodge_left_5
       rect:
         serializedVersion: 2
-        x: 1313
+        x: 1111
         y: 442
         width: 101
         height: 97
@@ -2012,13 +2012,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a559e8a86829aad48841a78c6e88f11e
+      spriteID: 177fb310d26529e4c8973c0720401c45
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_green_right_1
+      name: player_animation_firebolt_red_right_0
       rect:
         serializedVersion: 2
         x: 1414
@@ -2032,13 +2032,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a23b9f85a3ab7c346bd93200f354b580
+      spriteID: d91f5d6da03177d46b35f6163bc99631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_green_right_2
+      name: player_animation_firebolt_red_right_1
       rect:
         serializedVersion: 2
         x: 1515
@@ -2052,13 +2052,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 474c14b04c986ac428b77bce21fd162f
+      spriteID: 7aa6ad51ca3f171459a681472ce29df3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_green_right_3
+      name: player_animation_firebolt_red_right_2
       rect:
         serializedVersion: 2
         x: 1616
@@ -2072,16 +2072,16 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8e939fcf9d66b14e806190e83acdcb7
+      spriteID: e07ab90073b3fd24eb29be6d38612ad7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_green_left_0
+      name: player_animation_firebolt_red_right_3
       rect:
         serializedVersion: 2
-        x: 1919
+        x: 1717
         y: 442
         width: 101
         height: 97
@@ -2092,13 +2092,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78562298cb99d44478d0c5d5a505d48b
+      spriteID: 1df2bc2ce25b0544ab2243702b6e6e5d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_green_left_1
+      name: player_animation_firebolt_red_left_0
       rect:
         serializedVersion: 2
         x: 0
@@ -2112,13 +2112,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0dec7be4cdb6c364ab2f27c700080e15
+      spriteID: d065167480502d543a5ac020b2ce7555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_green_left_2
+      name: player_animation_firebolt_red_left_1
       rect:
         serializedVersion: 2
         x: 101
@@ -2132,13 +2132,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23c3633b662e548429e8684c0c108306
+      spriteID: adc2d3617e92f674cad476512b6cdfaf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_firebolt_green_left_3
+      name: player_animation_firebolt_red_left_2
       rect:
         serializedVersion: 2
         x: 202
@@ -2152,16 +2152,16 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9118d050bcc1b884783a0906d6deb4c8
+      spriteID: 7031174dfad3f8a40a310b8d5f7adcf3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_right_0
+      name: player_animation_firebolt_red_left_3
       rect:
         serializedVersion: 2
-        x: 505
+        x: 303
         y: 345
         width: 101
         height: 97
@@ -2172,13 +2172,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f1471348a8528a4da9b31f3506fc689
+      spriteID: 6790c3705959a9b4db65ddcfaee32706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_right_1
+      name: player_animation_firebolt_green_right_0
       rect:
         serializedVersion: 2
         x: 606
@@ -2192,13 +2192,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00f1094b2edea184b93b72e25e8e0d8f
+      spriteID: a569f729b51e7ef4d9d8087f8a0c5f05
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_right_2
+      name: player_animation_firebolt_green_right_1
       rect:
         serializedVersion: 2
         x: 707
@@ -2212,13 +2212,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 284f02b8c19a7bf48b01c2b65a39231a
+      spriteID: 3700f2914a69f344fb5e82f606d29c45
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_right_3
+      name: player_animation_firebolt_green_right_2
       rect:
         serializedVersion: 2
         x: 808
@@ -2232,13 +2232,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16e1cb23c489c4e49be0cf43ca01191b
+      spriteID: c31088bdfabb87644998594182753333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_right_4
+      name: player_animation_firebolt_green_right_3
       rect:
         serializedVersion: 2
         x: 909
@@ -2252,53 +2252,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42011019d5126e141b9ac177826700b2
+      spriteID: 410ee30411df066469d4b6b684da8a18
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_right_5
-      rect:
-        serializedVersion: 2
-        x: 1010
-        y: 345
-        width: 101
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01d493ca9fc04174a81d444f94d2930a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_death_right_6
-      rect:
-        serializedVersion: 2
-        x: 1111
-        y: 345
-        width: 101
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d2d51a559895b4547842f75ce972421d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_death_right_7
+      name: player_animation_firebolt_green_left_0
       rect:
         serializedVersion: 2
         x: 1212
@@ -2312,13 +2272,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 869e3084702fd7944bccb2de0e5ca01c
+      spriteID: 6008e24a7710b6240a4b461f907d39d8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_right_8
+      name: player_animation_firebolt_green_left_1
       rect:
         serializedVersion: 2
         x: 1313
@@ -2332,13 +2292,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc9eb430115a93e4f8b4c57a4b9d08dc
+      spriteID: 8194724b13d206a40a146c7e574ac253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_right_9
+      name: player_animation_firebolt_green_left_2
       rect:
         serializedVersion: 2
         x: 1414
@@ -2352,13 +2312,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b73dcd0e13f85bb41b44fb13c97234b5
+      spriteID: d886d54d83197dd4285e35b34a0c66e6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_right_10
+      name: player_animation_firebolt_green_left_3
       rect:
         serializedVersion: 2
         x: 1515
@@ -2372,53 +2332,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5d70c83d6ed54342ba440ae09bcc36e
+      spriteID: 22fc78ef4f9f9dd43a336ad1ab1201cf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_right_11
-      rect:
-        serializedVersion: 2
-        x: 1616
-        y: 345
-        width: 101
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c9fdceaedd601a0488a1fdd437d4ae20
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_death_right_12
-      rect:
-        serializedVersion: 2
-        x: 1717
-        y: 345
-        width: 101
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 044e9a38702e04e4aafbfcebeb47bba3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_death_right_13
+      name: player_animation_death_right_0
       rect:
         serializedVersion: 2
         x: 1818
@@ -2432,13 +2352,53 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 552bae87ec78b0f4aabbda2ae985bd59
+      spriteID: 4dddae9951279be46aaeaef72ec92625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_left_0
+      name: player_animation_death_right_1
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 345
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8236fd0c53dc54e9e4e24b97909f51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_death_right_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27a86ae71e75624caf6d59bd55a3243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_death_right_3
       rect:
         serializedVersion: 2
         x: 101
@@ -2452,13 +2412,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9b9c3f11846c004aa56ab8d1bc696d3
+      spriteID: db2a8b82cb3ff1a4f9d9418e8a3ae895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_left_1
+      name: player_animation_death_right_4
       rect:
         serializedVersion: 2
         x: 202
@@ -2472,13 +2432,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f37eececf63c014995bd72ce4f1aa91
+      spriteID: b6450c534797da043990398e7e82ceb0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_left_2
+      name: player_animation_death_right_5
       rect:
         serializedVersion: 2
         x: 303
@@ -2492,13 +2452,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 704cf576b4643784a8b666926e50f9ed
+      spriteID: 57e0318287768eb478dc5b2887209fda
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_left_3
+      name: player_animation_death_right_6
       rect:
         serializedVersion: 2
         x: 404
@@ -2512,13 +2472,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0e34a62fcc83ef4286af259d4f12e70
+      spriteID: cae757430df171b4591786d74f21f99d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_left_4
+      name: player_animation_death_right_7
       rect:
         serializedVersion: 2
         x: 505
@@ -2532,13 +2492,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b135900cccf4e74fbbea05e0ac14d64
+      spriteID: 622ce0e4c6ff6ca43920960e3eabae0a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_left_5
+      name: player_animation_death_right_8
       rect:
         serializedVersion: 2
         x: 606
@@ -2552,13 +2512,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c33652987d0ee24db017231564487b2
+      spriteID: 429a55739cf26cf4ea85a1dd76efa4ff
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_left_6
+      name: player_animation_death_right_9
       rect:
         serializedVersion: 2
         x: 707
@@ -2572,13 +2532,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4bd78f51a0994f41b82be064b12a7c6
+      spriteID: aa96b4e56b825e343a10cce7c4853023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_left_7
+      name: player_animation_death_right_10
       rect:
         serializedVersion: 2
         x: 808
@@ -2592,13 +2552,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71f20dd417473654e8de2612738a8afa
+      spriteID: a3470ce2aacd0f24da421cba672d86bb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_left_8
+      name: player_animation_death_right_11
       rect:
         serializedVersion: 2
         x: 909
@@ -2612,13 +2572,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dce941bf2c8bfc64793bd979b933cd8c
+      spriteID: 0e04adb231f9885409eb63929d22e9c9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_left_9
+      name: player_animation_death_right_12
       rect:
         serializedVersion: 2
         x: 1010
@@ -2632,13 +2592,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fbc8109e4958b648b08442dc97819ca
+      spriteID: 4870c572e838d254d8db77d53a9a5883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_left_10
+      name: player_animation_death_right_13
       rect:
         serializedVersion: 2
         x: 1111
@@ -2652,53 +2612,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e2d4d8fc3fc51164d8cb369886e9a094
+      spriteID: be6fe68b694f68340a91263a9ed04e31
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_animation_death_left_11
-      rect:
-        serializedVersion: 2
-        x: 1212
-        y: 248
-        width: 101
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 81e89725bdea9a44db979f54f244fe71
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_death_left_12
-      rect:
-        serializedVersion: 2
-        x: 1313
-        y: 248
-        width: 101
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e3df21263e4fb46479e86a1dc02ed6f1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_animation_death_left_13
+      name: player_animation_death_left_0
       rect:
         serializedVersion: 2
         x: 1414
@@ -2712,7 +2632,347 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f557ef33dd7a6d5458cf7ccc965f4d40
+      spriteID: b784a8c58c9620f4dbf128adde04a4ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_death_left_1
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 248
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598a54b6a4dad2e43a381e911ce2c1f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_death_left_2
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 248
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7576e8ab2f4d742b0b2fed99aeeb77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_death_left_3
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 248
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f367b0949e00e34cbda6038ec7427c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_death_left_4
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 248
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbca4f86f1f1d941ac9a6bd9893303c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_death_left_5
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 248
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2c38922a38245419cfb9ac36599737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_death_left_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 151
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca56c9922b77274cb3c34cfa94f8e16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_death_left_7
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 151
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242732b63e1835a4d810f97c40e7d033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_death_left_8
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 151
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7a07d8b84d2b64a854ba2a705a1ee8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_death_left_9
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 151
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea664430a2fbb664da12266cecc8fe4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_death_left_10
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 151
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c17dc3898993548bcc22f5194b072c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_death_left_11
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 151
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96108d857042a80498175ad4a5bdabab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_death_left_12
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 151
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b260400f923c8024c9a8e13ab47c81cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_death_left_13
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 151
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6396164f4bbe74d478fcd56b057cf9ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_stagger_right_0
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 151
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ed154845ea5f54083aa8f527059ce3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_stagger_right_1
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 151
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a20a7204fda084cada2a5379ad09a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_stagger_left_0
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 151
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b523905ecf044544971a4dac203dc78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_animation_stagger_left_1
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 151
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38cf48f18cc2114bac689fcda9577d9
       vertices: []
       indices: 
       edges: []

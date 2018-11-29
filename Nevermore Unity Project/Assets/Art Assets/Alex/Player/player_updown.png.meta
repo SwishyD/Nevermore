@@ -54,6 +54,22 @@ TextureImporter:
     21300098: player_updown_firebolt_green_up_1
     21300100: player_updown_firebolt_green_up_2
     21300102: player_updown_firebolt_green_up_3
+    21300104: player_updown_attack_light_down_green_0
+    21300106: player_updown_attack_light_down_green_1
+    21300108: player_updown_attack_light_down_green_2
+    21300110: player_updown_attack_light_down_green_3
+    21300112: player_updown_attack_light_up_green_0
+    21300114: player_updown_attack_light_up_green_1
+    21300116: player_updown_attack_light_up_green_2
+    21300118: player_updown_attack_light_up_green_3
+    21300120: player_updown_attack_light_down_red_0
+    21300122: player_updown_attack_light_down_red_1
+    21300124: player_updown_attack_light_down_red_2
+    21300126: player_updown_attack_light_down_red_3
+    21300128: player_updown_attack_light_up_red_0
+    21300130: player_updown_attack_light_up_red_1
+    21300132: player_updown_attack_light_up_red_2
+    21300134: player_updown_attack_light_up_red_3
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -137,7 +153,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c0c98bd8c7bd90942afac6f919c126f7
+      spriteID: 4b62dbd7a321fd749b826cf0ccf41ca4
       vertices: []
       indices: 
       edges: []
@@ -157,7 +173,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30d73d59eb3ab5d43a9036f9e11a8a8e
+      spriteID: 0d9c8dcb0a059dc478249812abf89c29
       vertices: []
       indices: 
       edges: []
@@ -177,7 +193,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 72183df1ad80e2047b22e4c90db85adf
+      spriteID: 02588795170a07048aa737e3ccef1421
       vertices: []
       indices: 
       edges: []
@@ -197,7 +213,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7d109e540c9c5544bbd686cbfca5a139
+      spriteID: 0c0e6c8fa5484cf44baa1fba6aae182c
       vertices: []
       indices: 
       edges: []
@@ -217,7 +233,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 969c1700ff065284097ffb6b8fe7929d
+      spriteID: 2f353bdde4e37764191c57ea9884799e
       vertices: []
       indices: 
       edges: []
@@ -237,7 +253,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 26a39584377c6de4aa7c27e962e86610
+      spriteID: 0322a6d03ef745f48843a4dd36c72d55
       vertices: []
       indices: 
       edges: []
@@ -257,7 +273,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43e411ebc21e7e44fb1898fa5b40846b
+      spriteID: a6d2df2aeaca19347827034b96e8afa0
       vertices: []
       indices: 
       edges: []
@@ -277,7 +293,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 828d6394ccec3cf419ceddddec2eed57
+      spriteID: 4fda32e72ba62534a9a4ffb2d95940d8
       vertices: []
       indices: 
       edges: []
@@ -297,7 +313,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 191e620313a26bb4680ea1bb068e779a
+      spriteID: 75cf18cf1fde69c44b0627378868876a
       vertices: []
       indices: 
       edges: []
@@ -317,7 +333,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fae613417ef60f541b0c7a12aff59287
+      spriteID: 2105b69d2ca6ed44287ce58dbac362ff
       vertices: []
       indices: 
       edges: []
@@ -337,7 +353,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dff698f7f94dd8a47bc659afc39558ce
+      spriteID: f3f3a1e1d9990fe47a6a8be3a9231e85
       vertices: []
       indices: 
       edges: []
@@ -357,7 +373,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9bff5920f2702a4982629def7af67d1
+      spriteID: 92a194f954eec82409165414f64008f5
       vertices: []
       indices: 
       edges: []
@@ -377,7 +393,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 39b61716d91ffea4daca41d049a6ccbe
+      spriteID: cf175ccde971e5148b164191f8c2bfcc
       vertices: []
       indices: 
       edges: []
@@ -397,7 +413,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d422633c45e4ea346960e41ae63e8af2
+      spriteID: d975bc4772c023f4c864be51a614615b
       vertices: []
       indices: 
       edges: []
@@ -417,7 +433,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9b34a0c37f5386409865a4d27c4b853
+      spriteID: b4a02b718e560174a997aa60b08f185a
       vertices: []
       indices: 
       edges: []
@@ -437,7 +453,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8299e0316d7e94141960509e4bd705fd
+      spriteID: a92f5d1d8087b2d46a97ca6c280503d9
       vertices: []
       indices: 
       edges: []
@@ -457,7 +473,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5dc1fbf792ac989488f10d6eec37e408
+      spriteID: dd716bd720ac26146a16474896ae1873
       vertices: []
       indices: 
       edges: []
@@ -477,7 +493,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 506eb7d8f7099fc48a7898edc872b5cd
+      spriteID: a0278d4140c2d9945923fcbf5044bfb9
       vertices: []
       indices: 
       edges: []
@@ -497,7 +513,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bded08800600a994c816f13ee04fbd6d
+      spriteID: 129afa1d3a273d64d91f4b0adebe8fcb
       vertices: []
       indices: 
       edges: []
@@ -517,7 +533,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 44481b1dbf4016743aa39a4bd54b6a99
+      spriteID: 58eeb966ab7f6ad45811a0e856d6c23e
       vertices: []
       indices: 
       edges: []
@@ -537,7 +553,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1a46ca5ef3888140ab51afdbb986e39
+      spriteID: 93f84db0f56220a4f93c138ecba5d16f
       vertices: []
       indices: 
       edges: []
@@ -557,7 +573,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce16edf9ccdc7234ebf95d22dcfb95df
+      spriteID: 5e1f407fdf4c28c4e836f3b9df8dcda8
       vertices: []
       indices: 
       edges: []
@@ -577,7 +593,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 756e313a5416e4f4dbfcb39d6dac6ec1
+      spriteID: c18d09c3b0da3174480696e98e43852b
       vertices: []
       indices: 
       edges: []
@@ -597,7 +613,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36db1688bb8653e4a80d6f14b659fb65
+      spriteID: d2ca854105c003e4482f1b66c3243274
       vertices: []
       indices: 
       edges: []
@@ -617,7 +633,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fee941ee3a322234e8ae673e32f92a3d
+      spriteID: 035195d4fea1a4d429caafda1ff374c9
       vertices: []
       indices: 
       edges: []
@@ -637,7 +653,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4215513e932dbc541b84f86dcc54ff1e
+      spriteID: 6023e1d2557a1f140906e86418080b61
       vertices: []
       indices: 
       edges: []
@@ -657,7 +673,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6df0327c17db4947a4a9b4b8bab52b6
+      spriteID: af95e27380123f54cb73d6643bd7f352
       vertices: []
       indices: 
       edges: []
@@ -677,7 +693,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3dbdb2ff1a2e45d4abfb3b925fb2abaa
+      spriteID: 529d4cdcb401b0e4b986dd8540eab527
       vertices: []
       indices: 
       edges: []
@@ -697,7 +713,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23231c0936c26e644bcf4b18d4323b18
+      spriteID: 608513e4becd90a4583ef17cf4cb01d3
       vertices: []
       indices: 
       edges: []
@@ -717,7 +733,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07f52aef44c7b23469795643c4500b8f
+      spriteID: c6cd529d9488901488332a00aee59fae
       vertices: []
       indices: 
       edges: []
@@ -737,7 +753,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f311a75c155f5ce44936ac5cf16d8c3d
+      spriteID: b6938ddc747b8a748bf9287e31859054
       vertices: []
       indices: 
       edges: []
@@ -757,13 +773,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7fb78ab5b23e22942816b6dc1a00ed38
+      spriteID: 00b92efdee1673b49b8f3419c7ca719c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_updown_attack_light_down_0
+      name: player_updown_attack_light_down_green_0
       rect:
         serializedVersion: 2
         x: 606
@@ -777,13 +793,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb27d63c4c2385b4f9f2d4906221e5f9
+      spriteID: e72e59dd729b3bd43822b236f93fb0e2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_updown_attack_light_down_1
+      name: player_updown_attack_light_down_green_1
       rect:
         serializedVersion: 2
         x: 707
@@ -797,13 +813,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5259df96e47016846a66c89cfbd2a933
+      spriteID: 15f6de12d28798540a793c90715f1cfb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_updown_attack_light_down_2
+      name: player_updown_attack_light_down_green_2
       rect:
         serializedVersion: 2
         x: 808
@@ -817,13 +833,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 73f7f7b1a0f65844aa8c82bdb49a8050
+      spriteID: 75a947afb464a30498a574ec499e67c9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_updown_attack_light_down_3
+      name: player_updown_attack_light_down_green_3
       rect:
         serializedVersion: 2
         x: 909
@@ -837,13 +853,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f969541865afa5b48ab4f34c73e4c1ee
+      spriteID: 12fc65765c15cca41bca33454baf6bc4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_updown_attack_light_up_0
+      name: player_updown_attack_light_up_green_0
       rect:
         serializedVersion: 2
         x: 101
@@ -857,13 +873,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e1588a0ef941c443bfd51629c2764ca
+      spriteID: 3d561cde643fc444397a863b2c9b9386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_updown_attack_light_up_1
+      name: player_updown_attack_light_up_green_1
       rect:
         serializedVersion: 2
         x: 202
@@ -877,13 +893,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fd33de78fa316174e8b1b2bf93e58e5f
+      spriteID: b4cbfb6bc1fac8645b29425687879d5d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_updown_attack_light_up_2
+      name: player_updown_attack_light_up_green_2
       rect:
         serializedVersion: 2
         x: 303
@@ -897,13 +913,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc8af20d63175f24999120aa3962fca1
+      spriteID: a9afe2ad0da7f0b45b2df9f5c5827a43
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_updown_attack_light_up_3
+      name: player_updown_attack_light_up_green_3
       rect:
         serializedVersion: 2
         x: 404
@@ -917,7 +933,167 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9efba9b73a4af841bdf5045847522f4
+      spriteID: f927ab27e5cdc7f4e90a1d1f37711db6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_attack_light_down_red_0
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 539
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d1feb173519204b9be4be389868fce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_attack_light_down_red_1
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 539
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a858861c59c118488fac7affa358e9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_attack_light_down_red_2
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 539
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff69847a78aabc446a8f5c3296498961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_attack_light_down_red_3
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 539
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d405d05b41fef5e4b8df336f78388225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_attack_light_up_red_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 442
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0671d29f1cf67934c95ec9f8579ac836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_attack_light_up_red_1
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 442
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc28302b7912db4381c0940637853b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_attack_light_up_red_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 442
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71268f06b56acce40bb9309b6afc71b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_updown_attack_light_up_red_3
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 442
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435676498564a164d9f7e5fd9280d7ca
       vertices: []
       indices: 
       edges: []
@@ -926,8 +1102,8 @@ TextureImporter:
       name: player_updown_firebolt_green_down_0
       rect:
         serializedVersion: 2
-        x: 606
-        y: 539
+        x: 707
+        y: 442
         width: 101
         height: 97
       alignment: 0
@@ -937,7 +1113,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cde013a9561fb8b44aec36897c0c4045
+      spriteID: e9e69a13b025ebe4baba812c89582df1
       vertices: []
       indices: 
       edges: []
@@ -946,8 +1122,8 @@ TextureImporter:
       name: player_updown_firebolt_green_down_1
       rect:
         serializedVersion: 2
-        x: 707
-        y: 539
+        x: 808
+        y: 442
         width: 101
         height: 97
       alignment: 0
@@ -957,7 +1133,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e625b25497df94428685cac3ca9f700
+      spriteID: 0816e0f90e2c8d641a5ab127d744e862
       vertices: []
       indices: 
       edges: []
@@ -966,8 +1142,8 @@ TextureImporter:
       name: player_updown_firebolt_green_down_2
       rect:
         serializedVersion: 2
-        x: 808
-        y: 539
+        x: 909
+        y: 442
         width: 101
         height: 97
       alignment: 0
@@ -977,7 +1153,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8fc2e6e140c62f74bb68f00e9e782179
+      spriteID: b25b6f7d90c13c44f9a7ad3e79e11ae4
       vertices: []
       indices: 
       edges: []
@@ -986,8 +1162,8 @@ TextureImporter:
       name: player_updown_firebolt_green_down_3
       rect:
         serializedVersion: 2
-        x: 909
-        y: 539
+        x: 0
+        y: 345
         width: 101
         height: 97
       alignment: 0
@@ -997,7 +1173,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ede1411588eeff4babcd117b3b3a87c
+      spriteID: a0f6a7ea8e1f9354f826709c37fc0480
       vertices: []
       indices: 
       edges: []
@@ -1006,8 +1182,8 @@ TextureImporter:
       name: player_updown_firebolt_green_up_0
       rect:
         serializedVersion: 2
-        x: 101
-        y: 442
+        x: 202
+        y: 345
         width: 101
         height: 97
       alignment: 0
@@ -1017,7 +1193,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c0d5a8df0b36e64eb9a6d4315cd6723
+      spriteID: 3fbb0bf465d17a44c89bc8803e3ba941
       vertices: []
       indices: 
       edges: []
@@ -1026,8 +1202,8 @@ TextureImporter:
       name: player_updown_firebolt_green_up_1
       rect:
         serializedVersion: 2
-        x: 202
-        y: 442
+        x: 303
+        y: 345
         width: 101
         height: 97
       alignment: 0
@@ -1037,7 +1213,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db4358f2a18abf84c98121b8973b779c
+      spriteID: 2aab78dd6ac718e4398f1487603a2a00
       vertices: []
       indices: 
       edges: []
@@ -1046,8 +1222,8 @@ TextureImporter:
       name: player_updown_firebolt_green_up_2
       rect:
         serializedVersion: 2
-        x: 303
-        y: 442
+        x: 404
+        y: 345
         width: 101
         height: 97
       alignment: 0
@@ -1057,7 +1233,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a57a157517762045a9ad754ec179ea2
+      spriteID: 5ba30c789cb046a47985ba66fafbe499
       vertices: []
       indices: 
       edges: []
@@ -1066,8 +1242,8 @@ TextureImporter:
       name: player_updown_firebolt_green_up_3
       rect:
         serializedVersion: 2
-        x: 404
-        y: 442
+        x: 505
+        y: 345
         width: 101
         height: 97
       alignment: 0
@@ -1077,7 +1253,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b17505a28b0898b44bd4c47aaaa58798
+      spriteID: 9311b722e6344a64ab9a7d5f3ad517cc
       vertices: []
       indices: 
       edges: []
