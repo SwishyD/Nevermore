@@ -59,9 +59,10 @@ public class NavMesh : MonoBehaviour {
     {
 
         aiChar.SetDestination(patrolArea);
-
+        print(Vector3.Distance(gameObject.transform.position, patrolArea));
         if (Vector3.Distance(gameObject.transform.position, patrolArea) <= 1f)
         {
+            print("Check");
             StartWaitTimer();
         }
     }
@@ -93,7 +94,7 @@ public class NavMesh : MonoBehaviour {
 
     protected virtual void RandomSite()
     {
-        patrolArea = new Vector3(Random.Range(minNavX, maxNavX), 1.762613f, Random.Range(minNavZ, maxNavZ));
+        patrolArea = new Vector3(Random.Range(minNavX, maxNavX), 5.97f, Random.Range(minNavZ, maxNavZ));
     }
     
     protected virtual void StartIdling()

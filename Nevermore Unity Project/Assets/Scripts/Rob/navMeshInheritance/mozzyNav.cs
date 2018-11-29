@@ -7,8 +7,8 @@ public class mozzyNav : NavMesh {
 
     Animator mozzy;
     public GameObject thisMozzy;
-    float speed = 4.2f;
-    public int damage;
+    float speed = 6;
+    public int damage = 10;
     public float minX;
     public float maxX;
     public float minZ;
