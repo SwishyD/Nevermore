@@ -43,22 +43,22 @@ public class Weapon : MonoBehaviour {
         transform.rotation = Quaternion.Euler(90f, 0f, rotZ + offset);
         
 
-        if (rotZ <= 150f &&  rotZ >= 20f)
+        if (rotZ <= 135f &&  rotZ >= 45f)
         {
             anim.SetFloat("yMouse", 1);
             anim.SetFloat("xMouse", 0);
         }
-        if (rotZ <= -50f && rotZ >= -120f)
+        if (rotZ <= -45f && rotZ >= -135f)
         {
             anim.SetFloat("yMouse", -1);
             anim.SetFloat("xMouse", 0);
         }
-        if (rotZ <= 19f && rotZ >= -50f)
+        if (rotZ <= 44f && rotZ >= -44f)
         {
             anim.SetFloat("xMouse", 1);
             anim.SetFloat("yMouse", 0);
         }
-        if ((rotZ <= 151f && rotZ >= 180f) || (rotZ <= -151f && rotZ >= -180f))
+        if ((rotZ <= 136f && rotZ >= 180f) || (rotZ <= -136f && rotZ >= -180f))
         {
             anim.SetFloat("xMouse", -1);
             anim.SetFloat("yMouse", 0);
@@ -81,7 +81,7 @@ public class Weapon : MonoBehaviour {
             timeBtwHits -= Time.deltaTime;
         }
 
-        if (timeBtwShots <= 0f)
+        if (timeBtwShots <= 0.5f)
         {
             if (Input.GetMouseButtonDown(1) && mana >= 20)
             {

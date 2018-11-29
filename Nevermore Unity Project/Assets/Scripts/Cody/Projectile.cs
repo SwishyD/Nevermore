@@ -9,6 +9,7 @@ public class Projectile : MonoBehaviour {
     public float distance;
     public int damage = 5;
     public bool isMelee;
+    public GameObject fbGreenHit;
    
 
 	// Use this for initialization
@@ -20,6 +21,7 @@ public class Projectile : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
+
       transform.Translate(Vector2.up * speed * Time.deltaTime);
 	}
 
@@ -30,6 +32,7 @@ public class Projectile : MonoBehaviour {
             col.gameObject.GetComponentInParent<EnemyHealthSystem>().TakeDamage(damage);
             if (!isMelee)
             {
+                Instantiate(fbGreenHit, col.gameObject.transform.position, transform.rotation);
                 Destroy(gameObject);
             }
         }
@@ -39,6 +42,10 @@ public class Projectile : MonoBehaviour {
     {
         if (collision.gameObject.tag == "Obstacle")
         {
+            if (!isMelee)
+            {
+                Instantiate(fbGreenHit, gameObject.transform.position, transform.rotation);
+            }
             Destroy(gameObject);
         }
     }

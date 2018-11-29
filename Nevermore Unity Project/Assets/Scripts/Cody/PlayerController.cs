@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 lastMoveDir;
 
     //Dash
+    public bool isDashing = false;
     public float dashSpeed;
     private float dashTime;
     public float startDashTime;
@@ -100,13 +101,14 @@ public class PlayerController : MonoBehaviour
         {           
                 if (stamina >= 25f)
                 {
-                    Vector3 beforeDashPos = transform.position;
-                    Transform dashEffectTransform = Instantiate(dashEffect, beforeDashPos, Quaternion.identity);
-                    dashEffect.GetComponent<DashDestroy>().HandleAnim(animNum);
-                    dashEffectTransform.eulerAngles = new Vector3(90, 0, UtilsClass.GetAngleFromVectorFloat(lastMoveDir));
-                    transform.position += lastMoveDir * dashDistance;
-                    stamina -= 25f;
-
+                StartCoroutine(dashIFrames());
+                Vector3 beforeDashPos = transform.position;
+                Transform dashEffectTransform = Instantiate(dashEffect, beforeDashPos, Quaternion.identity);
+                dashEffect.GetComponent<DashDestroy>().HandleAnim(animNum);
+                dashEffectTransform.eulerAngles = new Vector3(90, 0, UtilsClass.GetAngleFromVectorFloat(lastMoveDir));
+                transform.position += lastMoveDir * dashDistance;
+                stamina -= 25f;
+                
                 }
                 else
                 {
@@ -134,6 +136,13 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    IEnumerator dashIFrames()
+    {
+        isDashing = true;
+        yield return new WaitForSeconds(1.5f);
+        isDashing = false;
+
+    }
    
     //these control the flashing of sprites
 
