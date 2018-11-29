@@ -7,9 +7,13 @@ public class mozzyNav : NavMesh {
 
     Animator mozzy;
     public GameObject thisMozzy;
-    public float speed = 5;
+    float speed = 4.2f;
     public int damage;
-    public float minX, maxX, minZ, maxZ;
+    public float minX;
+    public float maxX;
+    public float minZ;
+    public float maxZ;
+
     protected override void Start()
     {
         base.Start();
@@ -27,6 +31,8 @@ public class mozzyNav : NavMesh {
 
     protected override void Update()
     {
+        print(minNavX + "inerited");
+        print(patrolArea);
         base.Update();
         if (thisMozzy != null)
         {
