@@ -8,7 +8,7 @@ public class ratNav : NavMesh
 
     Animator rat;
     public GameObject thisRat;
-    public float speed = 5;
+    float speed = 4.6f;
     public int damage;
     public float minX, maxX, minZ, maxZ;
     protected override void Start()
@@ -28,6 +28,8 @@ public class ratNav : NavMesh
 
     protected override void Update()
     {
+
+        print(patrolArea);
         base.Update();
         if (thisRat != null)
         {

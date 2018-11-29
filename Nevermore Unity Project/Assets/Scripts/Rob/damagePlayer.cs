@@ -20,7 +20,7 @@ public class damagePlayer : MonoBehaviour {
 
     public void DealDamage()
     {
-        if (dist < 1)
+        if (dist < 2.5f)
         {
             GameManager.instance.TakeDamage(damage);
         }

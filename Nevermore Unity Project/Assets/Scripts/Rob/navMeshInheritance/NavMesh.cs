@@ -24,10 +24,14 @@ public class NavMesh : MonoBehaviour {
         aiChar = this.GetComponent<NavMeshAgent>();
         player = GameObject.FindWithTag("Player");
         waitTime = startWaitTime;
+        //Invoke("AssignRadius", 1);
     }
 
     protected virtual void Update()
     {
+
+        print(minNavX + "class");
+
         //runs if player passes null. assigns player on respawn
         if (player == null)
         {
@@ -65,7 +69,7 @@ public class NavMesh : MonoBehaviour {
     //tracks the player
     protected virtual void SetDestination()
     {
-        targetVector = new Vector3(player.transform.position.x, 0, player.transform.position.z);
+        targetVector = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z);
         aiChar.SetDestination(targetVector);
 
 
@@ -89,11 +93,16 @@ public class NavMesh : MonoBehaviour {
 
     protected virtual void RandomSite()
     {
-        patrolArea = new Vector3(Random.Range(minNavX, maxNavX), 11.5f, Random.Range(minNavZ, maxNavZ));
+        patrolArea = new Vector3(Random.Range(minNavX, maxNavX), 1.762613f, Random.Range(minNavZ, maxNavZ));
     }
     
     protected virtual void StartIdling()
     {
 
+    }
+
+    protected virtual void AssignRadius()
+    {
+        GetComponent<NavMeshAgent>().radius = 0.21f;
     }
 }
