@@ -8,8 +8,11 @@ public class Weapon : MonoBehaviour {
 
     public float offset = 90f;
     //Attack types
-    public GameObject melee;
+    public bool isUpgraded = false;
+    public GameObject meleeGreen;
+    public GameObject meleeRed;
     public GameObject fireBoltGreen;
+    public GameObject fireBoltRed;
 
     //Mana
     public float mana = 100;
@@ -71,7 +74,14 @@ public class Weapon : MonoBehaviour {
             if (Input.GetMouseButtonDown(0))
             {                              
                 anim.SetBool("isAttacking", true);
-                Instantiate(melee, shotPoint.position, transform.rotation);
+                if (!isUpgraded)
+                {
+                    Instantiate(meleeGreen, shotPoint.position, transform.rotation);
+                }
+                else if (isUpgraded)
+                {
+                    Instantiate(meleeRed, shotPoint.position, transform.rotation);
+                }
                 timeBtwHits = startTimeBtwHits;
             }
                     
@@ -87,7 +97,14 @@ public class Weapon : MonoBehaviour {
             {
                 mana -= 20;
                 anim.SetBool("isFbG", true);
-                Instantiate(fireBoltGreen, shotPoint.position, transform.rotation);
+                if (!isUpgraded)
+                {
+                    Instantiate(fireBoltGreen, shotPoint.position, transform.rotation);
+                }
+                else if (isUpgraded)
+                {
+                    Instantiate(fireBoltRed, shotPoint.position, transform.rotation);
+                }
                 timeBtwShots = startTimeBtwShots;
             }
 
