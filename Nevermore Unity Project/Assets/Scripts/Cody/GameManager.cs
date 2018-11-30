@@ -94,10 +94,7 @@ public class GameManager : MonoBehaviour {
         {
             health = maxHealth;
         }
-        if (health <= 0)
-        {
-            LoseLife();
-        }
+       
         
 
     }
@@ -109,6 +106,12 @@ public class GameManager : MonoBehaviour {
         {
             health -= damage;
             StartCoroutine(hurtFlash());
+            if (health <= 0)
+            {
+                player.GetComponent<Animator>().SetBool("isDead", true);
+                StartCoroutine(LifeLoss());
+                LoseLife();
+            }
         }
     }
 
@@ -118,9 +121,10 @@ public class GameManager : MonoBehaviour {
         {
             Invoke("GameOver", 3);
         }
-        health = maxHealth;
+       
+        
         lives --;
-        player.transform.position = respawnPoint.position;
+       
     }
     void HandleLives()
     {
@@ -169,6 +173,21 @@ public class GameManager : MonoBehaviour {
         }
 
     }
+    IEnumerator LifeLoss()
+    {
+        
+        player.GetComponent<PlayerController>().enabled = false;
+        player.GetComponent<BoxCollider>().enabled = false;
+        player.GetComponentInChildren<Weapon>().enabled = false;
+
+        yield return new WaitForSeconds(1f);
+        Respawn();
+        player.GetComponent<PlayerController>().enabled = true;
+        player.GetComponent<BoxCollider>().enabled = true;
+        player.GetComponentInChildren<Weapon>().enabled = true;
+        player.GetComponent<Animator>().SetBool("isDead", false);
+      
+    }
 
     public void UpGrade()
     {
@@ -177,6 +196,10 @@ public class GameManager : MonoBehaviour {
         player.GetComponentInChildren<Weapon>().isUpgraded = true;
 
 
+    }
+    public void Respawn()
+    {
+        player.transform.position = respawnPoint.position;
     }
    
 

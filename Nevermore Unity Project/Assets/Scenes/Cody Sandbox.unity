@@ -144,7 +144,7 @@ MonoBehaviour:
   playerGold: 157
   goldCount: {fileID: 1610092020}
   player: {fileID: 61683202}
-  respawnPoint: {fileID: 0}
+  respawnPoint: {fileID: 1070522464}
   redAnims: {fileID: 9100000, guid: 2139c9e8bf09bb640ab3bd0e9c1f6b31, type: 2}
   first: {fileID: 0}
   second: {fileID: 0}
@@ -6110,68 +6110,47 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 114851590488810516, guid: 29f8f7d838ab1284483c85461f83c41a,
-        type: 2}
-      propertyPath: manaBar
-      value: 
-      objectReference: {fileID: 1978418445}
     - target: {fileID: 114912523401336306, guid: 29f8f7d838ab1284483c85461f83c41a,
         type: 2}
       propertyPath: staminaBar
       value: 
       objectReference: {fileID: 1298081257}
-    - target: {fileID: 212008643832332294, guid: 29f8f7d838ab1284483c85461f83c41a,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300100, guid: ef18026974afe334dbbe8b8b9a6eecfc,
-        type: 3}
-    - target: {fileID: 212008643832332294, guid: 29f8f7d838ab1284483c85461f83c41a,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 4.85
-      objectReference: {fileID: 0}
-    - target: {fileID: 212008643832332294, guid: 29f8f7d838ab1284483c85461f83c41a,
-        type: 2}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 212008643832332294, guid: 29f8f7d838ab1284483c85461f83c41a,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 95920113984569516, guid: 29f8f7d838ab1284483c85461f83c41a,
-        type: 2}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: ebac9401b937afa4ca6d6eb5fe82b654, type: 2}
-    - target: {fileID: 95920113984569516, guid: 29f8f7d838ab1284483c85461f83c41a,
-        type: 2}
-      propertyPath: m_ApplyRootMotion
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 114851590488810516, guid: 29f8f7d838ab1284483c85461f83c41a,
         type: 2}
-      propertyPath: meleeGreen
+      propertyPath: manaBar
       value: 
-      objectReference: {fileID: 1060464206156466, guid: 31874539ac1f29b47b1638127689176b,
-        type: 2}
-    - target: {fileID: 114851590488810516, guid: 29f8f7d838ab1284483c85461f83c41a,
-        type: 2}
-      propertyPath: meleeRed
-      value: 
-      objectReference: {fileID: 1060464206156466, guid: 581c26fb308800240badd998c605e3ed,
-        type: 2}
-    - target: {fileID: 114851590488810516, guid: 29f8f7d838ab1284483c85461f83c41a,
-        type: 2}
-      propertyPath: fireBoltRed
-      value: 
-      objectReference: {fileID: 1809794637619116, guid: e999a011100378c4a88e1e17f3cd3ba0,
-        type: 2}
+      objectReference: {fileID: 1978418445}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 29f8f7d838ab1284483c85461f83c41a, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1070522463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1070522464}
+  m_Layer: 0
+  m_Name: respawnpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1070522464
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1070522463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.82, y: 5.3, z: 4.76}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1073232378
 GameObject:
   m_ObjectHideFlags: 0
@@ -8669,11 +8648,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 224498190757258034, guid: c72705a573305704482d863efcd64879,
-        type: 2}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 224498190757258034, guid: c72705a573305704482d863efcd64879,
         type: 2}
       propertyPath: m_LocalPosition.x

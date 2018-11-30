@@ -105,7 +105,7 @@ MonoBehaviour:
   distance: 0.8
   damage: 5
   isMelee: 0
-  fbGreenHit: {fileID: 1874994019630556, guid: b78c63984ffe01444b68b34e53cfbd33, type: 2}
+  fbGreenHit: {fileID: 1874994019630556, guid: 33a7701a8f8820547b3990d2c11f6a4f, type: 2}
 --- !u!212 &212443233345210480
 SpriteRenderer:
   m_ObjectHideFlags: 1
