@@ -31,8 +31,6 @@ public class mozzyNav : NavMesh {
 
     protected override void Update()
     {
-        print(minNavX + "inerited");
-        print(patrolArea);
         base.Update();
         if (thisMozzy != null)
         {
@@ -51,6 +49,10 @@ public class mozzyNav : NavMesh {
             {
                 StartIdling();
             }
+        }
+        else
+        {
+            Destroy(gameObject);
         }
         
     }

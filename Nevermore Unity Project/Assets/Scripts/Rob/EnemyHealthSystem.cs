@@ -11,6 +11,7 @@ public class EnemyHealthSystem : MonoBehaviour {
     public Color hurtColor;
     public SpriteRenderer[] bodyParts;
 
+    int goldValue;
 
     // Use this for initialization
     void Start () {
@@ -21,10 +22,16 @@ public class EnemyHealthSystem : MonoBehaviour {
 	void Update () {
 		if (health <= 0)
         {
+            giveGold();
             Destroy(Enemy);
         }        
 	}
 
+    void giveGold()
+    {
+        goldValue = Random.Range(1, 3);
+        GameManager.instance.AddGold(goldValue);
+    }
 
     public void TakeDamage(int damage)
     {
