@@ -6,10 +6,15 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
+    public bool upGrade = false;
+
     public int playerGold;
     public Text goldCount;
     public GameObject player;
     public Transform respawnPoint;
+    public RuntimeAnimatorController redAnims;
+    public Animator first;
+    public Animator second;
 
     //Health
     public int lives = 3;
@@ -30,6 +35,9 @@ public class GameManager : MonoBehaviour {
 
     void Awake()
     {
+       
+
+
         if (!created)
         {
             created = true;
@@ -48,6 +56,11 @@ public class GameManager : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
+
+        if(upGrade == true)
+        {
+            UpGrade();
+        }
         HandleLives();
         HandleHealth();
         goldCount.text = playerGold.ToString();
@@ -157,6 +170,14 @@ public class GameManager : MonoBehaviour {
 
     }
 
+    public void UpGrade()
+    {
+        Debug.Log("UPGRADED");
+        player.GetComponent<Animator>().runtimeAnimatorController = redAnims;
+        player.GetComponentInChildren<Weapon>().isUpgraded = true;
+
+
+    }
    
 
 }

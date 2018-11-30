@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 65818300837862646}
   - component: {fileID: 95829203757211012}
   m_Layer: 0
-  m_Name: Melee
+  m_Name: MeleeGreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
