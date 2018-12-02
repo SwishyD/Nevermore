@@ -32,6 +32,42 @@ TextureImporter:
     21300054: BoilBeast_Animations 27
     21300056: BoilBeast_Animations 28
     21300058: BoilBeast_Animations 29
+    21300060: BoilBeast_Animations 30
+    21300062: BoilBeast_Animations 31
+    21300064: BoilBeast_Animations 32
+    21300066: BoilBeast_Animations 33
+    21300068: BoilBeast_Animations 34
+    21300070: BoilBeast_Animations 35
+    21300072: BoilBeast_Animations 36
+    21300074: BoilBeast_Animations 37
+    21300076: BoilBeast_Animations 38
+    21300078: BoilBeast_Animations 39
+    21300080: BoilBeast_Animations 40
+    21300082: BoilBeast_Animations 41
+    21300084: BoilBeast_Animations 42
+    21300086: BoilBeast_Animations 43
+    21300088: BoilBeast_Animations 44
+    21300090: BoilBeast_Animations 45
+    21300092: BoilBeast_Animations 46
+    21300094: BoilBeast_Animations 47
+    21300096: BoilBeast_Animations 48
+    21300098: BoilBeast_Animations 49
+    21300100: BoilBeast_Animations 50
+    21300102: BoilBeast_Animations 51
+    21300104: BoilBeast_Animations 52
+    21300106: BoilBeast_Animations 53
+    21300108: BoilBeast_Animations 54
+    21300110: BoilBeast_Animations 55
+    21300112: BoilBeast_Animations 56
+    21300114: BoilBeast_Animations 57
+    21300116: BoilBeast_Animations 58
+    21300118: BoilBeast_Animations 59
+    21300120: BoilBeast_Animations 60
+    21300122: BoilBeast_Animations 61
+    21300124: BoilBeast_Animations 62
+    21300126: BoilBeast_Animations 63
+    21300128: BoilBeast_Animations 64
+    21300130: BoilBeast_Animations 65
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -88,7 +124,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -115,7 +151,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d6b7040bdeaf5e48ae997bcd6a79da3
+      spriteID: 812bf9da1c18ef246ad6bdd71242fe27
       vertices: []
       indices: 
       edges: []
@@ -135,7 +171,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d6b3ba6717f39a4396d186b0535b692
+      spriteID: 2e11f7f0d71e0894aa41daa8e279b4d6
       vertices: []
       indices: 
       edges: []
@@ -155,7 +191,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: edb1e024500a9ef468a9f93b8dbf8d21
+      spriteID: 6ee563cd37bfb114682c655cf327844b
       vertices: []
       indices: 
       edges: []
@@ -175,7 +211,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e68bc2e77b0cdc342ba67dac55d462b9
+      spriteID: b4c894ce46e1e6c4da07ccdfd0e15fef
       vertices: []
       indices: 
       edges: []
@@ -195,7 +231,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d879ab01dfc941b44ab174995c66cab5
+      spriteID: b5492ed0a8424c247922dc5515a7eab1
       vertices: []
       indices: 
       edges: []
@@ -215,7 +251,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d11a3ba97bad7c4469b22e6608d03789
+      spriteID: e1e07fb8bf4ea61429e8b904b28f414f
       vertices: []
       indices: 
       edges: []
@@ -224,8 +260,8 @@ TextureImporter:
       name: BoilBeast_Animations 6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1448
+        x: 1800
+        y: 1748
         width: 300
         height: 300
       alignment: 0
@@ -235,7 +271,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16ddc47ff3d3fd14ab44ff78f6a06656
+      spriteID: e8111ef6137265f498f844d60e845ca7
       vertices: []
       indices: 
       edges: []
@@ -244,8 +280,8 @@ TextureImporter:
       name: BoilBeast_Animations 7
       rect:
         serializedVersion: 2
-        x: 300
-        y: 1448
+        x: 2100
+        y: 1748
         width: 300
         height: 300
       alignment: 0
@@ -255,7 +291,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eaf09d1f86608a841a3ba50c28099dad
+      spriteID: 10e2eda39a633ae4f87eaa440c5292a2
       vertices: []
       indices: 
       edges: []
@@ -264,8 +300,8 @@ TextureImporter:
       name: BoilBeast_Animations 8
       rect:
         serializedVersion: 2
-        x: 600
-        y: 1448
+        x: 2400
+        y: 1748
         width: 300
         height: 300
       alignment: 0
@@ -275,7 +311,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b56019b190299074995b478b49aea547
+      spriteID: 37dc1a11306716f4d86b58bf9a68e91f
       vertices: []
       indices: 
       edges: []
@@ -284,8 +320,8 @@ TextureImporter:
       name: BoilBeast_Animations 9
       rect:
         serializedVersion: 2
-        x: 900
-        y: 1448
+        x: 2700
+        y: 1748
         width: 300
         height: 300
       alignment: 0
@@ -295,7 +331,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c7c47fb0d24dce846836b4b62b81572d
+      spriteID: 36c22af1003379e438fa40c0b757edbc
       vertices: []
       indices: 
       edges: []
@@ -304,8 +340,8 @@ TextureImporter:
       name: BoilBeast_Animations 10
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 1448
+        x: 3000
+        y: 1748
         width: 300
         height: 300
       alignment: 0
@@ -315,7 +351,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9aec29fe281e479468e3147a4b87513b
+      spriteID: 011ab0582222c8e4c81b6520e70f9715
       vertices: []
       indices: 
       edges: []
@@ -324,6 +360,146 @@ TextureImporter:
       name: BoilBeast_Animations 11
       rect:
         serializedVersion: 2
+        x: 3300
+        y: 1748
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e630bee6bd8cb49a6577b801cf4a63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 12
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1748
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5b4c0d6b13f564d893fe250a17190c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1448
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0729dfe7fbb034f8d816a7591c40db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1448
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc7d11175982f043884b91335310561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 15
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1448
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392faa8221e622b458bacfb1e9f4ed28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 16
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1448
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56de2213ecf065c49b45928acda2a935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 17
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1448
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6837f1673f9ed6b41bde2c2616b04ecb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 18
+      rect:
+        serializedVersion: 2
         x: 1500
         y: 1448
         width: 300
@@ -335,147 +511,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 209d4b10e2b1e514ebf9b4e2f253d262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BoilBeast_Animations 12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1148
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fc3f06b6c5fade14683312cb7042f57a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BoilBeast_Animations 13
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 1148
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a6eb8b94fd3af5345bdfeee42d6d017b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BoilBeast_Animations 14
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 1148
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8457ed4eaa999654794e88e59ad07b28
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BoilBeast_Animations 15
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 1148
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c82c232ae61ad547acc1f91d936c79b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BoilBeast_Animations 16
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 1148
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 458582339b8c0fd4dad7d90ec047a4d5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BoilBeast_Animations 17
-      rect:
-        serializedVersion: 2
-        x: 1500
-        y: 1148
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8bce5c74ca6ce024ba91dbc785d4ee86
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BoilBeast_Animations 18
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 848
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 65e572b5625b35d4e920f108be918c44
+      spriteID: 4d90f39184ad86844a53451dc4083364
       vertices: []
       indices: 
       edges: []
@@ -484,6 +520,426 @@ TextureImporter:
       name: BoilBeast_Animations 19
       rect:
         serializedVersion: 2
+        x: 1800
+        y: 1448
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b716f2d32a3a7449871c1ed91c8fcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 20
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1448
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c512dfa7755a5c245b99b9606e50f5cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 21
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1448
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57436320e3240e47ab49bc7346c4e4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 22
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1448
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078bcd73a786e6e4c9636faea05ebc77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 23
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1448
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73dc53717e936446b69f8030e95f29e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 24
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 1448
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef1c1498e05d884fb8fb69d91b03641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 25
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1448
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcb73ab96975a54ca40a4733f92aada
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1148
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48223cee93a2f2e4aa5b0f13aa674b30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 27
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1148
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c27c94307747248b51a185f4d12eda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 28
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1148
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a005ad9904768645baf0dc10a4b5891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 29
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1148
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e632fe35c63e3c4d8857b94e325e80b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 30
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1148
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e506417db731b408c0d0a064dfcca1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 31
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1148
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f538328f4c0a22e4c95cb523f86ee0e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 32
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1148
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61edec8e115183c4cad403d695a77a8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 33
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1148
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd9f0f1f3846f649b5d5699f1623cf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 34
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1148
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2cb6a14cd493d4eaa0251c36af13ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 35
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1148
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d29d7c023595fa409aef03f789235d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 36
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1148
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96dd5e059a6b62c4f9c68b09baa49ce5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 37
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 1148
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63d7a81179ddef40994743ec66d11dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 38
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1148
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb88aeb3b3ca614baad460df0928531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8aa642b79012e449943cd9c7b859e60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 40
+      rect:
+        serializedVersion: 2
         x: 300
         y: 848
         width: 300
@@ -495,13 +951,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e31d168377c93d4cb575c885592f5ee
+      spriteID: 16bda3fad0af9054abc0dc6d1e8f2eb6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BoilBeast_Animations 20
+      name: BoilBeast_Animations 41
       rect:
         serializedVersion: 2
         x: 600
@@ -515,13 +971,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49a597423ae3fd949b8866985cf6d117
+      spriteID: 5f2d0027978224e4f9705f7e5f0853f1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BoilBeast_Animations 21
+      name: BoilBeast_Animations 42
       rect:
         serializedVersion: 2
         x: 900
@@ -535,13 +991,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bbc069bc2842b9c459e943e24aa13bb6
+      spriteID: 62288c9d875d7aa4f99c36ea3b8e9694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BoilBeast_Animations 22
+      name: BoilBeast_Animations 43
       rect:
         serializedVersion: 2
         x: 1200
@@ -555,13 +1011,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 870281467306ae749aed73563f58dae7
+      spriteID: 4ffc15951e2e0bf46b370979b6ad74a3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BoilBeast_Animations 23
+      name: BoilBeast_Animations 44
       rect:
         serializedVersion: 2
         x: 1500
@@ -575,13 +1031,153 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 791abd032c31ed44b9fd4f4a945499c7
+      spriteID: de03f22ec69d2fd41acb85dcc54ef05b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BoilBeast_Animations 24
+      name: BoilBeast_Animations 45
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 848
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f48c35796404f54fa58a39565885e3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 46
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 848
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067ef34a61404954ca38e4e838d1a912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 47
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 848
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df809c57ce0745479ba4d257627cdc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 48
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 848
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b862a7f2e2d374cb0334f5063834be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 49
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 848
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e33d8d2e197f8f4f938dc872dbdf06e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 50
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 848
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8caaa2ce71d554748a9111c849256381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 51
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 848
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51618d0d3240976478699a661927004f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 52
       rect:
         serializedVersion: 2
         x: 0
@@ -595,13 +1191,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49e9b5c37e50c774ab44c242ee375bc9
+      spriteID: f6e23ab494e49f74f926c98e9e9e20bf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BoilBeast_Animations 25
+      name: BoilBeast_Animations 53
       rect:
         serializedVersion: 2
         x: 300
@@ -615,13 +1211,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ebcf53c0c0e7244c9cc35df6c1505af
+      spriteID: 1aba9febb1d808a419ed0de3cac2efe5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BoilBeast_Animations 26
+      name: BoilBeast_Animations 54
       rect:
         serializedVersion: 2
         x: 600
@@ -635,13 +1231,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca97ab7118b44024899a9f82ad82c24e
+      spriteID: d7d6088c67a7dc147a513fdffc9fc21f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BoilBeast_Animations 27
+      name: BoilBeast_Animations 55
       rect:
         serializedVersion: 2
         x: 900
@@ -655,13 +1251,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9dda3e35bdd14024fb456ea74b8997ec
+      spriteID: 0fd3d2270b1a1f74fa7618a89d5437d0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BoilBeast_Animations 28
+      name: BoilBeast_Animations 56
       rect:
         serializedVersion: 2
         x: 1200
@@ -675,13 +1271,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 059b3f5d58b61d842aeee7efe8ced033
+      spriteID: acb9124f7aacb634c8b15f5bc49d4a89
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BoilBeast_Animations 29
+      name: BoilBeast_Animations 57
       rect:
         serializedVersion: 2
         x: 1500
@@ -695,7 +1291,167 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc8e40bfe7c43d04c9e0331dbcee454c
+      spriteID: 315969d920e3c6f42a30c3efc94c8f5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 58
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 548
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494f65952ad255241acb4540238aaf63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 59
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 548
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0e192ef0b353f4cba7fa823e942c7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 60
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 548
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28717f928f731a0459df95c0e555c4a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 61
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 548
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b81c5ca9d713e42a3790ce40928ff3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 62
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 548
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06f47294e2e60743a54a5c2ea49c560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 63
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 548
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e174e1b8d25da26418dcc141d526a6b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 64
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 548
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339be76bad6a95641bed4f5085b42691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BoilBeast_Animations 65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15cbd00162c17b40a773ea6a92564c5
       vertices: []
       indices: 
       edges: []

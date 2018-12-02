@@ -26,6 +26,27 @@ TextureImporter:
     21300042: Villager_Animations 21
     21300044: Villager_Animations 22
     21300046: Villager_Animations 23
+    21300048: Villager_Animations 24
+    21300050: Villager_Animations 25
+    21300052: Villager_Animations 26
+    21300054: Villager_Animations 27
+    21300056: Villager_Animations 28
+    21300058: Villager_Animations 29
+    21300060: Villager_Animations 30
+    21300062: Villager_Animations 31
+    21300064: Villager_Animations 32
+    21300066: Villager_Animations 33
+    21300068: Villager_Animations 34
+    21300070: Villager_Animations 35
+    21300072: Villager_Animations 36
+    21300074: Villager_Animations 37
+    21300076: Villager_Animations 38
+    21300078: Villager_Animations 39
+    21300080: Villager_Animations 40
+    21300082: Villager_Animations 41
+    21300084: Villager_Animations 42
+    21300086: Villager_Animations 43
+    21300088: Villager_Animations 44
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -82,7 +103,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -109,7 +130,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc05ea7b9817bfe47a708045e0f2c621
+      spriteID: 2948415272b803840a78563b06c347c5
       vertices: []
       indices: 
       edges: []
@@ -129,7 +150,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d150c37cfc2d3fc46a0e616b7f300435
+      spriteID: c661bf34fb526d84eabfd87fce87be46
       vertices: []
       indices: 
       edges: []
@@ -149,7 +170,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da4cfbaf35b850d4e954a5ba2b04daa3
+      spriteID: b90570c5de58c1a4294cbf580d45e9ea
       vertices: []
       indices: 
       edges: []
@@ -169,7 +190,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c2975a83f3712934cbc39c4b5466f590
+      spriteID: 441f0230180cd924e934e28bed92bf77
       vertices: []
       indices: 
       edges: []
@@ -189,7 +210,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88464734669696d4eac0d2247c77cd8e
+      spriteID: 5059a557e81bf554d9fb0e661822b27c
       vertices: []
       indices: 
       edges: []
@@ -209,7 +230,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 266dbefd59217d040b8330ab7f55b088
+      spriteID: 2693e5669f0e1dc45835b6c766be9a9b
       vertices: []
       indices: 
       edges: []
@@ -218,8 +239,8 @@ TextureImporter:
       name: Villager_Animations 6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 352
+        x: 480
+        y: 432
         width: 80
         height: 80
       alignment: 0
@@ -229,7 +250,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eefef0747a19bb14a89a266e0644ceb2
+      spriteID: 1880619fc3e61464088b4ba38c15226d
       vertices: []
       indices: 
       edges: []
@@ -238,8 +259,8 @@ TextureImporter:
       name: Villager_Animations 7
       rect:
         serializedVersion: 2
-        x: 80
-        y: 352
+        x: 560
+        y: 432
         width: 80
         height: 80
       alignment: 0
@@ -249,7 +270,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a7cc5e8e270c514cb67de2aa7df7442
+      spriteID: fe50fdb8e18d0964494c2827b4a39ac8
       vertices: []
       indices: 
       edges: []
@@ -258,8 +279,8 @@ TextureImporter:
       name: Villager_Animations 8
       rect:
         serializedVersion: 2
-        x: 160
-        y: 352
+        x: 640
+        y: 432
         width: 80
         height: 80
       alignment: 0
@@ -269,7 +290,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 478bd3b07f52c41498c3c9d154b090d5
+      spriteID: b68f5426b2e2ec94b8e6345b68818cf5
       vertices: []
       indices: 
       edges: []
@@ -278,8 +299,8 @@ TextureImporter:
       name: Villager_Animations 9
       rect:
         serializedVersion: 2
-        x: 240
-        y: 352
+        x: 720
+        y: 432
         width: 80
         height: 80
       alignment: 0
@@ -289,7 +310,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8627e285e6a9eb04888a4bb81e41b3e3
+      spriteID: c69e6d255150fcc42811838e7476f7fc
       vertices: []
       indices: 
       edges: []
@@ -298,8 +319,8 @@ TextureImporter:
       name: Villager_Animations 10
       rect:
         serializedVersion: 2
-        x: 320
-        y: 352
+        x: 800
+        y: 432
         width: 80
         height: 80
       alignment: 0
@@ -309,7 +330,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 903ced3a7d1c3344a92884102cfba7ad
+      spriteID: d624c1a5f99ba6a4da161de6c3a99399
       vertices: []
       indices: 
       edges: []
@@ -318,8 +339,8 @@ TextureImporter:
       name: Villager_Animations 11
       rect:
         serializedVersion: 2
-        x: 400
-        y: 352
+        x: 880
+        y: 432
         width: 80
         height: 80
       alignment: 0
@@ -329,7 +350,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e45140d764b3c0c49b5529de0c2fe649
+      spriteID: a8384faff6345da4ab252c944ecd0ec9
       vertices: []
       indices: 
       edges: []
@@ -339,6 +360,246 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+        y: 352
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7fe1a7149c7fb4da0ef7727111ff40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 352
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4724f305c57756446899b5c3b21ba23c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2302481070397d443a22e4a4bb037897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 352
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322cfd59113f7524d82568c555feaac4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 16
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161140e34827b1f4a8bcbde9e7298856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 17
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 352
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09bc2bf2a6a927042814f661b3907fff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 18
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 352
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412ac76e33fcc0048af82d0130e1aa44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 19
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 352
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dfdb76c26958064b8a81df34869e7a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 352
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a9c24af07f6664c80e0ab58c2d7b17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 21
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 352
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e3c35f6aa410b45922e92a030c792f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 22
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 352
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e7667fbb9b0ee4aa7e5d4c1557c453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 23
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 352
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53d3382d74169a4bb2defba34f4f6a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 24
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 272
         width: 80
         height: 80
@@ -349,13 +610,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f458d80d46ec0b644af55cdeef11d3a4
+      spriteID: b827bc80f354fc0499bf425b815232e8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villager_Animations 13
+      name: Villager_Animations 25
       rect:
         serializedVersion: 2
         x: 80
@@ -369,13 +630,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5acc48788906ee848bf42ecbb9f609cb
+      spriteID: 63eec1abe6ec8b34aacf0c1090fb8e60
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villager_Animations 14
+      name: Villager_Animations 26
       rect:
         serializedVersion: 2
         x: 160
@@ -389,13 +650,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b0506eb8b8dbeb4e89f5a112965d9bb
+      spriteID: cb2fcfc37e369ce4b93136a768ab42d4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villager_Animations 15
+      name: Villager_Animations 27
       rect:
         serializedVersion: 2
         x: 240
@@ -409,13 +670,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15d55be85592b234a883d4162c7caaae
+      spriteID: 742d0c928620b7345a8f3eb79c109893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villager_Animations 16
+      name: Villager_Animations 28
       rect:
         serializedVersion: 2
         x: 320
@@ -429,13 +690,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd4ba2df4f6d6c24bb81012e525ec288
+      spriteID: 394f121c591824b4bb552f5b3847a243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villager_Animations 17
+      name: Villager_Animations 29
       rect:
         serializedVersion: 2
         x: 400
@@ -449,13 +710,133 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6135248e58425e4ea823f7f18c1bafe
+      spriteID: 9d8166ee45e1e44449fd22ff27841718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villager_Animations 18
+      name: Villager_Animations 30
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 272
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbefc32bd715e2f4989425a9c367d014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 31
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 272
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb8509dfb404a94b8070180be325c83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 32
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 272
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9777556e1b770494cbda35a701928987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 33
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 272
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f22c0917f62454087d325c9246f052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 34
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 272
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fc0f261d6a7b04a8e6d22319f31385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 35
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 272
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f397e7b10c5e8d4d86baab7248f5661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 36
       rect:
         serializedVersion: 2
         x: 0
@@ -469,13 +850,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7df69f4b9ffa16740bbe78b812d9dc10
+      spriteID: 69da12b688d3c184b853d65f07145828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villager_Animations 19
+      name: Villager_Animations 37
       rect:
         serializedVersion: 2
         x: 80
@@ -489,13 +870,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9f0347bd6f17b64a90e511a884af1d7
+      spriteID: aec332d91c22cea4fa4faf0b0e5d4ad1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villager_Animations 20
+      name: Villager_Animations 38
       rect:
         serializedVersion: 2
         x: 160
@@ -509,13 +890,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: acd39b8626d3fc543954c2d8ee35ff67
+      spriteID: bd5a8cfb4dc21aa408245ec72766e17a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villager_Animations 21
+      name: Villager_Animations 39
       rect:
         serializedVersion: 2
         x: 240
@@ -529,13 +910,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd17dcce1d56ae44d922992d2d314966
+      spriteID: 217952b2bccab1844bbca496c52cdf7d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villager_Animations 22
+      name: Villager_Animations 40
       rect:
         serializedVersion: 2
         x: 320
@@ -549,13 +930,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aef448e71a6beb84f9f70d65624a6d00
+      spriteID: fe64a37cf8c18fd40939b51ebe79b284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Villager_Animations 23
+      name: Villager_Animations 41
       rect:
         serializedVersion: 2
         x: 400
@@ -569,7 +950,67 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d37159d181d9d74790d4511a778ffdc
+      spriteID: fbacc3ab7fa038947a2cd55fcad1296c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 42
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e353beb36573f942b2f47981d8389d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 43
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 192
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1b6f9dcd0f51845af8e9f49742fed8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Villager_Animations 44
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88396510c4f7f0b4eaa93852feaa1116
       vertices: []
       indices: 
       edges: []

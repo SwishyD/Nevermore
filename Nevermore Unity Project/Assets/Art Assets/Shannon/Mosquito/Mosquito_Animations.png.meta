@@ -75,6 +75,94 @@ TextureImporter:
     21300140: Mosquito_Animations_Attack_22
     21300142: Mosquito_Animations_Attack_23
     21300144: Mosquito_Animations_Attack_24
+    21300146: Mosquito_Animations 0
+    21300148: Mosquito_Animations 1
+    21300150: Mosquito_Animations 2
+    21300152: Mosquito_Animations 3
+    21300154: Mosquito_Animations 4
+    21300156: Mosquito_Animations 5
+    21300158: Mosquito_Animations 6
+    21300160: Mosquito_Animations 7
+    21300162: Mosquito_Animations 8
+    21300164: Mosquito_Animations 9
+    21300166: Mosquito_Animations 10
+    21300168: Mosquito_Animations 11
+    21300170: Mosquito_Animations 12
+    21300172: Mosquito_Animations 13
+    21300174: Mosquito_Animations 14
+    21300176: Mosquito_Animations 15
+    21300178: Mosquito_Animations 16
+    21300180: Mosquito_Animations 17
+    21300182: Mosquito_Animations 18
+    21300184: Mosquito_Animations 19
+    21300186: Mosquito_Animations 20
+    21300188: Mosquito_Animations 21
+    21300190: Mosquito_Animations 22
+    21300192: Mosquito_Animations 23
+    21300194: Mosquito_Animations 24
+    21300196: Mosquito_Animations 25
+    21300198: Mosquito_Animations 26
+    21300200: Mosquito_Animations 27
+    21300202: Mosquito_Animations 28
+    21300204: Mosquito_Animations 29
+    21300206: Mosquito_Animations 30
+    21300208: Mosquito_Animations 31
+    21300210: Mosquito_Animations 32
+    21300212: Mosquito_Animations 33
+    21300214: Mosquito_Animations 34
+    21300216: Mosquito_Animations 35
+    21300218: Mosquito_Animations 36
+    21300220: Mosquito_Animations 37
+    21300222: Mosquito_Animations 38
+    21300224: Mosquito_Animations 39
+    21300226: Mosquito_Animations 40
+    21300228: Mosquito_Animations 41
+    21300230: Mosquito_Animations 42
+    21300232: Mosquito_Animations 43
+    21300234: Mosquito_Animations 44
+    21300236: Mosquito_Animations 45
+    21300238: Mosquito_Animations 46
+    21300240: Mosquito_Animations 47
+    21300242: Mosquito_Animations 48
+    21300244: Mosquito_Animations 49
+    21300246: Mosquito_Animations 50
+    21300248: Mosquito_Animations 51
+    21300250: Mosquito_Animations 52
+    21300252: Mosquito_Animations 53
+    21300254: Mosquito_Animations 54
+    21300256: Mosquito_Animations 55
+    21300258: Mosquito_Animations 56
+    21300260: Mosquito_Animations 57
+    21300262: Mosquito_Animations 58
+    21300264: Mosquito_Animations 59
+    21300266: Mosquito_Animations 60
+    21300268: Mosquito_Animations 61
+    21300270: Mosquito_Animations 62
+    21300272: Mosquito_Animations 63
+    21300274: Mosquito_Animations 64
+    21300276: Mosquito_Animations 65
+    21300278: Mosquito_Animations 66
+    21300280: Mosquito_Animations 67
+    21300282: Mosquito_Animations 68
+    21300284: Mosquito_Animations 69
+    21300286: Mosquito_Animations 70
+    21300288: Mosquito_Animations 71
+    21300290: Mosquito_Animations 72
+    21300292: Mosquito_Animations 73
+    21300294: Mosquito_Animations 74
+    21300296: Mosquito_Animations 75
+    21300298: Mosquito_Animations 76
+    21300300: Mosquito_Animations 77
+    21300302: Mosquito_Animations 78
+    21300304: Mosquito_Animations 79
+    21300306: Mosquito_Animations 80
+    21300308: Mosquito_Animations 81
+    21300310: Mosquito_Animations 82
+    21300312: Mosquito_Animations 83
+    21300314: Mosquito_Animations 84
+    21300316: Mosquito_Animations 85
+    21300318: Mosquito_Animations 86
+    21300320: Mosquito_Animations 87
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -210,7 +298,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mosquito_Animations_Idle_0
+      name: Mosquito_Animations 0
       rect:
         serializedVersion: 2
         x: 0
@@ -224,13 +312,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6281aa5fb3511c498266100b134c865
+      spriteID: ee05292d8ffc5e642a5ec0aefc10dd31
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Idle_1
+      name: Mosquito_Animations 1
       rect:
         serializedVersion: 2
         x: 64
@@ -238,19 +326,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7b7e5d60425d6864dbf0051e7d1672b8
+      spriteID: 19348f4340728fc44875b1a2955fc956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Idle_2
+      name: Mosquito_Animations 2
       rect:
         serializedVersion: 2
         x: 128
@@ -258,19 +346,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4e882d59433c2b4da1fec15cd54fd4e
+      spriteID: 4d30edb018000d74ab0be17f45d3de03
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Idle_3
+      name: Mosquito_Animations 3
       rect:
         serializedVersion: 2
         x: 192
@@ -278,19 +366,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ecdd9218921eb634eb62625728a6e78f
+      spriteID: 5e0ffd4877e4bcd479a3c803f37d01c6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Idle_4
+      name: Mosquito_Animations 4
       rect:
         serializedVersion: 2
         x: 256
@@ -298,19 +386,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef7787fd138074148a42ba6034cb8142
+      spriteID: 1c4614586892c814f8445a75691495b3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Idle_5
+      name: Mosquito_Animations 5
       rect:
         serializedVersion: 2
         x: 320
@@ -318,19 +406,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a55cbb6bf9dc32469f508bd2d55bee6
+      spriteID: 5e1201332a3c16a4281f190f78c63312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Idle_6
+      name: Mosquito_Animations 6
       rect:
         serializedVersion: 2
         x: 384
@@ -338,19 +426,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bdcdc3143ac05fa49b1aea0bb9315370
+      spriteID: 0cb2f4f248e6e524f994a5db93b24702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Idle_7
+      name: Mosquito_Animations 7
       rect:
         serializedVersion: 2
         x: 448
@@ -358,19 +446,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b5013a58a52fc045bfed50fc4d7c6df
+      spriteID: 7adaf67a69785eb4bbe0691f46be67e4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Idle_8
+      name: Mosquito_Animations 8
       rect:
         serializedVersion: 2
         x: 512
@@ -378,19 +466,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33a1602b0dd8a44468090b574c196bf6
+      spriteID: 3bffc94929ca4eb4194ec5dd84100152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Idle_9
+      name: Mosquito_Animations 9
       rect:
         serializedVersion: 2
         x: 576
@@ -398,19 +486,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 572121d7b105cb9438067a676c4c9402
+      spriteID: be56882cdb9965f43be70786a5cfdbc7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Idle_10
+      name: Mosquito_Animations 10
       rect:
         serializedVersion: 2
         x: 640
@@ -418,19 +506,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79f4b1d94adc72e4bbc0606ee804337e
+      spriteID: e790db7a795e36748b7318fb1498d18f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Idle_11
+      name: Mosquito_Animations 11
       rect:
         serializedVersion: 2
         x: 704
@@ -438,19 +526,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89369165c4e8e9f468f9dddbfab86b37
+      spriteID: 34102cfcdd0954c4198393425ef4f3db
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Idle_12
+      name: Mosquito_Animations 12
       rect:
         serializedVersion: 2
         x: 768
@@ -458,39 +546,39 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 123fdf0c5253254448723da8118b7af5
+      spriteID: b13594ff9cea9bd418af2482346af7f1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Idle_13
+      name: Mosquito_Animations 13
       rect:
         serializedVersion: 2
-        x: 833
+        x: 832
         y: 448
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f5b4543389055dc498a364f229ba8af6
+      spriteID: 82448f8c02d81d048b2b63c265c345ab
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Idle_14
+      name: Mosquito_Animations 14
       rect:
         serializedVersion: 2
         x: 896
@@ -498,19 +586,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 215091f62a987494caf161f4a1e9cca6
+      spriteID: ca010875761070c448919bdcfc42cd7c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Idle_15
+      name: Mosquito_Animations 15
       rect:
         serializedVersion: 2
         x: 960
@@ -518,19 +606,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7bd44bef276e6e74997c895e6a5c3159
+      spriteID: e1172a3ec552812428f50550a92c8871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Left_0
+      name: Mosquito_Animations 16
       rect:
         serializedVersion: 2
         x: 0
@@ -538,19 +626,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2765db74b8f9e846ac82d786f5dc5b6
+      spriteID: 53693fb7729d5914ba6ac86ff49145b0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Left_1
+      name: Mosquito_Animations 17
       rect:
         serializedVersion: 2
         x: 64
@@ -558,19 +646,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a3d05679e8944040b15df21d260ab69
+      spriteID: 36db439cb937f2d4fa7f2ba3ecaa5999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Left_2
+      name: Mosquito_Animations 18
       rect:
         serializedVersion: 2
         x: 128
@@ -578,19 +666,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9734f1d78c31d444d8a09af3dd0b5b94
+      spriteID: 9525895b0d33d2d46a66742ffe5ea30f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Left_3
+      name: Mosquito_Animations 19
       rect:
         serializedVersion: 2
         x: 192
@@ -598,19 +686,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba1eda7a454e01d4f843041be2c8208c
+      spriteID: e420a4e0d701c0148a9a1ee06338caad
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Left_4
+      name: Mosquito_Animations 20
       rect:
         serializedVersion: 2
         x: 256
@@ -618,19 +706,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3710607b51b79624a8dd27ead51191f0
+      spriteID: 0ad86b7460a879848b101d2c1a3dc418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Left_5
+      name: Mosquito_Animations 21
       rect:
         serializedVersion: 2
         x: 320
@@ -638,19 +726,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 171d6e29b88bf13489209840c3969b4d
+      spriteID: 42d26f2d9ee9d9c4f8e6ecf73f18f1d1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Left_6
+      name: Mosquito_Animations 22
       rect:
         serializedVersion: 2
         x: 384
@@ -658,19 +746,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fdf28646860f25546a4abb97b307b5a8
+      spriteID: b3827171dfe822d48ad079103721bb17
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Left_7
+      name: Mosquito_Animations 23
       rect:
         serializedVersion: 2
         x: 448
@@ -678,19 +766,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e587a9be172f2be40bc40f59a60cbb22
+      spriteID: 69f9fba39d3b400448f44ace96381594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Left_8
+      name: Mosquito_Animations 24
       rect:
         serializedVersion: 2
         x: 512
@@ -698,19 +786,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a472d92b9d41d8f4a938451f36024530
+      spriteID: fe71a3726981acc40a8a8d1b178975e3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Left_9
+      name: Mosquito_Animations 25
       rect:
         serializedVersion: 2
         x: 576
@@ -718,19 +806,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: efe87207c5045364ca288cfc2154428d
+      spriteID: 028b0b789bf070d40984700f36d78860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Left_10
+      name: Mosquito_Animations 26
       rect:
         serializedVersion: 2
         x: 640
@@ -738,19 +826,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0be4de6ae86456b4193e21caf8df978a
+      spriteID: 2039c7a5aaaa6b84ca3c455e7deded34
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Left_11
+      name: Mosquito_Animations 27
       rect:
         serializedVersion: 2
         x: 704
@@ -758,19 +846,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6302377e5811c8479f2750b4f686ae9
+      spriteID: 2e48f5b3f26ef4644b78dd56b5c7d14e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Left_12
+      name: Mosquito_Animations 28
       rect:
         serializedVersion: 2
         x: 768
@@ -778,19 +866,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7fc5dd71061466a4cb603ba5bf7e40d9
+      spriteID: 67168170cd1197b49a32092fba6a2517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Left_13
+      name: Mosquito_Animations 29
       rect:
         serializedVersion: 2
         x: 832
@@ -798,19 +886,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59cbfb8ac2ad59d40a938560145d4149
+      spriteID: 51935d090d2a29641a7290c98c5516ed
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Left_14
+      name: Mosquito_Animations 30
       rect:
         serializedVersion: 2
         x: 896
@@ -818,19 +906,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76f3bd207f57afa47af90bf2f3578fe1
+      spriteID: ef2db49f2ee78ce44aab80ee7cfc9001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Left_15
+      name: Mosquito_Animations 31
       rect:
         serializedVersion: 2
         x: 960
@@ -838,339 +926,339 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9d61ad8dd5972d4aa6eddb258cfd7c1
+      spriteID: 8a8cdbfc0439bf04f81822fb2616b580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Up_0
+      name: Mosquito_Animations 32
       rect:
         serializedVersion: 2
         x: 0
         y: 320
         width: 64
         height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac7e6a6b52ccd0c4b8ad8dd70baeae9b
+      spriteID: 34387fb84e2a7744d83bc9a69ec54b7b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Up_1
+      name: Mosquito_Animations 33
       rect:
         serializedVersion: 2
         x: 64
         y: 320
         width: 64
         height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6896b5c7c52f9804297a28700ad716ff
+      spriteID: 903ae609f31aa2245a853995c3b423d3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Up_2
+      name: Mosquito_Animations 34
       rect:
         serializedVersion: 2
         x: 128
         y: 320
         width: 64
         height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a65454a728da9544c83fde28f0583b80
+      spriteID: 4d940b5eb112d874e9d0107765e92dfe
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Up_3
+      name: Mosquito_Animations 35
       rect:
         serializedVersion: 2
         x: 192
         y: 320
         width: 64
         height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d947d344043ff246980f508f2d96a5d
+      spriteID: eeb2e4eb0fa26d542823bb1b391c31d0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Up_4
+      name: Mosquito_Animations 36
       rect:
         serializedVersion: 2
         x: 256
         y: 320
         width: 64
         height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a066732195497948bfa4d70e59ab01d
+      spriteID: f191e10ecd8e26540bff8665f52ce632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Up_5
+      name: Mosquito_Animations 37
       rect:
         serializedVersion: 2
         x: 320
         y: 320
         width: 64
         height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40e1dc82bf4317c45bb7c49acc5e6237
+      spriteID: 5b06bfe5adb6396488bd8339c3d04b8e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Up_6
+      name: Mosquito_Animations 38
       rect:
         serializedVersion: 2
         x: 384
         y: 320
         width: 64
         height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 364d60c5189066446943813f793e3a94
+      spriteID: 98b4c1bc95cc7c44885d924de998ce05
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Up_7
+      name: Mosquito_Animations 39
       rect:
         serializedVersion: 2
         x: 448
         y: 320
         width: 64
         height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19d8b91382c815d4187dd971b35d8c25
+      spriteID: 7b7f55e7eef288a4d8fffe2b6b6928a9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Down_0
+      name: Mosquito_Animations 40
       rect:
         serializedVersion: 2
         x: 512
         y: 320
         width: 64
         height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2eb2097388746654d81ef6f92ed8d9d0
+      spriteID: 61ff1873da365944ebb292c2478a4820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Down_1
+      name: Mosquito_Animations 41
       rect:
         serializedVersion: 2
         x: 576
         y: 320
         width: 64
         height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61551695d0e22c34189d73b58ce3ad04
+      spriteID: edf8f0469356b5f41b3fbcd1021a815d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Down_2
+      name: Mosquito_Animations 42
       rect:
         serializedVersion: 2
         x: 640
         y: 320
         width: 64
         height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a5055566ecf47d438db7f3f02d4ad6a
+      spriteID: 746681e3775090d42bb06c2539f3c29c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Down_3
+      name: Mosquito_Animations 43
       rect:
         serializedVersion: 2
         x: 704
         y: 320
         width: 64
         height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee83af3d636f63644a429be919def630
+      spriteID: 5486f2e0687c4e54ab6235146a2db29f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Down_4
+      name: Mosquito_Animations 44
       rect:
         serializedVersion: 2
         x: 768
         y: 320
         width: 64
         height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d456d85c20cd6544babd571b1858c681
+      spriteID: 2ecfd8bbb9d35ed41a47bbfe9bb842ee
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Down_5
+      name: Mosquito_Animations 45
       rect:
         serializedVersion: 2
         x: 832
         y: 320
         width: 64
         height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43f2ee2ae67bab149addd417e993d801
+      spriteID: ae00866a0f1ea2f49a97c7356208cf18
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Down_6
+      name: Mosquito_Animations 46
       rect:
         serializedVersion: 2
         x: 896
         y: 320
         width: 64
         height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0c24fed982dbe44b89bc4b1ef752aa9
+      spriteID: 7399bba85d10f624e87db98aa72711fe
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Movement_Down_7
+      name: Mosquito_Animations 47
       rect:
         serializedVersion: 2
         x: 960
         y: 320
         width: 64
         height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9597c09ca3cc24409b2ef7f6ebba6ef
+      spriteID: 2aa12fc790877f04a834402f5874ffe1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_0
+      name: Mosquito_Animations 48
       rect:
         serializedVersion: 2
         x: 0
@@ -1178,19 +1266,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f22916769ac8eb4ca2926e80384711c
+      spriteID: ae57b9dae8a30bc47ae4e16196615e3e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_1
+      name: Mosquito_Animations 49
       rect:
         serializedVersion: 2
         x: 64
@@ -1198,19 +1286,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f65030edeefd08f49b0a505fb162c305
+      spriteID: 8b0a31054cf849d48b8494463d9c12ad
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_2
+      name: Mosquito_Animations 50
       rect:
         serializedVersion: 2
         x: 128
@@ -1218,19 +1306,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cde3f8a8113c90f4f97166b5085f3b7a
+      spriteID: 03c028f45f8acf9488f2461b304992c8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_3
+      name: Mosquito_Animations 51
       rect:
         serializedVersion: 2
         x: 192
@@ -1238,19 +1326,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 056523fc88ef57b41a981b6a3fe2670b
+      spriteID: aa496d33e20a2a84c88a5c3716a2408e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_4
+      name: Mosquito_Animations 52
       rect:
         serializedVersion: 2
         x: 256
@@ -1258,19 +1346,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe96d30358083404fafb49799327f6c9
+      spriteID: 1bc57f2af88e89541b979571ff6d26c3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_5
+      name: Mosquito_Animations 53
       rect:
         serializedVersion: 2
         x: 320
@@ -1278,19 +1366,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0591f1f4820539749b43ac2a9079f33d
+      spriteID: fc642d213f54a434b8ab6ce7bce482b8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_6
+      name: Mosquito_Animations 54
       rect:
         serializedVersion: 2
         x: 384
@@ -1298,19 +1386,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9792d9e590c830c4b89d18ddc05941a5
+      spriteID: 881c7b994acbf6d4e9454a8ff5329645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_7
+      name: Mosquito_Animations 55
       rect:
         serializedVersion: 2
         x: 448
@@ -1318,19 +1406,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88d0bc0eaf6457640a9b4ae3f96aabfb
+      spriteID: ad5c5dc6743406147b7f438b9967c791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_8
+      name: Mosquito_Animations 56
       rect:
         serializedVersion: 2
         x: 512
@@ -1338,19 +1426,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ec8ee20063a87544298dbe9f30027ea8
+      spriteID: 6b37c590cc7d6f6449206b005b67c669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_9
+      name: Mosquito_Animations 57
       rect:
         serializedVersion: 2
         x: 576
@@ -1358,19 +1446,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e5b3c97064be304891dc972b9055300
+      spriteID: c350c746e7f6c0e47bb8f261071dbb3b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_10
+      name: Mosquito_Animations 58
       rect:
         serializedVersion: 2
         x: 640
@@ -1378,19 +1466,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15542a42f77ee5645be0b9f261224065
+      spriteID: ccd31d0ba99f4d5459a7bd9032208b17
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_11
+      name: Mosquito_Animations 59
       rect:
         serializedVersion: 2
         x: 704
@@ -1398,19 +1486,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7d15f0089ad7b5b4fb78fdf4404f5678
+      spriteID: 97d6c880d9ef83149a1284628e5b01d4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_12
+      name: Mosquito_Animations 60
       rect:
         serializedVersion: 2
         x: 768
@@ -1418,19 +1506,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a347311e3b0e1e4a8f9dbb2668a4c0b
+      spriteID: 6ff165a5c5382df44a7f376290ce2847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_13
+      name: Mosquito_Animations 61
       rect:
         serializedVersion: 2
         x: 832
@@ -1438,19 +1526,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a29923b1c76760142ae1403a1ce7c2dc
+      spriteID: f954bd88011c0c345b3a4c02aa47aa23
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_14
+      name: Mosquito_Animations 62
       rect:
         serializedVersion: 2
         x: 896
@@ -1458,19 +1546,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d5f9c379d180dd46b4f8a59c94e5168
+      spriteID: 7b4da0a45e76fc74abe8f079d94df03a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_15
+      name: Mosquito_Animations 63
       rect:
         serializedVersion: 2
         x: 960
@@ -1478,19 +1566,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7a84127337bce04bb46ebfe428e6556
+      spriteID: 248ab270aad2fd145867fa94533fe48c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_16
+      name: Mosquito_Animations 64
       rect:
         serializedVersion: 2
         x: 0
@@ -1498,19 +1586,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36dbf5fab6d3be84795ff887bb7022d8
+      spriteID: 4aaa7030c46e892489b332fd0051583e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_17
+      name: Mosquito_Animations 65
       rect:
         serializedVersion: 2
         x: 64
@@ -1518,19 +1606,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed51c3f0df2b6af45ba030a96b5de057
+      spriteID: d806cbaf54e63f44886fa7dcb7864594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_18
+      name: Mosquito_Animations 66
       rect:
         serializedVersion: 2
         x: 128
@@ -1538,19 +1626,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 813482592d28d3c42b8f7007b66855d9
+      spriteID: 71059490b61869b40a33995512d301cd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_19
+      name: Mosquito_Animations 67
       rect:
         serializedVersion: 2
         x: 192
@@ -1558,19 +1646,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e942fa75e744ce42ac8c2510dc26031
+      spriteID: b2ac18f14d7777f47a582ed696b417bf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_20
+      name: Mosquito_Animations 68
       rect:
         serializedVersion: 2
         x: 256
@@ -1578,19 +1666,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 337a1503f90d0b64bb66645418ea30b3
+      spriteID: 52f69d5856b602546bc9bb2ff019034c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_21
+      name: Mosquito_Animations 69
       rect:
         serializedVersion: 2
         x: 320
@@ -1598,19 +1686,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eecd7c9e6dbf5064887e2f606076d5ec
+      spriteID: 613d192dd16f74f4e859bda8248d8044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_22
+      name: Mosquito_Animations 70
       rect:
         serializedVersion: 2
         x: 384
@@ -1618,19 +1706,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e4bfe899ace1214582b6ef982c96210
+      spriteID: 7c1e89a4efad8b3458a7ea0ae1d48363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_23
+      name: Mosquito_Animations 71
       rect:
         serializedVersion: 2
         x: 448
@@ -1638,19 +1726,19 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fabd12c988aae5b4e98f44b21c3cb67d
+      spriteID: 37729857cd192164d97d51b701b891d7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mosquito_Animations_Attack_24
+      name: Mosquito_Animations 72
       rect:
         serializedVersion: 2
         x: 512
@@ -1658,13 +1746,313 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 9
-      pivot: {x: 0.6364614, y: 0.3513155}
+      pivot: {x: 0.63646144, y: 0.3513155}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a20ab8420c1ad83498683c1d50d570fb
+      spriteID: ffc072215d6fb4b47b24187285d5bbd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mosquito_Animations 73
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7d9af0da610ef4985d3569ebfc1749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mosquito_Animations 74
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238da74dc25ca8e4a91efd5ccc8e9518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mosquito_Animations 75
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa6cd7294c15e64b8b35dd714c6ca7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mosquito_Animations 76
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a8edf2a0447f245bbf88aeae52f965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mosquito_Animations 77
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c005ba7caa5f324fb24bcbae718d659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mosquito_Animations 78
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe23c305cd4970441b2f5d307c73b87a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mosquito_Animations 79
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8aed2d247e35142a9e65b1ed246eb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mosquito_Animations 80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c51b27b56641c6438d4318d140d2a36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mosquito_Animations 81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4caa9f9b3173a47bc2faf006b8dcde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mosquito_Animations 82
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f4cd7ec087a4949a7b496ede75f488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mosquito_Animations 83
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3abccef9aa5bff449b8981de13320b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mosquito_Animations 84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc58f8c6c314ae140a3354f3080c815f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mosquito_Animations 85
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8921d1fcf42a0468807dc6aafab1ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mosquito_Animations 86
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b591e538e9a9c34597c1fefd9f81734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mosquito_Animations 87
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.63646144, y: 0.3513155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65fac4b2b5dedd246bc6665bb2affd7f
       vertices: []
       indices: 
       edges: []
