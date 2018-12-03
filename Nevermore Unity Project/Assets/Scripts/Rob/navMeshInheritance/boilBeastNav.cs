@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class ratNav : NavMesh
+public class boilBeastNav : NavMesh
 {
 
-    Animator rat;
-    public GameObject thisRat;
+    Animator bb;
+    public GameObject thisbb;
     float speed = 4.6f;
     public int damage;
     public float minX, maxX, minZ, maxZ;
     protected override void Start()
     {
         base.Start();
-        rat = thisRat.GetComponent<Animator>();
+        bb = thisbb.GetComponent<Animator>();
         GetComponent<NavMeshAgent>().speed = speed;
         minNavX = minX;
         maxNavX = maxX;
@@ -28,25 +28,24 @@ public class ratNav : NavMesh
 
     protected override void Update()
     {
-        
+        print(patrolArea);
         base.Update();
-        if (thisRat != null)
+        if (thisbb != null)
         {
 
             if (playerDist < 1)
             {
-                rat.SetBool("isAttacking", true);
+                bb.SetBool("isAttacking", true);
             }
             else
             {
-                rat.SetBool("isAttacking", false);
+                bb.SetBool("isAttacking", false);
             }
 
             if (waitTime > 0 && Vector3.Distance(transform.position, patrolArea) < 1f)
             {
                 StartIdling();
             }
-
         }
         else
         {
@@ -61,19 +60,23 @@ public class ratNav : NavMesh
     protected override void Patrol()
     {
         base.Patrol();
-        if (thisRat != null)
+        if (thisbb != null)
         {
             //flip sprite anim based on position from location
             if (transform.position.x <= patrolArea.x)
             {
-                rat.SetBool("isMoving", true);
-                thisRat.GetComponent<SpriteRenderer>().flipX = true;
+                bb.SetBool("isMoving", true);
+                thisbb.GetComponent<SpriteRenderer>().flipX = true;
             }
             else if (transform.position.x >= patrolArea.x)
             {
-                rat.SetBool("isMoving", true);
-                thisRat.GetComponent<SpriteRenderer>().flipX = false;
+                bb.SetBool("isMoving", true);
+                thisbb.GetComponent<SpriteRenderer>().flipX = false;
             }
+        }
+        else
+        {
+            Destroy(gameObject);
         }
 
     }
@@ -82,30 +85,51 @@ public class ratNav : NavMesh
     protected override void SetDestination()
     {
         base.SetDestination();
-        if (thisRat != null)
+        if (thisbb != null)
         {
             //flip sprite anim based on position from player
             if (transform.position.x <= targetVector.x)
             {
-                rat.SetBool("isMoving", true);
-                thisRat.GetComponent<SpriteRenderer>().flipX = true;
+                bb.SetBool("isMoving", true);
+                thisbb.GetComponent<SpriteRenderer>().flipX = true;
             }
             else if (transform.position.x >= targetVector.x)
             {
-                rat.SetBool("isMoving", true);
-                thisRat.GetComponent<SpriteRenderer>().flipX = false;
+                bb.SetBool("isMoving", true);
+                thisbb.GetComponent<SpriteRenderer>().flipX = false;
             }
         }
     }
 
     protected override void StartIdling()
     {
-        if (thisRat != null)
+        if (thisbb != null)
         {
-            rat.SetBool("isMoving", false);
-            rat.SetBool("isAttacking", false);
+            bb.SetBool("isMoving", false);
+            bb.SetBool("isAttacking", false);
         }
     }
 
 
+    float attackWait, startAttackWait = 3;
+
+    void attackTimer()
+    {
+        if (attackWait <= 0)
+        {
+            attackPlayer();
+
+            attackWait = startAttackWait;
+        }
+        else
+        {
+            attackWait -= Time.deltaTime;
+        }
+    }
+
+    void attackPlayer()
+    {
+        bb.SetBool("isAttacking", true);
+    }
 }
+

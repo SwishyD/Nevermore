@@ -7,7 +7,7 @@ public class NavMesh : MonoBehaviour {
 
     [SerializeField]
 
-    NavMeshAgent aiChar;
+    protected NavMeshAgent aiChar;
 
 
     protected float minNavX, maxNavX, minNavZ, maxNavZ;
@@ -24,14 +24,12 @@ public class NavMesh : MonoBehaviour {
         aiChar = this.GetComponent<NavMeshAgent>();
         player = GameObject.FindWithTag("Player");
         waitTime = startWaitTime;
-        //Invoke("AssignRadius", 1);
+        Invoke("AssignRadius", 1);
     }
 
     protected virtual void Update()
     {
-
-        print(minNavX + "class");
-
+        
         //runs if player passes null. assigns player on respawn
         if (player == null)
         {
@@ -59,7 +57,6 @@ public class NavMesh : MonoBehaviour {
     {
 
         aiChar.SetDestination(patrolArea);
-
         if (Vector3.Distance(gameObject.transform.position, patrolArea) <= 1f)
         {
             StartWaitTimer();
@@ -93,7 +90,7 @@ public class NavMesh : MonoBehaviour {
 
     protected virtual void RandomSite()
     {
-        patrolArea = new Vector3(Random.Range(minNavX, maxNavX), 1.762613f, Random.Range(minNavZ, maxNavZ));
+        patrolArea = new Vector3(Random.Range(minNavX, maxNavX), 5.97f, Random.Range(minNavZ, maxNavZ));
     }
     
     protected virtual void StartIdling()
@@ -104,5 +101,14 @@ public class NavMesh : MonoBehaviour {
     protected virtual void AssignRadius()
     {
         GetComponent<NavMeshAgent>().radius = 0.21f;
+    }
+
+    protected virtual void OnCollisionEnter(Collision col)
+    {
+        if (col.gameObject.tag == "Obstacle" && Vector3.Distance(transform.position, patrolArea) <= 4)
+        {
+            waitTime = startWaitTime;
+            StartWaitTimer();
+        }
     }
 }
