@@ -28,15 +28,14 @@ public class boilBeastNav : NavMesh
 
     protected override void Update()
     {
-        
-        base.Update();
         print(patrolArea);
+        base.Update();
         if (thisbb != null)
         {
 
-            if (playerDist < 3)
+            if (playerDist < 1)
             {
-                attackTimer();
+                bb.SetBool("isAttacking", true);
             }
             else
             {
@@ -74,6 +73,10 @@ public class boilBeastNav : NavMesh
                 bb.SetBool("isMoving", true);
                 thisbb.GetComponent<SpriteRenderer>().flipX = false;
             }
+        }
+        else
+        {
+            Destroy(gameObject);
         }
 
     }
