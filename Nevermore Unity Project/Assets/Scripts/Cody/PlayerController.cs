@@ -153,6 +153,5 @@ public class PlayerController : MonoBehaviour
         staminaBar.GetComponent<Image>().color = Color.white;
     }
 
-  
-
+ 
 }
