@@ -187,6 +187,7 @@ public class GameManager : MonoBehaviour {
         Debug.Log("UPGRADED");
         player.GetComponent<Animator>().runtimeAnimatorController = redAnims;
         player.GetComponentInChildren<Weapon>().isUpgraded = true;
+        playerGold -= 100;
 
 
     }
