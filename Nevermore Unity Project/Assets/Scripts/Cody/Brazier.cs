@@ -1,13 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Brazier : MonoBehaviour {
 
     private Animator anim;
     public bool isUpgraded;
     public Transform checkpoint;
-  
+    private bool used = false;
+    public GameObject checkpointText;
+    public GameObject toolTip;
+    public GameObject upgradeText;
+    public GameObject thankyouText;
 
 	// Use this for initialization
 	void Awake () {
@@ -24,7 +29,18 @@ public class Brazier : MonoBehaviour {
     {
         if (col.gameObject.tag == "Player")
         {
+            toolTip.SetActive(true);
             anim.SetBool("isActive" , true);
+            if (used == false)
+            {
+                checkpointText.SetActive(true);
+
+                GameManager.instance.respawnPoint = checkpoint;
+                used = true;
+                StartCoroutine(TextWaitTime());
+            }
+
+
         }
     }
 
@@ -32,9 +48,11 @@ public class Brazier : MonoBehaviour {
     {
         if(col.gameObject.tag == "Player")
         {
-            GameManager.instance.respawnPoint = checkpoint;
+
             if (Input.GetKeyDown(KeyCode.E) && GameManager.instance.playerGold >= 100f && isUpgraded == false)
             {
+                upgradeText.SetActive(false);
+                thankyouText.SetActive(true);
                 anim.SetBool("Pulse", true);
                 isUpgraded = true;
                 GameManager.instance.UpGrade();
@@ -47,6 +65,7 @@ public class Brazier : MonoBehaviour {
     {
         if (col.gameObject.tag == "Player")
         {
+            toolTip.SetActive(false);
             anim.SetBool("isActive", false);
         }
 
@@ -57,5 +76,12 @@ public class Brazier : MonoBehaviour {
         yield return new WaitForSeconds(0.4f);
         anim.SetBool("Pulse", false);
 
+    }
+
+    IEnumerator TextWaitTime()
+    {
+        Debug.Log("Waiting");
+        yield return new WaitForSeconds(2f);
+        checkpointText.SetActive(false);
     }
 }
