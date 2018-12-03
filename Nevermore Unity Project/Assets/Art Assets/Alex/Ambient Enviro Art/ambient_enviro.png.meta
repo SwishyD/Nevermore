@@ -14,6 +14,39 @@ TextureImporter:
     21300018: ambient_enviro_brazier_idle_8
     21300020: ambient_enviro_brazier_idle_9
     21300022: ambient_enviro_brazier_idle_10
+    21300024: ambient_enviro_brazier_green_empty_0
+    21300026: ambient_enviro_brazier_green_idle_0
+    21300028: ambient_enviro_brazier_green_idle_1
+    21300030: ambient_enviro_brazier_green_idle_2
+    21300032: ambient_enviro_brazier_green_idle_3
+    21300034: ambient_enviro_brazier_green_idle_4
+    21300036: ambient_enviro_brazier_green_idle_5
+    21300038: ambient_enviro_brazier_green_idle_6
+    21300040: ambient_enviro_brazier_green_idle_7
+    21300042: ambient_enviro_brazier_green_idle_8
+    21300044: ambient_enviro_brazier_green_idle_9
+    21300046: ambient_enviro_brazier_green_idle_10
+    21300048: ambient_enviro_brazier_green_ignite_0
+    21300050: ambient_enviro_brazier_green_ignite_1
+    21300052: ambient_enviro_brazier_green_ignite_2
+    21300054: ambient_enviro_brazier_green_ignite_3
+    21300056: ambient_enviro_brazier_green_ignite_4
+    21300058: ambient_enviro_brazier_green_ignite_5
+    21300060: ambient_enviro_brazier_green_active_0
+    21300062: ambient_enviro_brazier_green_active_1
+    21300064: ambient_enviro_brazier_green_active_2
+    21300066: ambient_enviro_brazier_green_active_3
+    21300068: ambient_enviro_brazier_green_active_4
+    21300070: ambient_enviro_brazier_green_active_5
+    21300072: ambient_enviro_brazier_green_active_6
+    21300074: ambient_enviro_brazier_green_active_7
+    21300076: ambient_enviro_windmill_idle_0
+    21300078: ambient_enviro_windmill_active_0
+    21300080: ambient_enviro_windmill_active_1
+    21300082: ambient_enviro_windmill_active_2
+    21300084: ambient_enviro_windmill_active_3
+    21300086: ambient_enviro_windmill_active_4
+    21300088: ambient_enviro_windmill_active_5
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -70,7 +103,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -149,13 +182,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ambient_enviro_brazier_empty_0
+      name: ambient_enviro_brazier_green_empty_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 412
-        width: 100
-        height: 100
+        y: 1729
+        width: 237
+        height: 319
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,19 +196,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ce8c65fdc720204e8304065fa5e636d
+      spriteID: 49d3cced19840924ab85fde66ac50c24
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ambient_enviro_brazier_idle_0
+      name: ambient_enviro_brazier_green_idle_0
       rect:
         serializedVersion: 2
-        x: 100
-        y: 412
-        width: 100
-        height: 100
+        x: 474
+        y: 1729
+        width: 237
+        height: 319
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,19 +216,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7df4d7780c3054444a0f78f2673999a3
+      spriteID: 76a13cd9f71663d41ba13e626d1e2712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ambient_enviro_brazier_idle_1
+      name: ambient_enviro_brazier_green_idle_1
       rect:
         serializedVersion: 2
-        x: 200
-        y: 412
-        width: 100
-        height: 100
+        x: 711
+        y: 1729
+        width: 237
+        height: 319
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,19 +236,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28b8903c9d4fac8428c0a1d081bfd0c4
+      spriteID: b6f4e04ae50ed344396142a776055db5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ambient_enviro_brazier_idle_2
+      name: ambient_enviro_brazier_green_idle_2
       rect:
         serializedVersion: 2
-        x: 300
-        y: 412
-        width: 100
-        height: 100
+        x: 948
+        y: 1729
+        width: 237
+        height: 319
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,19 +256,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 35d6e83b8e0c80248b485ea1808a7420
+      spriteID: 1f93a926d56531d45b66f900e3b9e6ea
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ambient_enviro_brazier_idle_3
+      name: ambient_enviro_brazier_green_idle_3
       rect:
         serializedVersion: 2
-        x: 400
-        y: 412
-        width: 100
-        height: 100
+        x: 1185
+        y: 1729
+        width: 237
+        height: 319
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,19 +276,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 10266e1c983a8bc4e906536a81d43237
+      spriteID: 1083cea6df45fa14f868c46a24bff90f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ambient_enviro_brazier_idle_4
+      name: ambient_enviro_brazier_green_idle_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 312
-        width: 100
-        height: 100
+        x: 1422
+        y: 1729
+        width: 237
+        height: 319
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,19 +296,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f48b73456895c34ca565cbf96af486f
+      spriteID: 5e85c9ef90a4f554ba36e23fa34988ed
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ambient_enviro_brazier_idle_5
+      name: ambient_enviro_brazier_green_idle_5
       rect:
         serializedVersion: 2
-        x: 100
-        y: 312
-        width: 100
-        height: 100
+        x: 1659
+        y: 1729
+        width: 237
+        height: 319
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,79 +316,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c0885604fa541d34495825932d914c1b
+      spriteID: c9c85540265b98147b132e25a31f69ea
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ambient_enviro_brazier_idle_6
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 312
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5eac66402aa664942accf1a582a5f7fe
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ambient_enviro_brazier_idle_7
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 312
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d88de8c1fe81a841889da2b3510b838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ambient_enviro_brazier_idle_8
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 312
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2686aa6fded9a4845ac72144b9c40682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ambient_enviro_brazier_idle_9
+      name: ambient_enviro_brazier_green_idle_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 212
-        width: 100
-        height: 100
+        y: 1410
+        width: 237
+        height: 319
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,19 +336,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0751fd7c3a734d24e842e55bc150f3bd
+      spriteID: 7c47a23cc66327f44a6ca081278b6131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ambient_enviro_brazier_idle_10
+      name: ambient_enviro_brazier_green_idle_7
       rect:
         serializedVersion: 2
-        x: 100
-        y: 212
-        width: 100
-        height: 100
+        x: 237
+        y: 1410
+        width: 237
+        height: 319
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,7 +356,487 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 144f6fdee744ee84592f5e1f7187877e
+      spriteID: 9952df38c47b22e499e8ac55ec73d0db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_brazier_green_idle_8
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1410
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107821a913e48734fbed01017ea99af4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_brazier_green_idle_9
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1410
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72405696a6725f742be97fe5a3cf6e50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_brazier_green_idle_10
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1410
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe28b5338307d784ca7bb175d9734b8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_brazier_green_ignite_0
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1410
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e80e5c7e8d5b534f9c8ff8dc8b4d9a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_brazier_green_ignite_1
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1410
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56833d69dd99e3b4a99b017e9d1f73e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_brazier_green_ignite_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1091
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2d6ccebf5557542af4014e8d51bf41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_brazier_green_ignite_3
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1091
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b29ed9c979eb87408a760c80a6cbea0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_brazier_green_ignite_4
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1091
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a78175cb5ce71448a5c3165b34303a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_brazier_green_ignite_5
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1091
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6d3924b852826409c00590949502a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_brazier_green_active_0
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1091
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f20b348c6a7f4c43bfe33e9015c9bee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_brazier_green_active_1
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1091
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3516ef1360d5da440a65555b94a1eee7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_brazier_green_active_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 772
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63219ed359fbe814db0a57602531cace
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_brazier_green_active_3
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 772
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b5cce25cd77444b86a931a29dc2325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_brazier_green_active_4
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 772
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aee239efd7721a42bf05b43106eef4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_brazier_green_active_5
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 772
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e8361b085dfb34aa00a81395d3dd39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_brazier_green_active_6
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 772
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f04c15e9cbebd94e8dd60329f85450d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_brazier_green_active_7
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 772
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01de113f9c2f1834b851f60c285433ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_windmill_idle_0
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 772
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace8168e549f04442827512eeec6989e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_windmill_active_0
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 453
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479da4c6e7590814a9b551c39b2bf3ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_windmill_active_1
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 453
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62aa57a3884494c48ae9d775dd961e38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_windmill_active_2
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 453
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c784c4577737d498a2bbe79275d126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_windmill_active_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 453
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79e703c80eb45146b18c3ec5d3022c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_windmill_active_4
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 453
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d272e26460b71742a510f19b1b87272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_windmill_active_5
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 453
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41cbf9a1cb97fb488ee00abc3819177
       vertices: []
       indices: 
       edges: []
