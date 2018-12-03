@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour {
     public RuntimeAnimatorController redAnims;
     public Animator first;
     public Animator second;
+    public bool isDying;
 
     //Health
     public int lives = 3;
@@ -102,16 +103,21 @@ public class GameManager : MonoBehaviour {
     
     public void TakeDamage(int damage)
     {
-        if (player.GetComponent<PlayerController>().isDashing == false)
+        if (player.GetComponent<PlayerController>().isDashing == false && isDying == false)
         {
             health -= damage;
             StartCoroutine(hurtFlash());
             if (health <= 0)
             {
+                isDying = true;
                 player.GetComponent<Animator>().SetBool("isDead", true);
-                StartCoroutine(LifeLoss());
+                player.GetComponent<PlayerController>().enabled = false;
+                player.GetComponent<BoxCollider>().enabled = false;
+                player.GetComponentInChildren<Weapon>().enabled = false;
+
                 LoseLife();
             }
+            
         }
     }
 
@@ -121,9 +127,10 @@ public class GameManager : MonoBehaviour {
         {
             Invoke("GameOver", 3);
         }
-       
-        
+
+        isDying = true;
         lives --;
+        health = maxHealth;
        
     }
     void HandleLives()
@@ -173,21 +180,7 @@ public class GameManager : MonoBehaviour {
         }
 
     }
-    IEnumerator LifeLoss()
-    {
-        
-        player.GetComponent<PlayerController>().enabled = false;
-        player.GetComponent<BoxCollider>().enabled = false;
-        player.GetComponentInChildren<Weapon>().enabled = false;
-
-        yield return new WaitForSeconds(1f);
-        Respawn();
-        player.GetComponent<PlayerController>().enabled = true;
-        player.GetComponent<BoxCollider>().enabled = true;
-        player.GetComponentInChildren<Weapon>().enabled = true;
-        player.GetComponent<Animator>().SetBool("isDead", false);
-      
-    }
+   
 
     public void UpGrade()
     {
@@ -199,7 +192,13 @@ public class GameManager : MonoBehaviour {
     }
     public void Respawn()
     {
+        player.GetComponent<Animator>().SetBool("isDead", false);
         player.transform.position = respawnPoint.position;
+        player.GetComponent<PlayerController>().enabled = true;
+        player.GetComponent<BoxCollider>().enabled = true;
+        player.GetComponentInChildren<Weapon>().enabled = true;
+        isDying = false;
+        health = maxHealth;
     }
    
 

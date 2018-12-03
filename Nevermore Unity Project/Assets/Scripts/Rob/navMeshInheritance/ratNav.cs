@@ -29,7 +29,7 @@ public class ratNav : NavMesh
     protected override void Update()
     {
 
-        print(patrolArea);
+
         base.Update();
         if (thisRat != null)
         {

@@ -30,7 +30,7 @@ public class NavMesh : MonoBehaviour {
     protected virtual void Update()
     {
 
-        print(minNavX + "class");
+
 
         //runs if player passes null. assigns player on respawn
         if (player == null)
