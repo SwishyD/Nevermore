@@ -39,7 +39,8 @@ GameObject:
   - component: {fileID: 114004988245862696}
   - component: {fileID: 114800741496775520}
   - component: {fileID: 95399138446719558}
-  - component: {fileID: 114341099732596422}
+  - component: {fileID: 114750562027992402}
+  - component: {fileID: 136818945611133330}
   m_Layer: 0
   m_Name: BB
   m_TagString: Untagged
@@ -115,8 +116,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc24c0bb351e3534d8fd7e3b49b5bbba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
---- !u!114 &114341099732596422
+  target: {fileID: 1937823178648986, guid: 5cec2e58b49dfa1458ccb94b79ef25fa, type: 2}
+--- !u!114 &114750562027992402
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -124,10 +125,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1358453579438712}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7107cce7cc8d7c24486a0ee853f398b3, type: 3}
+  m_Script: {fileID: 11500000, guid: 769792f764b5ae240953f1713591890f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
 --- !u!114 &114800741496775520
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -144,6 +144,19 @@ MonoBehaviour:
   hurtColor: {r: 1, g: 1, b: 0, a: 1}
   bodyParts:
   - {fileID: 212076442189989896}
+--- !u!136 &136818945611133330
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1358453579438712}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 0
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &212076442189989896
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -5,20 +5,20 @@ using UnityEngine;
 public class damagePlayer : MonoBehaviour {
 
     public int damage;
-    float dist;
-    GameObject player;
+    protected float dist;
+    protected GameObject player;
 
-    private void Start()
+    protected virtual void Start()
     {
         player = GameObject.FindWithTag("Player");
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         dist = Vector3.Distance(gameObject.transform.position, player.transform.position);
     }
 
-    public void DealDamage()
+    protected virtual void DealDamage()
     {
         if (dist < 2.5f)
         {

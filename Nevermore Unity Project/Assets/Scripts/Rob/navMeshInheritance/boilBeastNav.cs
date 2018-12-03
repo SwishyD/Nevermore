@@ -28,14 +28,17 @@ public class boilBeastNav : NavMesh
 
     protected override void Update()
     {
-        print(patrolArea);
+
         base.Update();
         if (thisbb != null)
         {
-
-            if (playerDist < 1)
+            if (playerDist < 3f)
             {
                 bb.SetBool("isAttacking", true);
+                if (bb.GetBool("isAttacking") == true)
+                {
+
+                }
             }
             else
             {

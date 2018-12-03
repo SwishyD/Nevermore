@@ -39,15 +39,15 @@ public class NavMesh : MonoBehaviour {
         playerDist = Vector3.Distance(gameObject.transform.position, player.transform.position);
 
 
-        if (playerDist >= maxRange)
-        {
-            Patrol();
+        //if (playerDist >= maxRange)
+        //{
+        //    Patrol();
 
-        }
-        else
-        {
-            SetDestination();
-        }
+        //}
+        //else
+        //{
+        //    SetDestination();
+        //}
 
 
     }

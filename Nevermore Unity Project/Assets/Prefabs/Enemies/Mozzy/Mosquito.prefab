@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 114004988245862696}
   - component: {fileID: 114800741496775520}
   - component: {fileID: 95399138446719558}
-  - component: {fileID: 114341099732596422}
+  - component: {fileID: 114309499978215828}
   m_Layer: 0
   m_Name: Mosquito
   m_TagString: Untagged
@@ -115,8 +115,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc24c0bb351e3534d8fd7e3b49b5bbba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
---- !u!114 &114341099732596422
+  target: {fileID: 1937823178648986, guid: eb84a8187c661e748bda8cb70adb5bf3, type: 2}
+--- !u!114 &114309499978215828
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1358453579438712}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7107cce7cc8d7c24486a0ee853f398b3, type: 3}
+  m_Script: {fileID: 11500000, guid: 3cb66c36562d1b24abe5dce231f764fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 20
@@ -187,5 +187,5 @@ SpriteRenderer:
   m_Size: {x: 3.2, y: 3.2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
