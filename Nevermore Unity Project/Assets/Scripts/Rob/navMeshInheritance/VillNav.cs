@@ -3,21 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class boilBeastNav : NavMesh
+public class VillNav : NavMesh
 {
 
-    Animator bb;
-    public GameObject thisbb;
-    float speed = 1.5f;
+    Animator vill;
+    public GameObject thisVill;
+    float speed = 7f;
     public int damage;
     public float minX, maxX, minZ, maxZ;
     Vector3 curPos;
-
+    float length;
 
     protected override void Start()
     {
         base.Start();
-        bb = thisbb.GetComponent<Animator>();
+        vill = thisVill.GetComponent<Animator>();
         GetComponent<NavMeshAgent>().speed = speed;
         minNavX = minX;
         maxNavX = maxX;
@@ -31,20 +31,20 @@ public class boilBeastNav : NavMesh
 
     protected override void Update()
     {
-
         base.Update();
-        if (thisbb != null)
+        if (thisVill != null)
         {
-            if (playerDist < 2.5f)
-            {
-                bb.SetBool("isAttacking", true);
-            }
-            else if(thisbb.GetComponent<beginMove>().attacking == false)
-            {
-                bb.SetBool("isAttacking", false);
-            }
 
-            if (bb.GetBool("isAttacking") == true)
+            if (playerDist < 1)
+            {
+                vill.SetBool("isAttacking", true);
+            }
+            else if (thisVill.GetComponent<beginMove>().attacking == false)
+            {
+                vill.SetBool("isAttacking", false);
+            }
+            
+            if (vill.GetBool("isAttacking") == true)
             {
                 aiChar.SetDestination(curPos);
             }
@@ -53,12 +53,15 @@ public class boilBeastNav : NavMesh
             {
                 StartIdling();
             }
+
         }
         else
         {
             Destroy(gameObject);
         }
+
         curPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+
     }
 
 
@@ -68,23 +71,19 @@ public class boilBeastNav : NavMesh
     protected override void Patrol()
     {
         base.Patrol();
-        if (thisbb != null)
+        if (thisVill != null)
         {
             //flip sprite anim based on position from location
             if (transform.position.x <= patrolArea.x)
             {
-                bb.SetBool("isMoving", true);
-                thisbb.GetComponent<SpriteRenderer>().flipX = true;
+                vill.SetBool("isMoving", true);
+                thisVill.GetComponent<SpriteRenderer>().flipX = true;
             }
             else if (transform.position.x >= patrolArea.x)
             {
-                bb.SetBool("isMoving", true);
-                thisbb.GetComponent<SpriteRenderer>().flipX = false;
+                vill.SetBool("isMoving", true);
+                thisVill.GetComponent<SpriteRenderer>().flipX = false;
             }
-        }
-        else
-        {
-            Destroy(gameObject);
         }
 
     }
@@ -93,51 +92,31 @@ public class boilBeastNav : NavMesh
     protected override void SetDestination()
     {
         base.SetDestination();
-        if (thisbb != null)
+        if (thisVill != null)
         {
             //flip sprite anim based on position from player
             if (transform.position.x <= targetVector.x)
             {
-                bb.SetBool("isMoving", true);
-                thisbb.GetComponent<SpriteRenderer>().flipX = true;
+                vill.SetBool("isMoving", true);
+                thisVill.GetComponent<SpriteRenderer>().flipX = true;
             }
             else if (transform.position.x >= targetVector.x)
             {
-                bb.SetBool("isMoving", true);
-                thisbb.GetComponent<SpriteRenderer>().flipX = false;
+                vill.SetBool("isMoving", true);
+                thisVill.GetComponent<SpriteRenderer>().flipX = false;
             }
         }
     }
 
     protected override void StartIdling()
     {
-        if (thisbb != null)
+        if (thisVill != null)
         {
-            bb.SetBool("isMoving", false);
-            bb.SetBool("isAttacking", false);
+            vill.SetBool("isMoving", false);
+            vill.SetBool("isAttacking", false);
         }
     }
 
 
-    float attackWait, startAttackWait = 3;
 
-    void attackTimer()
-    {
-        if (attackWait <= 0)
-        {
-            attackPlayer();
-
-            attackWait = startAttackWait;
-        }
-        else
-        {
-            attackWait -= Time.deltaTime;
-        }
-    }
-
-    void attackPlayer()
-    {
-        bb.SetBool("isAttacking", true);
-    }
 }
-

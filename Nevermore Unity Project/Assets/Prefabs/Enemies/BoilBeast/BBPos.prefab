@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 195472885179885646}
   - component: {fileID: 114415334979070284}
   m_Layer: 0
-  m_Name: BBPos 1
+  m_Name: BBPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,4 +79,4 @@ NavMeshAgent:
   m_Height: 1.12
   m_BaseOffset: 1.5
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 0
+  m_ObstacleAvoidanceType: 4
