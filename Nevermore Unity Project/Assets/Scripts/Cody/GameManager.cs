@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour {
     public Animator first;
     public Animator second;
     public bool isDying;
+    public GameObject gameOverScreen;
+    public GameObject ui;
 
     //Sound
     private AudioSource mySound;
@@ -63,8 +65,8 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    // Update is called once per frame
-    void Update () {
+    void Update ()
+    {
 
         if(upGrade == true)
         {
@@ -73,10 +75,7 @@ public class GameManager : MonoBehaviour {
         HandleLives();
         HandleHealth();
         goldCount.text = playerGold.ToString();
-		if(Input.GetKeyDown(KeyCode.R))
-        {
-            SceneManager.LoadScene(0);
-        }
+		
 	}
 
     public void AddGold(int goldValue)
@@ -133,9 +132,9 @@ public class GameManager : MonoBehaviour {
 
     private void LoseLife()
     {
-        if(lives < 0)
+        if(lives <= 0)
         {
-            Invoke("GameOver", 3);
+            Invoke("GameOver", 0.5f);
         }
         mySound.PlayOneShot(deathSound);
         mySound.PlayOneShot(deathFireSound);
@@ -168,7 +167,10 @@ public class GameManager : MonoBehaviour {
 
     private void GameOver()
     {
-        SceneManager.LoadScene(0);
+        player.SetActive(false);
+        ui.SetActive(false);
+        gameOverScreen.SetActive(true);
+        Invoke("ReturnToMenu", 7);
     }
 
     //these control the flashing of sprites
@@ -213,5 +215,8 @@ public class GameManager : MonoBehaviour {
         health = maxHealth;
     }
    
-
+    void ReturnToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

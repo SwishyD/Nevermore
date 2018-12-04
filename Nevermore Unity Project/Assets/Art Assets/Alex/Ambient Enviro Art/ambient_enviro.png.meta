@@ -47,6 +47,117 @@ TextureImporter:
     21300084: ambient_enviro_windmill_active_3
     21300086: ambient_enviro_windmill_active_4
     21300088: ambient_enviro_windmill_active_5
+    21300090: ambient_enviro_raven_idle_left_0
+    21300092: ambient_enviro_raven_idle_left_1
+    21300094: ambient_enviro_raven_idle_left_2
+    21300096: ambient_enviro_raven_idle_left_3
+    21300098: ambient_enviro_raven_idle_left_4
+    21300100: ambient_enviro_raven_idle_left_5
+    21300102: ambient_enviro_raven_idle_left_6
+    21300104: ambient_enviro_raven_idle_left_7
+    21300106: ambient_enviro_raven_idle_left_8
+    21300108: ambient_enviro_raven_idle_left_9
+    21300110: ambient_enviro_raven_idle_left_10
+    21300112: ambient_enviro_raven_idle_left_11
+    21300114: ambient_enviro_raven_idle_left_12
+    21300116: ambient_enviro_raven_idle_left_13
+    21300118: ambient_enviro_raven_idle_left_14
+    21300120: ambient_enviro_raven_idle_left_15
+    21300122: ambient_enviro_raven_idle_left_16
+    21300124: ambient_enviro_raven_idle_left_17
+    21300126: ambient_enviro_raven_idle_left_18
+    21300128: ambient_enviro_raven_idle_left_19
+    21300130: ambient_enviro_raven_idle_left_20
+    21300132: ambient_enviro_raven_idle_left_21
+    21300134: ambient_enviro_raven_idle_right_0
+    21300136: ambient_enviro_raven_idle_right_1
+    21300138: ambient_enviro_raven_idle_right_2
+    21300140: ambient_enviro_raven_idle_right_3
+    21300142: ambient_enviro_raven_idle_right_4
+    21300144: ambient_enviro_raven_idle_right_5
+    21300146: ambient_enviro_raven_idle_right_6
+    21300148: ambient_enviro_raven_idle_right_7
+    21300150: ambient_enviro_raven_idle_right_8
+    21300152: ambient_enviro_raven_idle_right_9
+    21300154: ambient_enviro_raven_idle_right_10
+    21300156: ambient_enviro_raven_idle_right_11
+    21300158: ambient_enviro_raven_idle_right_12
+    21300160: ambient_enviro_raven_idle_right_13
+    21300162: ambient_enviro_raven_idle_right_14
+    21300164: ambient_enviro_raven_idle_right_15
+    21300166: ambient_enviro_raven_idle_right_16
+    21300168: ambient_enviro_raven_idle_right_17
+    21300170: ambient_enviro_raven_idle_right_18
+    21300172: ambient_enviro_raven_idle_right_19
+    21300174: ambient_enviro_raven_idle_right_20
+    21300176: ambient_enviro_raven_idle_right_21
+    21300178: ambient_enviro_raven_flyoff_left_0
+    21300180: ambient_enviro_raven_flyoff_left_1
+    21300182: ambient_enviro_raven_flyoff_left_2
+    21300184: ambient_enviro_raven_flyoff_left_3
+    21300186: ambient_enviro_raven_flyoff_left_4
+    21300188: ambient_enviro_raven_flyoff_left_5
+    21300190: ambient_enviro_raven_flyoff_left_6
+    21300192: ambient_enviro_raven_flyoff_left_7
+    21300194: ambient_enviro_raven_flyoff_left_8
+    21300196: ambient_enviro_raven_flyoff_left_9
+    21300198: ambient_enviro_raven_flyoff_left_10
+    21300200: ambient_enviro_raven_flyoff_right_0
+    21300202: ambient_enviro_raven_flyoff_right_1
+    21300204: ambient_enviro_raven_flyoff_right_2
+    21300206: ambient_enviro_raven_flyoff_right_3
+    21300208: ambient_enviro_raven_flyoff_right_4
+    21300210: ambient_enviro_raven_flyoff_right_5
+    21300212: ambient_enviro_raven_flyoff_right_6
+    21300214: ambient_enviro_raven_flyoff_right_7
+    21300216: ambient_enviro_raven_flyoff_right_8
+    21300218: ambient_enviro_raven_flyoff_right_9
+    21300220: ambient_enviro_raven_flyoff_right_10
+    21300222: ambient_enviro_ravens_group_idle_0
+    21300224: ambient_enviro_ravens_group_idle_1
+    21300226: ambient_enviro_ravens_group_idle_2
+    21300228: ambient_enviro_ravens_group_idle_3
+    21300230: ambient_enviro_ravens_group_idle_4
+    21300232: ambient_enviro_ravens_group_idle_5
+    21300234: ambient_enviro_ravens_group_idle_6
+    21300236: ambient_enviro_ravens_group_idle_7
+    21300238: ambient_enviro_ravens_group_idle_8
+    21300240: ambient_enviro_ravens_group_idle_9
+    21300242: ambient_enviro_ravens_group_idle_10
+    21300244: ambient_enviro_ravens_group_idle_11
+    21300246: ambient_enviro_ravens_group_idle_12
+    21300248: ambient_enviro_ravens_group_idle_13
+    21300250: ambient_enviro_ravens_group_idle_14
+    21300252: ambient_enviro_ravens_group_idle_15
+    21300254: ambient_enviro_ravens_group_idle_16
+    21300256: ambient_enviro_ravens_group_idle_17
+    21300258: ambient_enviro_ravens_group_idle_18
+    21300260: ambient_enviro_ravens_group_idle_19
+    21300262: ambient_enviro_ravens_group_idle_20
+    21300264: ambient_enviro_ravens_group_idle_21
+    21300266: ambient_enviro_ravens_group_idle_22
+    21300268: ambient_enviro_ravens_group_idle_23
+    21300270: ambient_enviro_ravens_group_idle_24
+    21300272: ambient_enviro_ravens_group_idle_25
+    21300274: ambient_enviro_ravens_group_idle_26
+    21300276: ambient_enviro_ravens_group_idle_27
+    21300278: ambient_enviro_ravens_group_idle_28
+    21300280: ambient_enviro_ravens_group_idle_29
+    21300282: ambient_enviro_ravens_group_idle_30
+    21300284: ambient_enviro_ravens_group_idle_31
+    21300286: ambient_enviro_ravens_group_idle_32
+    21300288: ambient_enviro_raven_group_flyoff_0
+    21300290: ambient_enviro_raven_group_flyoff_1
+    21300292: ambient_enviro_raven_group_flyoff_2
+    21300294: ambient_enviro_raven_group_flyoff_3
+    21300296: ambient_enviro_raven_group_flyoff_4
+    21300298: ambient_enviro_raven_group_flyoff_5
+    21300300: ambient_enviro_raven_group_flyoff_6
+    21300302: ambient_enviro_raven_group_flyoff_7
+    21300304: ambient_enviro_raven_group_flyoff_8
+    21300306: ambient_enviro_raven_group_flyoff_9
+    21300308: ambient_enviro_raven_group_flyoff_10
+    21300310: ambient_enviro_raven_group_flyoff_11
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -103,7 +214,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -186,7 +297,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1729
+        y: 3777
         width: 237
         height: 319
       alignment: 0
@@ -196,7 +307,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49d3cced19840924ab85fde66ac50c24
+      spriteID: 2f5e2bee14269e74f8b6953b78cd50f3
       vertices: []
       indices: 
       edges: []
@@ -206,7 +317,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 474
-        y: 1729
+        y: 3777
         width: 237
         height: 319
       alignment: 0
@@ -216,7 +327,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76a13cd9f71663d41ba13e626d1e2712
+      spriteID: 04a49d9890727ba4a9303f6ce20b3f1e
       vertices: []
       indices: 
       edges: []
@@ -226,7 +337,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 711
-        y: 1729
+        y: 3777
         width: 237
         height: 319
       alignment: 0
@@ -236,7 +347,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6f4e04ae50ed344396142a776055db5
+      spriteID: 474ed9f437eb9a14eb77725c6c1db211
       vertices: []
       indices: 
       edges: []
@@ -246,7 +357,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 948
-        y: 1729
+        y: 3777
         width: 237
         height: 319
       alignment: 0
@@ -256,7 +367,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f93a926d56531d45b66f900e3b9e6ea
+      spriteID: b200119bed40e8849b184f54f04d7f1e
       vertices: []
       indices: 
       edges: []
@@ -266,7 +377,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1185
-        y: 1729
+        y: 3777
         width: 237
         height: 319
       alignment: 0
@@ -276,7 +387,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1083cea6df45fa14f868c46a24bff90f
+      spriteID: c986a415a3b349c4893dc198a5e3b13c
       vertices: []
       indices: 
       edges: []
@@ -286,7 +397,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1422
-        y: 1729
+        y: 3777
         width: 237
         height: 319
       alignment: 0
@@ -296,7 +407,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e85c9ef90a4f554ba36e23fa34988ed
+      spriteID: acf7ace400d79b34aab14f15cb98ecad
       vertices: []
       indices: 
       edges: []
@@ -306,7 +417,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1659
-        y: 1729
+        y: 3777
         width: 237
         height: 319
       alignment: 0
@@ -316,7 +427,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9c85540265b98147b132e25a31f69ea
+      spriteID: 10d8ae4ee5194724596593c1f4f551c5
       vertices: []
       indices: 
       edges: []
@@ -325,8 +436,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_idle_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1410
+        x: 1896
+        y: 3777
         width: 237
         height: 319
       alignment: 0
@@ -336,7 +447,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c47a23cc66327f44a6ca081278b6131
+      spriteID: 64d24f05454e6cc4ba316081846212a1
       vertices: []
       indices: 
       edges: []
@@ -345,8 +456,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_idle_7
       rect:
         serializedVersion: 2
-        x: 237
-        y: 1410
+        x: 2133
+        y: 3777
         width: 237
         height: 319
       alignment: 0
@@ -356,7 +467,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9952df38c47b22e499e8ac55ec73d0db
+      spriteID: a1197bbe73985b449888c00e76f45958
       vertices: []
       indices: 
       edges: []
@@ -365,8 +476,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_idle_8
       rect:
         serializedVersion: 2
-        x: 474
-        y: 1410
+        x: 2370
+        y: 3777
         width: 237
         height: 319
       alignment: 0
@@ -376,7 +487,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 107821a913e48734fbed01017ea99af4
+      spriteID: fffb93fd80154054d83cfb074a0d0052
       vertices: []
       indices: 
       edges: []
@@ -385,8 +496,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_idle_9
       rect:
         serializedVersion: 2
-        x: 711
-        y: 1410
+        x: 2607
+        y: 3777
         width: 237
         height: 319
       alignment: 0
@@ -396,7 +507,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 72405696a6725f742be97fe5a3cf6e50
+      spriteID: 155788f142753c54e84f0d6a25d771b6
       vertices: []
       indices: 
       edges: []
@@ -405,8 +516,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_idle_10
       rect:
         serializedVersion: 2
-        x: 948
-        y: 1410
+        x: 2844
+        y: 3777
         width: 237
         height: 319
       alignment: 0
@@ -416,7 +527,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe28b5338307d784ca7bb175d9734b8a
+      spriteID: 3633840cb3b5e1843bab34b6ad89f818
       vertices: []
       indices: 
       edges: []
@@ -425,8 +536,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_ignite_0
       rect:
         serializedVersion: 2
-        x: 1422
-        y: 1410
+        x: 3318
+        y: 3777
         width: 237
         height: 319
       alignment: 0
@@ -436,7 +547,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e80e5c7e8d5b534f9c8ff8dc8b4d9a7
+      spriteID: 345e7a7d5094a0a4380e706f092683ea
       vertices: []
       indices: 
       edges: []
@@ -445,8 +556,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_ignite_1
       rect:
         serializedVersion: 2
-        x: 1659
-        y: 1410
+        x: 3555
+        y: 3777
         width: 237
         height: 319
       alignment: 0
@@ -456,7 +567,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 56833d69dd99e3b4a99b017e9d1f73e3
+      spriteID: 96ab5fcc8dea96848a999e36f96de729
       vertices: []
       indices: 
       edges: []
@@ -465,8 +576,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_ignite_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1091
+        x: 3792
+        y: 3777
         width: 237
         height: 319
       alignment: 0
@@ -476,7 +587,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a2d6ccebf5557542af4014e8d51bf41
+      spriteID: 70dae761f04a13b48802c96d43c339e4
       vertices: []
       indices: 
       edges: []
@@ -485,8 +596,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_ignite_3
       rect:
         serializedVersion: 2
-        x: 237
-        y: 1091
+        x: 0
+        y: 3458
         width: 237
         height: 319
       alignment: 0
@@ -496,7 +607,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b29ed9c979eb87408a760c80a6cbea0
+      spriteID: 222a2738227a8ae4cb60540f850e6f9f
       vertices: []
       indices: 
       edges: []
@@ -505,8 +616,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_ignite_4
       rect:
         serializedVersion: 2
-        x: 474
-        y: 1091
+        x: 237
+        y: 3458
         width: 237
         height: 319
       alignment: 0
@@ -516,7 +627,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 47a78175cb5ce71448a5c3165b34303a
+      spriteID: 965023ae770e8324dbddecc0a0c3787f
       vertices: []
       indices: 
       edges: []
@@ -525,8 +636,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_ignite_5
       rect:
         serializedVersion: 2
-        x: 711
-        y: 1091
+        x: 474
+        y: 3458
         width: 237
         height: 319
       alignment: 0
@@ -536,7 +647,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f6d3924b852826409c00590949502a4
+      spriteID: ec608e07ec2045d4ea3e9f41da228228
       vertices: []
       indices: 
       edges: []
@@ -545,8 +656,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_active_0
       rect:
         serializedVersion: 2
-        x: 1422
-        y: 1091
+        x: 1185
+        y: 3458
         width: 237
         height: 319
       alignment: 0
@@ -556,7 +667,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f20b348c6a7f4c43bfe33e9015c9bee
+      spriteID: 539a41e1662189641bf25f2247c72b1c
       vertices: []
       indices: 
       edges: []
@@ -565,8 +676,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_active_1
       rect:
         serializedVersion: 2
-        x: 1659
-        y: 1091
+        x: 1422
+        y: 3458
         width: 237
         height: 319
       alignment: 0
@@ -576,7 +687,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3516ef1360d5da440a65555b94a1eee7
+      spriteID: d5b09e495b9e97d42b5b137304fa5ac0
       vertices: []
       indices: 
       edges: []
@@ -585,8 +696,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_active_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 772
+        x: 1659
+        y: 3458
         width: 237
         height: 319
       alignment: 0
@@ -596,7 +707,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63219ed359fbe814db0a57602531cace
+      spriteID: 993d1c208b4af7b47bd9723c6419f42f
       vertices: []
       indices: 
       edges: []
@@ -605,8 +716,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_active_3
       rect:
         serializedVersion: 2
-        x: 237
-        y: 772
+        x: 1896
+        y: 3458
         width: 237
         height: 319
       alignment: 0
@@ -616,7 +727,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19b5cce25cd77444b86a931a29dc2325
+      spriteID: f7c95e9c6570213419f010f7274fd655
       vertices: []
       indices: 
       edges: []
@@ -625,8 +736,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_active_4
       rect:
         serializedVersion: 2
-        x: 474
-        y: 772
+        x: 2133
+        y: 3458
         width: 237
         height: 319
       alignment: 0
@@ -636,7 +747,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3aee239efd7721a42bf05b43106eef4d
+      spriteID: b3a035e6769d3c7498eb0733fd9c1202
       vertices: []
       indices: 
       edges: []
@@ -645,8 +756,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_active_5
       rect:
         serializedVersion: 2
-        x: 711
-        y: 772
+        x: 2370
+        y: 3458
         width: 237
         height: 319
       alignment: 0
@@ -656,7 +767,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75e8361b085dfb34aa00a81395d3dd39
+      spriteID: 080906e6ebd15c24c8f8c7fef30faac0
       vertices: []
       indices: 
       edges: []
@@ -665,8 +776,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_active_6
       rect:
         serializedVersion: 2
-        x: 948
-        y: 772
+        x: 2607
+        y: 3458
         width: 237
         height: 319
       alignment: 0
@@ -676,7 +787,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f04c15e9cbebd94e8dd60329f85450d
+      spriteID: 3480da441bf36c3458abc2aa345f8010
       vertices: []
       indices: 
       edges: []
@@ -685,8 +796,8 @@ TextureImporter:
       name: ambient_enviro_brazier_green_active_7
       rect:
         serializedVersion: 2
-        x: 1185
-        y: 772
+        x: 2844
+        y: 3458
         width: 237
         height: 319
       alignment: 0
@@ -696,7 +807,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01de113f9c2f1834b851f60c285433ca
+      spriteID: e724d35129b1ade4c8c157510474af95
       vertices: []
       indices: 
       edges: []
@@ -705,8 +816,8 @@ TextureImporter:
       name: ambient_enviro_windmill_idle_0
       rect:
         serializedVersion: 2
-        x: 1659
-        y: 772
+        x: 3318
+        y: 3458
         width: 237
         height: 319
       alignment: 0
@@ -716,7 +827,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ace8168e549f04442827512eeec6989e
+      spriteID: f3e38d5a917322e4f85842bf4b455d3a
       vertices: []
       indices: 
       edges: []
@@ -725,8 +836,8 @@ TextureImporter:
       name: ambient_enviro_windmill_active_0
       rect:
         serializedVersion: 2
-        x: 237
-        y: 453
+        x: 3792
+        y: 3458
         width: 237
         height: 319
       alignment: 0
@@ -736,7 +847,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 479da4c6e7590814a9b551c39b2bf3ce
+      spriteID: ec01540088c298041b2b986a7f8b6658
       vertices: []
       indices: 
       edges: []
@@ -745,8 +856,8 @@ TextureImporter:
       name: ambient_enviro_windmill_active_1
       rect:
         serializedVersion: 2
-        x: 474
-        y: 453
+        x: 0
+        y: 3139
         width: 237
         height: 319
       alignment: 0
@@ -756,7 +867,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62aa57a3884494c48ae9d775dd961e38
+      spriteID: f9e3cbe10fee4084680d52549d8c91f4
       vertices: []
       indices: 
       edges: []
@@ -765,8 +876,8 @@ TextureImporter:
       name: ambient_enviro_windmill_active_2
       rect:
         serializedVersion: 2
-        x: 711
-        y: 453
+        x: 237
+        y: 3139
         width: 237
         height: 319
       alignment: 0
@@ -776,7 +887,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33c784c4577737d498a2bbe79275d126
+      spriteID: 31e5ffaa48fbb5648a31a6b9b268d707
       vertices: []
       indices: 
       edges: []
@@ -785,8 +896,8 @@ TextureImporter:
       name: ambient_enviro_windmill_active_3
       rect:
         serializedVersion: 2
-        x: 948
-        y: 453
+        x: 474
+        y: 3139
         width: 237
         height: 319
       alignment: 0
@@ -796,7 +907,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f79e703c80eb45146b18c3ec5d3022c9
+      spriteID: 1f602aa58f32f704aaad551b6dd73625
       vertices: []
       indices: 
       edges: []
@@ -805,8 +916,8 @@ TextureImporter:
       name: ambient_enviro_windmill_active_4
       rect:
         serializedVersion: 2
-        x: 1185
-        y: 453
+        x: 711
+        y: 3139
         width: 237
         height: 319
       alignment: 0
@@ -816,7 +927,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d272e26460b71742a510f19b1b87272
+      spriteID: a3d2707f426728541a88127a293da446
       vertices: []
       indices: 
       edges: []
@@ -825,8 +936,8 @@ TextureImporter:
       name: ambient_enviro_windmill_active_5
       rect:
         serializedVersion: 2
-        x: 1422
-        y: 453
+        x: 948
+        y: 3139
         width: 237
         height: 319
       alignment: 0
@@ -836,7 +947,2227 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f41cbf9a1cb97fb488ee00abc3819177
+      spriteID: 8849da4abb0b73e44bc19c7f07ffcf9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_0
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 3139
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd04ceae58bda8468ecc1b8a306740d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_1
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 3139
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989a131b1be00424aa010fae387ccb87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_2
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 3139
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df47a05bd60b824e8a7bbc59638aeeb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_3
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 3139
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3dfcad4d48d544ea865b0e11bfbddb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_4
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 3139
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c77431c99e72254ca8736533e625262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_5
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 3139
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a86349540a1e0c4cbe7f794f8fd73c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_6
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 3139
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d180ecf3be608374388b95f995d8b4ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_7
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 3139
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0fa1627207b7a42bb249e81a849718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_8
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 3139
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6d8ccae9c57614b8b397ad0b22a15e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_9
+      rect:
+        serializedVersion: 2
+        x: 3555
+        y: 3139
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2569fdaf89a7442a4c99dd8421a958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_10
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 3139
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef47f92b7c414744b8af2cadbeab5e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2820
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8c97b30975dd246b7a82db946863bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_12
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 2820
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebd66a798e374944b76bc569240a16c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_13
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 2820
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94f8db0b3c81f74d8baadf1d2a44296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_14
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 2820
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d68ff4fbb125d419824f4a264844a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_15
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 2820
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d1c69f31d68984fab5edb435d4cca0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_16
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 2820
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1a4f3705a387c4fbc25a40c0f474f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_17
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 2820
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1e7a326257ae94dbb4e022a2a55e82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_18
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 2820
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1c6289884c8ea4c90e9b5366b83656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_19
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 2820
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317394f2d1167664e8c354cb08b8a532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_20
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 2820
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d567343d6f85df544a7c1a857cef7f05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_left_21
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 2820
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5967f61123cec48a06a4bedc0e6f74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_0
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 2820
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402b05ffe1c9c0a43a89355322f43784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_1
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 2820
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02bde8424c7fb704dbe786f43bd7bdb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_2
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 2820
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397193af2f9c4dc479a1bc9cb9914bf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_3
+      rect:
+        serializedVersion: 2
+        x: 3555
+        y: 2820
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ed3526be1597a4d8ac31e26080b8ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_4
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 2820
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc99ca4a075ae7c44aa6a0e8dd3fda78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2501
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc533fe8ee5403648846373962048d4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_6
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 2501
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4f1c13a305cf04e8b09cfce31d233a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_7
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 2501
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1312013d804f2347b80ceb4e21ce932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_8
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 2501
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981d295e76cbc214eb61712446eb435f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_9
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 2501
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259359efd62de4948853adfaef83396d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_10
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 2501
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f899e6101e02274fb441440ce567b07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_11
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 2501
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9d336dcc643914d923ae46d20e7bfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_12
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 2501
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc230e7c85eb1a54b80093a5ad366d21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_13
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 2501
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a0bce65c747fa49a01e90230ee623c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_14
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 2501
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0d9a29466531646b20a21de6a1a176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_15
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 2501
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9c115009420b04e8e3ce3d24f5692d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_16
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 2501
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de877b92ac9d55848afd1681ac2fc34c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_17
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 2501
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5819161b5dbc0e84ab4b1bc6fd5250d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_18
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 2501
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4b363da01bb124f9bc04779c0f8a82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_19
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 2501
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4634fd136718347bbef501675326fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_20
+      rect:
+        serializedVersion: 2
+        x: 3555
+        y: 2501
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1804299cdc05c424ca52e985f17b08b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_idle_right_21
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 2501
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23210ef707820248865fe81c9cce760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_left_0
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 2182
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0beb92fda6872e046bb55a66771b0812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_left_1
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 2182
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7bc6578ddbcc6f4b89602aae5ab4483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_left_2
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 2182
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7989bc8d5178c75449738c766baa788c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_left_3
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 2182
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5631b390093454eb2aea352f67c77a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_left_4
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 2182
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4281520a016450a46b68e56fb0029b18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_left_5
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 2182
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3b6dcb19477b44bab0a422bb6f7699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_left_6
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 2182
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d77de9be76806c4795de04285a3b9a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_left_7
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 2182
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44b39c3c9208644e9f0acb47a1b3645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_left_8
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 2182
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c824b22c63627640ac03eb8043fc80b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_left_9
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 2182
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8806efaf27d0e408b8f19d91010be0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_left_10
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 2182
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283fe52c937cec149bc7126803bd043f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_right_0
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 2182
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8bcdd95be152e745b1c7d1d8bd6a494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_right_1
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 2182
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b988482896fb4c541806ed76d269acfa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_right_2
+      rect:
+        serializedVersion: 2
+        x: 3555
+        y: 2182
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c40564e3ab7c443a73be21a598f511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_right_3
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 2182
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401602d0bd195184381942c68d928bfa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_right_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1863
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863b3b868ee793340a91fcbb18dc7241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_right_5
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1863
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334419a905cd448458c954deec809f57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_right_6
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1863
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7f61a91b52dd543855b930e10cdd32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_right_7
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1863
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430ce61326ddfc547a25e59fc92ba14a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_right_8
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1863
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f35aa6ebdb8524d809e2c7de5f5f12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_right_9
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1863
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fff9820e1784a24eb7c4e0ce889b2d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_flyoff_right_10
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1863
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e90b49cd8877904b95a48f0d8d7a6b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_0
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1863
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9f3275d04c03748836c90ca4d9ec36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_1
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 1863
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4023db3e9a9719c4a92b7f639dbe8a2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_2
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 1863
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14857117853b134090b3ed938193721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_3
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 1863
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3822a6cab9ace04aab6517c92bca85c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_4
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 1863
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e822ea427eaa848af082a271e6b5ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_5
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 1863
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa294b214bf355b4cb453e1ab93cb18d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_6
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 1863
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc3cd7906bed4a4495a307b65d79da7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_7
+      rect:
+        serializedVersion: 2
+        x: 3555
+        y: 1863
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fab23dea028c6469a993463be19446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_8
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 1863
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d475749c667b446a2e3d5b702ba65e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1544
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68dfb8872a2ce4f429c8dd0fc72efb87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_10
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1544
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04207f839c432e04b8f57d3c21ed4725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_11
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1544
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcc135b0eb60314cb01404c08ad00b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_12
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1544
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d28e0c5f1cf064d90500e741f7722a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_13
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1544
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dff41f1b35b26940853866ce031c9f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_14
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1544
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab46e9efcb89b9743a163f336aee7e47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_15
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1544
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d77533ee5c38f4dbf8c08371f2a2be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_16
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1544
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f54384c58fd28448e2e25a80cbc276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_17
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1544
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9690424b40c8ea347bf3ec2aa40ac586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_18
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 1544
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454b75fd59f0e94469c7977e848555ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_19
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 1544
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93995dac4ed5e6041b8963cb89e1f0fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_20
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 1544
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd697864a511be4c899d3e908642e6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_21
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 1544
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d817a0b12d4bb4141a8e7ac35b765a60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_22
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 1544
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6c38a97b326e443badfbd58efb9d2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_23
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 1544
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56f63b87e7ca884f965af8a6d351797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_24
+      rect:
+        serializedVersion: 2
+        x: 3555
+        y: 1544
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd530a5dc07f5fa449bb800e962f73c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_25
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 1544
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0bc4ec62564854439a299680e6a4364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1225
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafc8d8ba732e8e49a60cc93b9300780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_27
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1225
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da549ed6da79af4093261b1d8e5265b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_28
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1225
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55cd936b4997b5441a53e644760df564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_29
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1225
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114c6b4ecaf1cd54189c3e0278251b30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_30
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1225
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea14e86eb3f6e52449cd8644a0137d16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_31
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1225
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3241b9b161bbc4ab62d3055138ba9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_ravens_group_idle_32
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1225
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bab8f27858aaf94bb43008a4b2210f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_group_flyoff_0
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1225
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b11a603cfa747b40a9f83c13116a519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_group_flyoff_1
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 1225
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c31fdfd3dde46458d9e5c4d517b603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_group_flyoff_2
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 1225
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75fda0b68ab05f4ebf7fe2b94d666aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_group_flyoff_3
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 1225
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1c05ca2de2a9c4b8df40f2db98a448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_group_flyoff_4
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 1225
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f228f565c80f89d4d88d8674742ad3ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_group_flyoff_5
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 1225
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97118286df144a641b07abb5e7474741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_group_flyoff_6
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 1225
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e53d83fd3452d44a50ee8a90ae2b38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_group_flyoff_7
+      rect:
+        serializedVersion: 2
+        x: 3555
+        y: 1225
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7f71eef4a38b84eb04cbb7866d80d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_group_flyoff_8
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 1225
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b75657e9f10f4d448dc91281267d474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_group_flyoff_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 906
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e75aad9e33d1d94b9f9bfc88919df16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_group_flyoff_10
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 906
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676bf254f2e2e084582a2f9fcdad3386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ambient_enviro_raven_group_flyoff_11
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 906
+        width: 237
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c5d343bd951dc4fb1352ef62cf3506
       vertices: []
       indices: 
       edges: []
