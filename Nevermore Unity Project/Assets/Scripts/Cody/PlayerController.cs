@@ -7,9 +7,13 @@ using CodeMonkey.Utils;
 public class PlayerController : MonoBehaviour
 {
     public Vector3 currentCP;
+    private AudioSource mySound;
+   // public AudioClip walkSound;
+   // public AudioClip dashSound;
 
     //Movement
     private Vector3 lastMoveDir;
+    private bool moving;
 
     //Dash
     public bool isDashing = false;
@@ -30,9 +34,14 @@ public class PlayerController : MonoBehaviour
     //Animation
     public Animator anim;
 
+    private void Awake()
+    {
+        mySound = gameObject.GetComponent<AudioSource>();
+    }
+
     void Update()
     {
-
+        
         HandleStamina();
         HandleDash();
         HandleMovement();              
@@ -41,6 +50,8 @@ public class PlayerController : MonoBehaviour
 
     void HandleMovement()
     {
+        moving = false;
+
         //these are for base movement
         float speed = 5f;
         float moveX = 0f;
@@ -54,6 +65,7 @@ public class PlayerController : MonoBehaviour
         //Movement code
         if (Input.GetKey(KeyCode.W))
         {
+            moving = true;
             anim.SetBool("isMoving", true);
             anim.SetFloat("yInput", 1f);
             animNum = 1;
@@ -62,6 +74,7 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.S))
         {
+            moving = true;
             anim.SetBool("isMoving", true);
             anim.SetFloat("yInput", -1f);
             animNum = 2;
@@ -69,6 +82,7 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.A))
         {
+            moving = true;
             anim.SetBool("isMoving", true);
             anim.SetFloat("xInput", -1f);
             animNum = 3;
@@ -76,6 +90,7 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.D))
         {
+            moving = true;
             anim.SetBool("isMoving", true);
             anim.SetFloat("xInput", 1f);
             animNum = 4;
@@ -153,5 +168,5 @@ public class PlayerController : MonoBehaviour
         staminaBar.GetComponent<Image>().color = Color.white;
     }
 
- 
+    
 }

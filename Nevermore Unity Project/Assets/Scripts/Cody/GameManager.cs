@@ -17,6 +17,14 @@ public class GameManager : MonoBehaviour {
     public Animator second;
     public bool isDying;
 
+    //Sound
+    private AudioSource mySound;
+    public AudioClip lowHealthSound;
+    public AudioClip deathFireSound;
+    public AudioClip deathSound;
+    public AudioClip hitSound;
+
+
     //Health
     public int lives = 3;
     public float health = 100;
@@ -36,7 +44,7 @@ public class GameManager : MonoBehaviour {
 
     void Awake()
     {
-       
+        mySound = gameObject.GetComponent<AudioSource>();
 
 
         if (!created)
@@ -89,6 +97,7 @@ public class GameManager : MonoBehaviour {
         healthBar.rectTransform.localScale = new Vector3(ratio, 1, 1);
         if (health <= 25f)
         {
+            mySound.PlayOneShot(lowHealthSound);
             StartCoroutine(lowHealthFlash());
         }
         if (health > maxHealth)
@@ -105,6 +114,7 @@ public class GameManager : MonoBehaviour {
     {
         if (player.GetComponent<PlayerController>().isDashing == false && isDying == false)
         {
+            mySound.PlayOneShot(hitSound);
             health -= damage;
             StartCoroutine(hurtFlash());
             if (health <= 0)
@@ -127,7 +137,8 @@ public class GameManager : MonoBehaviour {
         {
             Invoke("GameOver", 3);
         }
-
+        mySound.PlayOneShot(deathSound);
+        mySound.PlayOneShot(deathFireSound);
         isDying = true;
         lives --;
         health = maxHealth;
