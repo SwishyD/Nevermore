@@ -10,11 +10,23 @@ public class Projectile : MonoBehaviour {
     public int damage = 5;
     public bool isMelee;
     public GameObject fbGreenHit;
-   
 
-	// Use this for initialization
-	void Start ()
+    private AudioSource mySound;
+    public AudioClip meleeSound;
+    public AudioClip fbSound;
+
+
+	void Awake ()
     {
+        mySound = gameObject.GetComponent<AudioSource>();
+        if (isMelee)
+        {
+            mySound.PlayOneShot(meleeSound);
+        }
+        else
+        {
+            mySound.PlayOneShot(fbSound);
+        }
         Invoke("DestroyProjectile", lifeTime);
 	}
 	

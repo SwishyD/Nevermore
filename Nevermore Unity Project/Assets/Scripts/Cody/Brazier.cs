@@ -14,13 +14,16 @@ public class Brazier : MonoBehaviour {
     public GameObject upgradeText;
     public GameObject thankyouText;
 
-	// Use this for initialization
+    //Audio Vars
+    private AudioSource mySound;
+    public AudioClip upGSound;
+    public AudioClip igniteSound;
+	
 	void Awake () {
         anim = gameObject.GetComponent<Animator>();
-
+        mySound = gameObject.GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     void Update () {
 		
 	}
@@ -29,6 +32,7 @@ public class Brazier : MonoBehaviour {
     {
         if (col.gameObject.tag == "Player")
         {
+            mySound.PlayOneShot(igniteSound);
             toolTip.SetActive(true);
             anim.SetBool("isActive" , true);
             if (used == false)
@@ -51,6 +55,7 @@ public class Brazier : MonoBehaviour {
 
             if (Input.GetKeyDown(KeyCode.E) && GameManager.instance.playerGold >= 100f && isUpgraded == false)
             {
+                mySound.PlayOneShot(upGSound);
                 upgradeText.SetActive(false);
                 thankyouText.SetActive(true);
                 anim.SetBool("Pulse", true);

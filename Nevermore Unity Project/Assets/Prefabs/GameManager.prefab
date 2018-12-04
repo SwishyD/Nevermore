@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1198449647634176}
+  m_IsPrefabParent: 1
+--- !u!1 &1198449647634176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4521383457833660}
+  - component: {fileID: 114483427689942766}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4521383457833660
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1198449647634176}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -4, y: 112.3, z: -11.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114483427689942766
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1198449647634176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a21606b800cfe24fbdabedc1be46b02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upGrade: 0
+  playerGold: 157
+  goldCount: {fileID: 0}
+  player: {fileID: 0}
+  respawnPoint: {fileID: 0}
+  redAnims: {fileID: 9100000, guid: 2139c9e8bf09bb640ab3bd0e9c1f6b31, type: 2}
+  first: {fileID: 0}
+  second: {fileID: 0}
+  isDying: 0
+  lives: 3
+  health: 100
+  hurtColor: {r: 1, g: 0, b: 0, a: 1}
+  healthBar: {fileID: 0}
+  healthColor: {r: 1, g: 1, b: 0, a: 1}
+  healthText: {fileID: 0}
+  livesCount: {fileID: 0}
+  three: {fileID: 21300016, guid: 25c1d2c8623f68f41a9c46abcb6d0606, type: 3}
+  two: {fileID: 21300014, guid: 25c1d2c8623f68f41a9c46abcb6d0606, type: 3}
+  one: {fileID: 21300012, guid: 25c1d2c8623f68f41a9c46abcb6d0606, type: 3}
+  zero: {fileID: 21300018, guid: 25c1d2c8623f68f41a9c46abcb6d0606, type: 3}
