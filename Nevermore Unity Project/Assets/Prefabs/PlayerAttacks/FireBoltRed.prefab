@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 95588214954180298}
   - component: {fileID: 65563454690983676}
   - component: {fileID: 54573810091174128}
+  - component: {fileID: 82832411637393390}
   m_Layer: 0
   m_Name: FireBoltRed
   m_TagString: Untagged
@@ -71,6 +72,101 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.79, y: 0.8, z: 1.1}
   m_Center: {x: 0.01, y: 0.71, z: 0}
+--- !u!82 &82832411637393390
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809794637619116}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!95 &95588214954180298
 Animator:
   serializedVersion: 3
@@ -106,6 +202,8 @@ MonoBehaviour:
   damage: 5
   isMelee: 0
   fbGreenHit: {fileID: 1874994019630556, guid: 33a7701a8f8820547b3990d2c11f6a4f, type: 2}
+  meleeSound: {fileID: 8300000, guid: dba73ec4ba4a2294b99685d5c8509517, type: 3}
+  fbSound: {fileID: 8300000, guid: 68dc392ac73c11e47b228e3b11f3ec63, type: 3}
 --- !u!212 &212443233345210480
 SpriteRenderer:
   m_ObjectHideFlags: 1
