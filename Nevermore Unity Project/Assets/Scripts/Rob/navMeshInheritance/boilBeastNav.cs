@@ -11,6 +11,9 @@ public class boilBeastNav : NavMesh
     float speed = 4.6f;
     public int damage;
     public float minX, maxX, minZ, maxZ;
+    Vector3 curPos;
+
+
     protected override void Start()
     {
         base.Start();
@@ -28,21 +31,23 @@ public class boilBeastNav : NavMesh
 
     protected override void Update()
     {
+        print(playerDist);
 
         base.Update();
         if (thisbb != null)
         {
-            if (playerDist < 3f)
+            if (playerDist < 2.5f)
             {
                 bb.SetBool("isAttacking", true);
-                if (bb.GetBool("isAttacking") == true)
-                {
-
-                }
             }
-            else
+            else if(thisbb.GetComponent<beginMove>().attacking == false)
             {
                 bb.SetBool("isAttacking", false);
+            }
+
+            if (bb.GetBool("isAttacking") == true)
+            {
+                aiChar.SetDestination(curPos);
             }
 
             if (waitTime > 0 && Vector3.Distance(transform.position, patrolArea) < 1f)
@@ -54,6 +59,7 @@ public class boilBeastNav : NavMesh
         {
             Destroy(gameObject);
         }
+        curPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
     }
 
 
