@@ -5737,6 +5737,16 @@ Prefab:
       propertyPath: checkpointText
       value: 
       objectReference: {fileID: 1880334379}
+    - target: {fileID: 114605696242468420, guid: 13acb49ca0166524ab31bffa246b3a52,
+        type: 2}
+      propertyPath: upGSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f62c7cf05a835414db6c5999495990b2, type: 3}
+    - target: {fileID: 114605696242468420, guid: 13acb49ca0166524ab31bffa246b3a52,
+        type: 2}
+      propertyPath: igniteSound
+      value: 
+      objectReference: {fileID: 8300000, guid: bccc60741339898438815401a5b489e6, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13acb49ca0166524ab31bffa246b3a52, type: 2}
   m_IsPrefabParent: 0
