@@ -11,6 +11,8 @@ public class ratNav : NavMesh
     float speed = 4.6f;
     public int damage;
     public float minX, maxX, minZ, maxZ;
+    float length;
+
     protected override void Start()
     {
         base.Start();
@@ -28,7 +30,6 @@ public class ratNav : NavMesh
 
     protected override void Update()
     {
-        
         base.Update();
         if (thisRat != null)
         {
@@ -37,9 +38,14 @@ public class ratNav : NavMesh
             {
                 rat.SetBool("isAttacking", true);
             }
-            else
+            else if(thisRat.GetComponent<beginMove>().attacking == false)
             {
                 rat.SetBool("isAttacking", false);
+            }
+            
+            if (rat.GetBool("isAttacking") == true)
+            {
+                aiChar.SetDestination(curPos);
             }
 
             if (waitTime > 0 && Vector3.Distance(transform.position, patrolArea) < 1f)
@@ -52,6 +58,8 @@ public class ratNav : NavMesh
         {
             Destroy(gameObject);
         }
+        
+
     }
 
 
@@ -100,12 +108,19 @@ public class ratNav : NavMesh
 
     protected override void StartIdling()
     {
+        base.StartIdling();
         if (thisRat != null)
         {
             rat.SetBool("isMoving", false);
             rat.SetBool("isAttacking", false);
         }
     }
+
+    protected override void OnCollisionStay(Collision col)
+    {
+        base.OnCollisionStay(col);
+    }
+
 
 
 }

@@ -16,7 +16,7 @@ public class NavMesh : MonoBehaviour {
 
     protected float waitTime, startWaitTime = 2;
 
-    protected Vector3 patrolArea, targetVector;
+    protected Vector3 patrolArea, targetVector, curPos;
 
     // Use this for initialization
     protected virtual void Start ()
@@ -49,7 +49,7 @@ public class NavMesh : MonoBehaviour {
             SetDestination();
         }
 
-
+        curPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
     }
 
     //patrol location based on values specified by dev
@@ -95,7 +95,10 @@ public class NavMesh : MonoBehaviour {
     
     protected virtual void StartIdling()
     {
-
+        print("check");
+        aiChar.SetDestination(curPos);
+        StartWaitTimer();
+        aiChar.SetDestination(patrolArea);
     }
 
     protected virtual void AssignRadius()
@@ -103,12 +106,13 @@ public class NavMesh : MonoBehaviour {
         GetComponent<NavMeshAgent>().radius = 0.21f;
     }
 
-    protected virtual void OnCollisionEnter(Collision col)
+    protected virtual void OnCollisionStay(Collision col)
     {
         if (col.gameObject.tag == "Obstacle" && Vector3.Distance(transform.position, patrolArea) <= 4)
         {
-            waitTime = startWaitTime;
-            StartWaitTimer();
+            StartIdling();
+            print(Vector3.Distance(transform.position, patrolArea));
+            print(col.gameObject.tag);
         }
     }
 }

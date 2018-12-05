@@ -8,9 +8,11 @@ public class boilBeastNav : NavMesh
 
     Animator bb;
     public GameObject thisbb;
-    float speed = 4.6f;
+    float speed = 1.5f;
     public int damage;
     public float minX, maxX, minZ, maxZ;
+
+
     protected override void Start()
     {
         base.Start();
@@ -32,17 +34,19 @@ public class boilBeastNav : NavMesh
         base.Update();
         if (thisbb != null)
         {
-            if (playerDist < 3f)
+            if (playerDist < 2.5f)
             {
+                thisbb.GetComponent<beginMove>().attacking = true;
                 bb.SetBool("isAttacking", true);
-                if (bb.GetBool("isAttacking") == true)
-                {
-
-                }
             }
-            else
+            else if(thisbb.GetComponent<beginMove>().attacking == false)
             {
                 bb.SetBool("isAttacking", false);
+            }
+
+            if (bb.GetBool("isAttacking") == true)
+            {
+                aiChar.SetDestination(curPos);
             }
 
             if (waitTime > 0 && Vector3.Distance(transform.position, patrolArea) < 1f)
@@ -106,6 +110,7 @@ public class boilBeastNav : NavMesh
 
     protected override void StartIdling()
     {
+        base.StartIdling();
         if (thisbb != null)
         {
             bb.SetBool("isMoving", false);
@@ -133,6 +138,11 @@ public class boilBeastNav : NavMesh
     void attackPlayer()
     {
         bb.SetBool("isAttacking", true);
+    }
+
+    protected override void OnCollisionStay(Collision col)
+    {
+        base.OnCollisionStay(col);
     }
 }
 

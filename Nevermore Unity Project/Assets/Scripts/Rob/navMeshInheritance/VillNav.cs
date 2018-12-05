@@ -3,27 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class mozzyNav : NavMesh {
+public class VillNav : NavMesh
+{
 
-    Animator mozzy;
-    public GameObject thisMozzy;
-    float speed = 6;
-    public int damage = 10;
-    public float minX;
-    public float maxX;
-    public float minZ;
-    public float maxZ;
+    Animator vill;
+    public GameObject thisVill;
+    float speed = 7f;
+    public int damage;
+    public float minX, maxX, minZ, maxZ;
+    float length;
 
     protected override void Start()
     {
         base.Start();
-        mozzy = thisMozzy.GetComponent<Animator>();
+        vill = thisVill.GetComponent<Animator>();
+        GetComponent<NavMeshAgent>().speed = speed;
         minNavX = minX;
         maxNavX = maxX;
         minNavZ = minZ;
         maxNavZ = maxZ;
         RandomSite();
-        GetComponent<NavMeshAgent>().speed = speed;
     }
 
 
@@ -32,29 +31,35 @@ public class mozzyNav : NavMesh {
     protected override void Update()
     {
         base.Update();
-        if (thisMozzy != null)
+        if (thisVill != null)
         {
-
 
             if (playerDist < 1)
             {
-                mozzy.SetBool("isAttacking", true);
+                vill.SetBool("isAttacking", true);
             }
-            else
+            else if (thisVill.GetComponent<beginMove>().attacking == false)
             {
-                mozzy.SetBool("isAttacking", false);
+                vill.SetBool("isAttacking", false);
+            }
+            
+            if (vill.GetBool("isAttacking") == true)
+            {
+                aiChar.SetDestination(curPos);
             }
 
             if (waitTime > 0 && Vector3.Distance(transform.position, patrolArea) < 1f)
             {
                 StartIdling();
             }
+
         }
         else
         {
             Destroy(gameObject);
         }
         
+
     }
 
 
@@ -64,18 +69,18 @@ public class mozzyNav : NavMesh {
     protected override void Patrol()
     {
         base.Patrol();
-        if (thisMozzy != null)
+        if (thisVill != null)
         {
             //flip sprite anim based on position from location
             if (transform.position.x <= patrolArea.x)
             {
-                mozzy.SetBool("isMoving", true);
-                thisMozzy.GetComponent<SpriteRenderer>().flipX = true;
+                vill.SetBool("isMoving", true);
+                thisVill.GetComponent<SpriteRenderer>().flipX = true;
             }
             else if (transform.position.x >= patrolArea.x)
             {
-                mozzy.SetBool("isMoving", true);
-                thisMozzy.GetComponent<SpriteRenderer>().flipX = false;
+                vill.SetBool("isMoving", true);
+                thisVill.GetComponent<SpriteRenderer>().flipX = false;
             }
         }
 
@@ -85,18 +90,18 @@ public class mozzyNav : NavMesh {
     protected override void SetDestination()
     {
         base.SetDestination();
-        if (thisMozzy != null)
+        if (thisVill != null)
         {
             //flip sprite anim based on position from player
             if (transform.position.x <= targetVector.x)
             {
-                mozzy.SetBool("isMoving", true);
-                thisMozzy.GetComponent<SpriteRenderer>().flipX = true;
+                vill.SetBool("isMoving", true);
+                thisVill.GetComponent<SpriteRenderer>().flipX = true;
             }
             else if (transform.position.x >= targetVector.x)
             {
-                mozzy.SetBool("isMoving", true);
-                thisMozzy.GetComponent<SpriteRenderer>().flipX = false;
+                vill.SetBool("isMoving", true);
+                thisVill.GetComponent<SpriteRenderer>().flipX = false;
             }
         }
     }
@@ -104,10 +109,10 @@ public class mozzyNav : NavMesh {
     protected override void StartIdling()
     {
         base.StartIdling();
-        if (thisMozzy != null)
+        if (thisVill != null)
         {
-            mozzy.SetBool("isMoving", false);
-            mozzy.SetBool("isAttacking", false);
+            vill.SetBool("isMoving", false);
+            vill.SetBool("isAttacking", false);
         }
     }
 
@@ -115,6 +120,5 @@ public class mozzyNav : NavMesh {
     {
         base.OnCollisionStay(col);
     }
-
 
 }
