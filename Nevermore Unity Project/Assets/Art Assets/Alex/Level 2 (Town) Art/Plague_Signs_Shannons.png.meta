@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: 8148d7047747df34fb7d97201de676a9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Plague_Signs_Shannons_pile_big_0
+    21300002: Plague_Signs_Shannons_pile_long_0
+    21300004: Plague_Signs_Shannons_pile_small_0
+    21300006: Plague_Signs_Shannons_body_wagon_0
+    21300008: Plague_Signs_Shannons_cross1_0
+    21300010: Plague_Signs_Shannons_cross2_0
+    21300012: Plague_Signs_Shannons_cross3_0
+    21300014: Plague_Signs_Shannons_blood1_0
+    21300016: Plague_Signs_Shannons_body_1_0
+    21300018: Plague_Signs_Shannons_cross4_0
+    21300020: Plague_Signs_Shannons_cross5_0
+    21300022: Plague_Signs_Shannons_blood2_0
+    21300024: Plague_Signs_Shannons_pile2_0
+    21300026: Plague_Signs_Shannons_pile3_0
+    21300028: Plague_Signs_Shannons_stake1_0
+    21300030: Plague_Signs_Shannons_stake2_0
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Plague_Signs_Shannons_pile_big_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1764
+        width: 394
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b54fa00767bcdb4e8c266cdfb4c40e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plague_Signs_Shannons_pile_long_0
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1764
+        width: 394
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56a27ec315d01447a2db5760e38e6d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plague_Signs_Shannons_pile_small_0
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1764
+        width: 394
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57ce7c0f05ed6e4385a52477721ec10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plague_Signs_Shannons_body_wagon_0
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1764
+        width: 394
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d363a921cfbfafd418c476df591b30b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plague_Signs_Shannons_cross1_0
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1764
+        width: 394
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a80372394cd3e419cbeb3a08b5f287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plague_Signs_Shannons_cross2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1480
+        width: 394
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b3a58ef8af2144cbb218a6d7b7f767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plague_Signs_Shannons_cross3_0
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1480
+        width: 394
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387f8b5afdbca904492f2f9785d19c1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plague_Signs_Shannons_blood1_0
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1480
+        width: 394
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0d1820c6526d14581940ea082cabfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plague_Signs_Shannons_body_1_0
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1480
+        width: 394
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8bdb7549c117194db034dc315f5668f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plague_Signs_Shannons_cross4_0
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1480
+        width: 394
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72161441908fa974fbe7d7a2acb37667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plague_Signs_Shannons_cross5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1196
+        width: 394
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ff5c06052f6d84f9bd8579bf8047a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plague_Signs_Shannons_blood2_0
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1196
+        width: 394
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124f9e0c82473ad449b7d2396e0b01af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plague_Signs_Shannons_pile2_0
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1196
+        width: 394
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81c401a7a801c04fb6c2689cf6fa071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plague_Signs_Shannons_pile3_0
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1196
+        width: 394
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bccfbedd013ca47a476fe8e9b68e66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plague_Signs_Shannons_stake1_0
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1196
+        width: 394
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b426db05bf6a5ca4d97bad3501e806de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plague_Signs_Shannons_stake2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 912
+        width: 394
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75fe038c4a8bd8428d0db558e0f80e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a8bb50047e33e724c806347713ee9644
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
