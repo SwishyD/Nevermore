@@ -50,11 +50,17 @@ public class mozzyNav : NavMesh {
                 StartIdling();
             }
         }
-        else
+
+        curHealth = thisMozzy.GetComponent<EnemyHealthSystem>().health;
+        if (curHealth <= 0)
         {
+            mozzy.SetBool("isDead", true);
+            mozzy.SetBool("isMoving", false);
+            mozzy.SetBool("isAttacking", false);
+            thisMozzy.GetComponent<SpriteRenderer>().sortingOrder = 3;
+            Destroy(thisMozzy.GetComponent<posLock>());
             Destroy(gameObject);
         }
-        
     }
 
 

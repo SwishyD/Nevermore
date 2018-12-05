@@ -58,8 +58,17 @@ public class ratNav : NavMesh
         {
             Destroy(gameObject);
         }
-        
 
+        curHealth = thisRat.GetComponent<EnemyHealthSystem>().health;
+        if (curHealth <= 0)
+        {
+            rat.SetBool("isDead", true);
+            rat.SetBool("isMoving", false);
+            rat.SetBool("isAttacking", false);
+            thisRat.GetComponent<SpriteRenderer>().sortingOrder = 3;
+            Destroy(thisRat.GetComponent<posLock>());
+            Destroy(gameObject);
+        }
     }
 
 

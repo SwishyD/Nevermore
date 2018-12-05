@@ -58,6 +58,18 @@ public class boilBeastNav : NavMesh
         {
             Destroy(gameObject);
         }
+
+        curHealth = thisbb.GetComponent<EnemyHealthSystem>().health;
+        curHealth = thisbb.GetComponent<EnemyHealthSystem>().health;
+        if (curHealth <= 0)
+        {
+            bb.SetBool("isDead", true);
+            bb.SetBool("isMoving", false);
+            bb.SetBool("isAttacking", false);
+            thisbb.GetComponent<SpriteRenderer>().sortingOrder = 3;
+            Destroy(thisbb.GetComponent<posLock>());
+            Destroy(gameObject);
+        }
     }
 
 

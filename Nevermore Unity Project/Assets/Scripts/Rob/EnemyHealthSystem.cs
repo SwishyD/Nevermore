@@ -23,7 +23,6 @@ public class EnemyHealthSystem : MonoBehaviour {
 		if (health <= 0)
         {
             giveGold();
-            Destroy(gameObject);
         }        
 	}
 
