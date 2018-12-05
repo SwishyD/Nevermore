@@ -18,6 +18,8 @@ public class NavMesh : MonoBehaviour {
 
     protected Vector3 patrolArea, targetVector, curPos;
 
+    protected int curHealth;
+
     // Use this for initialization
     protected virtual void Start ()
     {

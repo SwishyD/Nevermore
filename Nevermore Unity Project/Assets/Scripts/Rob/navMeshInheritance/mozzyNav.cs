@@ -13,7 +13,6 @@ public class mozzyNav : NavMesh {
     public float maxX;
     public float minZ;
     public float maxZ;
-    int curHealth;
 
     protected override void Start()
     {

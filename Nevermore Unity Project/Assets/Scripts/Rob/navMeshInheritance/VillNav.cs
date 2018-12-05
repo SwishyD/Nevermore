@@ -58,8 +58,19 @@ public class VillNav : NavMesh
         {
             Destroy(gameObject);
         }
-        
 
+        curHealth = thisVill.GetComponent<EnemyHealthSystem>().health;
+
+        curHealth = thisVill.GetComponent<EnemyHealthSystem>().health;
+        if (curHealth <= 0)
+        {
+            vill.SetBool("isDead", true);
+            vill.SetBool("isMoving", false);
+            vill.SetBool("isAttacking", false);
+            thisVill.GetComponent<SpriteRenderer>().sortingOrder = 3;
+            Destroy(thisVill.GetComponent<posLock>());
+            Destroy(gameObject);
+        }
     }
 
 
