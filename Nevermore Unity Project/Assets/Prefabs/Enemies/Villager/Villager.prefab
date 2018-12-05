@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 114800741496775520}
   - component: {fileID: 95399138446719558}
   - component: {fileID: 114972748941427582}
+  - component: {fileID: 114864403255419904}
   m_Layer: 0
   m_Name: Villager
   m_TagString: Untagged
@@ -132,6 +133,18 @@ MonoBehaviour:
   hurtColor: {r: 1, g: 1, b: 0, a: 1}
   bodyParts:
   - {fileID: 212076442189989896}
+--- !u!114 &114864403255419904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1358453579438712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 043702323bca93540b5e28ba713e2fe7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attacking: 0
 --- !u!114 &114972748941427582
 MonoBehaviour:
   m_ObjectHideFlags: 1
