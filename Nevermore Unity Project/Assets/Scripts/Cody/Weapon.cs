@@ -28,11 +28,20 @@ public class Weapon : MonoBehaviour {
     private float timeBtwHits;
     public float startTimeBtwHits;
 
+    private AudioSource mySound;
+    public AudioClip meleeSound;
+    public AudioClip fbSound;
+
 
     public Animator anim;
-       	
-	// Update is called once per frame
-	void Update ()
+
+    private void Awake()
+    {
+        mySound = gameObject.GetComponent<AudioSource>();
+
+    }
+    // Update is called once per frame
+    void Update ()
     {
         mana += Time.deltaTime;
         HandleMana();
@@ -83,6 +92,7 @@ public class Weapon : MonoBehaviour {
                     Instantiate(meleeRed, shotPoint.position, transform.rotation);
                 }
                 timeBtwHits = startTimeBtwHits;
+                mySound.PlayOneShot(meleeSound);
             }
                     
         }       
@@ -106,6 +116,7 @@ public class Weapon : MonoBehaviour {
                     Instantiate(fireBoltRed, shotPoint.position, transform.rotation);
                 }
                 timeBtwShots = startTimeBtwShots;
+                mySound.PlayOneShot(fbSound);
             }
 
             else if (Input.GetMouseButtonDown(1) && mana < 20)

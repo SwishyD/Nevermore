@@ -10,7 +10,7 @@ public class DashDestroy : MonoBehaviour {
     // Use this for initialization
     void Start () {
         dashAnim = gameObject.GetComponent<Animator>();
-        Invoke("Destroy", 0.4f);
+        Invoke("Destroy", 0.1f);
 	}
 	
 	// Update is called once per frame
@@ -23,23 +23,5 @@ public class DashDestroy : MonoBehaviour {
         Destroy(gameObject);
     }
 
-    public void HandleAnim(float animNum)
-    {
-        if(animNum == 1f)
-        {
-            dashAnim.SetFloat("yInput", 1f);
-        }
-        if (animNum == 2f)
-        {
-            dashAnim.SetFloat("yInput", -1f);
-        }
-        if (animNum == 3f)
-        {
-            dashAnim.SetFloat("xInput", -1f);
-        }
-        if (animNum == 4f)
-        {
-            dashAnim.SetFloat("xInput", 1f);
-        }
-    }
+   
 }

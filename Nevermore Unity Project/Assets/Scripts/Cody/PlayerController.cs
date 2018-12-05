@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour
 
     //Movement
     private Vector3 lastMoveDir;
-    private bool moving;
 
     //Dash
     public bool isDashing = false;
@@ -50,7 +49,6 @@ public class PlayerController : MonoBehaviour
 
     void HandleMovement()
     {
-        moving = false;
 
         //these are for base movement
         float speed = 5f;
@@ -65,7 +63,6 @@ public class PlayerController : MonoBehaviour
         //Movement code
         if (Input.GetKey(KeyCode.W))
         {
-            moving = true;
             anim.SetBool("isMoving", true);
             anim.SetFloat("yInput", 1f);
             animNum = 1;
@@ -74,7 +71,6 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.S))
         {
-            moving = true;
             anim.SetBool("isMoving", true);
             anim.SetFloat("yInput", -1f);
             animNum = 2;
@@ -82,7 +78,6 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.A))
         {
-            moving = true;
             anim.SetBool("isMoving", true);
             anim.SetFloat("xInput", -1f);
             animNum = 3;
@@ -90,7 +85,6 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.D))
         {
-            moving = true;
             anim.SetBool("isMoving", true);
             anim.SetFloat("xInput", 1f);
             animNum = 4;
@@ -119,8 +113,7 @@ public class PlayerController : MonoBehaviour
                 StartCoroutine(dashIFrames());
                 Vector3 beforeDashPos = transform.position;
                 Transform dashEffectTransform = Instantiate(dashEffect, beforeDashPos, Quaternion.identity);
-                dashEffect.GetComponent<DashDestroy>().HandleAnim(animNum);
-                dashEffectTransform.eulerAngles = new Vector3(90, 0, UtilsClass.GetAngleFromVectorFloat(lastMoveDir));
+                dashEffectTransform.eulerAngles = new Vector3(90, 90, UtilsClass.GetAngleFromVectorFloat(lastMoveDir));
                 transform.position += lastMoveDir * dashDistance;
                 stamina -= 25f;
                 

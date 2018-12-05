@@ -11,7 +11,7 @@ public class EnemyHealthSystem : MonoBehaviour {
     public Color hurtColor;
     public SpriteRenderer[] bodyParts;
 
-    int goldValue;
+   int goldValue;
 
     // Use this for initialization
     void Start () {
