@@ -103,11 +103,17 @@ public class mozzyNav : NavMesh {
 
     protected override void StartIdling()
     {
+        base.StartIdling();
         if (thisMozzy != null)
         {
             mozzy.SetBool("isMoving", false);
             mozzy.SetBool("isAttacking", false);
         }
+    }
+
+    protected override void OnCollisionStay(Collision col)
+    {
+        base.OnCollisionStay(col);
     }
 
 

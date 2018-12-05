@@ -11,7 +11,6 @@ public class VillNav : NavMesh
     float speed = 7f;
     public int damage;
     public float minX, maxX, minZ, maxZ;
-    Vector3 curPos;
     float length;
 
     protected override void Start()
@@ -59,8 +58,7 @@ public class VillNav : NavMesh
         {
             Destroy(gameObject);
         }
-
-        curPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+        
 
     }
 
@@ -110,6 +108,7 @@ public class VillNav : NavMesh
 
     protected override void StartIdling()
     {
+        base.StartIdling();
         if (thisVill != null)
         {
             vill.SetBool("isMoving", false);
@@ -117,6 +116,9 @@ public class VillNav : NavMesh
         }
     }
 
-
+    protected override void OnCollisionStay(Collision col)
+    {
+        base.OnCollisionStay(col);
+    }
 
 }

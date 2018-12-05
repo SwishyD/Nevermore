@@ -8,6 +8,6 @@ public class beginMove : MonoBehaviour {
 
     void attackSwitch()
     {
-        attacking = !attacking;
+        attacking = false;
     }
 }

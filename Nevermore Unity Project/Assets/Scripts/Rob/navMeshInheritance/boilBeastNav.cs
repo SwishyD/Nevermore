@@ -11,7 +11,6 @@ public class boilBeastNav : NavMesh
     float speed = 1.5f;
     public int damage;
     public float minX, maxX, minZ, maxZ;
-    Vector3 curPos;
 
 
     protected override void Start()
@@ -37,6 +36,7 @@ public class boilBeastNav : NavMesh
         {
             if (playerDist < 2.5f)
             {
+                thisbb.GetComponent<beginMove>().attacking = true;
                 bb.SetBool("isAttacking", true);
             }
             else if(thisbb.GetComponent<beginMove>().attacking == false)
@@ -58,7 +58,6 @@ public class boilBeastNav : NavMesh
         {
             Destroy(gameObject);
         }
-        curPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
     }
 
 
@@ -111,6 +110,7 @@ public class boilBeastNav : NavMesh
 
     protected override void StartIdling()
     {
+        base.StartIdling();
         if (thisbb != null)
         {
             bb.SetBool("isMoving", false);
@@ -138,6 +138,11 @@ public class boilBeastNav : NavMesh
     void attackPlayer()
     {
         bb.SetBool("isAttacking", true);
+    }
+
+    protected override void OnCollisionStay(Collision col)
+    {
+        base.OnCollisionStay(col);
     }
 }
 

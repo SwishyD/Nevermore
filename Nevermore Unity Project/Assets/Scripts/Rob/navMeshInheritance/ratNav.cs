@@ -11,7 +11,6 @@ public class ratNav : NavMesh
     float speed = 4.6f;
     public int damage;
     public float minX, maxX, minZ, maxZ;
-    Vector3 curPos;
     float length;
 
     protected override void Start()
@@ -59,8 +58,7 @@ public class ratNav : NavMesh
         {
             Destroy(gameObject);
         }
-
-        curPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+        
 
     }
 
@@ -110,11 +108,17 @@ public class ratNav : NavMesh
 
     protected override void StartIdling()
     {
+        base.StartIdling();
         if (thisRat != null)
         {
             rat.SetBool("isMoving", false);
             rat.SetBool("isAttacking", false);
         }
+    }
+
+    protected override void OnCollisionStay(Collision col)
+    {
+        base.OnCollisionStay(col);
     }
 
 
