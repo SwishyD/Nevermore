@@ -10,7 +10,7 @@ public class Projectile : MonoBehaviour {
     public int damage = 5;
     public bool isMelee;
     public GameObject fbGreenHit;
-
+    public GameObject damageText;
    
 
 
@@ -30,7 +30,8 @@ public class Projectile : MonoBehaviour {
     private void OnTriggerEnter(Collider col)
     {
         if (col.transform.tag == "Enemy")
-        {           
+        {
+            Instantiate(damageText, gameObject.transform.position, Quaternion.Euler(90,0,0));
             col.gameObject.GetComponentInParent<EnemyHealthSystem>().TakeDamage(damage);
             if (!isMelee)
             {

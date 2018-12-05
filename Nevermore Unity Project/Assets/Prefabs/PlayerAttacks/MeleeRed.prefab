@@ -103,9 +103,10 @@ MonoBehaviour:
   speed: 5
   lifeTime: 0.3
   distance: 1.3
-  damage: 10
+  damage: 5
   isMelee: 1
   fbGreenHit: {fileID: 1874994019630556, guid: b78c63984ffe01444b68b34e53cfbd33, type: 2}
+  damageText: {fileID: 1328862191424000, guid: 7d14bb4bd177a1c438fc3c98cc5ea9a4, type: 2}
 --- !u!212 &212397601233534752
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour {
     void Awake()
     {
         mySound = gameObject.GetComponent<AudioSource>();
-       playerGold = GoldSaver.instance.goldCount;
+       //playerGold = GoldSaver.instance.goldCount;
 
         if (!created)
         {
@@ -81,13 +81,13 @@ public class GameManager : MonoBehaviour {
     public void AddGold(int goldValue)
     {
         playerGold += goldValue;
-        UpdateGold();
+       // UpdateGold();
     }
 
     public void RemoveGold(int goldValue)
     {
         playerGold -= goldValue;
-        UpdateGold();
+       // UpdateGold();
     }
 
     void HandleHealth()
@@ -203,7 +203,7 @@ public class GameManager : MonoBehaviour {
         player.GetComponent<Animator>().runtimeAnimatorController = redAnims;
         player.GetComponentInChildren<Weapon>().isUpgraded = true;
         playerGold -= 100;
-        UpdateGold();
+       // UpdateGold();
 
 
     }

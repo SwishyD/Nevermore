@@ -106,6 +106,7 @@ MonoBehaviour:
   damage: 10
   isMelee: 0
   fbGreenHit: {fileID: 1874994019630556, guid: 33a7701a8f8820547b3990d2c11f6a4f, type: 2}
+  damageText: {fileID: 1328862191424000, guid: f4be31a0c8c77984d9e7256515b7943d, type: 2}
 --- !u!212 &212443233345210480
 SpriteRenderer:
   m_ObjectHideFlags: 1
