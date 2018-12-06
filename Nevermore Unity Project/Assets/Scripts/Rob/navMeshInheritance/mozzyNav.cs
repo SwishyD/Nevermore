@@ -14,6 +14,14 @@ public class mozzyNav : NavMesh {
     public float minZ;
     public float maxZ;
 
+    AudioSource mySound;
+    public AudioClip deathSound;
+
+    private void Awake()
+    {
+        mySound = gameObject.GetComponent<AudioSource>();
+    }
+
     protected override void Start()
     {
         base.Start();
@@ -54,6 +62,7 @@ public class mozzyNav : NavMesh {
         curHealth = thisMozzy.GetComponent<EnemyHealthSystem>().health;
         if (curHealth <= 0)
         {
+            mySound.PlayOneShot(deathSound);
             mozzy.SetBool("isDead", true);
             mozzy.SetBool("isMoving", false);
             mozzy.SetBool("isAttacking", false);
