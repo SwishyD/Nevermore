@@ -13,7 +13,7 @@ public class CameraFollow : MonoBehaviour {
     public Vector3 offset;
 
     public void LateUpdate()
-    //{
+    {
     //    if (transform.position.z <= xMax && transform.position.z >= xMin && transform.position.y <= yMax && transform.position.z >= yMin)
         //{
             Vector3 desiredPosition = target.position + offset;

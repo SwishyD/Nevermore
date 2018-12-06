@@ -113,7 +113,7 @@ public class NavMesh : MonoBehaviour {
         {
             StartIdling();
 
-            print(col.gameObject.tag);
+
         }
     }
 }
