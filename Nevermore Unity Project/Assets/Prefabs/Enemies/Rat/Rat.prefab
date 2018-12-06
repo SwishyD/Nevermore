@@ -325,6 +325,7 @@ MonoBehaviour:
   hurtColor: {r: 1, g: 1, b: 0, a: 1}
   bodyParts:
   - {fileID: 212507013283947674}
+  goldValue: 20
 --- !u!114 &114391517952614348
 MonoBehaviour:
   m_ObjectHideFlags: 1
