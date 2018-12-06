@@ -68,6 +68,7 @@ public class mozzyNav : NavMesh {
             mozzy.SetBool("isAttacking", false);
             thisMozzy.GetComponent<SpriteRenderer>().sortingOrder = 3;
             Destroy(thisMozzy.GetComponent<posLock>());
+            Destroy(thisMozzy.GetComponentInChildren<BoxCollider>());
             Destroy(gameObject);
         }
     }

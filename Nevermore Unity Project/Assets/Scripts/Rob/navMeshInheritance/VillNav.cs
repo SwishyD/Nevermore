@@ -78,6 +78,7 @@ public class VillNav : NavMesh
             vill.SetBool("isAttacking", false);
             thisVill.GetComponent<SpriteRenderer>().sortingOrder = 3;
             Destroy(thisVill.GetComponent<posLock>());
+            Destroy(thisVill.GetComponentInChildren<BoxCollider>());
             Destroy(gameObject);
         }
     }
