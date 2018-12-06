@@ -11,7 +11,7 @@ public class EnemyHealthSystem : MonoBehaviour {
     public Color hurtColor;
     public SpriteRenderer[] bodyParts;
 
-   int goldValue;
+    public int goldValue;
 
     // Use this for initialization
     void Start () {
@@ -28,7 +28,6 @@ public class EnemyHealthSystem : MonoBehaviour {
 
     void giveGold()
     {
-        goldValue = Random.Range(1, 3);
         GameManager.instance.AddGold(goldValue);
     }
 

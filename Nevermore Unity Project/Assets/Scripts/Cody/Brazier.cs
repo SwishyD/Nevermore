@@ -85,7 +85,6 @@ public class Brazier : MonoBehaviour {
 
     IEnumerator TextWaitTime()
     {
-        Debug.Log("Waiting");
         yield return new WaitForSeconds(2f);
         checkpointText.SetActive(false);
     }
