@@ -97,7 +97,6 @@ public class NavMesh : MonoBehaviour {
     
     protected virtual void StartIdling()
     {
-        print("check");
         aiChar.SetDestination(curPos);
         StartWaitTimer();
         aiChar.SetDestination(patrolArea);
@@ -113,7 +112,7 @@ public class NavMesh : MonoBehaviour {
         if (col.gameObject.tag == "Obstacle" && Vector3.Distance(transform.position, patrolArea) <= 4)
         {
             StartIdling();
-            print(Vector3.Distance(transform.position, patrolArea));
+
             print(col.gameObject.tag);
         }
     }
