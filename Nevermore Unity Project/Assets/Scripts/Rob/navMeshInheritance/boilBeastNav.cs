@@ -5,6 +5,9 @@ using UnityEngine.AI;
 
 public class boilBeastNav : NavMesh
 {
+    AudioSource mySound;
+    public AudioClip deathSound;
+   
 
     Animator bb;
     public GameObject thisbb;
@@ -12,6 +15,10 @@ public class boilBeastNav : NavMesh
     public int damage;
     public float minX, maxX, minZ, maxZ;
 
+    private void Awake()
+    {
+        mySound = gameObject.GetComponent<AudioSource>();
+    }
 
     protected override void Start()
     {
@@ -63,6 +70,7 @@ public class boilBeastNav : NavMesh
         curHealth = thisbb.GetComponent<EnemyHealthSystem>().health;
         if (curHealth <= 0)
         {
+            mySound.PlayOneShot(deathSound);
             bb.SetBool("isDead", true);
             bb.SetBool("isMoving", false);
             bb.SetBool("isAttacking", false);

@@ -5,6 +5,8 @@ using UnityEngine.AI;
 
 public class ratNav : NavMesh
 {
+    AudioSource mySound;
+    public AudioClip deathSound;
 
     Animator rat;
     public GameObject thisRat;
@@ -12,6 +14,11 @@ public class ratNav : NavMesh
     public int damage;
     public float minX, maxX, minZ, maxZ;
     float length;
+
+    private void Awake()
+    {
+        mySound = gameObject.GetComponent<AudioSource>();
+    }
 
     protected override void Start()
     {
@@ -62,6 +69,7 @@ public class ratNav : NavMesh
         curHealth = thisRat.GetComponent<EnemyHealthSystem>().health;
         if (curHealth <= 0)
         {
+            mySound.PlayOneShot(deathSound);
             rat.SetBool("isDead", true);
             rat.SetBool("isMoving", false);
             rat.SetBool("isAttacking", false);

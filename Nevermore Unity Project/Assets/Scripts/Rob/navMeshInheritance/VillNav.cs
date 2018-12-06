@@ -5,6 +5,8 @@ using UnityEngine.AI;
 
 public class VillNav : NavMesh
 {
+    AudioSource mySound;
+    public AudioClip deathSound;
 
     Animator vill;
     public GameObject thisVill;
@@ -12,6 +14,12 @@ public class VillNav : NavMesh
     public int damage;
     public float minX, maxX, minZ, maxZ;
     float length;
+
+
+    private void Awake()
+    {
+        mySound = gameObject.GetComponent<AudioSource>();
+    }
 
     protected override void Start()
     {
@@ -64,6 +72,7 @@ public class VillNav : NavMesh
         curHealth = thisVill.GetComponent<EnemyHealthSystem>().health;
         if (curHealth <= 0)
         {
+            mySound.PlayOneShot(deathSound);
             vill.SetBool("isDead", true);
             vill.SetBool("isMoving", false);
             vill.SetBool("isAttacking", false);
