@@ -69,8 +69,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.49, y: 1.48, z: 15.28}
-  m_Center: {x: 0, y: 0.02, z: 0}
+  m_Size: {x: 2.49, y: 1.48, z: 10.79}
+  m_Center: {x: 0, y: 0.02, z: 8}
 --- !u!95 &95829203757211012
 Animator:
   serializedVersion: 3
@@ -141,7 +141,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300152, guid: 95eff6ab38e751148b32a106ddfde197, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

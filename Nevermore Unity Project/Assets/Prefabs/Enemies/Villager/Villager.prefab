@@ -325,6 +325,7 @@ MonoBehaviour:
   hurtColor: {r: 1, g: 1, b: 0, a: 1}
   bodyParts:
   - {fileID: 212076442189989896}
+  goldValue: 0
 --- !u!114 &114864403255419904
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -384,7 +385,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300046, guid: 2b881eca35c5259479ab89b9db05e1c8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

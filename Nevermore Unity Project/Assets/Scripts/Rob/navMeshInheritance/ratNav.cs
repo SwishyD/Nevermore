@@ -75,6 +75,7 @@ public class ratNav : NavMesh
             rat.SetBool("isAttacking", false);
             thisRat.GetComponent<SpriteRenderer>().sortingOrder = 3;
             Destroy(thisRat.GetComponent<posLock>());
+            Destroy(thisRat.GetComponentInChildren<BoxCollider>());
             Destroy(gameObject);
         }
     }

@@ -76,6 +76,7 @@ public class boilBeastNav : NavMesh
             bb.SetBool("isAttacking", false);
             thisbb.GetComponent<SpriteRenderer>().sortingOrder = 3;
             Destroy(thisbb.GetComponent<posLock>());
+            Destroy(thisbb.GetComponentInChildren<BoxCollider>());
             Destroy(gameObject);
         }
     }
