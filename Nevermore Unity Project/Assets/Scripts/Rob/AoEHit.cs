@@ -40,11 +40,11 @@ public class AoEHit : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
-        {
-            takeDamage(damage);
+        //if (other.tag == "Player")
+        //{
+        takeDamage(damage);
 
-        }
+        //}
         GetComponent<CapsuleCollider>().enabled = false;
     }
 
