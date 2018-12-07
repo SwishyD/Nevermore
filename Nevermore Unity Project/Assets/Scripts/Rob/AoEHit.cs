@@ -11,6 +11,7 @@ public class AoEHit : MonoBehaviour {
 
     private void Start()
     {
+        GetComponent<CapsuleCollider>().enabled = false;
         resetSize();
         //endTime = 48f;
         //startTime = 0;

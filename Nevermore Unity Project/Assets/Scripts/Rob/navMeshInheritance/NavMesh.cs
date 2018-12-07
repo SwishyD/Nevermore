@@ -92,7 +92,7 @@ public class NavMesh : MonoBehaviour {
 
     protected virtual void RandomSite()
     {
-        patrolArea = new Vector3(Random.Range(minNavX, maxNavX), 5.97f, Random.Range(minNavZ, maxNavZ));
+        patrolArea = new Vector3(Random.Range(minNavX, maxNavX), transform.position.y, Random.Range(minNavZ, maxNavZ));
     }
     
     protected virtual void StartIdling()

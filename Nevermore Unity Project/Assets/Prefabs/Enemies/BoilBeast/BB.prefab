@@ -309,9 +309,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56d29f8ab7455e149a264a1f785d39dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
-  Enemy: {fileID: 1937823178648986, guid: 5cec2e58b49dfa1458ccb94b79ef25fa, type: 2}
-  hurtColor: {r: 1, g: 1, b: 1, a: 1}
+  health: 25
+  Enemy: {fileID: 1965487223693976}
+  hurtColor: {r: 1, g: 1, b: 0, a: 1}
   bodyParts:
   - {fileID: 212806640872706760}
   goldValue: 0
@@ -350,7 +350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc24c0bb351e3534d8fd7e3b49b5bbba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1562145729365160, guid: 8826f6d7738d0e646b9f06014638bf1d, type: 2}
 --- !u!136 &136554092959323590
 CapsuleCollider:
   m_ObjectHideFlags: 1

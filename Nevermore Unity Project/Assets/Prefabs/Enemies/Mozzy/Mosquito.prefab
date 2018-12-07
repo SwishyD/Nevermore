@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56d29f8ab7455e149a264a1f785d39dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 7
   Enemy: {fileID: 1226204310204936}
   hurtColor: {r: 1, g: 1, b: 1, a: 1}
   bodyParts:
@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc24c0bb351e3534d8fd7e3b49b5bbba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1121138168353140, guid: a538e7cf084a2964fafa22733ee95f36, type: 2}
 --- !u!114 &114300637841705878
 MonoBehaviour:
   m_ObjectHideFlags: 1

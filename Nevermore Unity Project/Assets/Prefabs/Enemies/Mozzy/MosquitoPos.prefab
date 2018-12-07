@@ -178,7 +178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aiChar: {fileID: 0}
-  thisMozzy: {fileID: 0}
+  thisMozzy: {fileID: 1226204310204936, guid: b28f55d76240c3d4096680ca44d25fe4, type: 2}
   damage: 15
   minX: 24.5
   maxX: 41.4

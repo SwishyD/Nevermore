@@ -12,7 +12,6 @@ public class boilBeastNav : NavMesh
     Animator bb;
     public GameObject thisbb;
     float speed = 1.5f;
-    public int damage;
     public float minX, maxX, minZ, maxZ;
 
     private void Awake()
