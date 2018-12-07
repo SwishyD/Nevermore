@@ -320,7 +320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56d29f8ab7455e149a264a1f785d39dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 15
   Enemy: {fileID: 1358453579438712}
   hurtColor: {r: 1, g: 1, b: 0, a: 1}
   bodyParts:

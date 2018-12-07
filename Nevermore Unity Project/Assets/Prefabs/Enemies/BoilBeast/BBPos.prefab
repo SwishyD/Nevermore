@@ -150,8 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aiChar: {fileID: 0}
   deathSound: {fileID: 0}
-  thisbb: {fileID: 0}
-  damage: 0
+  thisbb: {fileID: 1965487223693976, guid: 9749290dbaf797d41a733d8ec062633d, type: 2}
   minX: 32.6
   maxX: 44.6
   minZ: -4.2

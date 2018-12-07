@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 1529cd1cd60cd894bbbe19c66b39ad4c
   - enabled: 1
-    path: Assets/Scenes/Level 1 (NO TOUCHY).unity
-    guid: f2e8de8bca1d2014a8ae11fdfd5fdd51
+    path: Assets/Scenes/Level 2 (Being Setup).unity
+    guid: 1b290056b9d7f9b41b20f3f9c8e22836
   m_configObjects: {}
