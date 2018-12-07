@@ -25,7 +25,7 @@ public class Birbs : MonoBehaviour {
         }
     }
 
-    void DestoyBirb()
+    void DestroyBirb()
     {
         Destroy(gameObject);
     }

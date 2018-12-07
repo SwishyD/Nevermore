@@ -322,10 +322,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   Enemy: {fileID: 1481408156419404}
-  hurtColor: {r: 1, g: 1, b: 0, a: 1}
+  hurtColor: {r: 1, g: 1, b: 1, a: 1}
   bodyParts:
   - {fileID: 212507013283947674}
-  goldValue: 20
+  goldValue: 5
 --- !u!114 &114391517952614348
 MonoBehaviour:
   m_ObjectHideFlags: 1
