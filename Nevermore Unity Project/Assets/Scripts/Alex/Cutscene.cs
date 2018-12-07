@@ -17,4 +17,12 @@ public class Cutscene : MonoBehaviour {
         SceneManager.LoadScene(2);
         
     }
+
+
+    public void LoadEnd()
+    {
+        Cursor.visible = true;
+        SceneManager.LoadScene(0);
+
+    }
 }
