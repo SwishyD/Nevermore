@@ -311,7 +311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   Enemy: {fileID: 1937823178648986, guid: 5cec2e58b49dfa1458ccb94b79ef25fa, type: 2}
-  hurtColor: {r: 1, g: 1, b: 0, a: 1}
+  hurtColor: {r: 1, g: 1, b: 1, a: 1}
   bodyParts:
   - {fileID: 212806640872706760}
   goldValue: 0

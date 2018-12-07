@@ -11,11 +11,7 @@ public class GoldSaver : MonoBehaviour {
 
 
 
-    private void Update()
-    {
-       
-        GameManager.instance.playerGold = goldCount;
-    }
+   
 
     
 
@@ -36,6 +32,12 @@ public class GoldSaver : MonoBehaviour {
         {
             Destroy(gameObject);
         }
+    }
+
+    public void Update()
+    {
+
+        GameManager.instance.playerGold = goldCount;
     }
 
     public void GoldManage(int goldvalue)

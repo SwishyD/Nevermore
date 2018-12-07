@@ -46,8 +46,7 @@ public class GameManager : MonoBehaviour {
 
     void Awake()
     {
-        mySound = gameObject.GetComponent<AudioSource>();
-       playerGold = GoldSaver.instance.goldCount;
+      
 
         if (!created)
         {
@@ -63,6 +62,8 @@ public class GameManager : MonoBehaviour {
         {
             Destroy(gameObject);
         }
+        mySound = gameObject.GetComponent<AudioSource>();
+        playerGold = GoldSaver.instance.goldCount;
     }
 
     void Update ()
