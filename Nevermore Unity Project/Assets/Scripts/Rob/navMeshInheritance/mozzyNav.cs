@@ -74,7 +74,10 @@ public class mozzyNav : NavMesh {
     }
 
 
-
+    protected override void RandomSite()
+    {
+        base.RandomSite();
+    }
 
 
     protected override void Patrol()

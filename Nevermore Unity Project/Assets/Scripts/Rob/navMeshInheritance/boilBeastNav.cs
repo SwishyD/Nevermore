@@ -29,6 +29,7 @@ public class boilBeastNav : NavMesh
         minNavZ = minZ;
         maxNavZ = maxZ;
         RandomSite();
+        maxRange = 10f;
     }
 
 
@@ -36,14 +37,13 @@ public class boilBeastNav : NavMesh
 
     protected override void Update()
     {
-
+        
         base.Update();
         if (thisbb != null)
         {
-            if (playerDist < 2.5f)
+            if (playerDist < 4f)
             {
-                thisbb.GetComponent<beginMove>().attacking = true;
-                bb.SetBool("isAttacking", true);
+                Invoke("beginAttack", 2);
             }
             else if(thisbb.GetComponent<beginMove>().attacking == false)
             {
@@ -163,6 +163,14 @@ public class boilBeastNav : NavMesh
     protected override void OnCollisionStay(Collision col)
     {
         base.OnCollisionStay(col);
+    }
+
+
+    void beginAttack()
+    {
+        thisbb.GetComponent<beginMove>().attacking = true;
+        bb.SetBool("isAttacking", true);
+
     }
 }
 

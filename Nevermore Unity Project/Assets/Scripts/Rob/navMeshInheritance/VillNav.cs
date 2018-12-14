@@ -19,6 +19,7 @@ public class VillNav : NavMesh
     private void Awake()
     {
         mySound = gameObject.GetComponent<AudioSource>();
+        mySound = gameObject.GetComponent<AudioSource>();
     }
 
     protected override void Start()

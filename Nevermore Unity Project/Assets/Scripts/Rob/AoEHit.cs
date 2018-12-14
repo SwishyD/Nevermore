@@ -18,6 +18,14 @@ public class AoEHit : MonoBehaviour {
     }
 
 
+    void Update()
+    {
+        if (GetComponent<EnemyHealthSystem>().health <= 0)
+        {
+            damage = 50;
+        }
+    }
+
     void enableHitBox()
     {
         GetComponent<CapsuleCollider>().enabled = true;
@@ -54,37 +62,4 @@ public class AoEHit : MonoBehaviour {
         GameManager.instance.TakeDamage(damage);
         GetComponent<CapsuleCollider>().enabled = false;
     }
-
-
-
-    //void Update()
-    //{
-    //    print(endHeight);
-    //    print(startHeight);
-    //    //print(lerpTime);
-    //    if (beginExpand == true)
-    //    {
-    //        if (frameCount < endTime)
-    //        {
-    //            frameCount++;
-    //            expand();
-    //        }
-    //        else if (frameCount >= endTime)
-    //        {
-    //            frameCount = startTime;
-    //        }
-
-    //        lerpTime = Mathf.InverseLerp(startTime, endTime, frameCount);
-    //        print(lerpTime);
-    //    }
-    //}
-
-
-    //void expand()
-    //{
-    //    Mathf.Lerp(startHeight, endHeight, lerpTime);
-    //    Mathf.Lerp(startRad, endRad, lerpTime);
-    //    print("hit");
-
-    //}
 }
